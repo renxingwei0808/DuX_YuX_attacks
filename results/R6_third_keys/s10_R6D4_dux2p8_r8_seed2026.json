@@ -93,27 +93,27 @@
    "solve_s": 58.6
   }
  ],
- "rows_dir": "/home/luck/dux-data/R6D4_seed2026",
+ "rows_dir": "$DATA/R6D4_seed2026",
  "per_structure": [
   {
    "structure": 0,
    "seed": 7026,
-   "loaded_from": "/home/luck/dux-data/R6D4_seed2026/rows_R6D4_dux2p8_r8_seed2026_st0.npy"
+   "loaded_from": "$DATA/R6D4_seed2026/rows_R6D4_dux2p8_r8_seed2026_st0.npy"
   },
   {
    "structure": 1,
    "seed": 7027,
-   "loaded_from": "/home/luck/dux-data/R6D4_seed2026/rows_R6D4_dux2p8_r8_seed2026_st1.npy"
+   "loaded_from": "$DATA/R6D4_seed2026/rows_R6D4_dux2p8_r8_seed2026_st1.npy"
   },
   {
    "structure": 2,
    "seed": 7028,
-   "loaded_from": "/home/luck/dux-data/R6D4_seed2026/rows_R6D4_dux2p8_r8_seed2026_st2.npy"
+   "loaded_from": "$DATA/R6D4_seed2026/rows_R6D4_dux2p8_r8_seed2026_st2.npy"
   },
   {
    "structure": 3,
    "seed": 7029,
-   "loaded_from": "/home/luck/dux-data/R6D4_seed2026/rows_R6D4_dux2p8_r8_seed2026_st3.npy"
+   "loaded_from": "$DATA/R6D4_seed2026/rows_R6D4_dux2p8_r8_seed2026_st3.npy"
   },
   {
    "structure": 4,

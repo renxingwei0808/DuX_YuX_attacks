@@ -1,4 +1,4 @@
-	Command being timed: "python3 experiments/E07_key_recovery_2round/attack_12round.py --instance dux-2^16 --layers 10 --active 3,7 --cheap-set 1,2 --combine 1101 --weights 3780 --weight-grid 3600 --normalise --structures 1 --slice-chunk 4096 --block-slices 1 --point-chunk 65536 --checkpoint-every 8192 --procs 19 --checkpoint-dir /home/luck/dux-data/S18_mp_dux2p16_r12_2w_cheap12_seed11 --rows-dir /home/luck/dux-data/S18_mp_dux2p16_r12_2w_cheap12_seed11 --progress 1 --seed 11 --out results/S18_protocol --tag S18_mp_dux2p16_r12_2w_cheap12_seed11"
+	Command being timed: "python3 experiments/E07_key_recovery_2round/attack_12round.py --instance dux-2^16 --layers 10 --active 3,7 --cheap-set 1,2 --combine 1101 --weights 3780 --weight-grid 3600 --normalise --structures 1 --slice-chunk 4096 --block-slices 1 --point-chunk 65536 --checkpoint-every 8192 --procs 19 --checkpoint-dir $DATA/S18_mp_dux2p16_r12_2w_cheap12_seed11 --rows-dir $DATA/S18_mp_dux2p16_r12_2w_cheap12_seed11 --progress 1 --seed 11 --out results/S18_protocol --tag S18_mp_dux2p16_r12_2w_cheap12_seed11"
 	User time (seconds): 472668.47
 	System time (seconds): 8403.45
 	Percent of CPU this job got: 1792%

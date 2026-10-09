@@ -366,109 +366,109 @@
    "solve_s": 503.9
   }
  ],
- "rows_dir": "/home/luck/dux-data/S19_dux2p8_whole_seed7",
+ "rows_dir": "$DATA/S19_dux2p8_whole_seed7",
  "per_structure": [
   {
    "structure": 0,
    "a1": 0,
    "seed": 5007,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st0.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st0.npy"
   },
   {
    "structure": 1,
    "a1": 0,
    "seed": 5008,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st1.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st1.npy"
   },
   {
    "structure": 2,
    "a1": 0,
    "seed": 5009,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st2.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st2.npy"
   },
   {
    "structure": 3,
    "a1": 0,
    "seed": 5010,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st3.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st3.npy"
   },
   {
    "structure": 4,
    "a1": 0,
    "seed": 5011,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st4.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st4.npy"
   },
   {
    "structure": 5,
    "a1": 0,
    "seed": 5012,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st5.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st5.npy"
   },
   {
    "structure": 6,
    "a1": 0,
    "seed": 5013,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st6.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st6.npy"
   },
   {
    "structure": 7,
    "a1": 0,
    "seed": 5014,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st7.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st7.npy"
   },
   {
    "structure": 8,
    "a1": 0,
    "seed": 5015,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st8.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st8.npy"
   },
   {
    "structure": 9,
    "a1": 0,
    "seed": 5016,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st9.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st9.npy"
   },
   {
    "structure": 10,
    "a1": 0,
    "seed": 5017,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st10.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st10.npy"
   },
   {
    "structure": 11,
    "a1": 0,
    "seed": 5018,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st11.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st11.npy"
   },
   {
    "structure": 12,
    "a1": 0,
    "seed": 5019,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st12.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st12.npy"
   },
   {
    "structure": 13,
    "a1": 0,
    "seed": 5020,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st13.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st13.npy"
   },
   {
    "structure": 14,
    "a1": 0,
    "seed": 5021,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st14.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st14.npy"
   },
   {
    "structure": 15,
    "a1": 0,
    "seed": 5022,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st15.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st15.npy"
   },
   {
    "structure": 16,
    "a1": 0,
    "seed": 5023,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st16.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st16.npy"
   }
  ],
  "procs": 4,

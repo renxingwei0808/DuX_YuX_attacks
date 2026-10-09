@@ -357,19 +357,19 @@
    "solve_s": 399.0
   }
  ],
- "rows_dir": "/home/luck/dux-data/S19_dux2p8_whole_seed7",
+ "rows_dir": "$DATA/S19_dux2p8_whole_seed7",
  "per_structure": [
   {
    "structure": 0,
    "a1": 0,
    "seed": 5007,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st0.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st0.npy"
   },
   {
    "structure": 1,
    "a1": 0,
    "seed": 5008,
-   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st1.npy"
+   "loaded_from": "$DATA/S19_dux2p8_whole_seed7/rows_S19_dux2p8_r8_3w_cheap12_seed7_st1.npy"
   },
   {
    "structure": 2,

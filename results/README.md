@@ -27,7 +27,7 @@ margins T - D.  The file `S18_protocol/logs/<tag>.env.txt` holds the exact
 command line (`cmd`), the cores and the load average of each reported run,
 and `<tag>.timev.txt` the output of `/usr/bin/time -v`.
 
-## A. Key recovery on DuX, chosen ciphertexts (Tables I, II, V; supplement)
+## A. Key recovery on DuX, chosen ciphertexts (Tables I, III and IV of the paper; section 4 of the supplement)
 
 | Attack | Data | Reported run | Further keys | Variants (same rank and key words) |
 |---|---|---|---|---|
@@ -42,7 +42,7 @@ and `<tag>.timev.txt` the output of `/usr/bin/time -v`.
 | DuX(65537) 13, theoretical | 2^65.59 | -- | -- | criterion: `tools/zero_sum_criterion.py --q 65537 --full-block 0 --layers 11`; weights: `tests/test_usable_weights.py`, `tests/test_multi_index_weights.py` |
 | DuX(2^8) 9 rounds | unreachable | -- | -- | `E09_unified_criterion/min_data_table_v2.md` (DuX(2^8), layer 7), `E09_unified_criterion/dux2_8_layer7_search.txt` |
 
-## A'. Key recovery on YuX, chosen ciphertexts (Tables I, II, VI; supplement)
+## A'. Key recovery on YuX, chosen ciphertexts (Tables I and IV of the paper; section 4 of the supplement)
 
 | Attack | Data | Reported run | Further keys | Variants |
 |---|---|---|---|---|
@@ -62,7 +62,7 @@ Further YuX key recoveries that the paper does not tabulate:
 (50/50 keys each, one structure of 2^16 resp. 2^8 per key) and the toy
 pipelines of `Y05_key_recovery/`.
 
-## B, B'. Zero-sum distinguishers (Table "zero-sum distinguishers"; supplement)
+## B, B'. Zero-sum distinguishers (Table II of the paper; section 2 of the supplement)
 
 | Instance and structure | Records |
 |---|---|
@@ -81,7 +81,7 @@ pipelines of `Y05_key_recovery/`.
 | YupX-65537, single cosets with weights | `Y03_zero_sum/Y03-6_yupx_coset*.json` |
 | YuX full blocks at 2^64 (margins of the table) | `Y02_degree_bounds/o7_yux_tables.{md,json}` |
 
-## C, C'. Chosen plaintexts (Appendix A; supplement "Chosen-Plaintext Results")
+## C, C'. Chosen plaintexts (Appendix A of the paper; section 7 of the supplement)
 
 | Result | Records |
 |---|---|
@@ -114,8 +114,8 @@ pipelines of `Y05_key_recovery/`.
 | Eight-round toy analog over F_257 of the 12-round attack (rank 8188, 2592 monomials) | `E07_key_recovery_2round/w16/fast_T2norm_toy257_r8_1d.json` |
 | A weight beyond the margin gives 16 "determined" but wrong key words | `Y05_key_recovery/Y05-A4_yuxtoy2p4_r4_overshoot.json` |
 | Boundary cells: key-independent constants (O14) | `Y09_topform_constants/y09_all.json`, `R8_server/R8_O14_yuxtoy257_fb0_l6_3keys.json`, `R8_server/direct_p257_l6_server.txt` |
-| Minimal data inside the framework (supplement, "Optimality") | `E09_unified_criterion/min_data_table_v2.{md,json}`, `min_data_table_v3.{md,json}`, `min_data_table_v3_enc.{md,json}`, `E13_b_coordinate/min_data_x1x1.md` |
-| Known-key zero-sum partitions (comparison with Liu and Sun) | `E09_unified_criterion/partitions/` |
+| Minimal data inside the framework (section 8 of the supplement) | `E09_unified_criterion/min_data_table_v2.{md,json}`, `min_data_table_v3.{md,json}`, `min_data_table_v3_enc.{md,json}`, `E13_b_coordinate/min_data_x1x1.md` |
+| Known-key zero-sum partitions (eprint version only, not in the TC paper) | `E09_unified_criterion/partitions/` |
 | Weighted moments on the reduced configuration of Liu and Sun (C1) | `E14_multi_weights/C1_ls_reduced.{md,json}` |
 | Boolean degree of the two-round extension: 7 | `E08_boolean_degree_extension/boolean_degrees.json` |
 | Three-round Boolean degree of Yu2X-16 and the hybrid route | `Y10_boolean_hybrid/d3.json`, `Y10_boolean_hybrid/rank_toy.json` |

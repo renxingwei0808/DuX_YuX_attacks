@@ -351,6 +351,10 @@ def op_counts(row, width, rows_, cols, rank):
             "total_mults": total, "total_log2": lg(total)}
 
 
+def rel(path):
+    return os.path.relpath(path, ROOT) if path else path
+
+
 def resolve(path):
     """The row's evidence file.  `path` may list several candidates separated
     by commas -- the S18 protocol rerun first, the frozen record it has to
@@ -421,7 +425,7 @@ def build(rows=ROWS):
                                    "status", "note")}
         rec.update({"width": width, "width_source": wsrc, "nP": nP,
                     "rows": rows_, "cols": cols, "rank": rank,
-                    "system_source": src, "json_path": resolve(row.get("json"))})
+                    "system_source": src, "json_path": rel(resolve(row.get("json")))})
         rec.update(op_counts(row, width, rows_, cols, rank))
         out.append(rec)
     return out
@@ -438,7 +442,7 @@ def calibrate(recs, out_dir):
     characteristic 2, and the two are not within a factor of each other."""
     cal = []
     for r in recs:
-        path = r.get("json_path")
+        path = os.path.join(ROOT, r["json_path"]) if r.get("json_path") else None
         if not path or not os.path.exists(path):
             continue
         d = json.load(open(path))

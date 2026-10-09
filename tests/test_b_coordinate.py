@@ -1,6 +1,6 @@
 """E13 / W27 (T1) -- the cubic coordinate b as a second cheap coordinate.
 
-Pins the four things the R9 memo marks [已验证] or [待测]:
+Pins the four things the R9 memo marks [verified] or [to be tested]:
   * the {1,2} kernel table over the six fields, and the tau-valuations that say
     the `1101` combined row does NOT collapse in characteristic 2;
   * the exact column count M_b of the extended linearisation;

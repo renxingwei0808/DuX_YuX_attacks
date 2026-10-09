@@ -281,9 +281,9 @@ def _instance_tables(rows):
     for r in rows:
         by_inst.setdefault((r["instance"], r["direction"]), []).append(r)
     for (inst, direction), rs in by_inst.items():
-        L.append(f"### {inst} · {'解密（CCA）' if direction == 'dec' else '加密（CPA）'}")
+        L.append(f"### {inst} · {'decryption (CCA)' if direction == 'dec' else 'encryption (CPA)'}")
         L.append("")
-        L.append("| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |")
+        L.append("| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |")
         L.append("|---|---|---|---|---|---|---|---|---|")
         for r in rs:
             if not r["reachable"]:
@@ -298,77 +298,77 @@ def _instance_tables(rows):
 def markdown_enc(rows, t12, v2cmp):
     """The encryption-direction report: Table 12 comparison on top, then the
     comparison with v2's encryption rows, then the full per-class tables."""
-    L = ["# E09 · O7 框架内的最小数据表 v3——**加密（CPA）方向**",
+    L = ["# E09 · minimal-data table v3 inside the O7 framework, **encryption (CPA) direction**",
          "",
-         "解密方向的 v3（`min_data_table_v3.md`）**原样保留**；本文件是同一脚本",
-         "`min_data_v3.py --direction enc` 的输出：全部 15 个平衡位置类、每类的 dim K",
-         "（`tools/cheap_rows.py --direction enc`）与可用性。搜索空间与 v2 相同：",
-         "0 或 1 个自由块（O11）× 其余字的每个子集 × 每层，活跃集按块轮转规范化；",
-         "特征 2 允许混合子空间维数。",
+         "The decryption-direction v3 (`min_data_table_v3.md`) is kept **unchanged**; this file is the output of the same script,",
+         "`min_data_v3.py --direction enc`: all 15 balanced-position classes, the dim K of each class",
+         "(`tools/cheap_rows.py --direction enc`) and its usability. The search space is that of v2:",
+         "0 or 1 free block (O11) x every subset of the remaining words x every layer, active sets canonicalised modulo block rotation;",
+         "characteristic 2 allows mixed subspace dimensions.",
          "",
-         "## 1. 与表 12（eprint v1 附录 F，`tab:opt`）加密方向各行的逐格对照",
+         "## 1. Cell-by-cell comparison with the encryption rows of Table 12 (eprint v1, Appendix F, `tab:opt`)",
          "",
-         "表 12 的加密方向有两行——DuX 两实例第 7 层全块 `1110` @2^64、YuX 两实例第 7 层全块",
-         "`0111` @2^64——与脚注的两句：\"DuX(2^8) 与 Yu2X-8 在加密方向止于第 4 层\"、",
-         "\"其余下一层对搜索空间内任何结构不可达\"。\"可用类\"按附录 F 的口径：`1111`、DuX 的",
-         "`xxx1`（= `0001`）、两族的 `1110`、YuX 的 `0111`。",
+         "Table 12 has two encryption rows, the two DuX instances at layer 7 with a full block `1110` @2^64 and the two YuX instances at layer 7 with a full block",
+         "`0111` @2^64, and two footnote sentences: \"DuX(2^8) and Yu2X-8 stop at layer 4 in the encryption direction\" and",
+         "\"every other next layer is unreachable for any structure in the search space\". \"Usable classes\" are those of Appendix F: `1111`, `xxx1` (= `0001`) for DuX,",
+         "`1110` for both families and `0111` for YuX.",
          "",
-         "| 实例 | 表 12 | v3：最深可用层 | 达到它的最便宜类 / 数据 | 见证结构 | 可做密钥恢复的任何类的最深层 | 任何类的最深层 | 下一层 | 一致 |",
+         "| Instance | Table 12 | v3: deepest usable layer | Cheapest class / data reaching it | Witness structure | Deepest layer of any key-recovery class | Deepest layer of any class | Next layer | Agrees |",
          "|---|---|---|---|---|---|---|---|---|"]
     for c in t12:
         t = c["table12"]
-        t_txt = (f"第 {t['layer']} 层 `{t['pattern']}` {t['structure']} 2^{t['log2_data']:g}"
-                 if t["pattern"] else f"止于第 {t['layer']} 层")
+        t_txt = (f"layer {t['layer']} `{t['pattern']}` {t['structure']} 2^{t['log2_data']:g}"
+                 if t["pattern"] else f"stops at layer {t['layer']}")
         ch = c["v3_cheapest_at_deepest"]
         if c["v3_next_layer_unreachable"]:
-            nxt = f"第 {c['v3_next_layer']} 层对任何结构**不可达**"
+            nxt = f"layer {c['v3_next_layer']} is **unreachable** for any structure"
         else:
-            nxt = (f"第 {c['v3_next_layer']} 层只有 "
-                   + "、".join(f"`{x['class']}` @2^{x['log2_data']}（dim K = {x['dim_K']}，{x['usable']}）"
+            nxt = (f"layer {c['v3_next_layer']} has only "
+                   + ", ".join(f"`{x['class']}` @2^{x['log2_data']} (dim K = {x['dim_K']}, {x['usable']})"
                                for x in c["v3_next_layer_cells"]))
         L.append(f"| {c['instance']} | {t_txt} | {c['v3_deepest_usable_layer']} "
                  f"| {' / '.join('`' + k + '`' for k in ch['classes'])} @2^{ch['log2_data']} "
                  f"| {ch['structure']} | {c['v3_deepest_key_recovery_layer']} "
                  f"| {c['v3_deepest_any_class_layer']} | {nxt} "
-                 f"| {'✅' if c['agrees'] else '**不一致**'} |")
+                 f"| {'✅' if c['agrees'] else '**no**'} |")
     L += ["",
-          "\"可用\"按表 12 的口径（附录 F 列出的类）；\"可做密钥恢复的任何类\"指 15 个类里 dim K ≥ 2 或含普通行的类；",
-          "\"任何类\"包括只能当区分器的类与特征 2 上 dim K = 1 的不可用类。表 12 的两句脚注按可用类读：",
-          "下一层若只有不可用类可达，\"止于第 ℓ 层\"仍成立，可达的那几格列在\"下一层\"列里。",
+          "\"Usable\" follows Table 12 (the classes listed in Appendix F); \"any key-recovery class\" means the classes among the 15 with dim K >= 2 or with plain rows;",
+          "\"any class\" includes the distinguisher-only classes and the unusable dim K = 1 classes in characteristic 2. The two footnote sentences of Table 12 are read over the usable classes:",
+          "if the next layer is reachable only by unusable classes, \"stops at layer l\" still holds, and the reachable cells are listed in the \"next layer\" column.",
           "",
-          "**YuX 第 7 层全块格的说明**：判据给的是 `0111`（位置 0 的余量恰为 0：D = 8^6 = 262 144 = T = 4 × 65 536）。",
-          "按 `experiments/Y09_topform_constants/run.py --part rank` 的秩 3 论证（YuX 加密方向的顶次形式只落在",
-          "F_p[y₀, y₁, σ] 里，纤维大小 p），**该边界位置的和恒为 0**，所以论文 v2 把这一格写成 `1111`",
-          "（O14-CPA）；本表保留判据自己的 `0111`，不手改。DuX 的对应八行秩 4，没有这条捷径，",
-          "DuX(65537) 第 7 层位置 3 的常数 c_b(65537) 未算，`1110` 照旧。",
+          "**The YuX layer-7 full-block cell**: the criterion gives `0111` (the margin at position 0 is exactly 0: D = 8^6 = 262 144 = T = 4 x 65 536).",
+          "By the rank-3 argument of `experiments/Y09_topform_constants/run.py --part rank` (the top forms of YuX in the encryption direction lie in",
+          "F_p[y0, y1, sigma], with fibres of size p), **the sum at that boundary position is always 0**, so the paper writes this cell as `1111`",
+          "(O14-CPA); this table keeps the criterion's own `0111` and is not edited by hand. The corresponding eight rows of DuX have rank 4, so there is no such shortcut;",
+          "the constant c_b(65537) at position 3 of layer 7 of DuX(65537) was not computed, and `1110` stands.",
           "",
-          "## 2. 与 `min_data_table_v2.md` 加密方向的逐格对照",
+          "## 2. Cell-by-cell comparison with the encryption rows of `min_data_table_v2.md`",
           ""]
     same = [c for c in v2cmp if c["verdict"] == "same"]
     cheaper = [c for c in v2cmp if c["verdict"] == "cheaper"]
     dearer = [c for c in v2cmp if c["verdict"] == "more expensive"]
-    L.append(f"v2 的加密方向有 {len(v2cmp)} 格"
-             + ("（6 实例 × 12 层 × 3 类" if len(v2cmp) == 216 else "（")
-             + "；v2 的 `xxx1` 对应 v3 的 `0001`）：")
-    L.append(f"**相同 {len(same)}、更便宜 {len(cheaper)}、更贵 {len(dearer)}**。")
+    L.append(f"v2 has {len(v2cmp)} encryption cells"
+             + (" (6 instances x 12 layers x 3 classes" if len(v2cmp) == 216 else " (")
+             + "; v2's `xxx1` corresponds to v3's `0001`):")
+    L.append(f"**{len(same)} identical, {len(cheaper)} cheaper, {len(dearer)} more expensive**.")
     L.append("")
     if cheaper:
-        L += ["### 更便宜的格（见证结构）", "",
-              "| 实例 | 层 | 类 | v2 | v3 | 见证结构 |", "|---|---|---|---|---|---|"]
+        L += ["### Cheaper cells (witness structures)", "",
+              "| Instance | Layer | Class | v2 | v3 | Witness structure |", "|---|---|---|---|---|---|"]
         for c in cheaper:
             L.append(f"| {c['instance']} | {c['layer']} | `{c['class']}` | "
-                     f"{'2^' + str(c['v2']) if c['v2'] is not None else '不可达'} | "
+                     f"{'2^' + str(c['v2']) if c['v2'] is not None else 'unreachable'} | "
                      f"2^{c['v3']} | {c['witness']} |")
         L.append("")
     if dearer:
-        L += ["### 更贵的格", "",
-              "| 实例 | 层 | 类 | v2 | v3 |", "|---|---|---|---|---|"]
+        L += ["### More expensive cells", "",
+              "| Instance | Layer | Class | v2 | v3 |", "|---|---|---|---|---|"]
         for c in dearer:
             L.append(f"| {c['instance']} | {c['layer']} | `{c['class']}` | 2^{c['v2']} | "
-                     f"{'2^' + str(c['v3']) if c['v3'] is not None else '不可达'} |")
+                     f"{'2^' + str(c['v3']) if c['v3'] is not None else 'unreachable'} |")
         L.append("")
-    L += ["### 相同的格", "",
-          "| 实例 | 类（v2 / v3） | 层 1–12 的最小数据（log2；`—` = 不可达） | dim K（v2 / v3） |",
+    L += ["### Identical cells", "",
+          "| Instance | Class (v2 / v3) | Min. data at layers 1-12 (log2; `—` = unreachable) | dim K (v2 / v3) |",
           "|---|---|---|---|"]
     keyed = {}
     for c in same:
@@ -376,36 +376,36 @@ def markdown_enc(rows, t12, v2cmp):
     for (inst, vc, cls, dk2, dk3), cells in keyed.items():
         vals = ", ".join("—" if cells.get(l) is None else f"{cells[l]:g}" for l in range(1, 13))
         L.append(f"| {inst} | `{vc}` / `{cls}` | {vals} | {dk2} / {dk3} |")
-    L += ["", "## 3. 每个实例、每层、每类的最小数据", "",
-          "只列出可达的格；`—` 的层在 O7 框架内不可达。", ""]
+    L += ["", "## 3. Minimal data per instance, layer and class", "",
+          "Only reachable cells are listed; a layer marked `—` is unreachable inside the O7 framework.", ""]
     L += _instance_tables(rows)
     return "\n".join(L)
 
 
 def markdown(rows, cmp_rows):
-    L = ["# E09 · O7 框架内的最小数据表 v3",
+    L = ["# E09 · minimal-data table v3 inside the O7 framework",
          "",
-         "v2（`min_data_table_v2.md`）**原样保留**；v3 把搜索扩到**全部 15 个平衡位置类**，",
-         "并为每个类打印 `tools/cheap_rows.py` 的 dim K 与它对密钥恢复的可用性。",
-         "搜索空间与 v2 相同：0 或 1 个自由块（O11）× 其余字的每个子集 × 每层，",
-         "活跃集按块轮转规范化；特征 2 允许混合子空间维数（凸性 ⇒ 极端分配最优）。",
+         "v2 (`min_data_table_v2.md`) is kept **unchanged**; v3 extends the search to **all 15 balanced-position classes**",
+         "and prints for each class the dim K of `tools/cheap_rows.py` and its usability for key recovery.",
+         "The search space is that of v2: 0 or 1 free block (O11) x every subset of the remaining words x every layer,",
+         "active sets canonicalised modulo block rotation; characteristic 2 allows mixed subspace dimensions (convexity => the extreme allocation is optimal).",
          "",
-         "## 1. 与早先手工搜索表的逐格对照",
+         "## 1. Cell-by-cell comparison with the earlier hand-made table",
          "",
-         "| 格 | 备忘 | v3 | dim K | 可用性 | 一致 |",
+         "| Cell | Hand-made | v3 | dim K | Usability | Agrees |",
          "|---|---|---|---|---|---|"]
     for c in cmp_rows:
         L.append(f"| {c['cell']} | {c['memo']} | {c['v3']} | {c.get('dim_K', '—')} "
-                 f"| {c.get('usable', '—')} | {'✅' if c['agrees'] else '**不一致**'} |")
-    L += ["", "## 2. 每个实例、每层、每类的最小数据", "",
-          "只列出可达的格；`—` 的层在 O7 框架内不可达。", ""]
+                 f"| {c.get('usable', '—')} | {'✅' if c['agrees'] else '**no**'} |")
+    L += ["", "## 2. Minimal data per instance, layer and class", "",
+          "Only reachable cells are listed; a layer marked `—` is unreachable inside the O7 framework.", ""]
     by_inst = {}
     for r in rows:
         by_inst.setdefault((r["instance"], r["direction"]), []).append(r)
     for (inst, direction), rs in by_inst.items():
-        L.append(f"### {inst} · {'解密（CCA）' if direction == 'dec' else '加密（CPA）'}")
+        L.append(f"### {inst} · {'decryption (CCA)' if direction == 'dec' else 'encryption (CPA)'}")
         L.append("")
-        L.append("| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |")
+        L.append("| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |")
         L.append("|---|---|---|---|---|---|---|---|---|")
         for r in rs:
             if not r["reachable"]:

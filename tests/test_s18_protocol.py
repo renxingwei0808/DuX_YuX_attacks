@@ -254,7 +254,7 @@ def test_the_run_table_reads_every_driver_shape():
                       "inner_correct": 16}) == "15120 / 12056 / 5812 / 16/16"
     assert RT.system({"equations_per_structure": 8, "structures": 172,
                       "rank": 1336, "kappa_correct": 16}).startswith("1376 / 1336")
-    assert RT.system({"success": 50, "keys": 50}) == "50/50 密钥"
+    assert RT.system({"success": 50, "keys": 50}) == "50/50 keys"
     assert RT.system({"equations": 480,
                       "results": [{"rank": 136}]}).startswith("480 / 136")
     assert RT.hms(26840) == "7:27:20" and RT.hms(2915) == "48:35"

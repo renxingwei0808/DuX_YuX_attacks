@@ -8,5 +8,6 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.11"}
       - run: pip install -r requirements.txt
+      - run: for d in E04_zero_sum_F2n E06_key_recovery_1round E07_key_recovery_2round E09_unified_criterion E10_cpa; do make -C experiments/$d/fast; done
       - run: python -m pytest -q tests
       - run: python experiments/E01_structure/check_structure.py

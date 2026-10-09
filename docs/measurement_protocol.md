@@ -1,7 +1,7 @@
 # Measurement protocol
 
 This is the protocol behind every time, memory and multiplication count in the
-paper (Section VII of the paper, "Machine and Measurement" in the supplement).
+paper (Section VII of the paper and section 5 of the supplement).
 It fixes how a run is reported; it never changes what an attack computes.  A
 rerun under the protocol must reproduce the rank, the number of determined
 monomials and the 16/16 key words of the original record exactly;

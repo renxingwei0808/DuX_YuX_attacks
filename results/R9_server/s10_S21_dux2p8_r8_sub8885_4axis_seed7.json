@@ -156,7 +156,7 @@
  "solve_s": 64.0,
  "weight_curve": [],
  "structure_curve": [],
- "rows_dir": "/home/luck/dux-data/S21_dux2p8_8885_seed7",
+ "rows_dir": "$DATA/S21_dux2p8_8885_seed7",
  "per_structure": [
   {
    "structure": 0,
@@ -165,7 +165,7 @@
     0
    ],
    "seed": 5007,
-   "loaded_from": "/home/luck/dux-data/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in0-0.npy"
+   "loaded_from": "$DATA/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in0-0.npy"
   },
   {
    "structure": 0,
@@ -174,7 +174,7 @@
     1
    ],
    "seed": 5007,
-   "loaded_from": "/home/luck/dux-data/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in0-1.npy"
+   "loaded_from": "$DATA/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in0-1.npy"
   },
   {
    "structure": 0,
@@ -183,7 +183,7 @@
     2
    ],
    "seed": 5007,
-   "loaded_from": "/home/luck/dux-data/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in0-2.npy"
+   "loaded_from": "$DATA/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in0-2.npy"
   },
   {
    "structure": 0,
@@ -192,7 +192,7 @@
     3
    ],
    "seed": 5007,
-   "loaded_from": "/home/luck/dux-data/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in0-3.npy"
+   "loaded_from": "$DATA/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in0-3.npy"
   },
   {
    "structure": 0,
@@ -201,7 +201,7 @@
     4
    ],
    "seed": 5007,
-   "loaded_from": "/home/luck/dux-data/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in0-4.npy"
+   "loaded_from": "$DATA/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in0-4.npy"
   },
   {
    "structure": 0,
@@ -210,7 +210,7 @@
     0
    ],
    "seed": 5007,
-   "loaded_from": "/home/luck/dux-data/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in1-0.npy"
+   "loaded_from": "$DATA/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in1-0.npy"
   },
   {
    "structure": 0,
@@ -219,7 +219,7 @@
     1
    ],
    "seed": 5007,
-   "loaded_from": "/home/luck/dux-data/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in1-1.npy"
+   "loaded_from": "$DATA/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in1-1.npy"
   },
   {
    "structure": 0,
@@ -228,7 +228,7 @@
     2
    ],
    "seed": 5007,
-   "loaded_from": "/home/luck/dux-data/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in1-2.npy"
+   "loaded_from": "$DATA/S21_dux2p8_8885_seed7/rows_S21_dux2p8_r8_sub8885_4axis_seed7_st0_in1-2.npy"
   },
   {
    "structure": 0,
