@@ -1,0 +1,36 @@
+{
+ "instance": "toy-2^4",
+ "field": "F_2^4",
+ "rounds": 5,
+ "layers": 3,
+ "unknown_blocks": [
+  0,
+  1
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  3,
+  7
+ ],
+ "points_per_structure": 256,
+ "monomials": 4017,
+ "structures": 1100,
+ "equations": 4400,
+ "unknowns": 4016,
+ "rank": 1068,
+ "free": 2948,
+ "pinned": 451,
+ "inner_correct": 8,
+ "inner_total": 8,
+ "normalise": false,
+ "data_log2": 18.1,
+ "assemble_s": 22.3,
+ "solve_s": 138.0,
+ "procs": 4,
+ "seed": 7
+}

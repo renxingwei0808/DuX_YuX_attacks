@@ -1,0 +1,111 @@
+{
+ "instance": "yuxtoy-2^4",
+ "active": [],
+ "free_blocks": [
+  0
+ ],
+ "align": "before-L",
+ "seed": 2026,
+ "keys": 2,
+ "predicted": {
+  "q": "2^4",
+  "cipher": "yux",
+  "align": "before-L",
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "s": 4,
+  "log2_data": 16.0,
+  "threshold": 60,
+  "r_b": 3,
+  "r_f": 1,
+  "rounds": 4,
+  "backward_bounds": [
+   8,
+   8,
+   12,
+   16
+  ],
+  "forward_bounds": [
+   8,
+   5,
+   3,
+   2
+  ],
+  "backward_bounds_next": [
+   32,
+   32,
+   48,
+   64
+  ],
+  "forward_bounds_next": [
+   64,
+   40,
+   24,
+   16
+  ],
+  "backward_max_per_layer": [
+   1,
+   4,
+   16,
+   64
+  ],
+  "forward_max_per_layer": [
+   8,
+   64
+  ]
+ },
+ "splits": {
+  "3+1": {
+   "rows": [
+    {
+     "key": 0,
+     "plaintext_side": "1111111111111111",
+     "ciphertext_side": "1111111111111111"
+    },
+    {
+     "key": 1,
+     "plaintext_side": "1111111111111111",
+     "ciphertext_side": "1111111111111111"
+    }
+   ],
+   "plaintext_all_balanced": true,
+   "ciphertext_all_balanced": true
+  },
+  "4+1": {
+   "rows": [
+    {
+     "key": 0,
+     "plaintext_side": "1110111011101110",
+     "ciphertext_side": "1111111111111111"
+    },
+    {
+     "key": 1,
+     "plaintext_side": "1111111011111110",
+     "ciphertext_side": "1111111111111111"
+    }
+   ],
+   "plaintext_all_balanced": false,
+   "ciphertext_all_balanced": true
+  },
+  "3+2": {
+   "rows": [
+    {
+     "key": 0,
+     "plaintext_side": "1111111111111111",
+     "ciphertext_side": "1111111111111111"
+    },
+    {
+     "key": 1,
+     "plaintext_side": "1111111111111111",
+     "ciphertext_side": "1111111111111111"
+    }
+   ],
+   "plaintext_all_balanced": true,
+   "ciphertext_all_balanced": true
+  }
+ },
+ "elapsed_s": 0.86,
+ "data_log2": 16.0
+}

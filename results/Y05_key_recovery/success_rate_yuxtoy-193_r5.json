@@ -1,0 +1,54 @@
+{
+ "instance": "yuxtoy-193",
+ "rounds": 5,
+ "active": [
+  0
+ ],
+ "dim": null,
+ "structures": 2,
+ "keys": 20,
+ "weights": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "weights_used": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "weight_range": [
+  0,
+  88
+ ],
+ "success": 20,
+ "success_rate": 1.0,
+ "structures_used": [
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2
+ ],
+ "retry_reasons": {},
+ "data_log2_per_structure": 7,
+ "seed": 2026,
+ "elapsed_s": 0.3
+}

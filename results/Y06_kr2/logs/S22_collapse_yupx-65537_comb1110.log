@@ -1,0 +1,42 @@
+yupx-65537 (yux, F_65537): M = 53857, combine 1110 -> dim K = 3, y = [[65536, 1, 0, 0], [0, 1, 0, 65536], [0, 1, 65536, 0]]
+  pi-orbits on the 53857 columns: 13510 (sizes {'1': 1, '2': 90, '4': 13419})
+  Phi_j = pi^j Phi_0 rho^j: True; char-2 depth-3 expansion: None; symmetrised row is a pi-eigenvector -1 (pi-anti-invariant): False
+  .. 250/3500 pseudo-structures (15 s)
+  .. 500/3500 pseudo-structures (31 s)
+  .. 750/3500 pseudo-structures (45 s)
+  .. 1000/3500 pseudo-structures (60 s)
+  .. 1250/3500 pseudo-structures (75 s)
+  .. 1500/3500 pseudo-structures (90 s)
+  .. 1750/3500 pseudo-structures (105 s)
+  .. 2000/3500 pseudo-structures (119 s)
+  .. 2250/3500 pseudo-structures (134 s)
+  .. 2500/3500 pseudo-structures (149 s)
+  .. 2750/3500 pseudo-structures (163 s)
+  .. 3000/3500 pseudo-structures (178 s)
+  .. 3250/3500 pseudo-structures (193 s)
+  .. 3500/3500 pseudo-structures (207 s)
+  ceiling: rank 8468 of 53857 columns, 2088 monomials determined, 16/16 key words
+saved results/Y06_kr2/collapse_yupx-65537_comb1110.json
+	Command being timed: "python3 experiments/E11_cheap_rows/char2_collapse.py --instance yupx-65537 --rounds 10 --combine 1110 --structures 3500 --points 256 --seed 2026 --progress 250 --out results/Y06_kr2/collapse_yupx-65537_comb1110.json"
+	User time (seconds): 3340.87
+	System time (seconds): 1045.47
+	Percent of CPU this job got: 462%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:48.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11188236
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1234910
+	Voluntary context switches: 5961
+	Involuntary context switches: 22304
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 128
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

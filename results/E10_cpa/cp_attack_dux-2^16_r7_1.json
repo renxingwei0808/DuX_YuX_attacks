@@ -1,0 +1,103 @@
+{
+ "instance": "dux-2^16",
+ "rounds": 7,
+ "active": [
+  1
+ ],
+ "balanced_positions": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "unknowns": 53,
+ "kappa_monomials_per_block": 14,
+ "moments": 18,
+ "equations_per_structure": 16,
+ "structures": 6,
+ "data_log2": 18.58,
+ "keys": 2,
+ "seed": 2026,
+ "results": [
+  {
+   "key_index": 0,
+   "rank": 40,
+   "unknowns": 52,
+   "decoupled": true,
+   "free_words": [
+    {
+     "block": 0,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 1,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 2,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 3,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    }
+   ],
+   "last_round_key_ok": true,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "elapsed_s": 1.3
+  },
+  {
+   "key_index": 1,
+   "rank": 40,
+   "unknowns": 52,
+   "decoupled": true,
+   "free_words": [
+    {
+     "block": 0,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 1,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 2,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 3,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    }
+   ],
+   "last_round_key_ok": true,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "elapsed_s": 1.4
+  }
+ ]
+}

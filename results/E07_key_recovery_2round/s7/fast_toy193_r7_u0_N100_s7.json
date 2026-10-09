@@ -1,0 +1,37 @@
+{
+ "instance": "toy-193",
+ "field": "F_193",
+ "rounds": 7,
+ "layers": 5,
+ "unknown_blocks": [
+  0
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  3,
+  7
+ ],
+ "points_per_structure": 37249,
+ "monomials": 1082,
+ "structures": 100,
+ "equations": 400,
+ "unknowns": 1081,
+ "rank": 300,
+ "free": 781,
+ "pinned": 68,
+ "inner_correct": 4,
+ "inner_total": 4,
+ "normalise": false,
+ "assume_L1": false,
+ "data_log2": 21.83,
+ "assemble_s": 26.1,
+ "solve_s": 1.7,
+ "procs": 8,
+ "seed": 7,
+ "solver": "numpy"
+}

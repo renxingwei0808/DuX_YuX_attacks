@@ -1,0 +1,14 @@
+dux-2^16 (F_2^16): r = 8 = 6-layer CPA zero-sum + 2, active plaintext words [1] (65536 = 2^16 points)
+  inner S^-1 expansion: |U| = 19, |S| = 14; monomials M = 3259; outer coords [0, 3] -> 8 equations/structure; N_min >= ceil(M/8) = 408
+  assembled 100/240 (288.4s)
+  assembled 200/240 (582.8s)
+  N =   150:  1200 eqs, rank 1200/3248 (2048 free) -> kappa words 0/16
+  N =   170:  1360 eqs, rank 1336/3248 (1912 free) -> kappa words 16/16
+  N =   175:  1400 eqs, rank 1336/3248 (1912 free) -> kappa words 16/16
+  N =   180:  1440 eqs, rank 1336/3248 (1912 free) -> kappa words 16/16
+  N =   190:  1520 eqs, rank 1336/3248 (1912 free) -> kappa words 16/16
+  N =   200:  1600 eqs, rank 1336/3248 (1912 free) -> kappa words 16/16
+  N =   220:  1760 eqs, rank 1336/3248 (1912 free) -> kappa words 16/16
+  N =   240:  1920 eqs, rank 1336/3248 (1912 free) -> kappa words 16/16
+  data 2^23.91 chosen plaintexts; assemble 698.9 s
+saved results/E10_cpa/w14/kr2cpa_dux-2^16_r8.json

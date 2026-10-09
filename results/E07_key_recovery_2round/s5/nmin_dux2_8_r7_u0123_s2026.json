@@ -1,0 +1,143 @@
+{
+ "instance": "dux-2^8",
+ "field": "F_2^8",
+ "rounds": 7,
+ "layers": 5,
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  3
+ ],
+ "points_per_structure": 256,
+ "monomials": 18025,
+ "normalise": true,
+ "assume_L1": false,
+ "seed": 2026,
+ "assembled": 2000,
+ "assemble_s": 86.6,
+ "procs": 16,
+ "scan": [
+  {
+   "N": 1150,
+   "equations": 4600,
+   "unknowns": 18014,
+   "rank": 4600,
+   "free": 13414,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "data_log2": 18.17,
+   "solve_s": 77.9
+  },
+  {
+   "N": 1200,
+   "equations": 4800,
+   "unknowns": 18014,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 18.23,
+   "solve_s": 83.1
+  },
+  {
+   "N": 1250,
+   "equations": 5000,
+   "unknowns": 18014,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 18.29,
+   "solve_s": 87.1
+  },
+  {
+   "N": 1300,
+   "equations": 5200,
+   "unknowns": 18014,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 18.34,
+   "solve_s": 65.0
+  },
+  {
+   "N": 1400,
+   "equations": 5600,
+   "unknowns": 18014,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 18.45,
+   "solve_s": 98.4
+  },
+  {
+   "N": 1500,
+   "equations": 6000,
+   "unknowns": 18014,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 18.55,
+   "solve_s": 106.4
+  },
+  {
+   "N": 1600,
+   "equations": 6400,
+   "unknowns": 18014,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 18.64,
+   "solve_s": 97.9
+  },
+  {
+   "N": 1800,
+   "equations": 7200,
+   "unknowns": 18014,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 18.81,
+   "solve_s": 103.7
+  },
+  {
+   "N": 2000,
+   "equations": 8000,
+   "unknowns": 18014,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 18.97,
+   "solve_s": 112.9
+  }
+ ],
+ "N_min": 1200,
+ "rank_max": 4756,
+ "rank_saturation_N": 1200,
+ "N_min_rule_rank_over_neq": 1189
+}

@@ -1,0 +1,9 @@
+yuxtoy-193 (F_193): r = 6 (4-layer distinguisher + 2), unknown inner blocks [0], outer blocks [0, 1, 2, 3], active words [0]
+  monomials M = 1321 = 2^10.4; 200 structures x 193 chosen ciphertexts = 2^15.2 data; 4 eqs/structure
+  assembled 100/200 structures (1.8s)
+  assembled 200/200 structures (3.1s)
+  system 800 x 1320 over F_193 (1 columns pinned)
+  rank 324 / 1320 unknowns (996 free), 91 monomials pinned down  (3.1s)
+  inner key words recovered correctly: 4/4
+  data 2^15.24; assemble 3.1s, solve 3.1s
+saved results/Y05_key_recovery/fast_Y05-B4_step1_yuxtoy193_u0.json

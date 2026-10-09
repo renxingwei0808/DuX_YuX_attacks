@@ -1,0 +1,64 @@
+{
+ "instance": "toy-257",
+ "cipher": "dux",
+ "q": 257,
+ "char": 257,
+ "rounds": 7,
+ "combine": "0001",
+ "dim_K": 1,
+ "y": [
+  [
+   1,
+   256,
+   1,
+   256
+  ]
+ ],
+ "monomials": 38051,
+ "seed": 2026,
+ "orbits": {
+  "orbits": 9551,
+  "sizes": {
+   "1": 1,
+   "2": 75,
+   "4": 9475
+  }
+ },
+ "identities": {
+  "equivariance_trials": 1,
+  "equivariance_ok": true,
+  "char2_expansion_ok": null,
+  "symmetrised_eigenvalue_ok": true,
+  "symmetrised_eigenvalue": "-1 (pi-anti-invariant)"
+ },
+ "ceiling": {
+  "structures": 8400,
+  "rows": 8400,
+  "rank": 8188,
+  "free": 29852,
+  "monomials": 38051,
+  "pinned_by_normalisation": 11,
+  "determined_monomials": 2592,
+  "degree_one_key_columns_determined": 16,
+  "degree_one_detail": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true,
+   "5": true,
+   "6": true,
+   "7": true,
+   "8": true,
+   "9": true,
+   "10": true,
+   "11": true,
+   "12": true,
+   "13": true,
+   "14": true,
+   "15": true
+  },
+  "assemble_s": 916.0,
+  "solve_s": 790.6
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "instance": "yu2x-8",
+ "cipher": "yux",
+ "field": "F_2^8",
+ "rounds": 6,
+ "layers": 5,
+ "pattern": "1100",
+ "predicted_pattern": "1100",
+ "balanced_words": [
+  0,
+  1,
+  4,
+  5,
+  8,
+  9,
+  12,
+  13
+ ],
+ "margins": [
+  51,
+  47,
+  -53,
+  -157
+ ],
+ "weights": 47,
+ "weight_bound": 47,
+ "monomials_per_block": 50,
+ "unknowns": 200,
+ "equations_per_structure": 376,
+ "structures": 1,
+ "data_log2": 8.0,
+ "keys": 3,
+ "seed": 2026,
+ "results": [
+  {
+   "key": 0,
+   "determined": 16,
+   "correct": 16,
+   "rank": 104,
+   "rows": 376
+  },
+  {
+   "key": 1,
+   "determined": 16,
+   "correct": 16,
+   "rank": 104,
+   "rows": 376
+  },
+  {
+   "key": 2,
+   "determined": 16,
+   "correct": 16,
+   "rank": 104,
+   "rows": 376
+  }
+ ],
+ "elapsed_s": 3.8
+}

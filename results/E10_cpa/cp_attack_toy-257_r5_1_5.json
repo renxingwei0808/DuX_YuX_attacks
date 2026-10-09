@@ -1,0 +1,44 @@
+{
+ "instance": "toy-257",
+ "rounds": 5,
+ "active": [
+  1,
+  5
+ ],
+ "balanced_positions": [
+  1,
+  2
+ ],
+ "unknowns": 57,
+ "kappa_monomials_per_block": 15,
+ "moments": 18,
+ "equations_per_structure": 8,
+ "structures": 10,
+ "data_log2": 19.33,
+ "keys": 2,
+ "seed": 2026,
+ "results": [
+  {
+   "key_index": 0,
+   "rank": 44,
+   "unknowns": 56,
+   "decoupled": false,
+   "free_words": [],
+   "last_round_key_ok": true,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "elapsed_s": 7.5
+  },
+  {
+   "key_index": 1,
+   "rank": 44,
+   "unknowns": 56,
+   "decoupled": false,
+   "free_words": [],
+   "last_round_key_ok": true,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "elapsed_s": 7.3
+  }
+ ]
+}

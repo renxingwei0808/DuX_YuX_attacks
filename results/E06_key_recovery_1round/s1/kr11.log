@@ -1,0 +1,8 @@
+dux-2^16: 11 rounds, coords [0], 14 key monomials, 17 plaintext moments, 20 structures x 2^32 chosen ciphertexts = 2^36.3
+  moments done in 3508.7s
+  block 0: rank 10/13; k = [55826, 11726, 1731, 41937] (true [55826, 11726, 1731, 41937])
+  block 1: rank 10/13; k = [23951, 30622, 5231, 24281] (true [23951, 30622, 5231, 24281])
+  block 2: rank 10/13; k = [42169, 23259, 54464, 51807] (true [42169, 23259, 54464, 51807])
+  block 3: rank 10/13; k = [46165, 59319, 47265, 11623] (true [46165, 59319, 47265, 11623])
+recovered rk^0 == master key: True; data 2^36.3; 3508.8s
+saved results/E06_key_recovery_1round/s1/fast_partial_dux-216_r11_3_7_d16_c0.json

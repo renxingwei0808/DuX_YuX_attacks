@@ -1,0 +1,29 @@
+{
+ "instance": "toy-193",
+ "cipher": "dux",
+ "q": 193,
+ "char": 193,
+ "monomials": 38051,
+ "combine": "0001",
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "rows_per_structure": 1,
+ "moments": "realizable",
+ "npts": 192,
+ "seed": 2026,
+ "curve": [
+  {
+   "structures": 9216,
+   "rows": 9216,
+   "rank": 8198,
+   "seconds": 2736.4,
+   "solve_s": 1132.3,
+   "one_shot": true
+  }
+ ],
+ "saturated_rank": 8198
+}

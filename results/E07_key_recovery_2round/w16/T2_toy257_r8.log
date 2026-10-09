@@ -1,0 +1,4 @@
+toy-257 (F_257): r = 8 (6-layer distinguisher + 2), unknown inner blocks [0, 1, 2, 3], outer blocks [0, 1, 2, 3], active words [3, 7]
+  monomials M = 38051 = 2^15.2; 1 structures x 66049 chosen ciphertexts = 2^16.0 data; 4 eqs/structure
+  O12 weights: dims 2, margin 150 (layer 6 pattern 1001), 11325 weights/structure; O10 combine 0001: dim K = 1, y = [[1, 256, 1, 256]] -> 11325 equations/structure
+  [killed after 2 h 10 min of CPU time (1 h 00 min wall on 2 of 4 cores) without finishing the single structure's assembly]

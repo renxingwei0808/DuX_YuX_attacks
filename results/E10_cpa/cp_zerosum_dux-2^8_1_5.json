@@ -1,0 +1,123 @@
+{
+ "instance": "dux-2^8",
+ "direction": "enc",
+ "active": [
+  1,
+  5
+ ],
+ "points_per_structure": 65536,
+ "data_log2": 16.0,
+ "keys": 3,
+ "seed": 2026,
+ "threshold": 510,
+ "predicted_patterns": [
+  "1111",
+  "1111",
+  "1111",
+  "0110",
+  "0000"
+ ],
+ "predicted_l_full": 3,
+ "predicted_next": "0110",
+ "measured_l_full": 3,
+ "measured": [
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 3,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 4,
+    "words": "0110011001100110",
+    "block_pattern": "0110",
+    "balanced": 8
+   },
+   {
+    "layer": 5,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   }
+  ],
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 3,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 4,
+    "words": "0110011001100110",
+    "block_pattern": "0110",
+    "balanced": 8
+   },
+   {
+    "layer": 5,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   }
+  ],
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 3,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 4,
+    "words": "0110011001100110",
+    "block_pattern": "0110",
+    "balanced": 8
+   },
+   {
+    "layer": 5,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   }
+  ]
+ ],
+ "prediction_matches": true,
+ "elapsed_s": 0.3
+}

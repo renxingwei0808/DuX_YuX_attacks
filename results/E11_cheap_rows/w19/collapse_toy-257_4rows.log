@@ -1,0 +1,8 @@
+toy-257 (dux, F_257): M = 38051, the four plain rows (no --combine)
+  pi-orbits on the 38051 columns: 9551 (sizes {'1': 1, '2': 75, '4': 9475})
+  .. 500/2250 pseudo-structures (37 s)
+  .. 1000/2250 pseudo-structures (73 s)
+  .. 1500/2250 pseudo-structures (111 s)
+  .. 2000/2250 pseudo-structures (148 s)
+  ceiling: rank 8608 of 38051 columns, 2592 monomials determined, 16/16 key words
+saved results/E11_cheap_rows/w19/collapse_toy-257_4rows.json

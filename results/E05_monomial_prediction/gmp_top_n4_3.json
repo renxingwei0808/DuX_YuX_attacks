@@ -1,0 +1,156 @@
+{
+ "n": 4,
+ "active": [
+  3
+ ],
+ "dim": 4,
+ "sbox": "closed",
+ "mode": "top",
+ "rows": [
+  {
+   "layer": 2,
+   "degree": {
+    "0": {
+     "reachable": false,
+     "status": "unsat",
+     "nodes": 69,
+     "seconds": 0.08
+    },
+    "1": {
+     "reachable": false,
+     "status": "unsat",
+     "nodes": 72,
+     "seconds": 0.09
+    },
+    "2": {
+     "reachable": false,
+     "status": "unsat",
+     "nodes": 74,
+     "seconds": 0.09
+    },
+    "3": {
+     "reachable": false,
+     "status": "unsat",
+     "nodes": 67,
+     "seconds": 0.06
+    }
+   }
+  },
+  {
+   "layer": 3,
+   "degree": {
+    "0": {
+     "reachable": false,
+     "status": "unsat",
+     "nodes": 117,
+     "seconds": 0.4
+    },
+    "1": {
+     "reachable": false,
+     "status": "unsat",
+     "nodes": 120,
+     "seconds": 0.47
+    },
+    "2": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 122,
+     "seconds": 0.44
+    },
+    "3": {
+     "reachable": false,
+     "status": "unsat",
+     "nodes": 115,
+     "seconds": 0.34
+    }
+   }
+  },
+  {
+   "layer": 4,
+   "degree": {
+    "0": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 165,
+     "seconds": 0.63
+    },
+    "1": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 168,
+     "seconds": 0.64
+    },
+    "2": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 170,
+     "seconds": 0.72
+    },
+    "3": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 163,
+     "seconds": 0.61
+    }
+   }
+  },
+  {
+   "layer": 5,
+   "degree": {
+    "0": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 213,
+     "seconds": 1.53
+    },
+    "1": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 216,
+     "seconds": 1.28
+    },
+    "2": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 218,
+     "seconds": 0.69
+    },
+    "3": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 211,
+     "seconds": 0.45
+    }
+   }
+  },
+  {
+   "layer": 6,
+   "degree": {
+    "0": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 261,
+     "seconds": 0.68
+    },
+    "1": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 264,
+     "seconds": 0.66
+    },
+    "2": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 266,
+     "seconds": 0.65
+    },
+    "3": {
+     "reachable": true,
+     "status": "sat",
+     "nodes": 259,
+     "seconds": 0.55
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "instance": "toy-257",
+ "cipher": "dux",
+ "q": 257,
+ "char": 257,
+ "rounds": 7,
+ "combine": "none",
+ "dim_K": 4,
+ "y": null,
+ "monomials": 38051,
+ "seed": 2026,
+ "orbits": {
+  "orbits": 9551,
+  "sizes": {
+   "1": 1,
+   "2": 75,
+   "4": 9475
+  }
+ },
+ "identities": {
+  "skipped": "no --combine"
+ },
+ "ceiling": {
+  "structures": 2250,
+  "rows": 9000,
+  "rank": 8608,
+  "free": 29432,
+  "monomials": 38051,
+  "pinned_by_normalisation": 11,
+  "determined_monomials": 2592,
+  "degree_one_key_columns_determined": 16,
+  "degree_one_detail": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true,
+   "5": true,
+   "6": true,
+   "7": true,
+   "8": true,
+   "9": true,
+   "10": true,
+   "11": true,
+   "12": true,
+   "13": true,
+   "14": true,
+   "15": true
+  },
+  "assemble_s": 166.4,
+  "solve_s": 997.9
+ }
+}

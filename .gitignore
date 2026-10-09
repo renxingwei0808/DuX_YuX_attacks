@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+results/**/logs/*.log
+*.bin
+*.npy
+.venv/
+
+# compiled kernels (built with `make -C experiments/*/fast`)
+experiments/E04_zero_sum_F2n/fast/zs
+experiments/E06_key_recovery_1round/fast/mom
+experiments/E10_cpa/fast/mom_cp
+experiments/E07_key_recovery_2round/fast/gf2nsolve
+experiments/E09_unified_criterion/fast/zsx
+experiments/E09_unified_criterion/fast/zsx_yux
+experiments/E07_key_recovery_2round/fast/libmom2n.so
+tools/topform_kernels

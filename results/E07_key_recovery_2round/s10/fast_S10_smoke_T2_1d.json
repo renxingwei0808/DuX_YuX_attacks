@@ -1,0 +1,59 @@
+{
+ "instance": "toy-257",
+ "field": "F_257",
+ "rounds": 8,
+ "layers": 6,
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  3,
+  7
+ ],
+ "points_per_structure": 66049,
+ "monomials": 38051,
+ "weights": {
+  "n": 150,
+  "dims": 1,
+  "margin": 150,
+  "weight_word": 3,
+  "range": "|a| < 150"
+ },
+ "equation_rows": {
+  "combine": "0001",
+  "dim_K": 1,
+  "y": [
+   [
+    1,
+    256,
+    1,
+    256
+   ]
+  ]
+ },
+ "structures": 60,
+ "equations": 9000,
+ "unknowns": 38040,
+ "rank": 8188,
+ "free": 29852,
+ "pinned": 2592,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "assume_L1": false,
+ "data_log2": 21.92,
+ "assemble_s": 1567.3,
+ "solve_s": 952.1,
+ "procs": 8,
+ "seed": 2026,
+ "solver": "numpy"
+}

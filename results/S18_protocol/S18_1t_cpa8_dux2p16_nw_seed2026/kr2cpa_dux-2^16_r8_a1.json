@@ -1,0 +1,119 @@
+{
+ "instance": "dux-2^16",
+ "field": "F_2^16",
+ "rounds": 8,
+ "layers": 6,
+ "active_words": [
+  1
+ ],
+ "points_per_structure": 65536,
+ "coords": [
+  0,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "monomials": 3259,
+ "unknowns": 3248,
+ "equations_per_structure": 8,
+ "weights": null,
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per (outer block, coord)"
+ },
+ "structures": 172,
+ "pseudo": false,
+ "rank": 1336,
+ "free": 1912,
+ "kappa_correct": 16,
+ "master_key_ok": true,
+ "known_pair_ok": true,
+ "curve": [
+  {
+   "structures": 166,
+   "equations": 1328,
+   "rank": 1328,
+   "free": 1920,
+   "kappa_correct": 0,
+   "master_key_ok": false,
+   "known_pair_ok": false,
+   "data_log2": 23.38
+  },
+  {
+   "structures": 167,
+   "equations": 1336,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 23.38
+  },
+  {
+   "structures": 168,
+   "equations": 1344,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 23.39
+  },
+  {
+   "structures": 170,
+   "equations": 1360,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 23.41
+  },
+  {
+   "structures": 172,
+   "equations": 1376,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 23.43
+  }
+ ],
+ "seed": 2026,
+ "data_log2": 23.43,
+ "assemble_s": 755.2,
+ "protocol": {
+  "cores": "27",
+  "solve_threads": 1,
+  "wall_s": 773.72,
+  "user_s": 578.99,
+  "sys_s": 194.68,
+  "cpu_s": 773.67,
+  "core_hours": 0.215,
+  "maxrss_kb": 158200,
+  "maxrss_gb": 0.15,
+  "cpu_pct": 99,
+  "wall_over_cpu": 1.0,
+  "threads": {
+   "samples": 77,
+   "max_nlwp": 1,
+   "max_procs": 3,
+   "first_ts": 1790007901,
+   "last_ts": 1790008666
+  },
+  "loadavg_start": "17.11 17.60 18.66",
+  "loadavg_end": "19.73 17.95 17.92",
+  "start": "2026-09-21T09:25:01-07:00",
+  "end": "2026-09-21T09:37:55-07:00",
+  "exit": "0",
+  "machine": "2 x Intel Xeon Gold 6230R (26 cores / 52 threads each, 2.10 GHz base, 4.00 GHz max turbo), 251 GB RAM",
+  "single_threaded": true,
+  "not_preempted": true,
+  "procs": null
+ }
+}

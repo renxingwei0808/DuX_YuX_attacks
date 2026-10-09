@@ -1,0 +1,58 @@
+{
+ "instance": "yuxtoy-2^4",
+ "cipher": "yux",
+ "field": "F_2^4",
+ "rounds": 4,
+ "layers": 3,
+ "pattern": "1100",
+ "predicted_pattern": "1100",
+ "balanced_words": [
+  0,
+  1,
+  4,
+  5,
+  8,
+  9,
+  12,
+  13
+ ],
+ "margins": [
+  2,
+  1,
+  -5,
+  -11
+ ],
+ "weights": 1,
+ "weight_bound": 1,
+ "monomials_per_block": 50,
+ "unknowns": 200,
+ "equations_per_structure": 8,
+ "structures": 26,
+ "data_log2": 8.7,
+ "keys": 3,
+ "seed": 2026,
+ "results": [
+  {
+   "key": 0,
+   "determined": 16,
+   "correct": 16,
+   "rank": 104,
+   "rows": 208
+  },
+  {
+   "key": 1,
+   "determined": 16,
+   "correct": 16,
+   "rank": 104,
+   "rows": 208
+  },
+  {
+   "key": 2,
+   "determined": 16,
+   "correct": 16,
+   "rank": 104,
+   "rows": 208
+  }
+ ],
+ "elapsed_s": 1.8
+}

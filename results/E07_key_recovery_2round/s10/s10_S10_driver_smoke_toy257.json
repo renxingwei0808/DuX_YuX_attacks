@@ -1,0 +1,69 @@
+{
+ "instance": "toy-257",
+ "cipher": "dux",
+ "field": "F_257",
+ "rounds": 8,
+ "layers": 6,
+ "active_words": [
+  3,
+  7
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "points_per_structure": 66049,
+ "structures": 1,
+ "slices": 257,
+ "points_per_slice": 257,
+ "monomials": 38051,
+ "weights": {
+  "n": 150,
+  "dims": 1,
+  "margin": 150,
+  "weight_word": 3,
+  "range": "a < 150"
+ },
+ "equation_rows": {
+  "combine": "0001",
+  "dim_K": 1,
+  "y": [
+   [
+    1,
+    256,
+    1,
+    256
+   ]
+  ]
+ },
+ "equations": 150,
+ "unknowns": 38040,
+ "rank": 150,
+ "free": 37890,
+ "pinned": 0,
+ "inner_correct": 0,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 16.01,
+ "assemble_s": 25.4,
+ "solve_s": 1.1,
+ "per_structure": [
+  {
+   "structure": 0,
+   "seed": 7026,
+   "moments_s": 1.7,
+   "dgemm_s": 2.6
+  }
+ ],
+ "procs": 16,
+ "seed": 2026,
+ "solver": "numpy-blocked"
+}

@@ -1,0 +1,45 @@
+yuxtoy-2^4: rank(Phi_stack) from realizable pseudo-structures (seed 2026)
+Traceback (most recent call last):
+  File "/home/user/yux-dux-cryptanalysis/experiments/E07_key_recovery_2round/rank_phi.py", line 317, in <module>
+    main()
+  File "/home/user/yux-dux-cryptanalysis/experiments/E07_key_recovery_2round/rank_phi.py", line 306, in main
+    res = run(a.instance, a.structures, set(cps), a.seed, a.moments, a.points,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/yux-dux-cryptanalysis/experiments/E07_key_recovery_2round/rank_phi.py", line 243, in run
+    acc[nrows * n:nrows * (n + 1)] = np.asarray(asm(pre, gen(), lrow),
+                                                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/yux-dux-cryptanalysis/experiments/E07_key_recovery_2round/assemble_fast_2n.py", line 276, in rows_from_moments_2n
+    assert not pre.known, "moment assembly needs all inner blocks unknown"
+           ^^^^^^^^^^^^^
+AssertionError: moment assembly needs all inner blocks unknown
+yuxtoy-2^4: rank(Phi_stack) from realizable pseudo-structures (seed 2026)
+Traceback (most recent call last):
+  File "/home/user/yux-dux-cryptanalysis/experiments/E07_key_recovery_2round/rank_phi.py", line 317, in <module>
+    main()
+  File "/home/user/yux-dux-cryptanalysis/experiments/E07_key_recovery_2round/rank_phi.py", line 306, in main
+    res = run(a.instance, a.structures, set(cps), a.seed, a.moments, a.points,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/yux-dux-cryptanalysis/experiments/E07_key_recovery_2round/rank_phi.py", line 243, in run
+    acc[nrows * n:nrows * (n + 1)] = np.asarray(asm(pre, gen(), lrow),
+                                                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/yux-dux-cryptanalysis/experiments/E07_key_recovery_2round/rank_phi.py", line 234, in asm
+    rs = asm0(pre_, mom_, lrow_)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/yux-dux-cryptanalysis/experiments/E07_key_recovery_2round/assemble_fast_2n.py", line 276, in rows_from_moments_2n
+    assert not pre.known, "moment assembly needs all inner blocks unknown"
+           ^^^^^^^^^^^^^
+AssertionError: moment assembly needs all inner blocks unknown
+yuxtoy-257: rank(Phi_stack) from realizable pseudo-structures (seed 2026)
+  N =   150  rows =    450  rank =    282   (8 s)
+  N =   200  rows =    600  rank =    282   (10 s)
+  N =   300  rows =    900  rank =    282   (14 s)
+  N =   400  rows =   1200  rank =    282   (18 s)
+saturated rank = 282  (monomials M = 1321)
+saved results/Y05_key_recovery/rank_phi_yuxtoy-257_u0_comb1110.json
+yuxtoy-257: rank(Phi_stack) from realizable pseudo-structures (seed 2026)
+  N =   400  rows =   1200  rank =   1200   (120 s)
+  N =   600  rows =   1800  rank =   1789   (193 s)
+  N =   800  rows =   2400  rank =   1789   (212 s)
+  N =   900  rows =   2700  rank =   1789   (223 s)
+saturated rank = 1789  (monomials M = 10733)
+saved results/Y05_key_recovery/rank_phi_yuxtoy-257_u01_comb1110.json

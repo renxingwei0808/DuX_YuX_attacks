@@ -1,0 +1,6480 @@
+[
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 1,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 1
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 7
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 2,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 3
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 26
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 3,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 12
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 97
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 4,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 45
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 362
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 5,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 168
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 1351
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 6,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 627
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 5042
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 7,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 2340
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 18817
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 8,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 8733
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 40545
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 9,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 32592
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 48.0,
+  "active": [
+   2,
+   6,
+   10
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 3,
+  "degree_needed": 151316
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 10,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32.0,
+  "active": [
+   0,
+   3
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 2,
+  "degree_needed": 121635
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 11,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 64.0,
+  "active": [
+   2,
+   6,
+   10,
+   14
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 4,
+  "degree_needed": 262087
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 12,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 3
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 1,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 3
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 24
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 2,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 24
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 15
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 192
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 3,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 192
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 120
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 1536
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 4,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 1536
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 960
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 12288
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 5,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 12288
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 7680
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32.0,
+  "active": [
+   0,
+   1
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 2,
+  "degree_needed": 98304
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 6,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32.0,
+  "active": [
+   0,
+   1
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 2,
+  "degree_needed": 98304
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 61440
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 208.0,
+  "active": [
+   4,
+   5,
+   6,
+   8,
+   9,
+   10,
+   12,
+   13,
+   14
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": null,
+  "s_words": 13,
+  "degree_needed": 786432
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 7,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 208.0,
+  "active": [
+   4,
+   5,
+   6,
+   8,
+   9,
+   10,
+   12,
+   13,
+   14
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": null,
+  "s_words": 13,
+  "degree_needed": 786432
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 64.0,
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "dims": null,
+  "s_words": 4,
+  "degree_needed": 163840
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 8,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 9,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 10,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 11,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 12,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(65537)",
+  "cipher": "dux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 1,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 1,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   1
+  ],
+  "s_words": 1,
+  "degree_needed": 0
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 3,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   3
+  ],
+  "s_words": 1,
+  "degree_needed": 4
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 2,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 2,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 26
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 3,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 4,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   4
+  ],
+  "s_words": 1,
+  "degree_needed": 12
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 6,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   6
+  ],
+  "s_words": 1,
+  "degree_needed": 56
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 4,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 5,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 26
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 8,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   8
+  ],
+  "s_words": 1,
+  "degree_needed": 209
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 5,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 7,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   7
+  ],
+  "s_words": 1,
+  "degree_needed": 97
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 10,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   10
+  ],
+  "s_words": 1,
+  "degree_needed": 780
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 6,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 9,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   9
+  ],
+  "s_words": 1,
+  "degree_needed": 362
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 12,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   12
+  ],
+  "s_words": 1,
+  "degree_needed": 2911
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 7,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 11,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   11
+  ],
+  "s_words": 1,
+  "degree_needed": 1351
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 14,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   14
+  ],
+  "s_words": 1,
+  "degree_needed": 10864
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 8,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 13,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   13
+  ],
+  "s_words": 1,
+  "degree_needed": 5042
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   16
+  ],
+  "s_words": 1,
+  "degree_needed": 40545
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 9,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 15,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   15
+  ],
+  "s_words": 1,
+  "degree_needed": 32592
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 47,
+  "active": [
+   2,
+   6,
+   10
+  ],
+  "free_blocks": [],
+  "dims": [
+   16,
+   16,
+   15
+  ],
+  "s_words": 3,
+  "degree_needed": 151316
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 10,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 29,
+  "active": [
+   2,
+   6
+  ],
+  "free_blocks": [],
+  "dims": [
+   16,
+   13
+  ],
+  "s_words": 2,
+  "degree_needed": 70226
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 11,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 64,
+  "active": [
+   2,
+   6,
+   10,
+   14
+  ],
+  "free_blocks": [],
+  "dims": [
+   16,
+   16,
+   16,
+   16
+  ],
+  "s_words": 4,
+  "degree_needed": 262087
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 12,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 1,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 24
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 2,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 24
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 4,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   4
+  ],
+  "s_words": 1,
+  "degree_needed": 10
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 8,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   8
+  ],
+  "s_words": 1,
+  "degree_needed": 192
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 3,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 8,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   8
+  ],
+  "s_words": 1,
+  "degree_needed": 192
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 7,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   7
+  ],
+  "s_words": 1,
+  "degree_needed": 120
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 11,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   11
+  ],
+  "s_words": 1,
+  "degree_needed": 1536
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 4,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 11,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   11
+  ],
+  "s_words": 1,
+  "degree_needed": 1536
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 10,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   10
+  ],
+  "s_words": 1,
+  "degree_needed": 960
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 14,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   14
+  ],
+  "s_words": 1,
+  "degree_needed": 12288
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 5,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 14,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   14
+  ],
+  "s_words": 1,
+  "degree_needed": 12288
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 13,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   13
+  ],
+  "s_words": 1,
+  "degree_needed": 7680
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 18,
+  "active": [
+   1,
+   5
+  ],
+  "free_blocks": [],
+  "dims": [
+   16,
+   2
+  ],
+  "s_words": 2,
+  "degree_needed": 65536
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 6,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 18,
+  "active": [
+   1,
+   5
+  ],
+  "free_blocks": [],
+  "dims": [
+   16,
+   2
+  ],
+  "s_words": 2,
+  "degree_needed": 65536
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   16
+  ],
+  "s_words": 1,
+  "degree_needed": 61440
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 196,
+  "active": [
+   4,
+   5,
+   6,
+   8,
+   9,
+   10,
+   12,
+   13,
+   14
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": [
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   4
+  ],
+  "s_words": 13,
+  "degree_needed": 786432
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 7,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 196,
+  "active": [
+   4,
+   5,
+   6,
+   8,
+   9,
+   10,
+   12,
+   13,
+   14
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": [
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   4
+  ],
+  "s_words": 13,
+  "degree_needed": 786432
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 64,
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "dims": [],
+  "s_words": 4,
+  "degree_needed": 163840
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 8,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 9,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 10,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 11,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 12,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^16)",
+  "cipher": "dux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 1,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 1,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   1
+  ],
+  "s_words": 1,
+  "degree_needed": 0
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 3,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   3
+  ],
+  "s_words": 1,
+  "degree_needed": 4
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 2,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 2,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 26
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 3,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 4,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   4
+  ],
+  "s_words": 1,
+  "degree_needed": 12
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 6,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   6
+  ],
+  "s_words": 1,
+  "degree_needed": 56
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 4,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 5,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 26
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 8,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   8
+  ],
+  "s_words": 1,
+  "degree_needed": 209
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 5,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 7,
+  "active": [
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   7
+  ],
+  "s_words": 1,
+  "degree_needed": 97
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 29,
+  "active": [
+   2,
+   6,
+   10,
+   14
+  ],
+  "free_blocks": [],
+  "dims": [
+   8,
+   8,
+   8,
+   5
+  ],
+  "s_words": 4,
+  "degree_needed": 780
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 6,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 15,
+  "active": [
+   2,
+   6
+  ],
+  "free_blocks": [],
+  "dims": [
+   8,
+   7
+  ],
+  "s_words": 2,
+  "degree_needed": 362
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 7,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true,
+  "log2_data": 47,
+  "active": [
+   6,
+   10
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": [
+   8,
+   7
+  ],
+  "s_words": 6,
+  "degree_needed": 1351
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 8,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 9,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 10,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 11,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 12,
+  "class": "xxx1",
+  "dim_K": 1,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": true
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 1,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 24
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 2,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 24
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 4,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   4
+  ],
+  "s_words": 1,
+  "degree_needed": 10
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 8,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   8
+  ],
+  "s_words": 1,
+  "degree_needed": 192
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 3,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 8,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   8
+  ],
+  "s_words": 1,
+  "degree_needed": 192
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 7,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   7
+  ],
+  "s_words": 1,
+  "degree_needed": 120
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32,
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "dims": [],
+  "s_words": 4,
+  "degree_needed": 512
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 4,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32,
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "dims": [],
+  "s_words": 4,
+  "degree_needed": 512
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 24,
+  "active": [
+   1,
+   5,
+   9
+  ],
+  "free_blocks": [],
+  "dims": [
+   8,
+   8,
+   8
+  ],
+  "s_words": 3,
+  "degree_needed": 640
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 5,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 6,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 7,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 8,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 9,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 10,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 11,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 12,
+  "class": "xxx1",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "DuX(2^8)",
+  "cipher": "dux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 1,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 1
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 7
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 2,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 5
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 26
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 3,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 20
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 104
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 4,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 78
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 412
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 5,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 308
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 1633
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 6,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 1228
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 6530
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 7,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 4898
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 26083
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 8,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 19553
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32.0,
+  "active": [
+   0,
+   1
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 2,
+  "degree_needed": 104178
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 9,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32.0,
+  "active": [
+   0,
+   1
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 2,
+  "degree_needed": 78124
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 112.0,
+  "active": [
+   4,
+   5,
+   12
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": null,
+  "s_words": 7,
+  "degree_needed": 436907
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 10,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 64.0,
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "dims": null,
+  "s_words": 4,
+  "degree_needed": 196608
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 11,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "dec",
+  "layer": 12,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 5
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 1,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 3
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 5
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 40
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 2,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 25
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 40
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 320
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 3,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 200
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 320
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 2560
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 4,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 1600
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 2560
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 20480
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 5,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 12800
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 20480
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32.0,
+  "active": [
+   1,
+   2
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 2,
+  "degree_needed": 98304
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 6,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16.0,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 1,
+  "degree_needed": 61440
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32.0,
+  "active": [
+   1,
+   2
+  ],
+  "free_blocks": [],
+  "dims": null,
+  "s_words": 2,
+  "degree_needed": 98304
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 208.0,
+  "active": [
+   5,
+   6,
+   7,
+   9,
+   10,
+   11,
+   13,
+   14,
+   15
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": null,
+  "s_words": 13,
+  "degree_needed": 786432
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 7,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 64.0,
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "dims": null,
+  "s_words": 4,
+  "degree_needed": 163840
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 208.0,
+  "active": [
+   5,
+   6,
+   7,
+   9,
+   10,
+   11,
+   13,
+   14,
+   15
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": null,
+  "s_words": 13,
+  "degree_needed": 786432
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 8,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 9,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 10,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 11,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 12,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "YupX-65537",
+  "cipher": "yux",
+  "q": "65537",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 1,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 1
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 4,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   4
+  ],
+  "s_words": 1,
+  "degree_needed": 7
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 2,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 3,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   3
+  ],
+  "s_words": 1,
+  "degree_needed": 5
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 26
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 3,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 20
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 7,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   7
+  ],
+  "s_words": 1,
+  "degree_needed": 104
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 4,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 7,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   7
+  ],
+  "s_words": 1,
+  "degree_needed": 78
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 9,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   9
+  ],
+  "s_words": 1,
+  "degree_needed": 412
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 5,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 9,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   9
+  ],
+  "s_words": 1,
+  "degree_needed": 308
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 11,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   11
+  ],
+  "s_words": 1,
+  "degree_needed": 1633
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 6,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 11,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   11
+  ],
+  "s_words": 1,
+  "degree_needed": 1228
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 13,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   13
+  ],
+  "s_words": 1,
+  "degree_needed": 6530
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 7,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 13,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   13
+  ],
+  "s_words": 1,
+  "degree_needed": 4898
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 15,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   15
+  ],
+  "s_words": 1,
+  "degree_needed": 26083
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 8,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 15,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   15
+  ],
+  "s_words": 1,
+  "degree_needed": 19553
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32,
+  "active": [
+   0,
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   16,
+   16
+  ],
+  "s_words": 2,
+  "degree_needed": 104178
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 9,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 30,
+  "active": [
+   0,
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   16,
+   14
+  ],
+  "s_words": 2,
+  "degree_needed": 78124
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 112,
+  "active": [
+   4,
+   5,
+   12
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": [
+   16,
+   16,
+   16
+  ],
+  "s_words": 7,
+  "degree_needed": 436907
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 10,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 64,
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "dims": [],
+  "s_words": 4,
+  "degree_needed": 196608
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 11,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "dec",
+  "layer": 12,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 3,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   3
+  ],
+  "s_words": 1,
+  "degree_needed": 5
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 1,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 3,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   3
+  ],
+  "s_words": 1,
+  "degree_needed": 5
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 24
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 2,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 25
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 24
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 8,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   8
+  ],
+  "s_words": 1,
+  "degree_needed": 192
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 3,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 7,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   7
+  ],
+  "s_words": 1,
+  "degree_needed": 120
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 8,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   8
+  ],
+  "s_words": 1,
+  "degree_needed": 192
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 11,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   11
+  ],
+  "s_words": 1,
+  "degree_needed": 1536
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 4,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 10,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   10
+  ],
+  "s_words": 1,
+  "degree_needed": 960
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 11,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   11
+  ],
+  "s_words": 1,
+  "degree_needed": 1536
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 14,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   14
+  ],
+  "s_words": 1,
+  "degree_needed": 12288
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 5,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 13,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   13
+  ],
+  "s_words": 1,
+  "degree_needed": 7680
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 14,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   14
+  ],
+  "s_words": 1,
+  "degree_needed": 12288
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32,
+  "active": [
+   1,
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   16,
+   16
+  ],
+  "s_words": 2,
+  "degree_needed": 98304
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 6,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   16
+  ],
+  "s_words": 1,
+  "degree_needed": 61440
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32,
+  "active": [
+   1,
+   2
+  ],
+  "free_blocks": [],
+  "dims": [
+   16,
+   16
+  ],
+  "s_words": 2,
+  "degree_needed": 98304
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 196,
+  "active": [
+   5,
+   6,
+   7,
+   9,
+   10,
+   11,
+   13,
+   14,
+   15
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": [
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   4
+  ],
+  "s_words": 13,
+  "degree_needed": 786432
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 7,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 64,
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "dims": [],
+  "s_words": 4,
+  "degree_needed": 163840
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 196,
+  "active": [
+   5,
+   6,
+   7,
+   9,
+   10,
+   11,
+   13,
+   14,
+   15
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": [
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   16,
+   4
+  ],
+  "s_words": 13,
+  "degree_needed": 786432
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 8,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 9,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 10,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 11,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 12,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-16",
+  "cipher": "yux",
+  "q": "2^16",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 1,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 1
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 4,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   4
+  ],
+  "s_words": 1,
+  "degree_needed": 7
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 2,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 3,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   3
+  ],
+  "s_words": 1,
+  "degree_needed": 5
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 26
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 3,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 20
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 7,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   7
+  ],
+  "s_words": 1,
+  "degree_needed": 104
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 4,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 7,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   7
+  ],
+  "s_words": 1,
+  "degree_needed": 78
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 16,
+  "active": [
+   0,
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   8,
+   8
+  ],
+  "s_words": 2,
+  "degree_needed": 412
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 5,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 14,
+  "active": [
+   0,
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   8,
+   6
+  ],
+  "s_words": 2,
+  "degree_needed": 308
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 56,
+  "active": [
+   4,
+   5,
+   12
+  ],
+  "free_blocks": [
+   0
+  ],
+  "dims": [
+   8,
+   8,
+   8
+  ],
+  "s_words": 7,
+  "degree_needed": 1707
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 6,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32,
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "dims": [],
+  "s_words": 4,
+  "degree_needed": 768
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 7,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 8,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 9,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 10,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 11,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "dec",
+  "layer": 12,
+  "class": "1110",
+  "dim_K": 3,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 3,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   3
+  ],
+  "s_words": 1,
+  "degree_needed": 5
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 1,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 2,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   2
+  ],
+  "s_words": 1,
+  "degree_needed": 2
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 1,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 3,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   3
+  ],
+  "s_words": 1,
+  "degree_needed": 5
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 24
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 2,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 25
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 2,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 5,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   5
+  ],
+  "s_words": 1,
+  "degree_needed": 24
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 8,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   8
+  ],
+  "s_words": 1,
+  "degree_needed": 192
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 3,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 7,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   7
+  ],
+  "s_words": 1,
+  "degree_needed": 120
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 3,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 8,
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "dims": [
+   8
+  ],
+  "s_words": 1,
+  "degree_needed": 192
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32,
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "dims": [],
+  "s_words": 4,
+  "degree_needed": 512
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 4,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32,
+  "active": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "free_blocks": [],
+  "dims": [
+   8,
+   8,
+   8,
+   8
+  ],
+  "s_words": 4,
+  "degree_needed": 960
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 4,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": true,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false,
+  "log2_data": 32,
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "dims": [],
+  "s_words": 4,
+  "degree_needed": 512
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 5,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 5,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 6,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 6,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 7,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 7,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 8,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 8,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 9,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 9,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 10,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 10,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 11,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 11,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1111",
+  "dim_K": 8,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 12,
+  "class": "0111",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ },
+ {
+  "instance": "Yu2X-8",
+  "cipher": "yux",
+  "q": "2^8",
+  "direction": "enc",
+  "layer": 12,
+  "class": "1110",
+  "dim_K": 4,
+  "reachable": false,
+  "frobenius_candidate": false,
+  "char2_dimK1_unusable": false
+ }
+]

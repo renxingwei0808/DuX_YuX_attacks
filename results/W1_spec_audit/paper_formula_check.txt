@@ -1,0 +1,40 @@
+Sect. 3.1.1  R^2 (printed):
+  [OK ] R^2 component 0                        printed - definition = 0
+  [OK ] R^2 component 1                        printed - definition = 0
+  [OK ] R^2 component 2                        printed - definition = 0
+  [OK ] R^2 component 3                        printed - definition = 0
+
+Sect. 3.1.1  R^-2 (printed):
+  [OK ] R^-2 component 0                       printed - definition = 0
+  [OK ] R^-2 component 1                       printed - definition = 0
+  [OK ] R^-2 component 2                       printed - definition = 0
+  [TYPO] R^-2 component 3                       printed - definition = alpha
+
+Sect. 3.1.1  S^-1 = R^4 closed form (printed):
+  [OK ] S^-1 y0                                printed - definition = 0
+  [OK ] S^-1 y1                                printed - definition = 0
+  [OK ] S^-1 y2                                printed - definition = 0
+  [OK ] S^-1 y3                                printed - definition = 0
+
+Sect. 5.3  S = (R^-1)^4 expansion (printed):
+  [TYPO] S y0                                   printed - definition = alpha*(alpha + x0*x3 - x2)
+  [TYPO] S y1                                   printed - definition = alpha
+  [OK ] S y2                                   printed - definition = 0
+  [TYPO] S y3                                   printed - definition = alpha*(-2*alpha**2*x3 + alpha**2 - 4*alpha*x0*x3**2 + alpha*x0*x3 - 2*alpha*x1 + 4*alpha*x2*x3 - alpha*x2 + alpha - 2*x0**2*x3**3 - 2*x0*x1*x3 + 4*x0*x2*x3**2 - x0 + 2*x1*x2 - 2*x2**2*x3 + 1)
+  (degrees of the definitional S: (5, 3, 2, 8)  <- the paper's claim (5,3,2,8) is correct)
+
+  Root cause of the Sect. 5.3 mismatches: the chain a -> b -> c -> y3 is
+  a = x2-x0x3-alpha, b = x1-x3a-alpha, c = x0-ab-alpha, y3 = x3-bc-alpha;
+  the paper keeps the -alpha only in a and drops it in b, c and y3.
+  Feeding the TRUE y0,y1 into the paper's y3 = x3 - y0y1 still misses -alpha:
+  [TYPO] S y3 (true y0,y1 substituted)          printed - definition = alpha
+
+Sect. 5.5.1  quadratic system for y = S(x) (printed):
+  [TYPO] 5.5.1 y0 vs +S                         printed - definition = alpha**2 + alpha*x0*x3 - 2*alpha*x1 - alpha*x2 + 2*alpha - 2*x0*x1*x3 - 2*x0 + 2*x1*x2
+  [TYPO] 5.5.1 y0 vs -S                         printed - definition = 2*alpha**2*x3 - alpha**2 + 4*alpha*x0*x3**2 - alpha*x0*x3 - 4*alpha*x2*x3 + alpha*x2 + 2*x0**2*x3**3 - 4*x0*x2*x3**2 + 2*x2**2*x3
+  [TYPO] 5.5.1 y1 vs +S                         printed - definition = alpha - 2*x1
+  [TYPO] 5.5.1 y1 vs -S                         printed - definition = 2*alpha*x3 - alpha + 2*x0*x3**2 - 2*x2*x3
+  [TYPO] 5.5.1 y2 vs +S                         printed - definition = 2*alpha + 2*x0*x3 - 2*x2
+  [OK ] 5.5.1 y2 vs -S                         printed - definition = 0
+  [TYPO] 5.5.1 y3 vs +S                         printed - definition = 2*alpha**3*x3**2 - 2*alpha**3*x3 + alpha**3 + 6*alpha**2*x0*x3**3 - 4*alpha**2*x0*x3**2 + alpha**2*x0*x3 - 2*alpha**2*x1 - 6*alpha**2*x2*x3**2 + 4*alpha**2*x2*x3 - alpha**2*x2 + alpha**2 + 6*alpha*x0**2*x3**4 - 2*alpha*x0**2*x3**3 - 2*alpha*x0*x1*x3 - 12*alpha*x0*x2*x3**3 + 4*alpha*x0*x2*x3**2 - alpha*x0 + 2*alpha*x1**2 + 2*alpha*x1*x2 - 2*alpha*x1 + 6*alpha*x2**2*x3**2 - 2*alpha*x2**2*x3 + alpha + 2*x0**3*x3**5 - 6*x0**2*x2*x3**4 + 2*x0*x1**2*x3 + 2*x0*x1 + 6*x0*x2**2*x3**3 - 2*x1**2*x2 - 2*x2**3*x3**2 - 2*x3
+  [TYPO] 5.5.1 y3 vs -S                         printed - definition = 2*alpha**3*x3 - alpha**3 + 4*alpha**2*x0*x3**2 - alpha**2*x0*x3 - 4*alpha**2*x1*x3 + 2*alpha**2*x1 - 4*alpha**2*x2*x3 + alpha**2*x2 + 2*alpha**2*x3 - alpha**2 + 2*alpha*x0**2*x3**3 - 8*alpha*x0*x1*x3**2 + 2*alpha*x0*x1*x3 - 4*alpha*x0*x2*x3**2 + 2*alpha*x0*x3**2 - 2*alpha*x0*x3 + alpha*x0 + 8*alpha*x1*x2*x3 - 2*alpha*x1*x2 + 2*alpha*x2**2*x3 - 2*alpha*x2*x3 - alpha - 4*x0**2*x1*x3**3 - 2*x0**2*x3**2 + 8*x0*x1*x2*x3**2 + 2*x0*x2*x3 - 4*x1*x2**2*x3

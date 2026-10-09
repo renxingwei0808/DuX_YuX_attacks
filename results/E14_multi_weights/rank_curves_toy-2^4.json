@@ -1,0 +1,298 @@
+{
+ "instance": "toy-2^4",
+ "layers": 3,
+ "active": "3,7",
+ "combine": null,
+ "grid": [
+  240,
+  480,
+  960,
+  1920,
+  2880,
+  3840,
+  4756,
+  5040
+ ],
+ "runs": [
+  {
+   "seed": 2026,
+   "one_axis": {
+    "weights": 15,
+    "structures": 85,
+    "rows": 5100,
+    "points_per_structure": 256,
+    "log2_data": 14.41,
+    "axis_cap": 16,
+    "rule": "full-domain words: |a| < T - D = 15",
+    "assemble_s": 151.4,
+    "curve": [
+     {
+      "rows": 240,
+      "rank": 240,
+      "free": 17774,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 480,
+      "rank": 480,
+      "free": 17534,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 960,
+      "rank": 960,
+      "free": 17054,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 1920,
+      "rank": 1920,
+      "free": 16094,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 2880,
+      "rank": 2880,
+      "free": 15134,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 3840,
+      "rank": 3840,
+      "free": 14174,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 4756,
+      "rank": 4755,
+      "free": 13259,
+      "pinned": 137,
+      "key_words": 0
+     },
+     {
+      "rows": 5040,
+      "rank": 4756,
+      "free": 13258,
+      "pinned": 2188,
+      "key_words": 16
+     }
+    ]
+   },
+   "two_axis": {
+    "weights": 120,
+    "usable": 120,
+    "structures": 12,
+    "rows": 5760,
+    "points_per_structure": 256,
+    "log2_data": 11.58,
+    "axis_cap": 256,
+    "rule": "full-domain words: |a| < T - D = 15",
+    "assemble_s": 170.2,
+    "curve": [
+     {
+      "rows": 240,
+      "rank": 240,
+      "free": 17774,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 480,
+      "rank": 480,
+      "free": 17534,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 960,
+      "rank": 960,
+      "free": 17054,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 1920,
+      "rank": 1920,
+      "free": 16094,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 2880,
+      "rank": 2880,
+      "free": 15134,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 3840,
+      "rank": 3840,
+      "free": 14174,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 4756,
+      "rank": 4756,
+      "free": 13258,
+      "pinned": 2188,
+      "key_words": 16
+     },
+     {
+      "rows": 5040,
+      "rank": 4756,
+      "free": 13258,
+      "pinned": 2188,
+      "key_words": 16
+     }
+    ]
+   }
+  },
+  {
+   "seed": 7,
+   "one_axis": {
+    "weights": 15,
+    "structures": 85,
+    "rows": 5100,
+    "points_per_structure": 256,
+    "log2_data": 14.41,
+    "axis_cap": 16,
+    "rule": "full-domain words: |a| < T - D = 15",
+    "assemble_s": 143.3,
+    "curve": [
+     {
+      "rows": 240,
+      "rank": 240,
+      "free": 17774,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 480,
+      "rank": 480,
+      "free": 17534,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 960,
+      "rank": 960,
+      "free": 17054,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 1920,
+      "rank": 1920,
+      "free": 16094,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 2880,
+      "rank": 2880,
+      "free": 15134,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 3840,
+      "rank": 3840,
+      "free": 14174,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 4756,
+      "rank": 4756,
+      "free": 13258,
+      "pinned": 2188,
+      "key_words": 16
+     },
+     {
+      "rows": 5040,
+      "rank": 4756,
+      "free": 13258,
+      "pinned": 2188,
+      "key_words": 16
+     }
+    ]
+   },
+   "two_axis": {
+    "weights": 120,
+    "usable": 120,
+    "structures": 12,
+    "rows": 5760,
+    "points_per_structure": 256,
+    "log2_data": 11.58,
+    "axis_cap": 256,
+    "rule": "full-domain words: |a| < T - D = 15",
+    "assemble_s": 166.8,
+    "curve": [
+     {
+      "rows": 240,
+      "rank": 240,
+      "free": 17774,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 480,
+      "rank": 480,
+      "free": 17534,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 960,
+      "rank": 960,
+      "free": 17054,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 1920,
+      "rank": 1920,
+      "free": 16094,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 2880,
+      "rank": 2880,
+      "free": 15134,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 3840,
+      "rank": 3840,
+      "free": 14174,
+      "pinned": 0,
+      "key_words": 0
+     },
+     {
+      "rows": 4756,
+      "rank": 4755,
+      "free": 13259,
+      "pinned": 131,
+      "key_words": 0
+     },
+     {
+      "rows": 5040,
+      "rank": 4756,
+      "free": 13258,
+      "pinned": 2188,
+      "key_words": 16
+     }
+    ]
+   }
+  }
+ ]
+}

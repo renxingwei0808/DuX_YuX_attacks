@@ -1,0 +1,35 @@
+{
+ "instance": "dux-2^16",
+ "q": 65536,
+ "char": 2,
+ "layers": 6,
+ "keys": 50,
+ "seed": 7,
+ "degenerate": true,
+ "top": 4,
+ "positions": {
+  "1": {
+   "nonzero_next_to_leading_inputs": [
+    50,
+    800,
+    0,
+    0,
+    0,
+    0
+   ],
+   "nonzero_next_to_leading_outputs": [
+    150,
+    50,
+    0,
+    0,
+    0,
+    0
+   ],
+   "clean_from_layer": 3,
+   "lambda_zero_keys": 50,
+   "layer3_block0_u0_u3_same_top_pair": 50,
+   "layer3_blocks123_y3_degree_at_most_D_minus_3": 50,
+   "elapsed_s": 0.1
+  }
+ }
+}

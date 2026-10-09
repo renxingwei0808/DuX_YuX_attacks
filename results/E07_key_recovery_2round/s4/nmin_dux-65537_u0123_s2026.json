@@ -1,0 +1,167 @@
+{
+ "instance": "dux-65537",
+ "field": "F_65537",
+ "rounds": 11,
+ "layers": 9,
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  3
+ ],
+ "points_per_structure": 65537,
+ "monomials": 38051,
+ "normalise": true,
+ "assume_L1": false,
+ "seed": 2026,
+ "assembled": 3500,
+ "assemble_s": 803.5,
+ "procs": 20,
+ "scan": [
+  {
+   "N": 1200,
+   "equations": 4800,
+   "unknowns": 38040,
+   "rank": 4800,
+   "free": 33240,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "data_log2": 26.23,
+   "solve_s": 490.3
+  },
+  {
+   "N": 1400,
+   "equations": 5600,
+   "unknowns": 38040,
+   "rank": 5600,
+   "free": 32440,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "data_log2": 26.45,
+   "solve_s": 585.7
+  },
+  {
+   "N": 1600,
+   "equations": 6400,
+   "unknowns": 38040,
+   "rank": 6400,
+   "free": 31640,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "data_log2": 26.64,
+   "solve_s": 1068.0
+  },
+  {
+   "N": 1800,
+   "equations": 7200,
+   "unknowns": 38040,
+   "rank": 7200,
+   "free": 30840,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "data_log2": 26.81,
+   "solve_s": 1650.8
+  },
+  {
+   "N": 2000,
+   "equations": 8000,
+   "unknowns": 38040,
+   "rank": 8000,
+   "free": 30040,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "data_log2": 26.97,
+   "solve_s": 1689.2
+  },
+  {
+   "N": 2100,
+   "equations": 8400,
+   "unknowns": 38040,
+   "rank": 8400,
+   "free": 29640,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "data_log2": 27.04,
+   "solve_s": 1796.3
+  },
+  {
+   "N": 2152,
+   "equations": 8608,
+   "unknowns": 38040,
+   "rank": 8608,
+   "free": 29432,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 27.07,
+   "solve_s": 1455.5
+  },
+  {
+   "N": 2200,
+   "equations": 8800,
+   "unknowns": 38040,
+   "rank": 8608,
+   "free": 29432,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 27.1,
+   "solve_s": 1385.3
+  },
+  {
+   "N": 2400,
+   "equations": 9600,
+   "unknowns": 38040,
+   "rank": 8608,
+   "free": 29432,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 27.23,
+   "solve_s": 1472.6
+  },
+  {
+   "N": 2800,
+   "equations": 11200,
+   "unknowns": 38040,
+   "rank": 8608,
+   "free": 29432,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 27.45,
+   "solve_s": 1256.5
+  },
+  {
+   "N": 3500,
+   "equations": 14000,
+   "unknowns": 38040,
+   "rank": 8608,
+   "free": 29432,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 27.77,
+   "solve_s": 1242.6
+  }
+ ],
+ "N_min": 2152,
+ "rank_max": 8608,
+ "rank_saturation_N": 2152,
+ "N_min_rule_rank_over_neq": 2152
+}

@@ -1,0 +1,139 @@
+{
+ "instance": "dux-65537",
+ "cipher": "dux",
+ "field": "F_65537",
+ "rounds": 12,
+ "layers": 10,
+ "active_words": [
+  3,
+  7
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "weight_rule": "structure words ['2^14', 'full']: |a| < 11694; every coset axis needs a_i >= 1 and 2^k not dividing a_i (O12 Sect. 5.5), the full-field axes are unconstrained (T2)",
+ "points_per_structure": 1073758208,
+ "structures": 1,
+ "slices": 16384,
+ "points_per_slice": 65537,
+ "coset": null,
+ "coset_reps": [],
+ "mixed": {
+  "spec": "14,full",
+  "ks": [
+   14,
+   null
+  ],
+  "axis_seed": 4011,
+  "log2_points": 30.0
+ },
+ "point_set": null,
+ "block_slices": 1,
+ "slice_chunk": 4096,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 38051,
+ "cheap_set": [
+  2
+ ],
+ "subspace_dims": null,
+ "weights": {
+  "n": 9000,
+  "dims": 1,
+  "margin": 11694,
+  "usable": 11693,
+  "weight_min": 0,
+  "first": 1,
+  "last": 9000,
+  "weight_word": 3,
+  "degree_units_per_power": 1,
+  "range": "a < 9000",
+  "vandermonde_axes": 1,
+  "weight_words": [
+   3
+  ],
+  "inner_tuples": null,
+  "usable_norm": 11694
+ },
+ "equation_rows": {
+  "combine": "0001",
+  "dim_K": 1,
+  "y": [
+   [
+    1,
+    65536,
+    1,
+    65536
+   ]
+  ]
+ },
+ "equations": 9000,
+ "unknowns": 38040,
+ "rank": 8188,
+ "free": 29852,
+ "pinned": 2592,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 30.0,
+ "assemble_s": 3180.6,
+ "solve_s": 874.3,
+ "weight_curve": [],
+ "structure_curve": [],
+ "rows_dir": "/home/luck/dux-data/S18_mp_dux65537_r12_k14_seed11",
+ "per_structure": [
+  {
+   "structure": 0,
+   "a1": 0,
+   "seed": 5011,
+   "moments_s": 2082.1,
+   "dgemm_s": 442.9
+  }
+ ],
+ "procs": 19,
+ "seed": 11,
+ "solver": "numpy-blocked",
+ "protocol": {
+  "cores": "32-43,45-51",
+  "solve_threads": 19,
+  "wall_s": 4069.0,
+  "user_s": 36233.63,
+  "sys_s": 5202.93,
+  "cpu_s": 41436.56,
+  "core_hours": 11.51,
+  "maxrss_kb": 20585996,
+  "maxrss_gb": 19.63,
+  "cpu_pct": 1018,
+  "wall_over_cpu": 0.098,
+  "threads": {
+   "samples": 91,
+   "max_nlwp": 1,
+   "max_procs": 3,
+   "first_ts": 1789999385,
+   "last_ts": 1790003449,
+   "sampler_replaced": true,
+   "pre_swap_samples": 314,
+   "pre_swap_max_nlwp": 4
+  },
+  "loadavg_start": "106.27 111.04 117.17",
+  "loadavg_end": "83.38 86.05 96.99",
+  "start": "2026-09-21T07:03:05-07:00",
+  "end": "2026-09-21T08:10:54-07:00",
+  "exit": "0",
+  "machine": "2 x Intel Xeon Gold 6230R (26 cores / 52 threads each, 2.10 GHz base, 4.00 GHz max turbo), 251 GB RAM",
+  "single_threaded": true,
+  "not_preempted": true,
+  "procs": 19
+ }
+}

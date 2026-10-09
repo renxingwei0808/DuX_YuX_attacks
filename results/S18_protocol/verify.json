@@ -1,0 +1,357 @@
+{
+ "pairs": [
+  {
+   "rerun": "results/S18_protocol/s10_S18_1t_dux65537_r11_coset15_seed2026.json",
+   "frozen": "results/R9_server/s10_S20_dux65537_r11_coset15_0001_seed2026.json",
+   "checked": [
+    "equations",
+    "unknowns",
+    "rank",
+    "free",
+    "pinned",
+    "inner_correct",
+    "data_log2"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/s10_S18_1t_dux2p16_r11_pset41735_seed2026.json",
+   "frozen": "results/R8_server/s10_R8_dux2p16_r11_pset41735_seed2026.json",
+   "checked": [
+    "equations",
+    "unknowns",
+    "rank",
+    "free",
+    "pinned",
+    "inner_correct",
+    "data_log2"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/s10_S18_1t_dux2p8_r7_seed2026.json",
+   "frozen": "results/E07_key_recovery_2round/s9/s10_S9_step4_dux2p8_r7_seed2026.json",
+   "checked": [
+    "equations",
+    "unknowns",
+    "rank",
+    "free",
+    "pinned",
+    "inner_correct",
+    "data_log2"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/s10_S18_1t_yupx_r10_pset28239_seed2026.json",
+   "frozen": "results/R8_server/s10_R8_yupx_r10_pset28239_seed2026.json",
+   "checked": [
+    "equations",
+    "unknowns",
+    "rank",
+    "free",
+    "pinned",
+    "inner_correct",
+    "data_log2"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/s10_S18_1t_yupx_r10_coset15_seed2026.json",
+   "frozen": "results/R6_third_keys/s10_R6D3_yupx_r10_coset15_seed2026.json",
+   "checked": [
+    "equations",
+    "unknowns",
+    "rank",
+    "free",
+    "pinned",
+    "inner_correct",
+    "data_log2"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.036,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/S18_1t_yupx_r10_lcomb_seed2026.json",
+   "frozen": "results/Y05_key_recovery/Y05-A4_yupx_r10.json",
+   "checked": [
+    "weights",
+    "unknowns",
+    "equations_per_structure",
+    "structures",
+    "data_log2",
+    "keys"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/S18_1t_yu2x16_r10_lcomb_seed2026.json",
+   "frozen": "results/Y05_key_recovery/Y05-A4_yu2x16_r10.json",
+   "checked": [
+    "weights",
+    "unknowns",
+    "equations_per_structure",
+    "structures",
+    "data_log2",
+    "keys"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/kr2cpa_S18_1t_cpa8_dux2p16_seed2026.json",
+   "frozen": "results/E10_cpa/s9/kr2cpa_S9_cpa8_dux2p16_seed2026.json",
+   "checked": [
+    "equations_per_structure",
+    "structures",
+    "unknowns",
+    "rank",
+    "kappa_correct",
+    "data_log2"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/kr2cpa_S18_1t_cpa8_dux65537_seed2026.json",
+   "frozen": "results/E10_cpa/s9/kr2cpa_S9_cpa8_dux65537_seed2026.json",
+   "checked": [
+    "equations_per_structure",
+    "structures",
+    "unknowns",
+    "rank",
+    "kappa_correct",
+    "data_log2"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/S18_1t_cpa8_dux2p16_nw_seed2026/kr2cpa_dux-2^16_r8_a1.json",
+   "frozen": "results/E10_cpa/w14/kr2cpa_dux-2^16_r8_s2026.json",
+   "checked": [
+    "unknowns",
+    "rank"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/S18_1t_cpa7_dux65537_seed2026/cp_attack_dux-65537_r7_1.json",
+   "frozen": "results/E10_cpa/cp_attack_dux-65537_r7_1.json",
+   "checked": [
+    "equations_per_structure",
+    "structures",
+    "unknowns",
+    "data_log2",
+    "kappa_monomials_per_block",
+    "moments"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/S18_1t_cpa7_dux2p16_seed2026/cp_attack_dux-2^16_r7_1.json",
+   "frozen": "results/E10_cpa/cp_attack_dux-2^16_r7_1.json",
+   "checked": [
+    "equations_per_structure",
+    "structures",
+    "unknowns",
+    "data_log2",
+    "kappa_monomials_per_block",
+    "moments"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.004,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/S18_1t_t4_dux65537_r10_seed2026/success_rate_dux-65537_r10.json",
+   "frozen": "results/E14_multi_weights/t4_10round.json#dux-65537|one structure + weights (T4)",
+   "checked": [
+    "keys",
+    "success",
+    "structures",
+    "weights_used",
+    [
+     "data_log2_per_structure",
+     "log2_data"
+    ]
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/S18_1t_t4_dux2p16_r10_seed2026/success_rate_dux-2^16_r10.json",
+   "frozen": "results/E14_multi_weights/t4_10round.json#dux-2^16|one structure + weights (T4)",
+   "checked": [
+    "keys",
+    "success",
+    "structures",
+    "weights_used",
+    [
+     "data_log2_per_structure",
+     "log2_data"
+    ]
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/s10_S18_mp_dux2p16_r12_2w_cheap12_seed11.json",
+   "frozen": "results/R9_server/s10_S19_dux2p16_r12_2w_cheap12_seed2026.json",
+   "checked": [
+    "unknowns",
+    "rank",
+    "pinned",
+    "inner_correct"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 0.056,
+   "max_nlwp": 19,
+   "single_threaded": false,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/s10_S18_1t_yu2x8_r7_2w_2axis_seed11.json",
+   "frozen": "results/R9_server/s10_S21_yu2x8_r7_2w_2axis_seed2026.json",
+   "checked": [
+    "unknowns",
+    "rank",
+    "pinned",
+    "inner_correct"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.0,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/s10_S18_1t_dux65537_r12_k13_2axis_seed11.json",
+   "frozen": "results/R9_server/s10_S20_dux65537_r12_mixed13full_2axis_seed2026.json",
+   "checked": [
+    "unknowns",
+    "rank",
+    "pinned",
+    "inner_correct"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.007,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/s10_S18_1t_dux2p8_r8_3w_cheap12_2axis_seed11.json",
+   "frozen": "results/R9_server/s10_S19_dux2p8_r8_3w_cheap12_2axis_seed2026.json",
+   "checked": [
+    "unknowns",
+    "rank",
+    "pinned",
+    "inner_correct"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 1.075,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/s10_S18_mp_yu2x8_r8_fb0_2axis_seed11.json",
+   "frozen": "results/R9_server/s10_S21_yu2x8_r8_fb0_2axis_seed2026.json",
+   "checked": [
+    "unknowns",
+    "rank",
+    "pinned",
+    "inner_correct"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 0.054,
+   "max_nlwp": 19,
+   "single_threaded": false,
+   "not_preempted": true
+  },
+  {
+   "rerun": "results/S18_protocol/s10_S18_mp_dux65537_r12_k14_seed11.json",
+   "frozen": "results/R9_server/s10_S20_dux65537_r12_mixed14full_seed2026.json",
+   "checked": [
+    "unknowns",
+    "rank",
+    "pinned",
+    "inner_correct"
+   ],
+   "differences": {},
+   "same": true,
+   "wall_over_cpu": 0.098,
+   "max_nlwp": 1,
+   "single_threaded": true,
+   "not_preempted": true
+  }
+ ]
+}

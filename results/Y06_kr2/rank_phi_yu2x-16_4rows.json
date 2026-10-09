@@ -1,0 +1,29 @@
+{
+ "instance": "yu2x-16",
+ "cipher": "yux",
+ "q": 65536,
+ "char": 2,
+ "monomials": 27895,
+ "combine": null,
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "rows_per_structure": 4,
+ "moments": "realizable",
+ "npts": 256,
+ "seed": 2026,
+ "curve": [
+  {
+   "structures": 2600,
+   "rows": 10400,
+   "rank": 4950,
+   "seconds": 1159.0,
+   "solve_s": 73.0,
+   "one_shot": true
+  }
+ ],
+ "saturated_rank": 4950
+}

@@ -1,0 +1,97 @@
+{
+ "instance": "yu2x-16",
+ "cipher": "yux",
+ "field": "F_2^16",
+ "rounds": 11,
+ "layers": 9,
+ "active_words": [
+  0,
+  4
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "weight_rule": "full-domain words: |a| < T - D = 10223",
+ "points_per_structure": 4294967296,
+ "structures": 1,
+ "slices": 65536,
+ "points_per_slice": 65536,
+ "coset": null,
+ "coset_reps": [],
+ "block_slices": 1,
+ "slice_chunk": 1024,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 27895,
+ "weights": {
+  "n": 1300,
+  "dims": 1,
+  "margin": 10223,
+  "usable": 10223,
+  "weight_min": 0,
+  "first": 0,
+  "last": 1299,
+  "weight_word": 0,
+  "degree_units_per_power": 1,
+  "range": "a < 1300"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "equations": 5200,
+ "unknowns": 27884,
+ "rank": 4940,
+ "free": 22944,
+ "pinned": 1606,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 32.0,
+ "assemble_s": 14436.2,
+ "solve_s": 64.6,
+ "weight_curve": [
+  {
+   "weights": 1238,
+   "rows": 4952,
+   "rank": 4940,
+   "free": 22944,
+   "pinned": 1606,
+   "inner_correct": 16,
+   "solve_s": 67.3
+  },
+  {
+   "weights": 1300,
+   "rows": 5200,
+   "rank": 4940,
+   "free": 22944,
+   "pinned": 1606,
+   "inner_correct": 16,
+   "solve_s": 65.6
+  }
+ ],
+ "structure_curve": [],
+ "rows_dir": null,
+ "per_structure": [
+  {
+   "structure": 0,
+   "seed": 5011,
+   "moments_s": 13694.2,
+   "dgemm_s": 295.8
+  }
+ ],
+ "procs": 36,
+ "seed": 11,
+ "solver": "c-omp"
+}

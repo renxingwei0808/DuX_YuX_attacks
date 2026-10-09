@@ -1,0 +1,55 @@
+{
+ "instance": "dux-2^16",
+ "rounds": 11,
+ "active": [
+  3,
+  7
+ ],
+ "dim": 16,
+ "coords": [
+  0
+ ],
+ "monomials": 14,
+ "structures": 20,
+ "ranks": [
+  10,
+  10,
+  10,
+  10
+ ],
+ "data_log2_per_structure": 32,
+ "data_log2_total": 36.32,
+ "brute_forced": [
+  {
+   "block": 0,
+   "free_words": [
+    2
+   ],
+   "candidates": 1
+  },
+  {
+   "block": 1,
+   "free_words": [
+    2
+   ],
+   "candidates": 1
+  },
+  {
+   "block": 2,
+   "free_words": [
+    2
+   ],
+   "candidates": 1
+  },
+  {
+   "block": 3,
+   "free_words": [
+    2
+   ],
+   "candidates": 1
+  }
+ ],
+ "success": true,
+ "moments_s": 3508.7,
+ "elapsed_s": 3508.8
+}

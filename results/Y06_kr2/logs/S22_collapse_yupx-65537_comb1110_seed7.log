@@ -1,0 +1,42 @@
+yupx-65537 (yux, F_65537): M = 53857, combine 1110 -> dim K = 3, y = [[65536, 1, 0, 0], [0, 1, 0, 65536], [0, 1, 65536, 0]]
+  pi-orbits on the 53857 columns: 13510 (sizes {'1': 1, '2': 90, '4': 13419})
+  Phi_j = pi^j Phi_0 rho^j: True; char-2 depth-3 expansion: None; symmetrised row is a pi-eigenvector -1 (pi-anti-invariant): False
+  .. 250/3500 pseudo-structures (11 s)
+  .. 500/3500 pseudo-structures (22 s)
+  .. 750/3500 pseudo-structures (33 s)
+  .. 1000/3500 pseudo-structures (44 s)
+  .. 1250/3500 pseudo-structures (55 s)
+  .. 1500/3500 pseudo-structures (66 s)
+  .. 1750/3500 pseudo-structures (77 s)
+  .. 2000/3500 pseudo-structures (88 s)
+  .. 2250/3500 pseudo-structures (99 s)
+  .. 2500/3500 pseudo-structures (110 s)
+  .. 2750/3500 pseudo-structures (121 s)
+  .. 3000/3500 pseudo-structures (132 s)
+  .. 3250/3500 pseudo-structures (143 s)
+  .. 3500/3500 pseudo-structures (154 s)
+  ceiling: rank 8468 of 53857 columns, 2088 monomials determined, 16/16 key words
+saved results/Y06_kr2/collapse_yupx-65537_comb1110_seed7.json
+	Command being timed: "python3 experiments/E11_cheap_rows/char2_collapse.py --instance yupx-65537 --rounds 10 --combine 1110 --structures 3500 --points 256 --seed 7 --progress 250 --out results/Y06_kr2/collapse_yupx-65537_comb1110_seed7.json"
+	User time (seconds): 2926.51
+	System time (seconds): 996.69
+	Percent of CPU this job got: 447%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:35.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11189268
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1177668
+	Voluntary context switches: 5959
+	Involuntary context switches: 19225
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

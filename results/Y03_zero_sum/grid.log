@@ -1,0 +1,282 @@
+yuxtoy-193 (F_193) dec: active [0] free blocks [] weights []; data 2^7.59 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [191, 191, 191, 190]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [189, 188, 187, 185]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [179, 178, 172, 166]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [140, 140, 114, 88]
+    5 | 0000100000000000 |  1/16 | 0000 vs 0000 OK  | [-12, -16, -116, -220]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-624, -632, -1036, -1441]
+    7 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-3073, -3074, -4706, -6338]
+  measured full zero-sum layers: 4 (O7 predicts 4); first failing layer 5 pattern 0000 (predicted 0000)
+saved results/Y03_zero_sum/Y03-1_193_pos0.json
+yuxtoy-193 (F_193) dec: active [3] free blocks [] weights []; data 2^7.59 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [191, 191, 190, 190]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [188, 188, 186, 184]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [176, 176, 168, 160]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [129, 128, 97, 65]
+    5 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-59, -62, -186, -312]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-814, -816, -1318, -1820]
+    7 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-3825, -3832, -5837, -7849]
+  measured full zero-sum layers: 4 (O7 predicts 4); first failing layer 5 pattern 0000 (predicted 0000)
+saved results/Y03_zero_sum/Y03-1_193_pos3.json
+yuxtoy-257 (F_257) dec: active [0] free blocks [] weights []; data 2^8.01 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [255, 255, 255, 254]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [253, 252, 251, 249]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [243, 242, 236, 230]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [204, 204, 178, 152]
+    5 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [52, 48, -52, -156]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-560, -568, -972, -1377]
+    7 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-3009, -3010, -4642, -6274]
+  measured full zero-sum layers: 4 (O7 predicts 4); first failing layer 5 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-1_257_pos0.json
+yuxtoy-257 (F_257) dec: active [3] free blocks [] weights []; data 2^8.01 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [255, 255, 254, 254]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [252, 252, 250, 248]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [240, 240, 232, 224]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [193, 192, 161, 129]
+    5 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [5, 2, -122, -248]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-750, -752, -1254, -1756]
+    7 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-3761, -3768, -5773, -7785]
+  measured full zero-sum layers: 4 (O7 predicts 4); first failing layer 5 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-1_257_pos3.json
+yuxtoy-257 (F_257) dec: active [0, 4] free blocks [] weights []; data 2^16.01 per key, 2 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [511, 511, 511, 510]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [508, 508, 506, 504]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [497, 496, 489, 481]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [453, 450, 422, 392]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [274, 272, 154, 36]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-435, -440, -911, -1387]
+    7 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-3259, -3286, -5158, -7056]
+  measured full zero-sum layers: 5 (O7 predicts 5); first failing layer 6 pattern 0000 (predicted 0000)
+saved results/Y03_zero_sum/Y03-2_257_a0_4.json
+yuxtoy-2^4 (F_2^4) dec: active [] free blocks [0] weights []; data 2^16.00 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [59, 59, 59, 59]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [58, 58, 57, 56]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [52, 52, 48, 44]
+    4 | 1110111011101110 | 12/16 | 1110 vs 1110 OK  | [28, 28, 12, -4]
+    5 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-68, -68, -132, -196]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-452, -452, -708, -964]
+  measured full zero-sum layers: 3 (O7 predicts 3); first failing layer 4 pattern 1110 (predicted 1110)
+saved results/Y03_zero_sum/Y03-3_2^4_fullblock.json
+yuxtoy-2^4 (F_2^4) dec: active [0, 4, 8, 12] free blocks [] weights []; data 2^16.00 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [59, 59, 59, 58]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [56, 56, 54, 52]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [44, 44, 36, 28]
+    4 | 1100110011001100 |  8/16 | 0000 vs 1100 DIFF | [-4, -4, -36, -68]
+    5 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-196, -196, -324, -452]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-964, -964, -1476, -1988]
+  measured full zero-sum layers: 3 (O7 predicts 3); first failing layer 4 pattern 1100 (predicted 0000)
+saved results/Y03_zero_sum/Y03-3_2^4_4words.json
+yuxtoy-2^4 (F_2^4) dec: active [0] free blocks [] weights []; data 2^4.00 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [14, 14, 14, 13]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [12, 11, 10, 8]
+    3 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [2, 1, -5, -11]
+    4 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-37, -37, -63, -89]
+    5 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-189, -193, -293, -397]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-801, -809, -1213, -1618]
+  measured full zero-sum layers: 2 (O7 predicts 2); first failing layer 3 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-3_2^4_1word.json
+yuxtoy-2^4 (F_2^4) dec: active [3] free blocks [] weights []; data 2^4.00 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [14, 14, 13, 13]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [11, 11, 9, 7]
+    3 | 0000100010000100 |  3/16 | 0000 vs 0000 OK  | [-1, -1, -9, -17]
+    4 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-48, -49, -80, -112]
+    5 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-236, -239, -363, -489]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-991, -993, -1495, -1997]
+  measured full zero-sum layers: 2 (O7 predicts 2); first failing layer 3 pattern 0000 (predicted 0000)
+saved results/Y03_zero_sum/Y03-3_2^4_1word_pos3.json
+yu2x-8 (F_2^8) dec: active [0] free blocks [] weights []; data 2^8.00 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [254, 254, 254, 253]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [252, 251, 250, 248]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [242, 241, 235, 229]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [203, 203, 177, 151]
+    5 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [51, 47, -53, -157]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-561, -569, -973, -1378]
+    7 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-3010, -3011, -4643, -6275]
+  measured full zero-sum layers: 4 (O7 predicts 4); first failing layer 5 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-4_yu2x8_1word.json
+yu2x-8 (F_2^8) dec: active [3] free blocks [] weights []; data 2^8.00 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [254, 254, 253, 253]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [251, 251, 249, 247]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [239, 239, 231, 223]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [192, 191, 160, 128]
+    5 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [4, 1, -123, -249]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-751, -753, -1255, -1757]
+    7 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-3762, -3769, -5774, -7786]
+  measured full zero-sum layers: 4 (O7 predicts 4); first failing layer 5 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-4_yu2x8_1word_pos3.json
+yu2x-8 (F_2^8) dec: active [0, 4] free blocks [] weights []; data 2^16.00 per key, 2 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [509, 509, 509, 508]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [506, 506, 504, 502]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [495, 494, 487, 479]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [451, 448, 420, 390]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [272, 270, 152, 34]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-437, -442, -913, -1389]
+    7 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-3261, -3288, -5160, -7058]
+  measured full zero-sum layers: 5 (O7 predicts 5); first failing layer 6 pattern 0000 (predicted 0000)
+saved results/Y03_zero_sum/Y03-4_yu2x8_2words.json
+yu2x-16 (F_2^16) dec: active [0] free blocks [] weights []; data 2^16.00 per key, 2 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65534, 65534, 65534, 65533]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65532, 65531, 65530, 65528]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65522, 65521, 65515, 65509]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65483, 65483, 65457, 65431]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65331, 65327, 65227, 65123]
+    6 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [64719, 64711, 64307, 63902]
+    7 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [62270, 62269, 60637, 59005]
+    8 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [52512, 52475, 45982, 39452]
+    9 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [13494, 13369, -12589, -38643]
+   10 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-142725, -142821, -246903, -350985]
+  measured full zero-sum layers: 8 (O7 predicts 8); first failing layer 9 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-5_yu2x16_pos0.json
+yu2x-16 (F_2^16) dec: active [3] free blocks [] weights []; data 2^16.00 per key, 2 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65534, 65534, 65533, 65533]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65531, 65531, 65529, 65527]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65519, 65519, 65511, 65503]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65472, 65471, 65440, 65408]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65284, 65281, 65157, 65031]
+    6 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [64529, 64527, 64025, 63523]
+    7 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [61518, 61511, 59506, 57494]
+    8 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [49491, 49453, 41450, 33409]
+    9 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [1327, 1283, -30799, -62881]
+   10 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-191268, -191297, -319684, -448100]
+  measured full zero-sum layers: 8 (O7 predicts 8); first failing layer 9 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-5_yu2x16_pos3.json
+yupx-65537 (F_65537) dec: active [0] free blocks [] weights []; data 2^16.00 per key, 2 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65535, 65535, 65535, 65534]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65533, 65532, 65531, 65529]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65523, 65522, 65516, 65510]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65484, 65484, 65458, 65432]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65332, 65328, 65228, 65124]
+    6 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [64720, 64712, 64308, 63903]
+    7 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [62271, 62270, 60638, 59006]
+    8 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [52513, 52476, 45983, 39453]
+    9 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [13495, 13370, -12588, -38642]
+   10 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-142724, -142820, -246902, -350984]
+  measured full zero-sum layers: 8 (O7 predicts 8); first failing layer 9 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-5_yupx_pos0.json
+yupx-65537 (F_65537) dec: active [3] free blocks [] weights []; data 2^16.00 per key, 2 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65535, 65535, 65534, 65534]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65532, 65532, 65530, 65528]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65520, 65520, 65512, 65504]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65473, 65472, 65441, 65409]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65285, 65282, 65158, 65032]
+    6 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [64530, 64528, 64026, 63524]
+    7 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [61519, 61512, 59507, 57495]
+    8 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [49492, 49454, 41451, 33410]
+    9 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [1328, 1284, -30798, -62880]
+   10 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-191267, -191296, -319683, -448099]
+  measured full zero-sum layers: 8 (O7 predicts 8); first failing layer 9 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-5_yupx_pos3.json
+yupx-65537 (F_65537) dec: active [0] free blocks [] weights [1, 3, 5]; data 2^10.00 per key, 2 keys, seed 2026
+layer | measured pattern (weight 1) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [1023, 1023, 1023, 1022]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [1021, 1020, 1019, 1017]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [1011, 1010, 1004, 998]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [972, 972, 946, 920]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [820, 816, 716, 612]
+    6 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [208, 200, -204, -609]
+    7 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-2241, -2242, -3874, -5506]
+    8 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-11999, -12036, -18529, -25059]
+    9 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-51017, -51142, -77100, -103154]
+   10 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-207236, -207332, -311414, -415496]
+  measured full zero-sum layers: 5 (O7 predicts 5); first failing layer 6 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-6_yupx_coset10.json
+yupx-65537 (F_65537) dec: active [0] free blocks [] weights [1, 3, 5]; data 2^12.00 per key, 2 keys, seed 2026
+layer | measured pattern (weight 1) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [4095, 4095, 4095, 4094]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [4093, 4092, 4091, 4089]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [4083, 4082, 4076, 4070]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [4044, 4044, 4018, 3992]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [3892, 3888, 3788, 3684]
+    6 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [3280, 3272, 2868, 2463]
+    7 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [831, 830, -802, -2434]
+    8 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-8927, -8964, -15457, -21987]
+    9 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-47945, -48070, -74028, -100082]
+   10 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-204164, -204260, -308342, -412424]
+  measured full zero-sum layers: 6 (O7 predicts 6); first failing layer 7 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-6_yupx_coset12.json
+yupx-65537 (F_65537) dec: active [0] free blocks [] weights [1, 3, 5]; data 2^14.00 per key, 2 keys, seed 2026
+layer | measured pattern (weight 1) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [16383, 16383, 16383, 16382]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [16381, 16380, 16379, 16377]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [16371, 16370, 16364, 16358]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [16332, 16332, 16306, 16280]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [16180, 16176, 16076, 15972]
+    6 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [15568, 15560, 15156, 14751]
+    7 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [13119, 13118, 11486, 9854]
+    8 | 1100110011001100 |  8/16 | 1100 vs 1100 OK  | [3361, 3324, -3169, -9699]
+    9 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-35657, -35782, -61740, -87794]
+   10 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-191876, -191972, -296054, -400136]
+  measured full zero-sum layers: 7 (O7 predicts 7); first failing layer 8 pattern 1100 (predicted 1100)
+saved results/Y03_zero_sum/Y03-6_yupx_coset14.json
+yupx-65537 (F_65537) dec: active [0] free blocks [] weights [1, 3, 5]; data 2^15.00 per key, 2 keys, seed 2026
+layer | measured pattern (weight 1) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [32767, 32767, 32767, 32766]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [32765, 32764, 32763, 32761]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [32755, 32754, 32748, 32742]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [32716, 32716, 32690, 32664]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [32564, 32560, 32460, 32356]
+    6 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [31952, 31944, 31540, 31135]
+    7 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [29503, 29502, 27870, 26238]
+    8 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [19745, 19708, 13215, 6685]
+    9 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-19273, -19398, -45356, -71410]
+   10 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-175492, -175588, -279670, -383752]
+  measured full zero-sum layers: 8 (O7 predicts 8); first failing layer 9 pattern 0000 (predicted 0000)
+saved results/Y03_zero_sum/Y03-6_yupx_coset15.json
+yu2x-16 (F_2^16) enc: active [1] free blocks [] weights []; data 2^16.00 per key, 2 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65532, 65533, 65534, 65534]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65511, 65520, 65526, 65529]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65343, 65415, 65463, 65487]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [63999, 64575, 64959, 65151]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [53247, 57855, 60927, 62463]
+    6 | 0111011101110111 | 12/16 | 0111 vs 0111 OK  | [-32769, 4095, 28671, 40959]
+    7 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-720897, -425985, -229377, -131073]
+  measured full zero-sum layers: 5 (O7 predicts 5); first failing layer 6 pattern 0111 (predicted 0111)
+saved results/Y03_zero_sum/Y03-7_yu2x16_cpa.json
+yupx-65537 (F_65537) enc: active [1] free blocks [] weights []; data 2^16.00 per key, 2 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65533, 65534, 65535, 65535]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65512, 65521, 65527, 65530]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [65344, 65416, 65464, 65488]
+    4 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [64000, 64576, 64960, 65152]
+    5 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [53248, 57856, 60928, 62464]
+    6 | 0111011101110111 | 12/16 | 0111 vs 0111 OK  | [-32768, 4096, 28672, 40960]
+    7 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-720896, -425984, -229376, -131072]
+  measured full zero-sum layers: 5 (O7 predicts 5); first failing layer 6 pattern 0111 (predicted 0111)
+saved results/Y03_zero_sum/Y03-7_yupx_cpa.json
+yuxtoy-257 (F_257) enc: active [1] free blocks [] weights []; data 2^8.01 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [253, 254, 255, 255]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [232, 241, 247, 250]
+    3 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [64, 136, 184, 208]
+    4 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-1280, -704, -320, -128]
+    5 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-12032, -7424, -4352, -2816]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-98048, -61184, -36608, -24320]
+  measured full zero-sum layers: 3 (O7 predicts 3); first failing layer 4 pattern 0000 (predicted 0000)
+saved results/Y03_zero_sum/Y03-7_257_cpa.json
+yuxtoy-2^4 (F_2^4) enc: active [] free blocks [0] weights []; data 2^16.00 per key, 3 keys, seed 2026
+layer | measured pattern (weight 0) | #balanced | O7 prediction | margins
+    1 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [59, 59, 59, 59]
+    2 | 1111111111111111 | 16/16 | 1111 vs 1111 OK  | [52, 55, 57, 58]
+    3 | 1111111111111111 | 16/16 | 0111 vs 1111 DIFF | [-4, 20, 36, 44]
+    4 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-452, -260, -132, -68]
+    5 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-4036, -2500, -1476, -964]
+    6 | 0000000000000000 |  0/16 | 0000 vs 0000 OK  | [-32708, -20420, -12228, -8132]
+  measured full zero-sum layers: 3 (O7 predicts 2); first failing layer 4 pattern 0000 (predicted 0111)
+saved results/Y03_zero_sum/Y03-7_2^4_cpa_fullblock.json

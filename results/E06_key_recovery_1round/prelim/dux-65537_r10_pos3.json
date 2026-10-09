@@ -1,0 +1,15 @@
+{
+ "instance": "dux-65537",
+ "rounds": 10,
+ "pos": 3,
+ "structures": 3,
+ "data_log2": 17.584984514332515,
+ "success": true,
+ "block_consistency": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "elapsed_s": 1.6
+}

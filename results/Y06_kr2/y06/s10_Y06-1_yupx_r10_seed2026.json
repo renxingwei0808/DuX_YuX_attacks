@@ -1,0 +1,109 @@
+{
+ "instance": "yupx-65537",
+ "cipher": "yux",
+ "field": "F_65537",
+ "rounds": 10,
+ "layers": 8,
+ "active_words": [
+  0
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "points_per_structure": 65537,
+ "structures": 1,
+ "slices": 65537,
+ "points_per_slice": 1,
+ "block_slices": 512,
+ "slice_chunk": 8192,
+ "monomials": 53857,
+ "weights": {
+  "n": 2400,
+  "dims": 1,
+  "margin": 39453,
+  "weight_word": 0,
+  "range": "a < 2400"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "equations": 9600,
+ "unknowns": 53846,
+ "rank": 8576,
+ "free": 45270,
+ "pinned": 2088,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 16.0,
+ "assemble_s": 944.9,
+ "solve_s": 826.2,
+ "weight_curve": [
+  {
+   "weights": 2000,
+   "rows": 8000,
+   "rank": 8000,
+   "free": 45846,
+   "pinned": 0,
+   "inner_correct": 0,
+   "solve_s": 1064.3
+  },
+  {
+   "weights": 2155,
+   "rows": 8620,
+   "rank": 8576,
+   "free": 45270,
+   "pinned": 2088,
+   "inner_correct": 16,
+   "solve_s": 1280.2
+  },
+  {
+   "weights": 2200,
+   "rows": 8800,
+   "rank": 8576,
+   "free": 45270,
+   "pinned": 2088,
+   "inner_correct": 16,
+   "solve_s": 1421.4
+  },
+  {
+   "weights": 2300,
+   "rows": 9200,
+   "rank": 8576,
+   "free": 45270,
+   "pinned": 2088,
+   "inner_correct": 16,
+   "solve_s": 1323.5
+  },
+  {
+   "weights": 2400,
+   "rows": 9600,
+   "rank": 8576,
+   "free": 45270,
+   "pinned": 2088,
+   "inner_correct": 16,
+   "solve_s": 1343.9
+  }
+ ],
+ "per_structure": [
+  {
+   "structure": 0,
+   "seed": 7026,
+   "moments_s": 71.7,
+   "dgemm_s": 440.2
+  }
+ ],
+ "procs": 16,
+ "seed": 2026,
+ "solver": "numpy-blocked"
+}

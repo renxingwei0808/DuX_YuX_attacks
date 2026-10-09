@@ -1,0 +1,85 @@
+{
+ "instance": "dux-65537",
+ "field": "F_65537",
+ "rounds": 8,
+ "layers": 6,
+ "active_words": [
+  1
+ ],
+ "points_per_structure": 65537,
+ "coords": [
+  0,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "monomials": 3307,
+ "unknowns": 3296,
+ "equations_per_structure": 1600,
+ "weights": {
+  "n": 400,
+  "dims": 1,
+  "margin": 24576,
+  "weight_word": 1,
+  "range": "|a| < 24576"
+ },
+ "equation_rows": {
+  "combine": "1110",
+  "dim_K": 4
+ },
+ "structures": 1,
+ "pseudo": false,
+ "rank": 1234,
+ "free": 2062,
+ "kappa_correct": 16,
+ "master_key_ok": true,
+ "known_pair_ok": true,
+ "curve": [
+  {
+   "structures": 1,
+   "equations": 1600,
+   "rank": 1234,
+   "free": 2062,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 16.0
+  }
+ ],
+ "seed": 2026,
+ "data_log2": 16.0,
+ "assemble_s": 110.1,
+ "protocol": {
+  "cores": "29",
+  "solve_threads": 1,
+  "wall_s": 124.85,
+  "user_s": 123.3,
+  "sys_s": 1.53,
+  "cpu_s": 124.83,
+  "core_hours": 0.035,
+  "maxrss_kb": 3908780,
+  "maxrss_gb": 3.73,
+  "cpu_pct": 99,
+  "wall_over_cpu": 1.0,
+  "threads": {
+   "samples": 13,
+   "max_nlwp": 1,
+   "max_procs": 2,
+   "first_ts": 1790005678,
+   "last_ts": 1790005799
+  },
+  "loadavg_start": "16.68 17.24 30.91",
+  "loadavg_end": "16.26 16.88 29.05",
+  "start": "2026-09-21T08:47:58-07:00",
+  "end": "2026-09-21T08:50:03-07:00",
+  "exit": "0",
+  "machine": "2 x Intel Xeon Gold 6230R (26 cores / 52 threads each, 2.10 GHz base, 4.00 GHz max turbo), 251 GB RAM",
+  "single_threaded": true,
+  "not_preempted": true,
+  "procs": null
+ }
+}

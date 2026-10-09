@@ -1,0 +1,7 @@
+toy-2^4 (q = 16), active plaintext word 1, encryption direction, top 4 coefficients, 3 keys
+layer | degree (block 0: pos 0..3) | proved-balanced pattern per key | words with sum != 0
+    1 | [1, 1, 0, 2]               | 1111 1111 1111 | []
+    2 | [10, 6, 4, 16]             | 1110 1110 1110 | [3, 7]
+    3 | [80, 48, 32, 128]          | ???? ???? ???? | [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    4 | [640, 384, 256, 1024]      | ???? ???? ???? | [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+saved results/E10_cpa/w13/top_coeffs_toy-2^4.json

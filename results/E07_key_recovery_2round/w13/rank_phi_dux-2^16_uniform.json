@@ -1,0 +1,48 @@
+{
+ "instance": "dux-2^16",
+ "q": 65536,
+ "char": 2,
+ "monomials": 18025,
+ "moments": "uniform",
+ "npts": null,
+ "seed": 2026,
+ "curve": [
+  {
+   "structures": 800,
+   "rows": 3200,
+   "rank": 3200,
+   "seconds": 140.2
+  },
+  {
+   "structures": 1000,
+   "rows": 4000,
+   "rank": 4000,
+   "seconds": 230.0
+  },
+  {
+   "structures": 1189,
+   "rows": 4756,
+   "rank": 4756,
+   "seconds": 341.9
+  },
+  {
+   "structures": 1200,
+   "rows": 4800,
+   "rank": 4800,
+   "seconds": 419.5
+  },
+  {
+   "structures": 1400,
+   "rows": 5600,
+   "rank": 5600,
+   "seconds": 550.8
+  },
+  {
+   "structures": 1600,
+   "rows": 6400,
+   "rank": 5954,
+   "seconds": 690.9
+  }
+ ],
+ "saturated_rank": 5954
+}

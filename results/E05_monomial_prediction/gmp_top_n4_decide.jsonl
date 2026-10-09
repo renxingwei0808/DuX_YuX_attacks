@@ -1,0 +1,16 @@
+{"reachable": true, "status": "sat", "nodes": 170, "n": 4, "active": [3, 7], "layer": 4, "word": 2, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 0.77}
+{"reachable": true, "status": "sat", "nodes": 168, "n": 4, "active": [3, 7], "layer": 4, "word": 1, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 0.98}
+{"reachable": true, "status": "sat", "nodes": 165, "n": 4, "active": [3, 7], "layer": 4, "word": 0, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 3.02}
+{"reachable": true, "status": "sat", "nodes": 218, "n": 4, "active": [3, 7, 11, 15], "layer": 5, "word": 2, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 2.04}
+{"reachable": true, "status": "sat", "nodes": 170, "n": 4, "active": [3, 7, 11], "layer": 4, "word": 2, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 34.36}
+{"reachable": true, "status": "sat", "nodes": 211, "n": 4, "active": [3, 7, 11, 15], "layer": 5, "word": 3, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 69.03}
+{"reachable": true, "status": "sat", "nodes": 216, "n": 4, "active": [3, 7, 11, 15], "layer": 5, "word": 1, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 168.58}
+{"reachable": true, "status": "sat", "nodes": 213, "n": 4, "active": [3, 7, 11, 15], "layer": 5, "word": 0, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 498.99}
+{"reachable": true, "status": "unknown", "nodes": 168, "n": 4, "active": [3, 7, 11], "layer": 4, "word": 1, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 14400.26}
+{"reachable": true, "status": "unknown", "nodes": 165, "n": 4, "active": [3, 7, 11], "layer": 4, "word": 0, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 14400.26}
+{"reachable": true, "status": "unknown", "nodes": 163, "n": 4, "active": [3, 7, 11], "layer": 4, "word": 3, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 14400.26}
+{"reachable": true, "status": "unknown", "nodes": 165, "n": 4, "active": [3, 7, 11, 15], "layer": 4, "word": 0, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 14400.37}
+{"reachable": true, "status": "unknown", "nodes": 168, "n": 4, "active": [3, 7, 11, 15], "layer": 4, "word": 1, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 14400.46}
+{"reachable": true, "status": "unknown", "nodes": 170, "n": 4, "active": [3, 7, 11, 15], "layer": 4, "word": 2, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 14400.57}
+{"reachable": true, "status": "unknown", "nodes": 163, "n": 4, "active": [3, 7], "layer": 4, "word": 3, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 14400.59}
+{"reachable": true, "status": "unknown", "nodes": 163, "n": 4, "active": [3, 7, 11, 15], "layer": 4, "word": 3, "mode": "top", "dim": 4, "timeout": 14400.0, "seconds": 14400.58}

@@ -1,0 +1,10 @@
+toy-2^4 (F_2^4): r = 5 (3-layer distinguisher + 2), unknown inner blocks [0], outer blocks [0, 1, 2, 3], active words [3, 7]
+  monomials M = 763 = 2^9.6; 250 structures x 256 chosen ciphertexts = 2^16.0 data; 4 eqs/structure
+  assembled 100/250 structures (1.0s)
+  assembled 200/250 structures (1.9s)
+  assembled 250/250 structures (2.4s)
+  system 1000 x 762 over F_2^4 (1 columns pinned)
+  rank 180 / 762 unknowns (582 free), 61 monomials pinned down  (0.4s)
+  inner key words recovered correctly: 4/4
+  data 2^15.97; assemble 2.4s, solve 0.4s
+saved /home/user/dux-cryptanalysis/results/E07_key_recovery_2round/w12/fast_toy2_4_u0_s7.json

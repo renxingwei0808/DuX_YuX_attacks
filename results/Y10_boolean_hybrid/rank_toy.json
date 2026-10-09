@@ -1,0 +1,117 @@
+{
+ "instance": "yuxtoy-2^4",
+ "active": [
+  0,
+  4
+ ],
+ "layers": 3,
+ "cell": {
+  "pattern": "1110",
+  "margins": [
+   15,
+   14,
+   7,
+   -1
+  ],
+  "threshold": 30,
+  "D": [
+   15,
+   16,
+   23,
+   31
+  ]
+ },
+ "balanced_words": [
+  0,
+  1,
+  2,
+  4,
+  5,
+  6,
+  8,
+  9,
+  10,
+  12,
+  13,
+  14
+ ],
+ "weights_per_position": {
+  "0": 12,
+  "1": 12,
+  "2": 7,
+  "3": 1
+ },
+ "structures": 6,
+ "keys": [
+  {
+   "key": 0,
+   "seed": 2026,
+   "curve": [
+    {
+     "structures": 2,
+     "rows_all": 992,
+     "rank_all": 992,
+     "rows_plain": 96,
+     "rank_plain": 96,
+     "anf_degree_seen": 10
+    },
+    {
+     "structures": 4,
+     "rows_all": 1984,
+     "rank_all": 1967,
+     "rows_plain": 192,
+     "rank_plain": 192,
+     "anf_degree_seen": 10
+    },
+    {
+     "structures": 6,
+     "rows_all": 2976,
+     "rank_all": 2903,
+     "rows_plain": 288,
+     "rank_plain": 288,
+     "anf_degree_seen": 10
+    }
+   ]
+  },
+  {
+   "key": 1,
+   "seed": 2027,
+   "curve": [
+    {
+     "structures": 2,
+     "rows_all": 992,
+     "rank_all": 992,
+     "rows_plain": 96,
+     "rank_plain": 96,
+     "anf_degree_seen": 10
+    },
+    {
+     "structures": 4,
+     "rows_all": 1984,
+     "rank_all": 1967,
+     "rows_plain": 192,
+     "rank_plain": 192,
+     "anf_degree_seen": 10
+    },
+    {
+     "structures": 6,
+     "rows_all": 2976,
+     "rank_all": 2903,
+     "rows_plain": 288,
+     "rank_plain": 288,
+     "anf_degree_seen": 10
+    }
+   ]
+  }
+ ],
+ "weights_add_rank": true,
+ "rank_per_row_all": [
+  0.9755,
+  0.9755
+ ],
+ "rank_per_row_plain": [
+  1.0,
+  1.0
+ ],
+ "identical_across_keys": true
+}

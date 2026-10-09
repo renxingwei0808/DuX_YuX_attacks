@@ -1,0 +1,15 @@
+{
+ "instance": "dux-2^8",
+ "rounds": 6,
+ "pos": 3,
+ "structures": 3,
+ "data_log2": 9.584962500721156,
+ "success": true,
+ "block_consistency": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "elapsed_s": 0.0
+}

@@ -1,0 +1,9 @@
+dux-2^8 (F_2^8): r = 7 (5-layer distinguisher + 2), unknown inner blocks [0], outer blocks [0, 1, 2, 3], active words [3]
+  monomials M = 763 = 2^9.6; 150 structures x 256 chosen ciphertexts = 2^15.2 data; 4 eqs/structure
+  assembled 100/150 structures (1.0s)
+  assembled 150/150 structures (1.4s)
+  system 600 x 762 over F_2^8 (1 columns pinned)
+  rank 184 / 762 unknowns (578 free), 70 monomials pinned down  (0.3s)
+  inner key words recovered correctly: 4/4
+  data 2^15.23; assemble 1.5s, solve 0.3s
+saved /home/user/dux-cryptanalysis/results/E07_key_recovery_2round/w12/fast_dux2_8_u0_s7.json

@@ -1,0 +1,9 @@
+DuX(2^8), active word 1, enc: algebraic-degree upper bound per word after each S layer
+layer | degree bound words 0..3 (block 0) | max/16 | min/16 | proved-balanced pattern (count)
+    1 | [1, 1, 0, 1]     |    1 |    0 | 1111 (16/16)
+    2 | [3, 2, 2, 4]     |    4 |    2 | 1111 (16/16)
+    3 | [6, 5, 5, 7]     |    7 |    5 | 1111 (16/16)
+    4 | [8, 8, 8, 8]     |    8 |    8 | 0000 ( 0/16)
+    5 | [8, 8, 8, 8]     |    8 |    8 | 0000 ( 0/16)
+    6 | [8, 8, 8, 8]     |    8 |    8 | 0000 ( 0/16)
+saved results/E10_cpa/w13/expsets_enc_2^8.json

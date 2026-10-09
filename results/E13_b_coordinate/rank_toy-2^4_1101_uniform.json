@@ -1,0 +1,78 @@
+{
+ "instance": "toy-2^4",
+ "field": "F_2^4",
+ "rounds": 5,
+ "cheap_set": [
+  1,
+  2
+ ],
+ "combine": "1101",
+ "dim_K": 4,
+ "rows_per_structure": 4,
+ "moments": "uniform",
+ "points": null,
+ "seed": 2026,
+ "monomials": 47749,
+ "counts": {
+  "K": 50,
+  "K_nc": 40,
+  "K+K": 434,
+  "(K+K)u(K+2K)": 1269,
+  "cross": 6600,
+  "K_nc u 2K_nc": 71,
+  "M": 18025,
+  "M_b": 47749,
+  "ratio": 2.649
+ },
+ "curve": [
+  {
+   "rows": 16000,
+   "rank": 14542,
+   "free": 33196,
+   "monomials": 47749,
+   "pinned_by_normalisation": 11,
+   "determined_monomials": 1150,
+   "degree_one_key_columns_determined": 16,
+   "degree_one_detail": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true,
+    "10": true,
+    "11": true,
+    "12": true,
+    "13": true,
+    "14": true,
+    "15": true
+   },
+   "outer_key_columns_determined": 0,
+   "outer_key_detail": {
+    "0,0": false,
+    "0,2": false,
+    "0,3": false,
+    "0,7": false,
+    "1,0": false,
+    "1,2": false,
+    "1,3": false,
+    "1,7": false,
+    "2,0": false,
+    "2,2": false,
+    "2,3": false,
+    "2,7": false,
+    "3,0": false,
+    "3,2": false,
+    "3,3": false,
+    "3,7": false
+   },
+   "structures": 4000,
+   "seconds": 1480.2
+  }
+ ],
+ "saturated_rank": 14542
+}

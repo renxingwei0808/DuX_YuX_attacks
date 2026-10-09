@@ -1,0 +1,23 @@
+{
+ "instance": "toy-257",
+ "rounds": 7,
+ "layers": 5,
+ "unknown_blocks": [
+  0
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "monomials": 1082,
+ "monomials_all_blocks": 38051,
+ "structures": 100,
+ "rank": 304,
+ "free": 777,
+ "pinned": 68,
+ "success": true,
+ "data_log2": 14.65,
+ "elapsed_s": 72.0
+}

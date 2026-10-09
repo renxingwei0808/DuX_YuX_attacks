@@ -1,0 +1,76 @@
+{
+ "instance": "yupx-65537",
+ "cipher": "yux",
+ "q": 65537,
+ "char": 65537,
+ "rounds": 10,
+ "combine": "1110",
+ "dim_K": 3,
+ "y": [
+  [
+   65536,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   65536
+  ],
+  [
+   0,
+   1,
+   65536,
+   0
+  ]
+ ],
+ "monomials": 53857,
+ "seed": 2026,
+ "orbits": {
+  "orbits": 13510,
+  "sizes": {
+   "1": 1,
+   "2": 90,
+   "4": 13419
+  }
+ },
+ "identities": {
+  "equivariance_trials": 2,
+  "equivariance_ok": true,
+  "char2_expansion_ok": null,
+  "symmetrised_eigenvalue_ok": false,
+  "symmetrised_eigenvalue": "-1 (pi-anti-invariant)"
+ },
+ "ceiling": {
+  "structures": 3500,
+  "rows": 10500,
+  "rank": 8468,
+  "free": 45378,
+  "monomials": 53857,
+  "pinned_by_normalisation": 11,
+  "determined_monomials": 2088,
+  "degree_one_key_columns_determined": 16,
+  "degree_one_detail": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true,
+   "5": true,
+   "6": true,
+   "7": true,
+   "8": true,
+   "9": true,
+   "10": true,
+   "11": true,
+   "12": true,
+   "13": true,
+   "14": true,
+   "15": true
+  },
+  "assemble_s": 207.1,
+  "solve_s": 740.3
+ }
+}

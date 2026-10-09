@@ -1,0 +1,4 @@
+dux-2^16  keys=3  layers=10  seed=2026
+structure                 dim  data   all16  last layer : pattern            s
+[3, 7]                     13  2^26       8  L8 : 1111111111111111  1025.7
+saved results/E04_zero_sum_F2n/w5/two_word_2-16_dim13.json

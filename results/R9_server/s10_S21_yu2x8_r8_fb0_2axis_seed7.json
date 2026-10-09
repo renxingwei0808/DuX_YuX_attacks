@@ -1,0 +1,125 @@
+{
+ "instance": "yu2x-8",
+ "cipher": "yux",
+ "field": "F_2^8",
+ "rounds": 8,
+ "layers": 6,
+ "active_words": [
+  3,
+  2,
+  0,
+  1
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [
+  0
+ ],
+ "ks_literal": false,
+ "weight_rule": "full block [0] (O11), T3 multi-index: weights on ciphertext words [3, 2] (positions [3, 2], degrees [2, 3] after the substitution) => sum_i a_i deg_i < 252",
+ "points_per_structure": 4294967296,
+ "structures": 1,
+ "slices": 65536,
+ "points_per_slice": 65536,
+ "coset": null,
+ "coset_reps": [],
+ "mixed": null,
+ "point_set": null,
+ "block_slices": 1,
+ "slice_chunk": 4096,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 27895,
+ "cheap_set": [
+  2
+ ],
+ "subspace_dims": null,
+ "weights": {
+  "n": 1400,
+  "dims": 2,
+  "margin": 252,
+  "usable": 5376,
+  "weight_min": 0,
+  "first": [
+   0,
+   0
+  ],
+  "last": [
+   38,
+   17
+  ],
+  "weight_word": 3,
+  "degree_units_per_power": 2,
+  "range": "|a| < 252, inner norm <= None, 1400 vectors",
+  "vandermonde_axes": 2,
+  "weight_words": [
+   3,
+   2
+  ],
+  "inner_tuples": [
+   []
+  ],
+  "usable_norm": 252
+ },
+ "equation_rows": {
+  "combine": "1110",
+  "dim_K": 3,
+  "y": [
+   [
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0
+   ]
+  ]
+ },
+ "equations": 4200,
+ "unknowns": 27884,
+ "rank": 3822,
+ "free": 24062,
+ "pinned": 1296,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 32.0,
+ "assemble_s": 14489.5,
+ "solve_s": 21.3,
+ "weight_curve": [],
+ "structure_curve": [],
+ "rows_dir": "/home/luck/dux-data/S21_yu2x8_fb_seed7",
+ "per_structure": [
+  {
+   "structure": 0,
+   "a1": [],
+   "seed": 5007,
+   "weights": 1400,
+   "moments_s": 13821.1,
+   "dgemm_s": 283.8
+  }
+ ],
+ "procs": 16,
+ "seed": 7,
+ "solver": "c-omp"
+}

@@ -1,0 +1,29 @@
+{
+ "instance": "yupx-65537",
+ "cipher": "yux",
+ "q": 65537,
+ "char": 65537,
+ "monomials": 53857,
+ "combine": "1110",
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "rows_per_structure": 3,
+ "moments": "realizable",
+ "npts": 256,
+ "seed": 2026,
+ "curve": [
+  {
+   "structures": 3500,
+   "rows": 10500,
+   "rank": 8478,
+   "seconds": 2749.5,
+   "solve_s": 1544.7,
+   "one_shot": true
+  }
+ ],
+ "saturated_rank": 8478
+}

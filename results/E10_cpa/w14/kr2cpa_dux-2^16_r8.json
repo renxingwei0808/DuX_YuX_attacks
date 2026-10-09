@@ -1,0 +1,96 @@
+{
+ "instance": "dux-2^16",
+ "field": "F_2^16",
+ "rounds": 8,
+ "layers": 6,
+ "active_words": [
+  1
+ ],
+ "points_per_structure": 65536,
+ "coords": [
+  0,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "monomials": 3259,
+ "unknowns": 3248,
+ "equations_per_structure": 8,
+ "structures": 240,
+ "rank": 1336,
+ "free": 1912,
+ "kappa_correct": 16,
+ "curve": [
+  {
+   "structures": 150,
+   "equations": 1200,
+   "rank": 1200,
+   "free": 2048,
+   "kappa_correct": 0,
+   "data_log2": 23.23
+  },
+  {
+   "structures": 170,
+   "equations": 1360,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "data_log2": 23.41
+  },
+  {
+   "structures": 175,
+   "equations": 1400,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "data_log2": 23.45
+  },
+  {
+   "structures": 180,
+   "equations": 1440,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "data_log2": 23.49
+  },
+  {
+   "structures": 190,
+   "equations": 1520,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "data_log2": 23.57
+  },
+  {
+   "structures": 200,
+   "equations": 1600,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "data_log2": 23.64
+  },
+  {
+   "structures": 220,
+   "equations": 1760,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "data_log2": 23.78
+  },
+  {
+   "structures": 240,
+   "equations": 1920,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "data_log2": 23.91
+  }
+ ],
+ "seed": 2026,
+ "data_log2": 23.91,
+ "assemble_s": 698.9
+}

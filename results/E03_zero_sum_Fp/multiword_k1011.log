@@ -1,0 +1,10 @@
+dux-65537 active=[3, 7] subgroup=2^10 data=2^20 keys=2
+  balanced words per layer: [16, 16, 16, 16, 16, 16, 0, 0, 0]
+  all-16 up to layer 6; last nontrivial layer 6: 1111111111111111
+  136.1 s
+saved results/E03_zero_sum_Fp/multiword/active_3_7_sg10.json
+dux-65537 active=[3, 7] subgroup=2^11 data=2^22 keys=2
+  balanced words per layer: [16, 16, 16, 16, 16, 16, 8, 0, 0]
+  all-16 up to layer 6; last nontrivial layer 7: 1001100110011001
+  380.3 s
+saved results/E03_zero_sum_Fp/multiword/active_3_7_sg11.json

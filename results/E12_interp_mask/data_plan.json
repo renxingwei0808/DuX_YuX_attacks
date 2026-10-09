@@ -1,0 +1,412 @@
+{
+ "plan": [
+  {
+   "row": "DuX(65537) 11/12",
+   "ledger": "A",
+   "q": "65537",
+   "active": [
+    3
+   ],
+   "layers": 9,
+   "cipher": "dux",
+   "combine": null,
+   "used_positions": [
+    2,
+    3
+   ],
+   "D": 40545,
+   "T_full": 65536,
+   "margin_full": 24991,
+   "N_w": 2152,
+   "structures": 1,
+   "s": 1,
+   "current_log2_per_key": 16.0,
+   "dims1": {
+    "n": 42698,
+    "norm": 2152,
+    "log2_per_key": 15.382,
+    "assembly_factor": 0.6515
+   },
+   "dims_s": {
+    "n": 42698,
+    "norm": 2152,
+    "dims": 1,
+    "log2_per_key": 15.382,
+    "assembly_factor": 0.6515
+   },
+   "gain_bits_dims1": 0.618,
+   "gain_bits_dims_s": 0.618
+  },
+  {
+   "row": "DuX(65537) 12/12",
+   "ledger": "A",
+   "q": "65537",
+   "active": [
+    3,
+    7
+   ],
+   "layers": 10,
+   "cipher": "dux",
+   "combine": "0001",
+   "used_positions": [
+    3
+   ],
+   "D": 70226,
+   "T_full": 131072,
+   "margin_full": 60846,
+   "N_w": 9000,
+   "structures": 1,
+   "s": 2,
+   "current_log2_per_key": 32.0,
+   "dims1": {
+    "n": 39614,
+    "norm": 9000,
+    "log2_per_key": 30.547,
+    "assembly_factor": 0.3654
+   },
+   "dims_s": {
+    "n": 35181,
+    "norm": 134,
+    "dims": 2,
+    "log2_per_key": 30.205,
+    "assembly_factor": 0.2882
+   },
+   "gain_bits_dims1": 1.453,
+   "gain_bits_dims_s": 1.795
+  },
+  {
+   "row": "DuX(2^16) 11/12",
+   "ledger": "A",
+   "q": "2^16",
+   "active": [
+    3
+   ],
+   "layers": 9,
+   "cipher": "dux",
+   "combine": null,
+   "used_positions": [
+    2,
+    3
+   ],
+   "D": 40545,
+   "T_full": 65535,
+   "margin_full": 24990,
+   "N_w": 1189,
+   "structures": 1,
+   "s": 1,
+   "current_log2_per_key": 16.0,
+   "dims1": {
+    "n": 41735,
+    "norm": 1189,
+    "log2_per_key": 15.349,
+    "assembly_factor": 0.6368
+   },
+   "dims_s": {
+    "n": 41735,
+    "norm": 1189,
+    "dims": 1,
+    "log2_per_key": 15.349,
+    "assembly_factor": 0.6368
+   },
+   "gain_bits_dims1": 0.651,
+   "gain_bits_dims_s": 0.651
+  },
+  {
+   "row": "DuX(2^8) 7/12",
+   "ledger": "A",
+   "q": "2^8",
+   "active": [
+    3
+   ],
+   "layers": 5,
+   "cipher": "dux",
+   "combine": null,
+   "used_positions": [
+    2,
+    3
+   ],
+   "D": 209,
+   "T_full": 255,
+   "margin_full": 46,
+   "N_w": 46,
+   "structures": 26,
+   "s": 1,
+   "current_log2_per_key": 12.7,
+   "dims1": {
+    "n": 256,
+    "norm": 46,
+    "log2_per_key": 12.7,
+    "assembly_factor": 1.0
+   },
+   "dims_s": {
+    "n": 256,
+    "norm": 46,
+    "dims": 1,
+    "log2_per_key": 12.7,
+    "assembly_factor": 1.0
+   },
+   "gain_bits_dims1": 0.0,
+   "gain_bits_dims_s": 0.0
+  },
+  {
+   "row": "DuX(2^8) 8/12",
+   "ledger": "A",
+   "q": "2^8",
+   "active": [
+    3,
+    7,
+    11,
+    15
+   ],
+   "layers": 6,
+   "cipher": "dux",
+   "combine": null,
+   "used_positions": [
+    2,
+    3
+   ],
+   "D": 780,
+   "T_full": 1020,
+   "margin_full": 240,
+   "N_w": 240,
+   "structures": 5,
+   "s": 4,
+   "current_log2_per_key": 34.32,
+   "dims1": {
+    "n": 256,
+    "norm": 240,
+    "log2_per_key": 34.322,
+    "assembly_factor": 1.0
+   },
+   "dims_s": {
+    "n": 198,
+    "norm": 8,
+    "dims": 4,
+    "log2_per_key": 32.839,
+    "assembly_factor": 0.3578
+   },
+   "gain_bits_dims1": -0.002,
+   "gain_bits_dims_s": 1.481
+  },
+  {
+   "row": "YupX-65537 10/14 (ii)",
+   "ledger": "A'",
+   "q": "65537",
+   "active": [
+    0
+   ],
+   "layers": 8,
+   "cipher": "yux",
+   "combine": null,
+   "used_positions": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "D": 26083,
+   "T_full": 65536,
+   "margin_full": 39453,
+   "N_w": 2155,
+   "structures": 1,
+   "s": 1,
+   "current_log2_per_key": 16.0,
+   "dims1": {
+    "n": 28239,
+    "norm": 2155,
+    "log2_per_key": 14.785,
+    "assembly_factor": 0.4309
+   },
+   "dims_s": {
+    "n": 28239,
+    "norm": 2155,
+    "dims": 1,
+    "log2_per_key": 14.785,
+    "assembly_factor": 0.4309
+   },
+   "gain_bits_dims1": 1.215,
+   "gain_bits_dims_s": 1.215
+  },
+  {
+   "row": "YupX-65537 11/14",
+   "ledger": "A'",
+   "q": "65537",
+   "active": [
+    0,
+    4
+   ],
+   "layers": 9,
+   "cipher": "yux",
+   "combine": null,
+   "used_positions": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "D": 120847,
+   "T_full": 131072,
+   "margin_full": 10225,
+   "N_w": 2400,
+   "structures": 1,
+   "s": 2,
+   "current_log2_per_key": 32.0,
+   "dims1": {
+    "n": 61625,
+    "norm": 2400,
+    "log2_per_key": 31.822,
+    "assembly_factor": 0.8842
+   },
+   "dims_s": {
+    "n": 60459,
+    "norm": 69,
+    "dims": 2,
+    "log2_per_key": 31.767,
+    "assembly_factor": 0.851
+   },
+   "gain_bits_dims1": 0.178,
+   "gain_bits_dims_s": 0.233
+  },
+  {
+   "row": "Yu2X-16 10/12 (ii)",
+   "ledger": "A'",
+   "q": "2^16",
+   "active": [
+    0
+   ],
+   "layers": 8,
+   "cipher": "yux",
+   "combine": null,
+   "used_positions": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "D": 26083,
+   "T_full": 65535,
+   "margin_full": 39452,
+   "N_w": 1238,
+   "structures": 1,
+   "s": 1,
+   "current_log2_per_key": 16.0,
+   "dims1": {
+    "n": 27322,
+    "norm": 1238,
+    "log2_per_key": 14.738,
+    "assembly_factor": 0.4169
+   },
+   "dims_s": {
+    "n": 27322,
+    "norm": 1238,
+    "dims": 1,
+    "log2_per_key": 14.738,
+    "assembly_factor": 0.4169
+   },
+   "gain_bits_dims1": 1.262,
+   "gain_bits_dims_s": 1.262
+  },
+  {
+   "row": "Yu2X-16 11/12",
+   "ledger": "A'",
+   "q": "2^16",
+   "active": [
+    0,
+    4
+   ],
+   "layers": 9,
+   "cipher": "yux",
+   "combine": null,
+   "used_positions": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "D": 120847,
+   "T_full": 131070,
+   "margin_full": 10223,
+   "N_w": 1300,
+   "structures": 1,
+   "s": 2,
+   "current_log2_per_key": 32.0,
+   "dims1": {
+    "n": 61075,
+    "norm": 1300,
+    "log2_per_key": 31.797,
+    "assembly_factor": 0.8685
+   },
+   "dims_s": {
+    "n": 60450,
+    "norm": 51,
+    "dims": 2,
+    "log2_per_key": 31.767,
+    "assembly_factor": 0.8508
+   },
+   "gain_bits_dims1": 0.203,
+   "gain_bits_dims_s": 0.233
+  },
+  {
+   "row": "Yu2X-8 7/12",
+   "ledger": "A'",
+   "q": "2^8",
+   "active": [
+    0,
+    4
+   ],
+   "layers": 5,
+   "cipher": "yux",
+   "combine": null,
+   "used_positions": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "D": 476,
+   "T_full": 510,
+   "margin_full": 34,
+   "N_w": 34,
+   "structures": 40,
+   "s": 2,
+   "current_log2_per_key": 21.32,
+   "dims1": {
+    "n": 256,
+    "norm": 34,
+    "log2_per_key": 21.322,
+    "assembly_factor": 1.0
+   },
+   "dims_s": {
+    "n": 243,
+    "norm": 8,
+    "dims": 2,
+    "log2_per_key": 21.172,
+    "assembly_factor": 0.901
+   },
+   "gain_bits_dims1": -0.002,
+   "gain_bits_dims_s": 0.148
+  }
+ ],
+ "no_gain": [
+  {
+   "row": "DuX(65537) 13 \u8f6e\uff08\u7406\u8bba\uff09",
+   "reason": "\u5168\u5757 2^64\uff08O11\uff09\uff1a\u81ea\u7531\u5757\u5fc5\u987b\u8dd1\u904d F_q^4\uff0c\u70b9\u96c6\u4e0d\u9002\u7528\uff1b\u4f55\u51b5\u7b2c 11 \u5c42\u7684\u4f59\u91cf\u53ea\u6709 57"
+  },
+  {
+   "row": "DuX(2^16) 12/12\uff08\u7406\u8bba\uff09",
+   "reason": "\u5df2\u7ecf\u662f\u7ef4\u6570 (16,16,15) \u7684\u5b50\u7a7a\u95f4\u7ed3\u6784 = 2^47\uff1b\u70b9\u96c6\u4e0e\u5b50\u7a7a\u95f4\u662f\u540c\u4e00\u7c7b\u8282\u7701\uff0c\u800c\u90a3\u91cc\u7684\u7ef4\u6570\u6b63\u662f\u7531\u4f59\u91cf\u5b9a\u6b7b\u7684"
+  },
+  {
+   "row": "YupX-65537 12/14 \u4e0e Yu2X-16 12/12\uff08\u7406\u8bba\uff09",
+   "reason": "\u5168\u5757 2^64\uff0c\u6743\u91cd\u4f4d\u7f6e\u7684\u4f59\u91cf\u662f 0 / -4"
+  },
+  {
+   "row": "Yu2X-8 8/12",
+   "reason": "\u5168\u5757 2^32\uff08O11\uff09"
+  },
+  {
+   "row": "\u6240\u6709 r_KR = 1 \u7684\u884c\uff089 \u8f6e YupX\u300110 \u8f6e\u7684\u8def\u7ebf (i)\u30015/6 \u8f6e\u5404\u884c\uff09",
+   "reason": "\u5b83\u4eec\u7528\u7684\u662f\u666e\u901a\u96f6\u548c\u800c\u4e0d\u662f\u6743\u91cd\uff1b\u540c\u4e00\u6362\u5143\u4ecd\u7136\u6210\u7acb\uff0c\u4f46\u7701\u4e0b\u7684\u4e0d\u5230 1 \u4f4d"
+  }
+ ]
+}

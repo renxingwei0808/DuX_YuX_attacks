@@ -1,0 +1,8 @@
+toy-193 (F_193): r = 7 (5-layer distinguisher + 2), unknown inner blocks [0], outer blocks [0, 1, 2, 3], active words [3, 7]
+  monomials M = 1082 = 2^10.1; 100 structures x 37249 chosen ciphertexts = 2^21.8 data; 4 eqs/structure
+  assembled 100/100 structures (23.8s)
+  system 400 x 1081 over F_193 (1 columns pinned)
+  rank 300 / 1081 unknowns (781 free), 68 monomials pinned down  (1.0s)
+  inner key words recovered correctly: 4/4
+  data 2^21.83; assemble 23.8s, solve 1.0s
+saved /home/user/dux-cryptanalysis/results/E07_key_recovery_2round/w12/fast_toy193_u0_s2026.json

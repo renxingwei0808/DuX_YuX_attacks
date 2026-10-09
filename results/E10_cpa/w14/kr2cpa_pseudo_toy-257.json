@@ -1,0 +1,75 @@
+{
+ "instance": "toy-257",
+ "field": "F_257",
+ "rounds": 5,
+ "layers": 3,
+ "active_words": [
+  1
+ ],
+ "points_per_structure": 257,
+ "coords": [
+  0,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "monomials": 3307,
+ "unknowns": 3296,
+ "equations_per_structure": 8,
+ "structures": 200,
+ "pseudo": true,
+ "rank": 1404,
+ "free": 1892,
+ "kappa_correct": -1,
+ "master_key_ok": false,
+ "known_pair_ok": false,
+ "curve": [
+  {
+   "structures": 170,
+   "equations": 1360,
+   "rank": 1360,
+   "free": 1936,
+   "kappa_correct": -1,
+   "master_key_ok": false,
+   "known_pair_ok": false,
+   "data_log2": 15.42
+  },
+  {
+   "structures": 176,
+   "equations": 1408,
+   "rank": 1404,
+   "free": 1892,
+   "kappa_correct": -1,
+   "master_key_ok": false,
+   "known_pair_ok": false,
+   "data_log2": 15.47
+  },
+  {
+   "structures": 180,
+   "equations": 1440,
+   "rank": 1404,
+   "free": 1892,
+   "kappa_correct": -1,
+   "master_key_ok": false,
+   "known_pair_ok": false,
+   "data_log2": 15.5
+  },
+  {
+   "structures": 200,
+   "equations": 1600,
+   "rank": 1404,
+   "free": 1892,
+   "kappa_correct": -1,
+   "master_key_ok": false,
+   "known_pair_ok": false,
+   "data_log2": 15.65
+  }
+ ],
+ "seed": 2026,
+ "data_log2": 15.65,
+ "assemble_s": 2.9
+}

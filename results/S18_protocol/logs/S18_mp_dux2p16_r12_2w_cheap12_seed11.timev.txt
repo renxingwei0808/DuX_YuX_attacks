@@ -1,0 +1,23 @@
+	Command being timed: "python3 experiments/E07_key_recovery_2round/attack_12round.py --instance dux-2^16 --layers 10 --active 3,7 --cheap-set 1,2 --combine 1101 --weights 3780 --weight-grid 3600 --normalise --structures 1 --slice-chunk 4096 --block-slices 1 --point-chunk 65536 --checkpoint-every 8192 --procs 19 --checkpoint-dir /home/luck/dux-data/S18_mp_dux2p16_r12_2w_cheap12_seed11 --rows-dir /home/luck/dux-data/S18_mp_dux2p16_r12_2w_cheap12_seed11 --progress 1 --seed 11 --out results/S18_protocol --tag S18_mp_dux2p16_r12_2w_cheap12_seed11"
+	User time (seconds): 472668.47
+	System time (seconds): 8403.45
+	Percent of CPU this job got: 1792%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:27:20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 27396476
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 560579415
+	Voluntary context switches: 349775
+	Involuntary context switches: 2492093
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 50509272
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

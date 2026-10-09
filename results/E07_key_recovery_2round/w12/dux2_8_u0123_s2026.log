@@ -1,0 +1,17 @@
+dux-2^8 (F_2^8): r = 7 (5-layer distinguisher + 2), unknown inner blocks [0, 1, 2, 3], outer blocks [0, 1, 2, 3], active words [3]
+  monomials M = 18025 = 2^14.1; 1150 structures x 256 chosen ciphertexts = 2^18.2 data; 4 eqs/structure
+  assembled 100/1150 structures (6.9s)
+  assembled 200/1150 structures (13.5s)
+  assembled 300/1150 structures (20.0s)
+  assembled 400/1150 structures (26.5s)
+  assembled 500/1150 structures (32.9s)
+  assembled 600/1150 structures (39.7s)
+  assembled 700/1150 structures (46.3s)
+  assembled 800/1150 structures (52.7s)
+  assembled 900/1150 structures (59.2s)
+  assembled 1000/1150 structures (65.7s)
+  assembled 1100/1150 structures (72.2s)
+  assembled 1150/1150 structures (75.5s)
+  system 4600 x 18014 over F_2^8 (11 columns pinned)
+    rref(2^n): 500 pivots after column 864/18014
+    rref(2^n): 1000 pivots after column 1753/18014

@@ -1,0 +1,127 @@
+{
+ "instance": "dux-2^16",
+ "cipher": "dux",
+ "field": "F_2^16",
+ "rounds": 11,
+ "layers": 9,
+ "active_words": [
+  3
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "points_per_structure": 65536,
+ "structures": 1,
+ "slices": 65536,
+ "points_per_slice": 1,
+ "block_slices": 1,
+ "slice_chunk": 2048,
+ "monomials": 18025,
+ "weights": {
+  "n": 1500,
+  "dims": 1,
+  "margin": 24990,
+  "weight_word": 3,
+  "range": "a < 1500"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "equations": 6000,
+ "unknowns": 18014,
+ "rank": 4756,
+ "free": 13258,
+ "pinned": 2188,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 16.0,
+ "assemble_s": 1562.3,
+ "solve_s": 78.7,
+ "weight_curve": [
+  {
+   "weights": 900,
+   "rows": 3600,
+   "rank": 3600,
+   "free": 14414,
+   "pinned": 0,
+   "inner_correct": 0,
+   "solve_s": 62.7
+  },
+  {
+   "weights": 1000,
+   "rows": 4000,
+   "rank": 4000,
+   "free": 14014,
+   "pinned": 0,
+   "inner_correct": 0,
+   "solve_s": 66.0
+  },
+  {
+   "weights": 1100,
+   "rows": 4400,
+   "rank": 4400,
+   "free": 13614,
+   "pinned": 0,
+   "inner_correct": 0,
+   "solve_s": 72.1
+  },
+  {
+   "weights": 1189,
+   "rows": 4756,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "solve_s": 76.8
+  },
+  {
+   "weights": 1200,
+   "rows": 4800,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "solve_s": 76.2
+  },
+  {
+   "weights": 1260,
+   "rows": 5040,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "solve_s": 76.8
+  },
+  {
+   "weights": 1500,
+   "rows": 6000,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "solve_s": 78.6
+  }
+ ],
+ "per_structure": [
+  {
+   "structure": 0,
+   "seed": 7026,
+   "moments_s": 1156.0,
+   "dgemm_s": 0.0
+  }
+ ],
+ "procs": 8,
+ "seed": 2026,
+ "solver": "c-omp"
+}

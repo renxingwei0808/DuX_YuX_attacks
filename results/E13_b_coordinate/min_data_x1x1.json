@@ -1,0 +1,7383 @@
+{
+ "rank_max_b": 14400,
+ "rows": [
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "1000",
+   "log2_data": 1,
+   "active": [
+    3
+   ],
+   "dims": [
+    1
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "0100",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "0010",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "0001",
+   "log2_data": 1,
+   "active": [
+    2
+   ],
+   "dims": [
+    1
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "1100",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "1010",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "1001",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "0110",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "0101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "0011",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "1110",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "1101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "1011",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "0111",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "1111",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "1000",
+   "log2_data": 2,
+   "active": [
+    2
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "0100",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "0010",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "0001",
+   "log2_data": 2,
+   "active": [
+    2
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "1100",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "1010",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "1001",
+   "log2_data": 2,
+   "active": [
+    2
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "0110",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "0101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "0011",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "1110",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "1101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "1011",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "0111",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "1111",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "1000",
+   "log2_data": 4,
+   "active": [
+    0
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "0100",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "0010",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "0001",
+   "log2_data": 4,
+   "active": [
+    0
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "1100",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "1010",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "1001",
+   "log2_data": 4,
+   "active": [
+    0
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "0110",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "0101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "0011",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "1110",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "1101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "1011",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "0111",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "1111",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "1000",
+   "log2_data": 5,
+   "active": [
+    2
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "0100",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "0010",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "0001",
+   "log2_data": 5,
+   "active": [
+    2
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "1100",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "1010",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "1001",
+   "log2_data": 5,
+   "active": [
+    2
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "0110",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "0101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "0011",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "1110",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "1101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "1011",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "0111",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "1111",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "1000",
+   "log2_data": 7,
+   "active": [
+    2
+   ],
+   "dims": [
+    7
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "0100",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "0010",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "0001",
+   "log2_data": 7,
+   "active": [
+    2
+   ],
+   "dims": [
+    7
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "1100",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "1010",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "1001",
+   "log2_data": 7,
+   "active": [
+    2
+   ],
+   "dims": [
+    7
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "0110",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "0101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "0011",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "1110",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "1101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "1011",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "0111",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "1111",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "1000",
+   "log2_data": 9,
+   "active": [
+    2
+   ],
+   "dims": [
+    9
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "0100",
+   "log2_data": 10,
+   "active": [
+    0
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "0010",
+   "log2_data": 10,
+   "active": [
+    2
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "0001",
+   "log2_data": 9,
+   "active": [
+    2
+   ],
+   "dims": [
+    9
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "1100",
+   "log2_data": 10,
+   "active": [
+    0
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "1010",
+   "log2_data": 10,
+   "active": [
+    2
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "1001",
+   "log2_data": 9,
+   "active": [
+    2
+   ],
+   "dims": [
+    9
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "0110",
+   "log2_data": 10,
+   "active": [
+    2
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "0101",
+   "log2_data": 10,
+   "active": [
+    0
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 34,
+    "usable_weights": 34,
+    "axis_cap": 1024,
+    "dim_K": 4,
+    "rows_per_structure": 136,
+    "structures": 106,
+    "log2_points": 10.0,
+    "log2_total_data": 16.73,
+    "rule": "subspace dims [10]: |a| < T - D = sum_i (2^m_i - 1) - D = 34; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "0011",
+   "log2_data": 10,
+   "active": [
+    2
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "1110",
+   "log2_data": 10,
+   "active": [
+    2
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "1101",
+   "log2_data": 10,
+   "active": [
+    0
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 34,
+    "usable_weights": 34,
+    "axis_cap": 1024,
+    "dim_K": 4,
+    "rows_per_structure": 136,
+    "structures": 106,
+    "log2_points": 10.0,
+    "log2_total_data": 16.73,
+    "rule": "subspace dims [10]: |a| < T - D = sum_i (2^m_i - 1) - D = 34; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "1011",
+   "log2_data": 10,
+   "active": [
+    2
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "0111",
+   "log2_data": 10,
+   "active": [
+    2
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "1111",
+   "log2_data": 10,
+   "active": [
+    2
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "1000",
+   "log2_data": 11,
+   "active": [
+    2
+   ],
+   "dims": [
+    11
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "0100",
+   "log2_data": 12,
+   "active": [
+    0
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "0010",
+   "log2_data": 12,
+   "active": [
+    2
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "0001",
+   "log2_data": 11,
+   "active": [
+    2
+   ],
+   "dims": [
+    11
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "1100",
+   "log2_data": 12,
+   "active": [
+    0
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "1010",
+   "log2_data": 12,
+   "active": [
+    2
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "1001",
+   "log2_data": 11,
+   "active": [
+    2
+   ],
+   "dims": [
+    11
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "0110",
+   "log2_data": 12,
+   "active": [
+    2
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "0101",
+   "log2_data": 12,
+   "active": [
+    0
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 404,
+    "usable_weights": 404,
+    "axis_cap": 4096,
+    "dim_K": 4,
+    "rows_per_structure": 1616,
+    "structures": 9,
+    "log2_points": 12.0,
+    "log2_total_data": 15.17,
+    "rule": "subspace dims [12]: |a| < T - D = sum_i (2^m_i - 1) - D = 404; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "0011",
+   "log2_data": 12,
+   "active": [
+    2
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "1110",
+   "log2_data": 12,
+   "active": [
+    2
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "1101",
+   "log2_data": 12,
+   "active": [
+    0
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 404,
+    "usable_weights": 404,
+    "axis_cap": 4096,
+    "dim_K": 4,
+    "rows_per_structure": 1616,
+    "structures": 9,
+    "log2_points": 12.0,
+    "log2_total_data": 15.17,
+    "rule": "subspace dims [12]: |a| < T - D = sum_i (2^m_i - 1) - D = 404; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "1011",
+   "log2_data": 12,
+   "active": [
+    2
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "0111",
+   "log2_data": 12,
+   "active": [
+    2
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "1111",
+   "log2_data": 12,
+   "active": [
+    2
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "1000",
+   "log2_data": 13,
+   "active": [
+    2
+   ],
+   "dims": [
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "0100",
+   "log2_data": 13,
+   "active": [
+    2
+   ],
+   "dims": [
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "0010",
+   "log2_data": 14,
+   "active": [
+    2
+   ],
+   "dims": [
+    14
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "0001",
+   "log2_data": 13,
+   "active": [
+    2
+   ],
+   "dims": [
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "1100",
+   "log2_data": 13,
+   "active": [
+    2
+   ],
+   "dims": [
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "1010",
+   "log2_data": 14,
+   "active": [
+    2
+   ],
+   "dims": [
+    14
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "1001",
+   "log2_data": 13,
+   "active": [
+    2
+   ],
+   "dims": [
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "0110",
+   "log2_data": 14,
+   "active": [
+    2
+   ],
+   "dims": [
+    14
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "0101",
+   "log2_data": 13,
+   "active": [
+    2
+   ],
+   "dims": [
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 238,
+    "usable_weights": 238,
+    "axis_cap": 8192,
+    "dim_K": 4,
+    "rows_per_structure": 952,
+    "structures": 16,
+    "log2_points": 13.0,
+    "log2_total_data": 17.0,
+    "rule": "subspace dims [13]: |a| < T - D = sum_i (2^m_i - 1) - D = 238; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "0011",
+   "log2_data": 14,
+   "active": [
+    2
+   ],
+   "dims": [
+    14
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "1110",
+   "log2_data": 14,
+   "active": [
+    2
+   ],
+   "dims": [
+    14
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "1101",
+   "log2_data": 13,
+   "active": [
+    2
+   ],
+   "dims": [
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 238,
+    "usable_weights": 238,
+    "axis_cap": 8192,
+    "dim_K": 4,
+    "rows_per_structure": 952,
+    "structures": 16,
+    "log2_points": 13.0,
+    "log2_total_data": 17.0,
+    "rule": "subspace dims [13]: |a| < T - D = sum_i (2^m_i - 1) - D = 238; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "1011",
+   "log2_data": 14,
+   "active": [
+    2
+   ],
+   "dims": [
+    14
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "0111",
+   "log2_data": 14,
+   "active": [
+    2
+   ],
+   "dims": [
+    14
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "1111",
+   "log2_data": 14,
+   "active": [
+    2
+   ],
+   "dims": [
+    14
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "1000",
+   "log2_data": 15,
+   "active": [
+    2
+   ],
+   "dims": [
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "0100",
+   "log2_data": 15,
+   "active": [
+    2
+   ],
+   "dims": [
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "0010",
+   "log2_data": 16,
+   "active": [
+    2
+   ],
+   "dims": [
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "0001",
+   "log2_data": 15,
+   "active": [
+    0
+   ],
+   "dims": [
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "1100",
+   "log2_data": 15,
+   "active": [
+    2
+   ],
+   "dims": [
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "1010",
+   "log2_data": 16,
+   "active": [
+    2
+   ],
+   "dims": [
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "1001",
+   "log2_data": 15,
+   "active": [
+    2
+   ],
+   "dims": [
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "0110",
+   "log2_data": 16,
+   "active": [
+    2
+   ],
+   "dims": [
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "0101",
+   "log2_data": 15,
+   "active": [
+    2
+   ],
+   "dims": [
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 3086,
+    "usable_weights": 3086,
+    "axis_cap": 32768,
+    "dim_K": 4,
+    "rows_per_structure": 12344,
+    "structures": 2,
+    "log2_points": 15.0,
+    "log2_total_data": 16.0,
+    "rule": "subspace dims [15]: |a| < T - D = sum_i (2^m_i - 1) - D = 3086; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "0011",
+   "log2_data": 16,
+   "active": [
+    2
+   ],
+   "dims": [
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "1110",
+   "log2_data": 16,
+   "active": [
+    2
+   ],
+   "dims": [
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "1101",
+   "log2_data": 15,
+   "active": [
+    2
+   ],
+   "dims": [
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 3086,
+    "usable_weights": 3086,
+    "axis_cap": 32768,
+    "dim_K": 4,
+    "rows_per_structure": 12344,
+    "structures": 2,
+    "log2_points": 15.0,
+    "log2_total_data": 16.0,
+    "rule": "subspace dims [15]: |a| < T - D = sum_i (2^m_i - 1) - D = 3086; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "1011",
+   "log2_data": 16,
+   "active": [
+    2
+   ],
+   "dims": [
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "0111",
+   "log2_data": 16,
+   "active": [
+    2
+   ],
+   "dims": [
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "1111",
+   "log2_data": 16,
+   "active": [
+    2
+   ],
+   "dims": [
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "1000",
+   "log2_data": 30,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    14
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "0100",
+   "log2_data": 32,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "0010",
+   "log2_data": 47,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "0001",
+   "log2_data": 29,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "1100",
+   "log2_data": 32,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "1010",
+   "log2_data": 47,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "1001",
+   "log2_data": 30,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    14
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "0110",
+   "log2_data": 47,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "0101",
+   "log2_data": 32,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 20299,
+    "usable_weights": 20299,
+    "axis_cap": 65536,
+    "dim_K": 4,
+    "rows_per_structure": 81196,
+    "structures": 1,
+    "log2_points": 32.0,
+    "log2_total_data": 32.0,
+    "rule": "subspace dims [16, 16]: |a| < T - D = sum_i (2^m_i - 1) - D = 20299; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "0011",
+   "log2_data": 47,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "1110",
+   "log2_data": 47,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "1101",
+   "log2_data": 32,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 20299,
+    "usable_weights": 20299,
+    "axis_cap": 65536,
+    "dim_K": 4,
+    "rows_per_structure": 81196,
+    "structures": 1,
+    "log2_points": 32.0,
+    "log2_total_data": 32.0,
+    "rule": "subspace dims [16, 16]: |a| < T - D = sum_i (2^m_i - 1) - D = 20299; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "1011",
+   "log2_data": 47,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "0111",
+   "log2_data": 47,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "1111",
+   "log2_data": 47,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 11,
+   "class": "1000",
+   "log2_data": 80,
+   "active": [
+    6
+   ],
+   "dims": [
+    16
+   ],
+   "free_blocks": [
+    0
+   ],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 11,
+   "class": "0100",
+   "log2_data": 111,
+   "active": [
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [
+    0
+   ],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 11,
+   "class": "0001",
+   "log2_data": 64,
+   "active": [
+    2,
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 11,
+   "class": "1100",
+   "log2_data": 111,
+   "active": [
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [
+    0
+   ],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 11,
+   "class": "1001",
+   "log2_data": 80,
+   "active": [
+    6
+   ],
+   "dims": [
+    16
+   ],
+   "free_blocks": [
+    0
+   ],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 11,
+   "class": "0101",
+   "log2_data": 111,
+   "active": [
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [
+    0
+   ],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 12574,
+    "usable_weights": 6287,
+    "axis_cap": 65536,
+    "dim_K": 4,
+    "rows_per_structure": 25148,
+    "structures": 1,
+    "log2_points": 47.0,
+    "log2_total_data": 47.0,
+    "rule": "full block [0] (O11): weights on ciphertext word 2 (position 2, degree 2 after the substitution) => 2|a| < 12574, so |a| < 6287; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 11,
+   "class": "1101",
+   "log2_data": 111,
+   "active": [
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [
+    0
+   ],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 12574,
+    "usable_weights": 6287,
+    "axis_cap": 65536,
+    "dim_K": 4,
+    "rows_per_structure": 25148,
+    "structures": 1,
+    "log2_points": 47.0,
+    "log2_total_data": 47.0,
+    "rule": "full block [0] (O11): weights on ciphertext word 2 (position 2, degree 2 after the substitution) => 2|a| < 12574, so |a| < 6287; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "1000",
+   "log2_data": 1,
+   "active": [
+    3
+   ],
+   "dims": [
+    1
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "0100",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "0010",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "0001",
+   "log2_data": 1,
+   "active": [
+    2
+   ],
+   "dims": [
+    1
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "1100",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "1010",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "1001",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "0110",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "0101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "0011",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "1110",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "1101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "1011",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "0111",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "1111",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "1000",
+   "log2_data": 2,
+   "active": [
+    2
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "0100",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "0010",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "0001",
+   "log2_data": 2,
+   "active": [
+    2
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "1100",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "1010",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "1001",
+   "log2_data": 2,
+   "active": [
+    2
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "0110",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "0101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "0011",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "1110",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "1101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "1011",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "0111",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "1111",
+   "log2_data": 3,
+   "active": [
+    2
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "1000",
+   "log2_data": 4,
+   "active": [
+    0
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "0100",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "0010",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "0001",
+   "log2_data": 4,
+   "active": [
+    0
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "1100",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "1010",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "1001",
+   "log2_data": 4,
+   "active": [
+    0
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "0110",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "0101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "0011",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "1110",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "1101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "1011",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "0111",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "1111",
+   "log2_data": 5,
+   "active": [
+    0
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "1000",
+   "log2_data": 5,
+   "active": [
+    2
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "0100",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "0010",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "0001",
+   "log2_data": 5,
+   "active": [
+    2
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "1100",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "1010",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "1001",
+   "log2_data": 5,
+   "active": [
+    2
+   ],
+   "dims": [
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "0110",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "0101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "0011",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "1110",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "1101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "1011",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "0111",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "1111",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "1000",
+   "log2_data": 7,
+   "active": [
+    2
+   ],
+   "dims": [
+    7
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "0100",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "0010",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "0001",
+   "log2_data": 7,
+   "active": [
+    2
+   ],
+   "dims": [
+    7
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "1100",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "1010",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "1001",
+   "log2_data": 7,
+   "active": [
+    2
+   ],
+   "dims": [
+    7
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "0110",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "0101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "0011",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "1110",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "1101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "1011",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "0111",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "1111",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "1000",
+   "log2_data": 16,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    8,
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "0100",
+   "log2_data": 22,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    8,
+    8,
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "0010",
+   "log2_data": 29,
+   "active": [
+    2,
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    8,
+    8,
+    8,
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "0001",
+   "log2_data": 15,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    8,
+    7
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "1100",
+   "log2_data": 22,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    8,
+    8,
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "1010",
+   "log2_data": 29,
+   "active": [
+    2,
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    8,
+    8,
+    8,
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 1,
+   "usable_cheap12": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "1001",
+   "log2_data": 16,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    8,
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "0110",
+   "log2_data": 29,
+   "active": [
+    2,
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    8,
+    8,
+    8,
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "0101",
+   "log2_data": 22,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    8,
+    8,
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 22.0,
+    "log2_total_data": 32.81,
+    "rule": "subspace dims [8, 8, 6]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "0011",
+   "log2_data": 29,
+   "active": [
+    2,
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    8,
+    8,
+    8,
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "1110",
+   "log2_data": 29,
+   "active": [
+    2,
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    8,
+    8,
+    8,
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "1101",
+   "log2_data": 22,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    8,
+    8,
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 22.0,
+    "log2_total_data": 32.81,
+    "rule": "subspace dims [8, 8, 6]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "1011",
+   "log2_data": 29,
+   "active": [
+    2,
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    8,
+    8,
+    8,
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 5,
+   "usable_cheap12": "dim K = 5 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "0111",
+   "log2_data": 29,
+   "active": [
+    2,
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    8,
+    8,
+    8,
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "1111",
+   "log2_data": 29,
+   "active": [
+    2,
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    8,
+    8,
+    8,
+    5
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 4,
+   "usable_cheap2": "dim K = 4 + plain rows",
+   "dim_K_cheap12": 8,
+   "usable_cheap12": "dim K = 8 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 7,
+   "class": "1000",
+   "log2_data": 53,
+   "active": [
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    8,
+    8,
+    5
+   ],
+   "free_blocks": [
+    0
+   ],
+   "dim_K_cheap2": 0,
+   "usable_cheap2": "distinguisher only",
+   "dim_K_cheap12": 0,
+   "usable_cheap12": "distinguisher only",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 7,
+   "class": "0001",
+   "log2_data": 47,
+   "active": [
+    6,
+    10
+   ],
+   "dims": [
+    8,
+    7
+   ],
+   "free_blocks": [
+    0
+   ],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 7,
+   "class": "1001",
+   "log2_data": 53,
+   "active": [
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    8,
+    8,
+    5
+   ],
+   "free_blocks": [
+    0
+   ],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 2,
+   "usable_cheap12": "dim K = 2 with the T1 cheap set {1,2}",
+   "newly_usable": false
+  }
+ ],
+ "newly_usable": [
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "0101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "1101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "0101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "1101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "0101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "1101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "0101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "1101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "0101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "1101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "0101",
+   "log2_data": 10,
+   "active": [
+    0
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 34,
+    "usable_weights": 34,
+    "axis_cap": 1024,
+    "dim_K": 4,
+    "rows_per_structure": 136,
+    "structures": 106,
+    "log2_points": 10.0,
+    "log2_total_data": 16.73,
+    "rule": "subspace dims [10]: |a| < T - D = sum_i (2^m_i - 1) - D = 34; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "1101",
+   "log2_data": 10,
+   "active": [
+    0
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 34,
+    "usable_weights": 34,
+    "axis_cap": 1024,
+    "dim_K": 4,
+    "rows_per_structure": 136,
+    "structures": 106,
+    "log2_points": 10.0,
+    "log2_total_data": 16.73,
+    "rule": "subspace dims [10]: |a| < T - D = sum_i (2^m_i - 1) - D = 34; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "0101",
+   "log2_data": 12,
+   "active": [
+    0
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 404,
+    "usable_weights": 404,
+    "axis_cap": 4096,
+    "dim_K": 4,
+    "rows_per_structure": 1616,
+    "structures": 9,
+    "log2_points": 12.0,
+    "log2_total_data": 15.17,
+    "rule": "subspace dims [12]: |a| < T - D = sum_i (2^m_i - 1) - D = 404; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "1101",
+   "log2_data": 12,
+   "active": [
+    0
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 404,
+    "usable_weights": 404,
+    "axis_cap": 4096,
+    "dim_K": 4,
+    "rows_per_structure": 1616,
+    "structures": 9,
+    "log2_points": 12.0,
+    "log2_total_data": 15.17,
+    "rule": "subspace dims [12]: |a| < T - D = sum_i (2^m_i - 1) - D = 404; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "0101",
+   "log2_data": 13,
+   "active": [
+    2
+   ],
+   "dims": [
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 238,
+    "usable_weights": 238,
+    "axis_cap": 8192,
+    "dim_K": 4,
+    "rows_per_structure": 952,
+    "structures": 16,
+    "log2_points": 13.0,
+    "log2_total_data": 17.0,
+    "rule": "subspace dims [13]: |a| < T - D = sum_i (2^m_i - 1) - D = 238; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "1101",
+   "log2_data": 13,
+   "active": [
+    2
+   ],
+   "dims": [
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 238,
+    "usable_weights": 238,
+    "axis_cap": 8192,
+    "dim_K": 4,
+    "rows_per_structure": 952,
+    "structures": 16,
+    "log2_points": 13.0,
+    "log2_total_data": 17.0,
+    "rule": "subspace dims [13]: |a| < T - D = sum_i (2^m_i - 1) - D = 238; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "0101",
+   "log2_data": 15,
+   "active": [
+    2
+   ],
+   "dims": [
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 3086,
+    "usable_weights": 3086,
+    "axis_cap": 32768,
+    "dim_K": 4,
+    "rows_per_structure": 12344,
+    "structures": 2,
+    "log2_points": 15.0,
+    "log2_total_data": 16.0,
+    "rule": "subspace dims [15]: |a| < T - D = sum_i (2^m_i - 1) - D = 3086; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "1101",
+   "log2_data": 15,
+   "active": [
+    2
+   ],
+   "dims": [
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 3086,
+    "usable_weights": 3086,
+    "axis_cap": 32768,
+    "dim_K": 4,
+    "rows_per_structure": 12344,
+    "structures": 2,
+    "log2_points": 15.0,
+    "log2_total_data": 16.0,
+    "rule": "subspace dims [15]: |a| < T - D = sum_i (2^m_i - 1) - D = 3086; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "0101",
+   "log2_data": 32,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 20299,
+    "usable_weights": 20299,
+    "axis_cap": 65536,
+    "dim_K": 4,
+    "rows_per_structure": 81196,
+    "structures": 1,
+    "log2_points": 32.0,
+    "log2_total_data": 32.0,
+    "rule": "subspace dims [16, 16]: |a| < T - D = sum_i (2^m_i - 1) - D = 20299; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "1101",
+   "log2_data": 32,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 20299,
+    "usable_weights": 20299,
+    "axis_cap": 65536,
+    "dim_K": 4,
+    "rows_per_structure": 81196,
+    "structures": 1,
+    "log2_points": 32.0,
+    "log2_total_data": 32.0,
+    "rule": "subspace dims [16, 16]: |a| < T - D = sum_i (2^m_i - 1) - D = 20299; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 11,
+   "class": "0101",
+   "log2_data": 111,
+   "active": [
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [
+    0
+   ],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 12574,
+    "usable_weights": 6287,
+    "axis_cap": 65536,
+    "dim_K": 4,
+    "rows_per_structure": 25148,
+    "structures": 1,
+    "log2_points": 47.0,
+    "log2_total_data": 47.0,
+    "rule": "full block [0] (O11): weights on ciphertext word 2 (position 2, degree 2 after the substitution) => 2|a| < 12574, so |a| < 6287; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 11,
+   "class": "1101",
+   "log2_data": 111,
+   "active": [
+    6,
+    10,
+    14
+   ],
+   "dims": [
+    16,
+    16,
+    15
+   ],
+   "free_blocks": [
+    0
+   ],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 12574,
+    "usable_weights": 6287,
+    "axis_cap": 65536,
+    "dim_K": 4,
+    "rows_per_structure": 25148,
+    "structures": 1,
+    "log2_points": 47.0,
+    "log2_total_data": 47.0,
+    "rule": "full block [0] (O11): weights on ciphertext word 2 (position 2, degree 2 after the substitution) => 2|a| < 12574, so |a| < 6287; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "0101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "1101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "0101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "1101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "0101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "1101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "0101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "1101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "0101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "1101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "0101",
+   "log2_data": 22,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    8,
+    8,
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 22.0,
+    "log2_total_data": 32.81,
+    "rule": "subspace dims [8, 8, 6]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "1101",
+   "log2_data": 22,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    8,
+    8,
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 22.0,
+    "log2_total_data": 32.81,
+    "rule": "subspace dims [8, 8, 6]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  }
+ ],
+ "with_weight_budget": [
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "0101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 1,
+   "class": "1101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "0101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 2,
+   "class": "1101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "0101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 3,
+   "class": "1101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "0101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 4,
+   "class": "1101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "0101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 5,
+   "class": "1101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "0101",
+   "log2_data": 10,
+   "active": [
+    0
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 34,
+    "usable_weights": 34,
+    "axis_cap": 1024,
+    "dim_K": 4,
+    "rows_per_structure": 136,
+    "structures": 106,
+    "log2_points": 10.0,
+    "log2_total_data": 16.73,
+    "rule": "subspace dims [10]: |a| < T - D = sum_i (2^m_i - 1) - D = 34; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 6,
+   "class": "1101",
+   "log2_data": 10,
+   "active": [
+    0
+   ],
+   "dims": [
+    10
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 34,
+    "usable_weights": 34,
+    "axis_cap": 1024,
+    "dim_K": 4,
+    "rows_per_structure": 136,
+    "structures": 106,
+    "log2_points": 10.0,
+    "log2_total_data": 16.73,
+    "rule": "subspace dims [10]: |a| < T - D = sum_i (2^m_i - 1) - D = 34; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "0101",
+   "log2_data": 12,
+   "active": [
+    0
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 404,
+    "usable_weights": 404,
+    "axis_cap": 4096,
+    "dim_K": 4,
+    "rows_per_structure": 1616,
+    "structures": 9,
+    "log2_points": 12.0,
+    "log2_total_data": 15.17,
+    "rule": "subspace dims [12]: |a| < T - D = sum_i (2^m_i - 1) - D = 404; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 7,
+   "class": "1101",
+   "log2_data": 12,
+   "active": [
+    0
+   ],
+   "dims": [
+    12
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 404,
+    "usable_weights": 404,
+    "axis_cap": 4096,
+    "dim_K": 4,
+    "rows_per_structure": 1616,
+    "structures": 9,
+    "log2_points": 12.0,
+    "log2_total_data": 15.17,
+    "rule": "subspace dims [12]: |a| < T - D = sum_i (2^m_i - 1) - D = 404; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "0101",
+   "log2_data": 13,
+   "active": [
+    2
+   ],
+   "dims": [
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 238,
+    "usable_weights": 238,
+    "axis_cap": 8192,
+    "dim_K": 4,
+    "rows_per_structure": 952,
+    "structures": 16,
+    "log2_points": 13.0,
+    "log2_total_data": 17.0,
+    "rule": "subspace dims [13]: |a| < T - D = sum_i (2^m_i - 1) - D = 238; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 8,
+   "class": "1101",
+   "log2_data": 13,
+   "active": [
+    2
+   ],
+   "dims": [
+    13
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 238,
+    "usable_weights": 238,
+    "axis_cap": 8192,
+    "dim_K": 4,
+    "rows_per_structure": 952,
+    "structures": 16,
+    "log2_points": 13.0,
+    "log2_total_data": 17.0,
+    "rule": "subspace dims [13]: |a| < T - D = sum_i (2^m_i - 1) - D = 238; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "0101",
+   "log2_data": 15,
+   "active": [
+    2
+   ],
+   "dims": [
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 3086,
+    "usable_weights": 3086,
+    "axis_cap": 32768,
+    "dim_K": 4,
+    "rows_per_structure": 12344,
+    "structures": 2,
+    "log2_points": 15.0,
+    "log2_total_data": 16.0,
+    "rule": "subspace dims [15]: |a| < T - D = sum_i (2^m_i - 1) - D = 3086; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 9,
+   "class": "1101",
+   "log2_data": 15,
+   "active": [
+    2
+   ],
+   "dims": [
+    15
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 3086,
+    "usable_weights": 3086,
+    "axis_cap": 32768,
+    "dim_K": 4,
+    "rows_per_structure": 12344,
+    "structures": 2,
+    "log2_points": 15.0,
+    "log2_total_data": 16.0,
+    "rule": "subspace dims [15]: |a| < T - D = sum_i (2^m_i - 1) - D = 3086; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "0101",
+   "log2_data": 32,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 20299,
+    "usable_weights": 20299,
+    "axis_cap": 65536,
+    "dim_K": 4,
+    "rows_per_structure": 81196,
+    "structures": 1,
+    "log2_points": 32.0,
+    "log2_total_data": 32.0,
+    "rule": "subspace dims [16, 16]: |a| < T - D = sum_i (2^m_i - 1) - D = 20299; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "1101",
+   "log2_data": 32,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 20299,
+    "usable_weights": 20299,
+    "axis_cap": 65536,
+    "dim_K": 4,
+    "rows_per_structure": 81196,
+    "structures": 1,
+    "log2_points": 32.0,
+    "log2_total_data": 32.0,
+    "rule": "subspace dims [16, 16]: |a| < T - D = sum_i (2^m_i - 1) - D = 20299; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "0101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 1,
+   "class": "1101",
+   "log2_data": 2,
+   "active": [
+    0
+   ],
+   "dims": [
+    2
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 4,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 2.0,
+    "log2_total_data": 12.81,
+    "rule": "subspace dims [2]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "0101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 2,
+   "class": "1101",
+   "log2_data": 3,
+   "active": [
+    0
+   ],
+   "dims": [
+    3
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 8,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 3.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [3]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "0101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 3,
+   "class": "1101",
+   "log2_data": 4,
+   "active": [
+    2
+   ],
+   "dims": [
+    4
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 4,
+    "usable_weights": 4,
+    "axis_cap": 16,
+    "dim_K": 4,
+    "rows_per_structure": 16,
+    "structures": 900,
+    "log2_points": 4.0,
+    "log2_total_data": 13.81,
+    "rule": "subspace dims [4]: |a| < T - D = sum_i (2^m_i - 1) - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "0101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 4,
+   "class": "1101",
+   "log2_data": 6,
+   "active": [
+    2
+   ],
+   "dims": [
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 22,
+    "usable_weights": 22,
+    "axis_cap": 64,
+    "dim_K": 4,
+    "rows_per_structure": 88,
+    "structures": 164,
+    "log2_points": 6.0,
+    "log2_total_data": 13.36,
+    "rule": "subspace dims [6]: |a| < T - D = sum_i (2^m_i - 1) - D = 22; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "0101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 5,
+   "class": "1101",
+   "log2_data": 8,
+   "active": [
+    2
+   ],
+   "dims": [
+    8
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 102,
+    "usable_weights": 102,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 408,
+    "structures": 36,
+    "log2_points": 8.0,
+    "log2_total_data": 13.17,
+    "rule": "subspace dims [8]: |a| < T - D = sum_i (2^m_i - 1) - D = 102; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "0101",
+   "log2_data": 22,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    8,
+    8,
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 22.0,
+    "log2_total_data": 32.81,
+    "rule": "subspace dims [8, 8, 6]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "1101",
+   "log2_data": 22,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    8,
+    8,
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 22.0,
+    "log2_total_data": 32.81,
+    "rule": "subspace dims [8, 8, 6]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  }
+ ],
+ "deepest_per_instance": {
+  "DuX(2^16)": {
+   "instance": "DuX(2^16)",
+   "q": "2^16",
+   "layer": 10,
+   "class": "0101",
+   "log2_data": 32,
+   "active": [
+    2,
+    6
+   ],
+   "dims": [
+    16,
+    16
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 20299,
+    "usable_weights": 20299,
+    "axis_cap": 65536,
+    "dim_K": 4,
+    "rows_per_structure": 81196,
+    "structures": 1,
+    "log2_points": 32.0,
+    "log2_total_data": 32.0,
+    "rule": "subspace dims [16, 16]: |a| < T - D = sum_i (2^m_i - 1) - D = 20299; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  },
+  "DuX(2^8)": {
+   "instance": "DuX(2^8)",
+   "q": "2^8",
+   "layer": 6,
+   "class": "0101",
+   "log2_data": 22,
+   "active": [
+    2,
+    6,
+    10
+   ],
+   "dims": [
+    8,
+    8,
+    6
+   ],
+   "free_blocks": [],
+   "dim_K_cheap2": 1,
+   "usable_cheap2": "char-2 unusable (dim K = 1 combined row collapses, W19-B)",
+   "dim_K_cheap12": 4,
+   "usable_cheap12": "dim K = 4 with the T1 cheap set {1,2}",
+   "newly_usable": true,
+   "weights": {
+    "margin": 2,
+    "usable_weights": 2,
+    "axis_cap": 256,
+    "dim_K": 4,
+    "rows_per_structure": 8,
+    "structures": 1800,
+    "log2_points": 22.0,
+    "log2_total_data": 32.81,
+    "rule": "subspace dims [8, 8, 6]: |a| < T - D = sum_i (2^m_i - 1) - D = 2; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4"
+   }
+  }
+ }
+}

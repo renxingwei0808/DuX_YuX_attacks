@@ -1,0 +1,116 @@
+{
+ "instance": "dux-2^16",
+ "field": "F_2^16",
+ "rounds": 8,
+ "layers": 6,
+ "active_words": [
+  1
+ ],
+ "points_per_structure": 65536,
+ "coords": [
+  0,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "monomials": 3259,
+ "unknowns": 3248,
+ "equations_per_structure": 1600,
+ "weights": {
+  "n": 400,
+  "dims": 1,
+  "margin": 24575,
+  "weight_word": 1,
+  "range": "|a| < 24575"
+ },
+ "equation_rows": {
+  "combine": "1110",
+  "dim_K": 4
+ },
+ "structures": 1,
+ "pseudo": false,
+ "rank": 1086,
+ "free": 2162,
+ "kappa_correct": 16,
+ "master_key_ok": true,
+ "known_pair_ok": true,
+ "curve": [
+  {
+   "structures": 200,
+   "equations": 1600,
+   "rank": 1086,
+   "free": 2162,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 23.64
+  },
+  {
+   "structures": 250,
+   "equations": 1600,
+   "rank": 1086,
+   "free": 2162,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 23.97
+  },
+  {
+   "structures": 300,
+   "equations": 1600,
+   "rank": 1086,
+   "free": 2162,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 24.23
+  },
+  {
+   "structures": 334,
+   "equations": 1600,
+   "rank": 1086,
+   "free": 2162,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 24.38
+  },
+  {
+   "structures": 351,
+   "equations": 1600,
+   "rank": 1086,
+   "free": 2162,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 24.46
+  },
+  {
+   "structures": 400,
+   "equations": 1600,
+   "rank": 1086,
+   "free": 2162,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 24.64
+  },
+  {
+   "structures": 1,
+   "equations": 1600,
+   "rank": 1086,
+   "free": 2162,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 16.0
+  }
+ ],
+ "seed": 7,
+ "data_log2": 16.0,
+ "assemble_s": 3276.6
+}

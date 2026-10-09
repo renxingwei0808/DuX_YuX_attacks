@@ -1,0 +1,4 @@
+dux-65537, 10 rounds, active [3], 2 structures x 2^16 chosen ciphertexts
+  success 50/50 = 100.0%   structures used: min 2, max 2, mean 2.00
+  retries triggered by: none   (172.5s, 3.45s per key)
+saved results/E06_key_recovery_1round/w6/success_rate_dux-65537_r10.json

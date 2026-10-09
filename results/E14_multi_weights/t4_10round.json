@@ -1,0 +1,118 @@
+{
+ "rows": [
+  {
+   "instance": "dux-65537",
+   "rounds": 10,
+   "active": "3",
+   "variant": "one structure + weights (T4)",
+   "structures": 1,
+   "weights": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "weights_used": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "weight_range": [
+    0,
+    24991
+   ],
+   "success": 50,
+   "keys": 50,
+   "log2_data": 16.0,
+   "elapsed_s": 93.3
+  },
+  {
+   "instance": "dux-65537",
+   "rounds": 10,
+   "active": "3",
+   "variant": "two structures, plain sums (Table 6)",
+   "structures": 2,
+   "weights": [
+    0
+   ],
+   "weights_used": [
+    0
+   ],
+   "weight_range": [
+    null,
+    null
+   ],
+   "success": 50,
+   "keys": 50,
+   "log2_data": 17.0,
+   "elapsed_s": 50.6
+  },
+  {
+   "instance": "dux-2^16",
+   "rounds": 10,
+   "active": "3",
+   "variant": "one structure + weights (T4)",
+   "structures": 1,
+   "weights": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "weights_used": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "weight_range": [
+    0,
+    24990
+   ],
+   "success": 50,
+   "keys": 50,
+   "log2_data": 16.0,
+   "elapsed_s": 511.3
+  },
+  {
+   "instance": "dux-2^16",
+   "rounds": 10,
+   "active": "3",
+   "variant": "two structures, plain sums (Table 6)",
+   "structures": 2,
+   "weights": [
+    0
+   ],
+   "weights_used": [
+    0
+   ],
+   "weight_range": [
+    null,
+    null
+   ],
+   "success": 50,
+   "keys": 50,
+   "log2_data": 17.0,
+   "elapsed_s": 26.9
+  }
+ ],
+ "keys": 50,
+ "seed": 2026
+}

@@ -1,0 +1,58 @@
+{
+ "instance": "yuxtoy-257",
+ "cipher": "yux",
+ "field": "F_257",
+ "rounds": 6,
+ "layers": 5,
+ "pattern": "1100",
+ "predicted_pattern": "1100",
+ "balanced_words": [
+  0,
+  1,
+  4,
+  5,
+  8,
+  9,
+  12,
+  13
+ ],
+ "margins": [
+  52,
+  48,
+  -52,
+  -156
+ ],
+ "weights": 48,
+ "weight_bound": 48,
+ "monomials_per_block": 80,
+ "unknowns": 320,
+ "equations_per_structure": 384,
+ "structures": 1,
+ "data_log2": 8.01,
+ "keys": 3,
+ "seed": 2026,
+ "results": [
+  {
+   "key": 0,
+   "determined": 16,
+   "correct": 16,
+   "rank": 136,
+   "rows": 384
+  },
+  {
+   "key": 1,
+   "determined": 16,
+   "correct": 16,
+   "rank": 136,
+   "rows": 384
+  },
+  {
+   "key": 2,
+   "determined": 16,
+   "correct": 16,
+   "rank": 136,
+   "rows": 384
+  }
+ ],
+ "elapsed_s": 6.0
+}

@@ -1,0 +1,117 @@
+{
+ "instance": "toy-257",
+ "field": "F_257",
+ "rounds": 7,
+ "layers": 5,
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  3
+ ],
+ "points_per_structure": 257,
+ "monomials": 38051,
+ "weights": {
+  "dims": 1,
+  "margin": 47,
+  "max_n": 47,
+  "weight_word": 3,
+  "range": "|a| < 47"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block (4)"
+ },
+ "structures": 55,
+ "data_log2": 13.78,
+ "weight_curve": [
+  {
+   "weights": 1,
+   "rows": 220,
+   "rank": 220,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "seconds": 1.0
+  },
+  {
+   "weights": 2,
+   "rows": 440,
+   "rank": 440,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "seconds": 3.4
+  },
+  {
+   "weights": 4,
+   "rows": 880,
+   "rank": 880,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "seconds": 9.9
+  },
+  {
+   "weights": 8,
+   "rows": 1760,
+   "rank": 1760,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "seconds": 44.1
+  },
+  {
+   "weights": 16,
+   "rows": 3520,
+   "rank": 3520,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "seconds": 158.7
+  },
+  {
+   "weights": 24,
+   "rows": 5280,
+   "rank": 5280,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "seconds": 405.7
+  },
+  {
+   "weights": 32,
+   "rows": 7040,
+   "rank": 7040,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "seconds": 651.2
+  },
+  {
+   "weights": 40,
+   "rows": 8800,
+   "rank": 8608,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "seconds": 998.4
+  }
+ ],
+ "saturated_rank": 8608,
+ "rank_max_reference": 8608,
+ "assemble_s": 145.7,
+ "memory_gib": 2.93,
+ "seed": 2026,
+ "procs": 4,
+ "source": "transcribed from results/E07_key_recovery_2round/w16/T1_seed2026.log; the process was killed by an unrelated pkill before it could write its own JSON, so this file carries only what the log printed (no re-derived numbers)"
+}

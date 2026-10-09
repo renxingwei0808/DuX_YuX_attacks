@@ -1,0 +1,26 @@
+$ python3 experiments/E10_cpa/check_thmS1_base.py --instance dux-2^16 --layers 6 --keys 200 --seed 1  --positions 0,1,2,3 --out results/E10_cpa/thmS1_base_dux-2^16.json
+dux-2^16 (q = 65536), 200 keys, layers 1..6
+  position 0: nonzero X^(D-1) (inputs/outputs) L1:200/800, L2:3200/2400, L3:2200/1200, L4:0/0, L5:0/0, L6:0/0; clean from layer 4; lambda = 0 on 0 keys; layer-3 facts 200/200 and 200/200; 0.48 s
+  position 1: nonzero X^(D-1) (inputs/outputs) L1:200/600, L2:3200/2800, L3:3000/1600, L4:0/0, L5:0/0, L6:0/0; clean from layer 4; lambda = 0 on 0 keys; layer-3 facts 200/200 and 200/200; 0.48 s
+  position 2: nonzero X^(D-1) (inputs/outputs) L1:200/800, L2:3200/2400, L3:2200/1200, L4:0/0, L5:0/0, L6:0/0; clean from layer 4; lambda = 0 on 0 keys; layer-3 facts 200/200 and 200/200; 0.49 s
+  position 3: nonzero X^(D-1) (inputs/outputs) L1:200/800, L2:3200/2000, L3:0/0, L4:0/0, L5:0/0, L6:0/0; clean from layer 3; lambda = 0 on 0 keys; layer-3 facts 200/200 and 200/200; 0.45 s
+saved results/E10_cpa/thmS1_base_dux-2^16.json
+  [wall 2.06 s, maxrss 36660 kB]
+$ python3 experiments/E10_cpa/check_thmS1_base.py --instance dux-2^16 --layers 6 --keys 50 --seed 7 --degenerate --positions 1 --out results/E10_cpa/thmS1_base_dux-2^16_lambda0.json
+dux-2^16 (q = 65536), 50 keys with lambda = 0 forced, layers 1..6
+  position 1: nonzero X^(D-1) (inputs/outputs) L1:50/150, L2:800/50, L3:0/0, L4:0/0, L5:0/0, L6:0/0; clean from layer 3; lambda = 0 on 50 keys; layer-3 facts 50/50 and 50/50; 0.1 s
+saved results/E10_cpa/thmS1_base_dux-2^16_lambda0.json
+  [wall 0.28 s, maxrss 36672 kB]
+$ python3 experiments/E10_cpa/check_thmS1_base.py --instance dux-2^8 --layers 5 --keys 200 --seed 1  --positions 0,1,2,3 --out results/E10_cpa/thmS1_base_dux-2^8.json
+dux-2^8 (q = 256), 200 keys, layers 1..5
+  position 0: nonzero X^(D-1) (inputs/outputs) L1:200/794, L2:3167/2369, L3:2178/1188, L4:0/0, L5:0/0; clean from layer 4; lambda = 0 on 0 keys; layer-3 facts 200/200 and 200/200; 0.37 s
+  position 1: nonzero X^(D-1) (inputs/outputs) L1:200/596, L2:3185/2768, L3:2971/1584, L4:0/0, L5:0/0; clean from layer 4; lambda = 0 on 1 keys; layer-3 facts 200/200 and 200/200; 0.38 s
+  position 2: nonzero X^(D-1) (inputs/outputs) L1:199/800, L2:3193/2392, L3:2200/1200, L4:0/0, L5:0/0; clean from layer 4; lambda = 0 on 0 keys; layer-3 facts 200/200 and 200/200; 0.37 s
+  position 3: nonzero X^(D-1) (inputs/outputs) L1:200/795, L2:3174/1983, L3:0/0, L4:0/0, L5:0/0; clean from layer 3; lambda = 0 on 1 keys; layer-3 facts 200/200 and 200/200; 0.35 s
+saved results/E10_cpa/thmS1_base_dux-2^8.json
+  [wall 1.62 s, maxrss 35084 kB]
+$ python3 experiments/E10_cpa/check_thmS1_base.py --instance dux-2^8 --layers 5 --keys 50 --seed 7 --degenerate --positions 1 --out results/E10_cpa/thmS1_base_dux-2^8_lambda0.json
+dux-2^8 (q = 256), 50 keys with lambda = 0 forced, layers 1..5
+  position 1: nonzero X^(D-1) (inputs/outputs) L1:50/149, L2:784/50, L3:0/0, L4:0/0, L5:0/0; clean from layer 3; lambda = 0 on 50 keys; layer-3 facts 50/50 and 50/50; 0.08 s
+saved results/E10_cpa/thmS1_base_dux-2^8_lambda0.json
+  [wall 0.24 s, maxrss 35228 kB]

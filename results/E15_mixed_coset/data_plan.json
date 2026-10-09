@@ -1,0 +1,223 @@
+{
+ "reference_run": {
+  "points": 1569268996,
+  "nslice": 39614,
+  "nw": 9000,
+  "slice_s": 2059,
+  "dgemm_s": 658,
+  "rows_s": 588,
+  "elim_s": 639,
+  "core_hours": 20.8,
+  "wall": "1:09:31",
+  "peak_gb": 19.3,
+  "procs": 32
+ },
+ "rows": [
+  {
+   "row": "DuX(65537) 12/12, k = 14",
+   "q": "65537",
+   "active": [
+    3,
+    7
+   ],
+   "layers": 10,
+   "combine": "0001",
+   "structure": [
+    "2^14",
+    "full"
+   ],
+   "dims": 1,
+   "threshold": 81920,
+   "threshold_plain": 65536,
+   "D": [
+    81090,
+    110771,
+    151316,
+    70226
+   ],
+   "used_positions": [
+    3
+   ],
+   "margin": 11694,
+   "usable_weights": 11693,
+   "axis_cap": 16384,
+   "needed_weights": 8608,
+   "residues_collide": false,
+   "enough": true,
+   "points": 1073758208,
+   "log2_data": 30.0,
+   "slices": 16384,
+   "cost": {
+    "slice_s": 1409,
+    "dgemm_s": 260,
+    "rows_s": 562,
+    "elim_s": 639,
+    "wall_s": 2871,
+    "core_hours": 15.1
+   },
+   "weight_rule": "structure words ['2^14', 'full']: |a| < 11694; every coset axis needs a_i >= 1 and 2^k not dividing a_i (O12 Sect. 5.5), the full-field axes are unconstrained (T2)"
+  },
+  {
+   "row": "DuX(65537) 12/12, k = 13",
+   "q": "65537",
+   "active": [
+    3,
+    7
+   ],
+   "layers": 10,
+   "combine": "0001",
+   "structure": [
+    "2^13",
+    "full"
+   ],
+   "dims": 2,
+   "threshold": 73728,
+   "threshold_plain": 65536,
+   "D": [
+    81090,
+    110771,
+    151316,
+    70226
+   ],
+   "used_positions": [
+    3
+   ],
+   "margin": 3502,
+   "usable_weights": 6130251,
+   "axis_cap": 536879104,
+   "needed_weights": 8608,
+   "residues_collide": false,
+   "enough": true,
+   "points": 536879104,
+   "log2_data": 29.0,
+   "slices": 8192,
+   "cost": {
+    "slice_s": 704,
+    "dgemm_s": 130,
+    "rows_s": 562,
+    "elim_s": 639,
+    "wall_s": 2036,
+    "core_hours": 10.7
+   },
+   "weight_rule": "structure words ['2^13', 'full']: |a| < 3502; every coset axis needs a_i >= 1 and 2^k not dividing a_i (O12 Sect. 5.5), the full-field axes are unconstrained (T2)"
+  },
+  {
+   "row": "DuX(65537) 11/12, k = 15",
+   "q": "65537",
+   "active": [
+    3
+   ],
+   "layers": 9,
+   "combine": "0001",
+   "structure": [
+    "2^15"
+   ],
+   "dims": 1,
+   "threshold": 32768,
+   "threshold_plain": null,
+   "D": [
+    21728,
+    29681,
+    40545,
+    18817
+   ],
+   "used_positions": [
+    3
+   ],
+   "margin": 13951,
+   "usable_weights": 13950,
+   "axis_cap": 32768,
+   "needed_weights": 8608,
+   "residues_collide": false,
+   "enough": true,
+   "points": 32768,
+   "log2_data": 15.0,
+   "slices": 32768,
+   "cost": {
+    "slice_s": 0,
+    "dgemm_s": 521,
+    "rows_s": 562,
+    "elim_s": 639,
+    "wall_s": 1722,
+    "core_hours": 9.1
+   },
+   "weight_rule": "structure words ['2^15']: |a| < 13951 and no axis with 2^k | a_i (O12 Sect. 5.5)"
+  },
+  {
+   "row": "DuX(65537) 12/12, full x full (current)",
+   "q": "65537",
+   "active": [
+    3,
+    7
+   ],
+   "layers": 10,
+   "combine": "0001",
+   "structure": [
+    "full",
+    "full"
+   ],
+   "dims": 1,
+   "threshold": 131072,
+   "threshold_plain": null,
+   "D": [
+    81090,
+    110771,
+    151316,
+    70226
+   ],
+   "used_positions": [
+    3
+   ],
+   "margin": 60846,
+   "usable_weights": 60846,
+   "axis_cap": 65537,
+   "needed_weights": 8608,
+   "residues_collide": false,
+   "enough": true,
+   "points": 4295098369,
+   "log2_data": 32.0,
+   "slices": 65537,
+   "cost": {
+    "slice_s": 5635,
+    "dgemm_s": 1041,
+    "rows_s": 562,
+    "elim_s": 639,
+    "wall_s": 7878,
+    "core_hours": 41.5
+   },
+   "weight_rule": "full-domain words: |a| < T - D = 60846"
+  }
+ ],
+ "variants": [
+  {
+   "k": 14,
+   "coset_points": 16384,
+   "pointset_n": 62452,
+   "threshold": 78835,
+   "D3": 70226,
+   "margin": 8609,
+   "points": 1023213568,
+   "log2_data": 29.93
+  },
+  {
+   "k": 15,
+   "coset_points": 32768,
+   "pointset_n": 46068,
+   "threshold": 78835,
+   "D3": 70226,
+   "margin": 8609,
+   "points": 1509556224,
+   "log2_data": 30.49
+  },
+  {
+   "k": 16,
+   "coset_points": 65536,
+   "pointset_n": 13300,
+   "threshold": 78835,
+   "D3": 70226,
+   "margin": 8609,
+   "points": 871628800,
+   "log2_data": 29.7
+  }
+ ]
+}

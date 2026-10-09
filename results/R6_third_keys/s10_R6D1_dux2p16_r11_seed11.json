@@ -1,0 +1,76 @@
+{
+ "instance": "dux-2^16",
+ "cipher": "dux",
+ "field": "F_2^16",
+ "rounds": 11,
+ "layers": 9,
+ "active_words": [
+  3
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "weight_rule": "full-domain words: |a| < T - D = 24990",
+ "points_per_structure": 65536,
+ "structures": 1,
+ "slices": 65536,
+ "points_per_slice": 1,
+ "coset": null,
+ "coset_reps": [],
+ "block_slices": 512,
+ "slice_chunk": 8192,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 18025,
+ "weights": {
+  "n": 1500,
+  "dims": 1,
+  "margin": 24990,
+  "usable": 24990,
+  "first": 0,
+  "last": 1499,
+  "weight_word": 3,
+  "degree_units_per_power": 1,
+  "range": "a < 1500"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "equations": 6000,
+ "unknowns": 18014,
+ "rank": 4756,
+ "free": 13258,
+ "pinned": 2188,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 16.0,
+ "assemble_s": 1088.3,
+ "solve_s": 91.5,
+ "weight_curve": [],
+ "structure_curve": [],
+ "rows_dir": null,
+ "per_structure": [
+  {
+   "structure": 0,
+   "seed": 5011,
+   "moments_s": 7.4,
+   "dgemm_s": 299.6
+  }
+ ],
+ "procs": 24,
+ "seed": 11,
+ "solver": "c-omp"
+}

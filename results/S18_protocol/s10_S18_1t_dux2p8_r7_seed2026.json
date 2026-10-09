@@ -1,0 +1,366 @@
+{
+ "instance": "dux-2^8",
+ "cipher": "dux",
+ "field": "F_2^8",
+ "rounds": 7,
+ "layers": 5,
+ "active_words": [
+  3
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "weight_rule": "full-domain words: |a| < T - D = 46",
+ "points_per_structure": 256,
+ "structures": 26,
+ "slices": 256,
+ "points_per_slice": 1,
+ "coset": null,
+ "coset_reps": [],
+ "mixed": null,
+ "point_set": null,
+ "block_slices": 1,
+ "slice_chunk": 2048,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 18025,
+ "cheap_set": [
+  2
+ ],
+ "subspace_dims": null,
+ "weights": {
+  "n": 46,
+  "dims": 1,
+  "margin": 46,
+  "usable": 46,
+  "weight_min": 0,
+  "first": 0,
+  "last": 45,
+  "weight_word": 3,
+  "degree_units_per_power": 1,
+  "range": "a < 46",
+  "vandermonde_axes": 1,
+  "weight_words": [
+   3
+  ],
+  "inner_tuples": null,
+  "usable_norm": 46
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "equations": 4784,
+ "unknowns": 18014,
+ "rank": 4756,
+ "free": 13258,
+ "pinned": 2188,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 12.7,
+ "assemble_s": 218.1,
+ "solve_s": 162.3,
+ "weight_curve": [
+  {
+   "weights": 10,
+   "rows": 1040,
+   "rank": 1040,
+   "free": 16974,
+   "pinned": 0,
+   "inner_correct": 0,
+   "solve_s": 11.9
+  },
+  {
+   "weights": 20,
+   "rows": 2080,
+   "rank": 2080,
+   "free": 15934,
+   "pinned": 0,
+   "inner_correct": 0,
+   "solve_s": 44.3
+  },
+  {
+   "weights": 30,
+   "rows": 3120,
+   "rank": 3120,
+   "free": 14894,
+   "pinned": 0,
+   "inner_correct": 0,
+   "solve_s": 87.7
+  },
+  {
+   "weights": 40,
+   "rows": 4160,
+   "rank": 4160,
+   "free": 13854,
+   "pinned": 0,
+   "inner_correct": 0,
+   "solve_s": 135.8
+  },
+  {
+   "weights": 46,
+   "rows": 4784,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "solve_s": 162.7
+  }
+ ],
+ "structure_curve": [],
+ "rows_dir": null,
+ "per_structure": [
+  {
+   "structure": 0,
+   "a1": 0,
+   "seed": 7026,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 1,
+   "a1": 0,
+   "seed": 7027,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 2,
+   "a1": 0,
+   "seed": 7028,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 3,
+   "a1": 0,
+   "seed": 7029,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 4,
+   "a1": 0,
+   "seed": 7030,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 5,
+   "a1": 0,
+   "seed": 7031,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 6,
+   "a1": 0,
+   "seed": 7032,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 7,
+   "a1": 0,
+   "seed": 7033,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 8,
+   "a1": 0,
+   "seed": 7034,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 9,
+   "a1": 0,
+   "seed": 7035,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 10,
+   "a1": 0,
+   "seed": 7036,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 11,
+   "a1": 0,
+   "seed": 7037,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 12,
+   "a1": 0,
+   "seed": 7038,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 13,
+   "a1": 0,
+   "seed": 7039,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 14,
+   "a1": 0,
+   "seed": 7040,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 15,
+   "a1": 0,
+   "seed": 7041,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 16,
+   "a1": 0,
+   "seed": 7042,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 17,
+   "a1": 0,
+   "seed": 7043,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 18,
+   "a1": 0,
+   "seed": 7044,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 19,
+   "a1": 0,
+   "seed": 7045,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 20,
+   "a1": 0,
+   "seed": 7046,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 21,
+   "a1": 0,
+   "seed": 7047,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 22,
+   "a1": 0,
+   "seed": 7048,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 23,
+   "a1": 0,
+   "seed": 7049,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 24,
+   "a1": 0,
+   "seed": 7050,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  },
+  {
+   "structure": 25,
+   "a1": 0,
+   "seed": 7051,
+   "weights": 46,
+   "moments_s": 0.8,
+   "dgemm_s": 0.3
+  }
+ ],
+ "procs": 1,
+ "seed": 2026,
+ "solver": "c-omp",
+ "protocol": {
+  "cores": "27",
+  "solve_threads": 1,
+  "wall_s": 824.11,
+  "user_s": 818.12,
+  "sys_s": 5.71,
+  "cpu_s": 823.83,
+  "core_hours": 0.229,
+  "maxrss_kb": 2158904,
+  "maxrss_gb": 2.06,
+  "cpu_pct": 99,
+  "wall_over_cpu": 1.0,
+  "threads": {
+   "samples": 82,
+   "max_nlwp": 1,
+   "max_procs": 4,
+   "first_ts": 1790002339,
+   "last_ts": 1790003155
+  },
+  "loadavg_start": "102.59 106.66 112.77",
+  "loadavg_end": "82.27 92.36 102.57",
+  "start": "2026-09-21T07:52:19-07:00",
+  "end": "2026-09-21T08:06:03-07:00",
+  "exit": "0",
+  "machine": "2 x Intel Xeon Gold 6230R (26 cores / 52 threads each, 2.10 GHz base, 4.00 GHz max turbo), 251 GB RAM",
+  "single_threaded": true,
+  "not_preempted": true,
+  "procs": 1
+ }
+}

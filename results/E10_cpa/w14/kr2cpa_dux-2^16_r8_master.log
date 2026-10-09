@@ -1,0 +1,2 @@
+dux-2^16 (F_2^16): r = 8 = 6-layer CPA zero-sum + 2, active plaintext words [1] (65536 = 2^16 points)
+  inner S^-1 expansion: |U| = 19, |S| = 14; monomials M = 3259; outer coords [0, 3] -> 8 equations/structure; N_min >= ceil(M/8) = 408

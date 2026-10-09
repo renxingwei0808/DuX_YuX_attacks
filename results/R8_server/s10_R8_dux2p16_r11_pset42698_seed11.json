@@ -1,0 +1,102 @@
+{
+ "instance": "dux-2^16",
+ "cipher": "dux",
+ "field": "F_2^16",
+ "rounds": 11,
+ "layers": 9,
+ "active_words": [
+  3
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "weight_rule": "O15 point sets of sizes [42698]: T' = 42697 = sum_i (n_i - 1), |a| < T' - D = 2152",
+ "points_per_structure": 42698,
+ "structures": 1,
+ "slices": 42698,
+ "points_per_slice": 1,
+ "coset": null,
+ "coset_reps": [],
+ "point_set": {
+  "n": 42698,
+  "words": 1,
+  "seed": 4011,
+  "threshold": 42697
+ },
+ "block_slices": 1,
+ "slice_chunk": 8192,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 18025,
+ "weights": {
+  "n": 1500,
+  "dims": 1,
+  "margin": 2152,
+  "usable": 2152,
+  "weight_min": 0,
+  "first": 0,
+  "last": 1499,
+  "weight_word": 3,
+  "degree_units_per_power": 1,
+  "range": "a < 1500"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "equations": 6000,
+ "unknowns": 18014,
+ "rank": 4756,
+ "free": 13258,
+ "pinned": 2188,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 15.38,
+ "assemble_s": 493.5,
+ "solve_s": 48.0,
+ "weight_curve": [
+  {
+   "weights": 1189,
+   "rows": 4756,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "solve_s": 46.7
+  },
+  {
+   "weights": 1500,
+   "rows": 6000,
+   "rank": 4756,
+   "free": 13258,
+   "pinned": 2188,
+   "inner_correct": 16,
+   "solve_s": 47.8
+  }
+ ],
+ "structure_curve": [],
+ "rows_dir": null,
+ "per_structure": [
+  {
+   "structure": 0,
+   "seed": 5011,
+   "moments_s": 13.6,
+   "dgemm_s": 183.0
+  }
+ ],
+ "procs": 16,
+ "seed": 11,
+ "solver": "c-omp"
+}

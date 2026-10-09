@@ -1,0 +1,17 @@
+dux-65537: rank(Phi_stack) from realizable pseudo-structures (seed 2026)
+    .. N = 200, rank = 768, 164 s
+    .. N = 400, rank = 1536, 304 s
+    .. N = 600, rank = 2304, 464 s
+    .. N = 800, rank = 3072, 644 s
+    .. N = 1000, rank = 3840, 836 s
+    .. N = 1200, rank = 4608, 1041 s
+    .. N = 1400, rank = 5376, 1263 s
+    .. N = 1600, rank = 6400, 1594 s
+    .. N = 1800, rank = 7168, 1862 s
+  N =  2000  rows =   8000  rank =   8000   (2163 s)
+  N =  2152  rows =   8608  rank =   8608   (2396 s)
+  N =  2200  rows =   8800  rank =   8618   (2416 s)
+  N =  2300  rows =   9200  rank =   8618   (2423 s)
+  N =  2400  rows =   9600  rank =   8618   (2429 s)
+saturated rank = 8618  (monomials M = 38051)
+saved results/E07_key_recovery_2round/w13/rank_phi_dux-65537_realizable.json

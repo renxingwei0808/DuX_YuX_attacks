@@ -1,0 +1,127 @@
+{
+ "instance": "dux-65537",
+ "cipher": "dux",
+ "field": "F_65537",
+ "rounds": 11,
+ "layers": 9,
+ "active_words": [
+  3
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "weight_rule": "structure words ['2^15']: |a| < 13951 and no axis with 2^k | a_i (O12 Sect. 5.5)",
+ "points_per_structure": 32768,
+ "structures": 1,
+ "slices": 32768,
+ "points_per_slice": 1,
+ "coset": 15,
+ "coset_reps": [
+  18359
+ ],
+ "point_set": null,
+ "block_slices": 512,
+ "slice_chunk": 4096,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 38051,
+ "cheap_set": [
+  2
+ ],
+ "subspace_dims": null,
+ "weights": {
+  "n": 9000,
+  "dims": 1,
+  "margin": 13951,
+  "usable": 13950,
+  "weight_min": 0,
+  "first": 1,
+  "last": 9000,
+  "weight_word": 3,
+  "degree_units_per_power": 1,
+  "range": "a < 9000",
+  "vandermonde_axes": 1,
+  "weight_words": [
+   3
+  ],
+  "inner_tuples": null,
+  "usable_norm": 13951
+ },
+ "equation_rows": {
+  "combine": "0001",
+  "dim_K": 1,
+  "y": [
+   [
+    1,
+    65536,
+    1,
+    65536
+   ]
+  ]
+ },
+ "equations": 9000,
+ "unknowns": 38040,
+ "rank": 8188,
+ "free": 29852,
+ "pinned": 2592,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 15.0,
+ "assemble_s": 1321.0,
+ "solve_s": 854.9,
+ "weight_curve": [
+  {
+   "weights": 8188,
+   "rows": 8188,
+   "rank": 8188,
+   "free": 29852,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "solve_s": 797.0
+  },
+  {
+   "weights": 8608,
+   "rows": 8608,
+   "rank": 8188,
+   "free": 29852,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "solve_s": 1043.5
+  },
+  {
+   "weights": 9000,
+   "rows": 9000,
+   "rank": 8188,
+   "free": 29852,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "solve_s": 869.6
+  }
+ ],
+ "structure_curve": [],
+ "rows_dir": null,
+ "per_structure": [
+  {
+   "structure": 0,
+   "a1": 0,
+   "seed": 7026,
+   "moments_s": 35.3,
+   "dgemm_s": 584.1
+  }
+ ],
+ "procs": 16,
+ "seed": 2026,
+ "solver": "numpy-blocked"
+}

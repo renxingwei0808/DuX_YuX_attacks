@@ -1,0 +1,84 @@
+{
+ "instance": "dux-65537",
+ "cipher": "dux",
+ "field": "F_65537",
+ "rounds": 12,
+ "layers": 10,
+ "active_words": [
+  3,
+  7
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "points_per_structure": 4295098369,
+ "structures": 1,
+ "slices": 65537,
+ "points_per_slice": 65537,
+ "coset": null,
+ "coset_reps": [],
+ "block_slices": 1,
+ "slice_chunk": 4096,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 38051,
+ "weights": {
+  "n": 9000,
+  "dims": 1,
+  "margin": 60846,
+  "usable": 60846,
+  "first": 0,
+  "last": 8999,
+  "weight_word": 3,
+  "degree_units_per_power": 1,
+  "range": "a < 9000"
+ },
+ "equation_rows": {
+  "combine": "0001",
+  "dim_K": 1,
+  "y": [
+   [
+    1,
+    65536,
+    1,
+    65536
+   ]
+  ]
+ },
+ "equations": 9000,
+ "unknowns": 38040,
+ "rank": 8188,
+ "free": 29852,
+ "pinned": 2592,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 32.0,
+ "assemble_s": 15014.8,
+ "solve_s": 1265.8,
+ "weight_curve": [],
+ "structure_curve": [],
+ "rows_dir": null,
+ "per_structure": [
+  {
+   "structure": 0,
+   "seed": 5011,
+   "moments_s": 11583.6,
+   "dgemm_s": 1971.9
+  }
+ ],
+ "procs": 24,
+ "seed": 11,
+ "solver": "numpy-blocked"
+}

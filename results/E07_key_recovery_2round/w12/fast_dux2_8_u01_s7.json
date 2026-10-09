@@ -1,0 +1,35 @@
+{
+ "instance": "dux-2^8",
+ "field": "F_2^8",
+ "rounds": 7,
+ "layers": 5,
+ "unknown_blocks": [
+  0,
+  1
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  3
+ ],
+ "points_per_structure": 256,
+ "monomials": 4017,
+ "structures": 900,
+ "equations": 3600,
+ "unknowns": 4016,
+ "rank": 1072,
+ "free": 2944,
+ "pinned": 451,
+ "inner_correct": 8,
+ "inner_total": 8,
+ "normalise": false,
+ "data_log2": 17.81,
+ "assemble_s": 17.7,
+ "solve_s": 118.4,
+ "procs": 4,
+ "seed": 7
+}

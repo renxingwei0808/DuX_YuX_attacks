@@ -1,0 +1,21 @@
+toy-257: rank(Phi_stack) from realizable pseudo-structures (seed 2026)
+  N =   300  rows =   1200  rank =   1200   (50 s)
+  N =   500  rows =   2000  rank =   1805   (84 s)
+  N =   700  rows =   2800  rank =   1859   (91 s)
+  N =   800  rows =   3200  rank =   1859   (92 s)
+  N =   900  rows =   3600  rank =   1859   (94 s)
+saturated rank = 1859  (monomials M = 7780)
+saved results/Y05_key_recovery/rank_phi_toy-257_u01_realizable.json
+yuxtoy-257 (F_257): r = 6, unknown [0, 1], active [0], M = 10733, 4 eqs/structure, 257 points/structure, seed 2026, L = L0 (fixed)
+  assembled 250/700 (9.8s)
+  assembled 500/700 (19.6s)
+  assembled 700/700 (27.4s)
+  system 2800 x 10732 over F_257 (1 columns pinned, 0.22 GiB)
+  N=  300  rank   1200  free   9532  pinned      0  words 0/8  data 2^16.23  (14.1s)
+  N=  400  rank   1600  free   9132  pinned      0  words 0/8  data 2^16.65  (22.0s)
+  N=  465  rank   1764  free   8968  pinned    371  words 8/8  data 2^16.87  (32.6s)
+  N=  500  rank   1799  free   8933  pinned    371  words 8/8  data 2^16.97  (34.0s)
+  N=  600  rank   1851  free   8881  pinned    471  words 8/8  data 2^17.23  (44.2s)
+  N=  700  rank   1851  free   8881  pinned    471  words 8/8  data 2^17.46  (52.8s)
+  => N_min = 465, rank_max = 1851 at N >= 600, rule rank/neq = 463
+saved results/Y05_key_recovery/Y05-B1_nmin_yuxtoy257_u01.json

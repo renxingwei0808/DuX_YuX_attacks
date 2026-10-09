@@ -1,0 +1,30 @@
+{
+ "instance": "toy-257",
+ "rounds": 7,
+ "layers": 5,
+ "unknown_blocks": [
+  0,
+  1
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "monomials": 7780,
+ "structures": 900,
+ "equations": 3600,
+ "unknowns": 7779,
+ "rank": 1867,
+ "free": 5912,
+ "pinned": 579,
+ "inner_correct": 8,
+ "inner_total": 8,
+ "normalise": false,
+ "data_log2": 17.82,
+ "assemble_s": 8.1,
+ "solve_s": 2011.4,
+ "procs": 16,
+ "seed": 2026
+}

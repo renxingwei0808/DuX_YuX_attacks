@@ -1,0 +1,142 @@
+{
+ "instance": "toy-193",
+ "direction": "enc",
+ "active": [
+  1,
+  5
+ ],
+ "points_per_structure": 37249,
+ "data_log2": 15.18,
+ "keys": 3,
+ "seed": 2026,
+ "threshold": 384,
+ "predicted_patterns": [
+  "1111",
+  "1111",
+  "1111",
+  "0010",
+  "0000",
+  "0000"
+ ],
+ "predicted_l_full": 3,
+ "predicted_next": "0010",
+ "measured_l_full": 3,
+ "measured": [
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 3,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 4,
+    "words": "0010001000100010",
+    "block_pattern": "0010",
+    "balanced": 4
+   },
+   {
+    "layer": 5,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   },
+   {
+    "layer": 6,
+    "words": "0000000000000100",
+    "block_pattern": "0000",
+    "balanced": 1
+   }
+  ],
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 3,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 4,
+    "words": "0010001000100010",
+    "block_pattern": "0010",
+    "balanced": 4
+   },
+   {
+    "layer": 5,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   },
+   {
+    "layer": 6,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   }
+  ],
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 3,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 4,
+    "words": "0010001000100010",
+    "block_pattern": "0010",
+    "balanced": 4
+   },
+   {
+    "layer": 5,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   },
+   {
+    "layer": 6,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   }
+  ]
+ ],
+ "prediction_matches": true,
+ "elapsed_s": 1.6
+}

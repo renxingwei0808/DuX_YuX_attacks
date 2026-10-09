@@ -1,0 +1,226 @@
+{
+ "rows": [
+  {
+   "row": "DuX(2^8) 8/12, four full words",
+   "q": "2^8",
+   "active": [
+    3,
+    7,
+    11,
+    15
+   ],
+   "layers": 6,
+   "cipher": "dux",
+   "combine": null,
+   "free_blocks": [],
+   "subspace_dims": null,
+   "rank_max": 4756,
+   "published_structures": 5,
+   "published_log2_data": 34.32,
+   "points": 4294967296,
+   "log2_points": 32.0,
+   "dims1": {
+    "margin": 240,
+    "usable_weights": 240,
+    "axis_cap": 256,
+    "rows_per_weight": 4,
+    "N_w_needed": 1189,
+    "N_w_used": 240,
+    "rows_per_structure": 960,
+    "structures": 5,
+    "log2_data": 34.32,
+    "rule": "full-domain words: |a| < T - D = 240"
+   },
+   "dims4": {
+    "margin": 240,
+    "usable_weights": 141722460,
+    "axis_cap": 4294967296,
+    "rows_per_weight": 4,
+    "N_w_needed": 1189,
+    "N_w_used": 1189,
+    "rows_per_structure": 4756,
+    "structures": 1,
+    "log2_data": 32.0,
+    "rule": "full-domain words: |a| < T - D = 240"
+   },
+   "dims": 4
+  },
+  {
+   "row": "DuX(2^8) 8/12, dims (8,8,8,5)",
+   "q": "2^8",
+   "active": [
+    3,
+    7,
+    11,
+    15
+   ],
+   "layers": 6,
+   "cipher": "dux",
+   "combine": null,
+   "free_blocks": [],
+   "subspace_dims": [
+    8,
+    8,
+    8,
+    5
+   ],
+   "rank_max": 4756,
+   "published_structures": 75,
+   "published_log2_data": 35.2,
+   "points": 536870912,
+   "log2_points": 29.0,
+   "dims1": {
+    "margin": 16,
+    "usable_weights": 16,
+    "axis_cap": 256,
+    "rows_per_weight": 4,
+    "N_w_needed": 1189,
+    "N_w_used": 16,
+    "rows_per_structure": 64,
+    "structures": 75,
+    "log2_data": 35.23,
+    "rule": "subspace dims [8, 8, 8, 5]: |a| < T - D = sum_i (2^m_i - 1) - D = 16"
+   },
+   "dims4": {
+    "margin": 16,
+    "usable_weights": 3876,
+    "axis_cap": 536870912,
+    "rows_per_weight": 4,
+    "N_w_needed": 1189,
+    "N_w_used": 1189,
+    "rows_per_structure": 4756,
+    "structures": 1,
+    "log2_data": 29.0,
+    "rule": "subspace dims [8, 8, 8, 5]: |a| < T - D = sum_i (2^m_i - 1) - D = 16"
+   },
+   "dims": 4
+  },
+  {
+   "row": "Yu2X-8 8/12, full block",
+   "q": "2^8",
+   "active": [],
+   "layers": 6,
+   "cipher": "yux",
+   "combine": "1110",
+   "free_blocks": [
+    0
+   ],
+   "subspace_dims": null,
+   "rank_max": 3822,
+   "published_structures": 11,
+   "published_log2_data": 35.46,
+   "points": 4294967296,
+   "log2_points": 32.0,
+   "dims1": {
+    "margin": 252,
+    "usable_weights": 126,
+    "axis_cap": 256,
+    "rows_per_weight": 3,
+    "N_w_needed": 1274,
+    "N_w_used": 126,
+    "rows_per_structure": 378,
+    "structures": 11,
+    "log2_data": 35.46,
+    "rule": "full block [0] (O11): weights on ciphertext word 3 (position 3, degree 2 after the substitution) => 2|a| < 252, so |a| < 126"
+   },
+   "dims4": {
+    "margin": 252,
+    "usable_weights": 798873,
+    "axis_cap": 4294967296,
+    "rows_per_weight": 3,
+    "N_w_needed": 1274,
+    "N_w_used": 1274,
+    "rows_per_structure": 3822,
+    "structures": 1,
+    "log2_data": 32.0,
+    "rule": "full block [0] (O11), T3 multi-index: weights on ciphertext words [3, 2, 1, 0] (positions [3, 2, 1, 0], degrees [2, 3, 5, 8] after the substitution) => sum_i a_i deg_i < 252"
+   },
+   "dims": 4
+  },
+  {
+   "row": "Yu2X-8 7/12, two words",
+   "q": "2^8",
+   "active": [
+    0,
+    4
+   ],
+   "layers": 5,
+   "cipher": "yux",
+   "combine": null,
+   "free_blocks": [],
+   "subspace_dims": null,
+   "rank_max": 4940,
+   "published_structures": 40,
+   "published_log2_data": 21.32,
+   "points": 65536,
+   "log2_points": 16.0,
+   "dims1": {
+    "margin": 34,
+    "usable_weights": 34,
+    "axis_cap": 256,
+    "rows_per_weight": 4,
+    "N_w_needed": 1235,
+    "N_w_used": 34,
+    "rows_per_structure": 136,
+    "structures": 37,
+    "log2_data": 21.21,
+    "rule": "full-domain words: |a| < T - D = 34"
+   },
+   "dims2": {
+    "margin": 34,
+    "usable_weights": 595,
+    "axis_cap": 65536,
+    "rows_per_weight": 4,
+    "N_w_needed": 1235,
+    "N_w_used": 595,
+    "rows_per_structure": 2380,
+    "structures": 3,
+    "log2_data": 17.58,
+    "rule": "full-domain words: |a| < T - D = 34"
+   },
+   "dims": 2
+  },
+  {
+   "row": "DuX(65537) 13 (dagger), full block",
+   "q": "65537",
+   "active": [],
+   "layers": 11,
+   "cipher": "dux",
+   "combine": "0001",
+   "free_blocks": [
+    0
+   ],
+   "subspace_dims": null,
+   "rank_max": 8608,
+   "published_structures": 308,
+   "published_log2_data": 72.3,
+   "points": 18447869999386460161,
+   "log2_points": 64.0,
+   "dims1": {
+    "margin": 57,
+    "usable_weights": 28,
+    "axis_cap": 65537,
+    "rows_per_weight": 1,
+    "N_w_needed": 8608,
+    "N_w_used": 28,
+    "rows_per_structure": 28,
+    "structures": 308,
+    "log2_data": 72.27,
+    "rule": "full block [0] (O11): weights on ciphertext word 2 (position 2, degree 2 after the substitution) => 2|a| < 57, so |a| < 28"
+   },
+   "dims4": {
+    "margin": 57,
+    "usable_weights": 3158,
+    "axis_cap": 18447869999386460161,
+    "rows_per_weight": 1,
+    "N_w_needed": 8608,
+    "N_w_used": 3158,
+    "rows_per_structure": 3158,
+    "structures": 3,
+    "log2_data": 65.59,
+    "rule": "full block [0] (O11), T3 multi-index: weights on ciphertext words [2, 1, 0, 3] (positions [2, 1, 0, 3], degrees [2, 3, 5, 8] after the substitution) => sum_i a_i deg_i < 57"
+   },
+   "dims": 4
+  }
+ ]
+}

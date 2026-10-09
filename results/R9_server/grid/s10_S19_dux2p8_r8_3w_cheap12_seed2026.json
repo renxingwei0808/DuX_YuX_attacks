@@ -1,0 +1,477 @@
+{
+ "instance": "dux-2^8",
+ "cipher": "dux",
+ "field": "F_2^8",
+ "rounds": 8,
+ "layers": 6,
+ "active_words": [
+  3,
+  7,
+  11
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "weight_rule": "full-domain words: |a| < T - D = 194; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4",
+ "points_per_structure": 16777216,
+ "structures": 17,
+ "slices": 256,
+ "points_per_slice": 65536,
+ "coset": null,
+ "coset_reps": [],
+ "mixed": null,
+ "point_set": null,
+ "block_slices": 1,
+ "slice_chunk": 256,
+ "slice_parts": 4,
+ "point_chunk": 16384,
+ "monomials": 47749,
+ "cheap_set": [
+  1,
+  2
+ ],
+ "subspace_dims": null,
+ "weights": {
+  "n": 194,
+  "dims": 1,
+  "margin": 194,
+  "usable": 194,
+  "weight_min": 0,
+  "first": 0,
+  "last": 193,
+  "weight_word": 3,
+  "degree_units_per_power": 1,
+  "range": "a < 194",
+  "vandermonde_axes": 1,
+  "weight_words": [
+   3
+  ],
+  "inner_tuples": null,
+  "usable_norm": 194
+ },
+ "equation_rows": {
+  "combine": "1101",
+  "dim_K": 4,
+  "y": [
+   [
+    [
+     [
+      0,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      0,
+      2
+     ],
+     0
+    ],
+    [
+     [
+      1,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      1,
+      2
+     ],
+     1
+    ],
+    [
+     [
+      2,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      2,
+      2
+     ],
+     0
+    ],
+    [
+     [
+      3,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      3,
+      2
+     ],
+     1
+    ]
+   ],
+   [
+    [
+     [
+      0,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      0,
+      2
+     ],
+     1
+    ],
+    [
+     [
+      1,
+      1
+     ],
+     0
+    ],
+    [
+     [
+      1,
+      2
+     ],
+     1
+    ],
+    [
+     [
+      2,
+      1
+     ],
+     0
+    ],
+    [
+     [
+      2,
+      2
+     ],
+     1
+    ],
+    [
+     [
+      3,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      3,
+      2
+     ],
+     0
+    ]
+   ],
+   [
+    [
+     [
+      0,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      0,
+      2
+     ],
+     0
+    ],
+    [
+     [
+      1,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      1,
+      2
+     ],
+     1
+    ],
+    [
+     [
+      2,
+      1
+     ],
+     0
+    ],
+    [
+     [
+      2,
+      2
+     ],
+     1
+    ],
+    [
+     [
+      3,
+      1
+     ],
+     0
+    ],
+    [
+     [
+      3,
+      2
+     ],
+     1
+    ]
+   ],
+   [
+    [
+     [
+      0,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      0,
+      2
+     ],
+     1
+    ],
+    [
+     [
+      1,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      1,
+      2
+     ],
+     0
+    ],
+    [
+     [
+      2,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      2,
+      2
+     ],
+     1
+    ],
+    [
+     [
+      3,
+      1
+     ],
+     1
+    ],
+    [
+     [
+      3,
+      2
+     ],
+     0
+    ]
+   ]
+  ]
+ },
+ "equations": 13192,
+ "unknowns": 47738,
+ "rank": 12056,
+ "free": 35682,
+ "pinned": 5812,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 28.09,
+ "assemble_s": 2.2,
+ "solve_s": 151.4,
+ "weight_curve": [],
+ "structure_curve": [
+  {
+   "structures": 12,
+   "rows": 9312,
+   "rank": 9152,
+   "free": 38586,
+   "pinned": 1122,
+   "inner_correct": 0,
+   "solve_s": 91.0
+  },
+  {
+   "structures": 13,
+   "rows": 10088,
+   "rank": 9734,
+   "free": 38004,
+   "pinned": 1122,
+   "inner_correct": 0,
+   "solve_s": 192.1
+  },
+  {
+   "structures": 14,
+   "rows": 10864,
+   "rank": 10316,
+   "free": 37422,
+   "pinned": 1122,
+   "inner_correct": 0,
+   "solve_s": 232.3
+  },
+  {
+   "structures": 15,
+   "rows": 11640,
+   "rank": 10898,
+   "free": 36840,
+   "pinned": 1122,
+   "inner_correct": 0,
+   "solve_s": 220.8
+  },
+  {
+   "structures": 16,
+   "rows": 12416,
+   "rank": 11480,
+   "free": 36258,
+   "pinned": 1122,
+   "inner_correct": 0,
+   "solve_s": 260.0
+  },
+  {
+   "structures": 17,
+   "rows": 13192,
+   "rank": 12056,
+   "free": 35682,
+   "pinned": 5812,
+   "inner_correct": 16,
+   "solve_s": 220.7
+  }
+ ],
+ "rows_dir": "/home/luck/dux-data/S19_dux2p8_whole_seed2026",
+ "per_structure": [
+  {
+   "structure": 0,
+   "a1": 0,
+   "seed": 7026,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st0.npy"
+  },
+  {
+   "structure": 1,
+   "a1": 0,
+   "seed": 7027,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st1.npy"
+  },
+  {
+   "structure": 2,
+   "a1": 0,
+   "seed": 7028,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st2.npy"
+  },
+  {
+   "structure": 3,
+   "a1": 0,
+   "seed": 7029,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st3.npy"
+  },
+  {
+   "structure": 4,
+   "a1": 0,
+   "seed": 7030,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st4.npy"
+  },
+  {
+   "structure": 5,
+   "a1": 0,
+   "seed": 7031,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st5.npy"
+  },
+  {
+   "structure": 6,
+   "a1": 0,
+   "seed": 7032,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st6.npy"
+  },
+  {
+   "structure": 7,
+   "a1": 0,
+   "seed": 7033,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st7.npy"
+  },
+  {
+   "structure": 8,
+   "a1": 0,
+   "seed": 7034,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st8.npy"
+  },
+  {
+   "structure": 9,
+   "a1": 0,
+   "seed": 7035,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st9.npy"
+  },
+  {
+   "structure": 10,
+   "a1": 0,
+   "seed": 7036,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st10.npy"
+  },
+  {
+   "structure": 11,
+   "a1": 0,
+   "seed": 7037,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st11.npy"
+  },
+  {
+   "structure": 12,
+   "a1": 0,
+   "seed": 7038,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st12.npy"
+  },
+  {
+   "structure": 13,
+   "a1": 0,
+   "seed": 7039,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st13.npy"
+  },
+  {
+   "structure": 14,
+   "a1": 0,
+   "seed": 7040,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st14.npy"
+  },
+  {
+   "structure": 15,
+   "a1": 0,
+   "seed": 7041,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st15.npy"
+  },
+  {
+   "structure": 16,
+   "a1": 0,
+   "seed": 7042,
+   "loaded_from": "/home/luck/dux-data/S19_dux2p8_whole_seed2026/rows_S19_dux2p8_r8_3w_cheap12_seed2026_st16.npy"
+  }
+ ],
+ "procs": 4,
+ "seed": 2026,
+ "solver": "c-omp"
+}

@@ -1,0 +1,38 @@
+{
+ "instance": "dux-65537",
+ "field": "F_65537",
+ "rounds": 11,
+ "layers": 9,
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  3
+ ],
+ "points_per_structure": 65537,
+ "monomials": 38051,
+ "structures": 3500,
+ "equations": 14000,
+ "unknowns": 38040,
+ "rank": 8608,
+ "free": 29432,
+ "pinned": 2592,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "assume_L1": true,
+ "data_log2": 27.77,
+ "assemble_s": 1007.1,
+ "solve_s": 2517.3,
+ "procs": 16,
+ "seed": 2026
+}

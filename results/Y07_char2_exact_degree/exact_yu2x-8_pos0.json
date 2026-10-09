@@ -1,0 +1,1348 @@
+{
+ "instance": "yu2x-8",
+ "cipher": "yux",
+ "field": "F_2^8",
+ "rounds": 8,
+ "active": [
+  0
+ ],
+ "layers": 6,
+ "first_layer": 1,
+ "words": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "keys": 3,
+ "seed": 2026,
+ "max_scan": 4000,
+ "spectrum_layers": [],
+ "data_log2": 8.0,
+ "key_independent_cells": 96,
+ "cells": 96,
+ "ratio_exact_to_maxplus": 0.9362,
+ "rows": [
+  {
+   "layer": 1,
+   "word": 0,
+   "D_maxplus": 1,
+   "D_exact": 1,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    1,
+    1,
+    1
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 1,
+   "D_maxplus": 1,
+   "D_exact": 1,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    1,
+    1,
+    1
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 2,
+   "D_maxplus": 1,
+   "D_exact": 1,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    1,
+    1,
+    1
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 3,
+   "D_maxplus": 2,
+   "D_exact": 2,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    2,
+    2,
+    2
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 4,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 5,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 6,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 7,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 8,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 9,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 10,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 11,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 12,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 13,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 14,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 1,
+   "word": 15,
+   "D_maxplus": 0,
+   "D_exact": 0,
+   "sums": 0,
+   "D_exact_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 0,
+   "D_maxplus": 2,
+   "D_exact": 2,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    2,
+    2,
+    2
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 1,
+   "D_maxplus": 3,
+   "D_exact": 3,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    3,
+    3,
+    3
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 2,
+   "D_maxplus": 4,
+   "D_exact": 4,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    4,
+    4,
+    4
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 3,
+   "D_maxplus": 5,
+   "D_exact": 5,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    5,
+    5,
+    5
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 4,
+   "D_maxplus": 3,
+   "D_exact": 3,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    3,
+    3,
+    3
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 5,
+   "D_maxplus": 3,
+   "D_exact": 1,
+   "sums": 3,
+   "ratio": 0.3333,
+   "D_exact_per_key": [
+    1,
+    1,
+    1
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 6,
+   "D_maxplus": 5,
+   "D_exact": 5,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    5,
+    5,
+    5
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 7,
+   "D_maxplus": 6,
+   "D_exact": 5,
+   "sums": 2,
+   "ratio": 0.8333,
+   "D_exact_per_key": [
+    5,
+    5,
+    5
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 8,
+   "D_maxplus": 3,
+   "D_exact": 3,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    3,
+    3,
+    3
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 9,
+   "D_maxplus": 4,
+   "D_exact": 4,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    4,
+    4,
+    4
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 10,
+   "D_maxplus": 5,
+   "D_exact": 5,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    5,
+    5,
+    5
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 11,
+   "D_maxplus": 7,
+   "D_exact": 7,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    7,
+    7,
+    7
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 12,
+   "D_maxplus": 2,
+   "D_exact": 2,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    2,
+    2,
+    2
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 13,
+   "D_maxplus": 3,
+   "D_exact": 3,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    3,
+    3,
+    3
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 14,
+   "D_maxplus": 4,
+   "D_exact": 4,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    4,
+    4,
+    4
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 2,
+   "word": 15,
+   "D_maxplus": 5,
+   "D_exact": 5,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    5,
+    5,
+    5
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 0,
+   "D_maxplus": 12,
+   "D_exact": 11,
+   "sums": 2,
+   "ratio": 0.9167,
+   "D_exact_per_key": [
+    11,
+    11,
+    11
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 1,
+   "D_maxplus": 14,
+   "D_exact": 14,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    14,
+    14,
+    14
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 2,
+   "D_maxplus": 19,
+   "D_exact": 18,
+   "sums": 2,
+   "ratio": 0.9474,
+   "D_exact_per_key": [
+    18,
+    18,
+    18
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 3,
+   "D_maxplus": 26,
+   "D_exact": 25,
+   "sums": 2,
+   "ratio": 0.9615,
+   "D_exact_per_key": [
+    25,
+    25,
+    25
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 4,
+   "D_maxplus": 10,
+   "D_exact": 10,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    10,
+    10,
+    10
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 5,
+   "D_maxplus": 12,
+   "D_exact": 12,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    12,
+    12,
+    12
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 6,
+   "D_maxplus": 17,
+   "D_exact": 17,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    17,
+    17,
+    17
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 7,
+   "D_maxplus": 22,
+   "D_exact": 22,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    22,
+    22,
+    22
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 8,
+   "D_maxplus": 11,
+   "D_exact": 10,
+   "sums": 2,
+   "ratio": 0.9091,
+   "D_exact_per_key": [
+    10,
+    10,
+    10
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 9,
+   "D_maxplus": 12,
+   "D_exact": 12,
+   "sums": 1,
+   "ratio": 1.0,
+   "D_exact_per_key": [
+    12,
+    12,
+    12
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 10,
+   "D_maxplus": 18,
+   "D_exact": 17,
+   "sums": 2,
+   "ratio": 0.9444,
+   "D_exact_per_key": [
+    17,
+    17,
+    17
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 11,
+   "D_maxplus": 23,
+   "D_exact": 22,
+   "sums": 2,
+   "ratio": 0.9565,
+   "D_exact_per_key": [
+    22,
+    22,
+    22
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 12,
+   "D_maxplus": 13,
+   "D_exact": 12,
+   "sums": 2,
+   "ratio": 0.9231,
+   "D_exact_per_key": [
+    12,
+    12,
+    12
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 13,
+   "D_maxplus": 13,
+   "D_exact": 10,
+   "sums": 4,
+   "ratio": 0.7692,
+   "D_exact_per_key": [
+    10,
+    10,
+    10
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 14,
+   "D_maxplus": 20,
+   "D_exact": 19,
+   "sums": 2,
+   "ratio": 0.95,
+   "D_exact_per_key": [
+    19,
+    19,
+    19
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 15,
+   "D_maxplus": 26,
+   "D_exact": 22,
+   "sums": 5,
+   "ratio": 0.8462,
+   "D_exact_per_key": [
+    22,
+    22,
+    22
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 0,
+   "D_maxplus": 49,
+   "D_exact": 44,
+   "sums": 6,
+   "ratio": 0.898,
+   "D_exact_per_key": [
+    44,
+    44,
+    44
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 1,
+   "D_maxplus": 49,
+   "D_exact": 47,
+   "sums": 3,
+   "ratio": 0.9592,
+   "D_exact_per_key": [
+    47,
+    47,
+    47
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 2,
+   "D_maxplus": 75,
+   "D_exact": 69,
+   "sums": 7,
+   "ratio": 0.92,
+   "D_exact_per_key": [
+    69,
+    69,
+    69
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 3,
+   "D_maxplus": 98,
+   "D_exact": 91,
+   "sums": 8,
+   "ratio": 0.9286,
+   "D_exact_per_key": [
+    91,
+    91,
+    91
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 4,
+   "D_maxplus": 52,
+   "D_exact": 47,
+   "sums": 6,
+   "ratio": 0.9038,
+   "D_exact_per_key": [
+    47,
+    47,
+    47
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 5,
+   "D_maxplus": 52,
+   "D_exact": 44,
+   "sums": 9,
+   "ratio": 0.8462,
+   "D_exact_per_key": [
+    44,
+    44,
+    44
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 6,
+   "D_maxplus": 78,
+   "D_exact": 72,
+   "sums": 7,
+   "ratio": 0.9231,
+   "D_exact_per_key": [
+    72,
+    72,
+    72
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 7,
+   "D_maxplus": 104,
+   "D_exact": 91,
+   "sums": 14,
+   "ratio": 0.875,
+   "D_exact_per_key": [
+    91,
+    91,
+    91
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 8,
+   "D_maxplus": 48,
+   "D_exact": 47,
+   "sums": 2,
+   "ratio": 0.9792,
+   "D_exact_per_key": [
+    47,
+    47,
+    47
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 9,
+   "D_maxplus": 52,
+   "D_exact": 50,
+   "sums": 3,
+   "ratio": 0.9615,
+   "D_exact_per_key": [
+    50,
+    50,
+    50
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 10,
+   "D_maxplus": 74,
+   "D_exact": 72,
+   "sums": 3,
+   "ratio": 0.973,
+   "D_exact_per_key": [
+    72,
+    72,
+    72
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 11,
+   "D_maxplus": 100,
+   "D_exact": 97,
+   "sums": 4,
+   "ratio": 0.97,
+   "D_exact_per_key": [
+    97,
+    97,
+    97
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 12,
+   "D_maxplus": 45,
+   "D_exact": 44,
+   "sums": 2,
+   "ratio": 0.9778,
+   "D_exact_per_key": [
+    44,
+    44,
+    44
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 13,
+   "D_maxplus": 48,
+   "D_exact": 47,
+   "sums": 2,
+   "ratio": 0.9792,
+   "D_exact_per_key": [
+    47,
+    47,
+    47
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 14,
+   "D_maxplus": 71,
+   "D_exact": 69,
+   "sums": 3,
+   "ratio": 0.9718,
+   "D_exact_per_key": [
+    69,
+    69,
+    69
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 15,
+   "D_maxplus": 93,
+   "D_exact": 91,
+   "sums": 3,
+   "ratio": 0.9785,
+   "D_exact_per_key": [
+    91,
+    91,
+    91
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 0,
+   "D_maxplus": 193,
+   "D_exact": 188,
+   "sums": 6,
+   "ratio": 0.9741,
+   "D_exact_per_key": [
+    188,
+    188,
+    188
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 1,
+   "D_maxplus": 204,
+   "D_exact": 194,
+   "sums": 11,
+   "ratio": 0.951,
+   "D_exact_per_key": [
+    194,
+    194,
+    194
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 2,
+   "D_maxplus": 297,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 3,
+   "D_maxplus": 397,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 4,
+   "D_maxplus": 191,
+   "D_exact": 182,
+   "sums": 10,
+   "ratio": 0.9529,
+   "D_exact_per_key": [
+    182,
+    182,
+    182
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 5,
+   "D_maxplus": 197,
+   "D_exact": 188,
+   "sums": 10,
+   "ratio": 0.9543,
+   "D_exact_per_key": [
+    188,
+    188,
+    188
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 6,
+   "D_maxplus": 295,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 7,
+   "D_maxplus": 388,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 8,
+   "D_maxplus": 202,
+   "D_exact": 182,
+   "sums": 21,
+   "ratio": 0.901,
+   "D_exact_per_key": [
+    182,
+    182,
+    182
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 9,
+   "D_maxplus": 202,
+   "D_exact": 188,
+   "sums": 15,
+   "ratio": 0.9307,
+   "D_exact_per_key": [
+    188,
+    188,
+    188
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 10,
+   "D_maxplus": 306,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 11,
+   "D_maxplus": 404,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 12,
+   "D_maxplus": 204,
+   "D_exact": 188,
+   "sums": 17,
+   "ratio": 0.9216,
+   "D_exact_per_key": [
+    188,
+    188,
+    188
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 13,
+   "D_maxplus": 208,
+   "D_exact": 182,
+   "sums": 27,
+   "ratio": 0.875,
+   "D_exact_per_key": [
+    182,
+    182,
+    182
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 14,
+   "D_maxplus": 308,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 15,
+   "D_maxplus": 412,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 0,
+   "D_maxplus": 816,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 1,
+   "D_maxplus": 816,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 2,
+   "D_maxplus": 1228,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 3,
+   "D_maxplus": 1632,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 4,
+   "D_maxplus": 809,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 5,
+   "D_maxplus": 824,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 6,
+   "D_maxplus": 1221,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 7,
+   "D_maxplus": 1633,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 8,
+   "D_maxplus": 785,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 9,
+   "D_maxplus": 809,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 10,
+   "D_maxplus": 1197,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 11,
+   "D_maxplus": 1594,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 12,
+   "D_maxplus": 792,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 13,
+   "D_maxplus": 800,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 14,
+   "D_maxplus": 1204,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 6,
+   "word": 15,
+   "D_maxplus": 1592,
+   "D_exact": null,
+   "sums": 0,
+   "D_exact_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  }
+ ],
+ "seconds": 0.1
+}

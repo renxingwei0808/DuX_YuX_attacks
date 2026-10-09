@@ -1,0 +1,9 @@
+toy-257 (dux, F_257): M = 38051, combine 0001 -> dim K = 1, y = [[1, 256, 1, 256]]
+  pi-orbits on the 38051 columns: 9551 (sizes {'1': 1, '2': 75, '4': 9475})
+  Phi_j = pi^j Phi_0 rho^j: True; char-2 depth-3 expansion: None; symmetrised row is a pi-eigenvector -1 (pi-anti-invariant): True
+  .. 2000/8400 pseudo-structures (312 s)
+  .. 4000/8400 pseudo-structures (577 s)
+  .. 6000/8400 pseudo-structures (729 s)
+  .. 8000/8400 pseudo-structures (885 s)
+  ceiling: rank 8188 of 38051 columns, 2592 monomials determined, 16/16 key words
+saved results/E11_cheap_rows/w19/collapse_toy-257_comb0001.json

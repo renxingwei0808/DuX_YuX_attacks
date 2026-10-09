@@ -1,0 +1,4 @@
+dux-65537: rank(Phi_stack) from uniform pseudo-structures (seed 2026)
+    .. N = 500, rank = 1792, 291 s
+  N =  1000  rows =   4000  rank =   4000   (784 s)
+    .. N = 1500, rank = 5792, 1293 s

@@ -1,0 +1,54 @@
+{
+ "instance": "dux-2^16",
+ "q": 65536,
+ "char": 2,
+ "monomials": 18025,
+ "moments": "realizable",
+ "npts": 256,
+ "seed": 2026,
+ "curve": [
+  {
+   "structures": 800,
+   "rows": 3200,
+   "rank": 3200,
+   "seconds": 171.2
+  },
+  {
+   "structures": 1000,
+   "rows": 4000,
+   "rank": 4000,
+   "seconds": 269.1
+  },
+  {
+   "structures": 1189,
+   "rows": 4756,
+   "rank": 4756,
+   "seconds": 382.8
+  },
+  {
+   "structures": 1200,
+   "rows": 4800,
+   "rank": 4766,
+   "seconds": 465.3
+  },
+  {
+   "structures": 1300,
+   "rows": 5200,
+   "rank": 4766,
+   "seconds": 650.0
+  },
+  {
+   "structures": 1400,
+   "rows": 5600,
+   "rank": 4766,
+   "seconds": 838.0
+  },
+  {
+   "structures": 1500,
+   "rows": 6000,
+   "rank": 4766,
+   "seconds": 956.7
+  }
+ ],
+ "saturated_rank": 4766
+}

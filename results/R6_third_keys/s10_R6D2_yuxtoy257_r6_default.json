@@ -1,0 +1,178 @@
+{
+ "instance": "yuxtoy-257",
+ "cipher": "yux",
+ "field": "F_257",
+ "rounds": 6,
+ "layers": 4,
+ "active_words": [
+  0
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "weight_rule": "full-domain words: |a| < T - D = 152",
+ "points_per_structure": 257,
+ "structures": 18,
+ "slices": 257,
+ "points_per_slice": 1,
+ "coset": null,
+ "coset_reps": [],
+ "block_slices": 64,
+ "slice_chunk": 257,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 53857,
+ "weights": {
+  "n": 152,
+  "dims": 1,
+  "margin": 152,
+  "usable": 152,
+  "first": 0,
+  "last": 151,
+  "weight_word": 0,
+  "degree_units_per_power": 1,
+  "range": "a < 152"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "equations": 10944,
+ "unknowns": 53846,
+ "rank": 8608,
+ "free": 45238,
+ "pinned": 2088,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 12.18,
+ "assemble_s": 312.6,
+ "solve_s": 722.7,
+ "weight_curve": [],
+ "structure_curve": [],
+ "rows_dir": null,
+ "per_structure": [
+  {
+   "structure": 0,
+   "seed": 7026,
+   "moments_s": 1.0,
+   "dgemm_s": 1.0
+  },
+  {
+   "structure": 1,
+   "seed": 7027,
+   "moments_s": 0.9,
+   "dgemm_s": 1.0
+  },
+  {
+   "structure": 2,
+   "seed": 7028,
+   "moments_s": 0.9,
+   "dgemm_s": 1.2
+  },
+  {
+   "structure": 3,
+   "seed": 7029,
+   "moments_s": 0.9,
+   "dgemm_s": 1.1
+  },
+  {
+   "structure": 4,
+   "seed": 7030,
+   "moments_s": 1.0,
+   "dgemm_s": 1.1
+  },
+  {
+   "structure": 5,
+   "seed": 7031,
+   "moments_s": 1.0,
+   "dgemm_s": 1.1
+  },
+  {
+   "structure": 6,
+   "seed": 7032,
+   "moments_s": 1.0,
+   "dgemm_s": 1.1
+  },
+  {
+   "structure": 7,
+   "seed": 7033,
+   "moments_s": 0.9,
+   "dgemm_s": 1.1
+  },
+  {
+   "structure": 8,
+   "seed": 7034,
+   "moments_s": 0.9,
+   "dgemm_s": 1.1
+  },
+  {
+   "structure": 9,
+   "seed": 7035,
+   "moments_s": 0.9,
+   "dgemm_s": 1.1
+  },
+  {
+   "structure": 10,
+   "seed": 7036,
+   "moments_s": 0.8,
+   "dgemm_s": 1.1
+  },
+  {
+   "structure": 11,
+   "seed": 7037,
+   "moments_s": 0.9,
+   "dgemm_s": 1.0
+  },
+  {
+   "structure": 12,
+   "seed": 7038,
+   "moments_s": 0.9,
+   "dgemm_s": 1.0
+  },
+  {
+   "structure": 13,
+   "seed": 7039,
+   "moments_s": 0.9,
+   "dgemm_s": 1.1
+  },
+  {
+   "structure": 14,
+   "seed": 7040,
+   "moments_s": 0.9,
+   "dgemm_s": 1.1
+  },
+  {
+   "structure": 15,
+   "seed": 7041,
+   "moments_s": 0.9,
+   "dgemm_s": 1.1
+  },
+  {
+   "structure": 16,
+   "seed": 7042,
+   "moments_s": 0.9,
+   "dgemm_s": 1.2
+  },
+  {
+   "structure": 17,
+   "seed": 7043,
+   "moments_s": 0.9,
+   "dgemm_s": 1.1
+  }
+ ],
+ "procs": 24,
+ "seed": 2026,
+ "solver": "numpy-blocked"
+}

@@ -1,0 +1,63 @@
+{
+ "instance": "yupx-65537",
+ "cipher": "yux",
+ "field": "F_65537",
+ "rounds": 10,
+ "layers": 8,
+ "active_words": [
+  0
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "points_per_structure": 65537,
+ "structures": 1,
+ "slices": 65537,
+ "points_per_slice": 1,
+ "block_slices": 512,
+ "slice_chunk": 8192,
+ "monomials": 53857,
+ "weights": {
+  "n": 2400,
+  "dims": 1,
+  "margin": 39453,
+  "weight_word": 0,
+  "range": "a < 2400"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "equations": 9600,
+ "unknowns": 53846,
+ "rank": 8576,
+ "free": 45270,
+ "pinned": 2088,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 16.0,
+ "assemble_s": 597.0,
+ "solve_s": 807.2,
+ "weight_curve": [],
+ "per_structure": [
+  {
+   "structure": 0,
+   "seed": 5007,
+   "moments_s": 48.6,
+   "dgemm_s": 289.1
+  }
+ ],
+ "procs": 16,
+ "seed": 7,
+ "solver": "numpy-blocked"
+}

@@ -1,0 +1,18 @@
+toy-2^4 (F_2^4): r = 5 (3-layer distinguisher + 2), unknown inner blocks [0, 1], outer blocks [0, 1, 2, 3], active words [3, 7]
+  monomials M = 4017 = 2^12.0; 1100 structures x 256 chosen ciphertexts = 2^18.1 data; 4 eqs/structure
+  assembled 100/1100 structures (2.1s)
+  assembled 200/1100 structures (4.0s)
+  assembled 300/1100 structures (5.9s)
+  assembled 400/1100 structures (7.9s)
+  assembled 500/1100 structures (9.8s)
+  assembled 600/1100 structures (11.8s)
+  assembled 700/1100 structures (13.7s)
+  assembled 800/1100 structures (15.7s)
+  assembled 900/1100 structures (17.6s)
+  assembled 1000/1100 structures (19.5s)
+  assembled 1100/1100 structures (21.4s)
+  system 4400 x 4016 over F_2^4 (1 columns pinned)
+  rank 1068 / 4016 unknowns (2948 free), 451 monomials pinned down  (143.5s)
+  inner key words recovered correctly: 8/8
+  data 2^18.1; assemble 21.4s, solve 143.5s
+saved /home/user/dux-cryptanalysis/results/E07_key_recovery_2round/w12/fast_toy2_4_u01_s2026.json

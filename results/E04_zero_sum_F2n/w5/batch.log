@@ -1,0 +1,23 @@
++ cd /home/user/dux-cryptanalysis
++ S=experiments/E04_zero_sum_F2n/sweep.py
++ O=results/E04_zero_sum_F2n/w5
++ python experiments/E04_zero_sum_F2n/sweep.py --instance 'dux-2^8' --spec '3,7,11;2,6,10;2,3,7;0,3,7;3,7,15' --dims 8 --layers 7 --keys 3 --chunk 18 --out results/E04_zero_sum_F2n/w5/three_word_2-8.json
+dux-2^8  keys=3  layers=7  seed=2026
+structure                 dim  data   all16  last layer : pattern            s
+[3, 7, 11]                  8  2^24       5  L6 : 1101110111011101   145.0
+[2, 6, 10]                  8  2^24       5  L6 : 1101110111011101   150.3
+[2, 3, 7]                   8  2^24       5  L6 : 1001100110011001   136.8
+[0, 3, 7]                   8  2^24       5  L6 : 1001100110011001   133.6
+[3, 7, 15]                  8  2^24       5  L6 : 1101110111011101   128.5
+saved results/E04_zero_sum_F2n/w5/three_word_2-8.json
++ python experiments/E04_zero_sum_F2n/sweep.py --instance 'dux-2^8' --spec 3,7 --dims 9,10,11,12 --layers 7 --keys 3 --chunk 18 --out results/E04_zero_sum_F2n/w5/dims_2word_2-8.json
+dux-2^8  keys=3  layers=7  seed=2026
+structure                 dim  data   all16  last layer : pattern            s
+Terminated
++ python experiments/E04_zero_sum_F2n/sweep.py --instance 'dux-2^16' --spec '3,7;2,6;3,11' --dims 12 --layers 10 --keys 3 --chunk 18 --out results/E04_zero_sum_F2n/w5/two_word_2-16_dim12.json
+dux-2^16  keys=3  layers=10  seed=2026
+structure                 dim  data   all16  last layer : pattern            s
+[3, 7]                     12  2^24       7  L8 : 1101110111011101   251.9
+[2, 6]                     12  2^24       7  L8 : 1101110111011101   250.4
+[3, 11]                    12  2^24       7  L8 : 1101110111011101   264.7
+saved results/E04_zero_sum_F2n/w5/two_word_2-16_dim12.json

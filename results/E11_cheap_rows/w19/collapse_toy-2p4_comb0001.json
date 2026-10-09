@@ -1,0 +1,78 @@
+{
+ "instance": "toy-2^4",
+ "cipher": "dux",
+ "q": 16,
+ "char": 2,
+ "rounds": 6,
+ "combine": "0001",
+ "dim_K": 1,
+ "y": [
+  [
+   1,
+   1,
+   1,
+   1
+  ]
+ ],
+ "monomials": 18025,
+ "seed": 2026,
+ "orbits": {
+  "orbits": 4532,
+  "sizes": {
+   "1": 1,
+   "2": 50,
+   "4": 4481
+  }
+ },
+ "kernel_vectors": [
+  {
+   "y": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "tau_valuation": 3,
+   "rank_on_rho_invariant_moments": 4481,
+   "orbit_sums_only": true
+  }
+ ],
+ "char2_usable": false,
+ "identities": {
+  "equivariance_trials": 1,
+  "equivariance_ok": true,
+  "char2_expansion_ok": true,
+  "symmetrised_eigenvalue_ok": true,
+  "symmetrised_eigenvalue": "+1 (pi-invariant orbit sums)"
+ },
+ "ceiling": {
+  "structures": 6000,
+  "rows": 6000,
+  "rank": 2168,
+  "free": 15846,
+  "monomials": 18025,
+  "pinned_by_normalisation": 11,
+  "determined_monomials": 1122,
+  "degree_one_key_columns_determined": 0,
+  "degree_one_detail": {
+   "0": false,
+   "1": false,
+   "2": false,
+   "3": false,
+   "4": false,
+   "5": false,
+   "6": false,
+   "7": false,
+   "8": false,
+   "9": false,
+   "10": false,
+   "11": false,
+   "12": false,
+   "13": false,
+   "14": false,
+   "15": false
+  },
+  "assemble_s": 1067.7,
+  "solve_s": 42.3
+ }
+}

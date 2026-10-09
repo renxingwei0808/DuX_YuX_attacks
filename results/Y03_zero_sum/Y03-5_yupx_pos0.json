@@ -1,0 +1,270 @@
+{
+ "instance": "yupx-65537",
+ "cipher": "yux",
+ "field": "F_65537",
+ "reference_weight": 0,
+ "per_weight": {
+  "0": {
+   "l_full": 8,
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000"
+   ],
+   "agrees_with_O7": true
+  }
+ },
+ "direction": "dec",
+ "active": [
+  0
+ ],
+ "free_blocks": [],
+ "dim": null,
+ "coset": null,
+ "weights": [],
+ "seed": 2026,
+ "keys": 2,
+ "data_log2": 16.0,
+ "layers": 10,
+ "balanced_count_per_layer": [
+  16,
+  16,
+  16,
+  16,
+  16,
+  16,
+  16,
+  16,
+  8,
+  0
+ ],
+ "balanced_matrix": [
+  "1111111111111111",
+  "1111111111111111",
+  "1111111111111111",
+  "1111111111111111",
+  "1111111111111111",
+  "1111111111111111",
+  "1111111111111111",
+  "1111111111111111",
+  "1100110011001100",
+  "0000000000000000"
+ ],
+ "per_layer": [
+  {
+   "layer": 1,
+   "balanced_matrix": "1111111111111111",
+   "balanced_count": 16,
+   "pattern": "1111",
+   "predicted": "1111",
+   "margins": [
+    65535,
+    65535,
+    65535,
+    65534
+   ],
+   "weighted": {},
+   "frobenius_boundary": [
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "layer": 2,
+   "balanced_matrix": "1111111111111111",
+   "balanced_count": 16,
+   "pattern": "1111",
+   "predicted": "1111",
+   "margins": [
+    65533,
+    65532,
+    65531,
+    65529
+   ],
+   "weighted": {},
+   "frobenius_boundary": [
+    false,
+    true,
+    false,
+    false
+   ]
+  },
+  {
+   "layer": 3,
+   "balanced_matrix": "1111111111111111",
+   "balanced_count": 16,
+   "pattern": "1111",
+   "predicted": "1111",
+   "margins": [
+    65523,
+    65522,
+    65516,
+    65510
+   ],
+   "weighted": {},
+   "frobenius_boundary": [
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "layer": 4,
+   "balanced_matrix": "1111111111111111",
+   "balanced_count": 16,
+   "pattern": "1111",
+   "predicted": "1111",
+   "margins": [
+    65484,
+    65484,
+    65458,
+    65432
+   ],
+   "weighted": {},
+   "frobenius_boundary": [
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "layer": 5,
+   "balanced_matrix": "1111111111111111",
+   "balanced_count": 16,
+   "pattern": "1111",
+   "predicted": "1111",
+   "margins": [
+    65332,
+    65328,
+    65228,
+    65124
+   ],
+   "weighted": {},
+   "frobenius_boundary": [
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "layer": 6,
+   "balanced_matrix": "1111111111111111",
+   "balanced_count": 16,
+   "pattern": "1111",
+   "predicted": "1111",
+   "margins": [
+    64720,
+    64712,
+    64308,
+    63903
+   ],
+   "weighted": {},
+   "frobenius_boundary": [
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "layer": 7,
+   "balanced_matrix": "1111111111111111",
+   "balanced_count": 16,
+   "pattern": "1111",
+   "predicted": "1111",
+   "margins": [
+    62271,
+    62270,
+    60638,
+    59006
+   ],
+   "weighted": {},
+   "frobenius_boundary": [
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "layer": 8,
+   "balanced_matrix": "1111111111111111",
+   "balanced_count": 16,
+   "pattern": "1111",
+   "predicted": "1111",
+   "margins": [
+    52513,
+    52476,
+    45983,
+    39453
+   ],
+   "weighted": {},
+   "frobenius_boundary": [
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "layer": 9,
+   "balanced_matrix": "1100110011001100",
+   "balanced_count": 8,
+   "pattern": "1100",
+   "predicted": "1100",
+   "margins": [
+    13495,
+    13370,
+    -12588,
+    -38642
+   ],
+   "weighted": {},
+   "frobenius_boundary": [
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "layer": 10,
+   "balanced_matrix": "0000000000000000",
+   "balanced_count": 0,
+   "pattern": "0000",
+   "predicted": "0000",
+   "margins": [
+    -142724,
+    -142820,
+    -246902,
+    -350984
+   ],
+   "weighted": {},
+   "frobenius_boundary": [
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ ],
+ "l_full_measured": 8,
+ "l_full_predicted": 8,
+ "next_measured": "1100",
+ "next_predicted": "1100",
+ "threshold": 65536,
+ "agrees_with_O7": true,
+ "disagreements": [],
+ "elapsed_s": 1.3
+}

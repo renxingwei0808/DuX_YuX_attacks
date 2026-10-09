@@ -1,0 +1,10 @@
+dux-2^16: rank(Phi_stack) from realizable pseudo-structures (seed 2026)
+  N =   800  rows =   3200  rank =   3200   (171 s)
+  N =  1000  rows =   4000  rank =   4000   (269 s)
+  N =  1189  rows =   4756  rank =   4756   (383 s)
+  N =  1200  rows =   4800  rank =   4766   (465 s)
+  N =  1300  rows =   5200  rank =   4766   (650 s)
+  N =  1400  rows =   5600  rank =   4766   (838 s)
+  N =  1500  rows =   6000  rank =   4766   (957 s)
+saturated rank = 4766  (monomials M = 18025)
+saved results/E07_key_recovery_2round/w13/rank_phi_dux-2^16_realizable.json

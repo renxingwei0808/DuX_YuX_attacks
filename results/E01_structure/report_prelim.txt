@@ -1,0 +1,18 @@
+O3: within-block position mixing (positions mod 4 reached by each rotation set)
+  DuX L0^-1              rotations (1, 4, 8, 9, 13) -> positions [0, 1]
+  DuX L1^-1              rotations (1, 5, 8, 12, 13) -> positions [0, 1]
+  DuX L0 (fwd, F_2^n)    rotations (0, 1, 3, 4, 7, 8, 9, 10, 12, 14, 15) -> positions [0, 1, 2, 3]
+  YuX L^-1               rotations (0, 3, 4, 8, 9, 12, 14) -> positions [0, 1, 2, 3]
+
+O2: fixed-L0 equivalence on random keys/plaintexts
+  dux-2^8   : equivalence holds = True; output rotations seen (T mod 4) = [0, 1, 2, 3]
+  dux-2^16  : equivalence holds = True; output rotations seen (T mod 4) = [0, 1, 2, 3]
+  dux-65537 : equivalence holds = True; output rotations seen (T mod 4) = [0, 1, 2, 3]
+  toy-2^4   : equivalence holds = True; output rotations seen (T mod 4) = [0, 1, 2, 3]
+  toy-193   : equivalence holds = True; output rotations seen (T mod 4) = [0, 1, 2, 3]
+  toy-257   : equivalence holds = True; output rotations seen (T mod 4) = [0, 1, 2, 3]
+
+O5: key schedule Rf in characteristic 2: y1 - y2 == x0 ?
+  dux-2^8   : y1 - y2 = (156, 64, 249, 242), x0 = (156, 64, 249, 242)  ->  equal: True
+  dux-2^16  : y1 - y2 = (40153, 16438, 63765, 62046), x0 = (40153, 16438, 63765, 62046)  ->  equal: True
+  dux-65537 : y1 - y2 = (25383, 49099, 1771, 3490), x0 = (40154, 16438, 63766, 62047)  ->  equal: False

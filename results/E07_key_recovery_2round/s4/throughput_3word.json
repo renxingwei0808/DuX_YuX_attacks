@@ -1,0 +1,62 @@
+{
+ "instance": "dux-65537",
+ "rounds": 12,
+ "active": "3,7,11",
+ "row_assembly_s": 0.153,
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "nP": 75,
+ "pairs_per_point": 90000,
+ "runs": [
+  {
+   "decrypt_s": 10.10497097298503,
+   "powmatrix_s": 2.67872951796744,
+   "moments_s": 2.0207856540801004,
+   "rows_s": 0.15312483999878168,
+   "total_s": 14.957610985031351,
+   "points": 262144,
+   "rows": 0,
+   "points_log2": 18.0,
+   "decrypt_ns_per_point": 38547.4,
+   "powmatrix_ns_per_point": 10218.5,
+   "moments_ns_per_point": 7708.7,
+   "total_ns_per_point": 57058.8
+  },
+  {
+   "decrypt_s": 38.32487009896431,
+   "powmatrix_s": 13.061334341065958,
+   "moments_s": 7.801522801979445,
+   "rows_s": 0.15312483999878168,
+   "total_s": 59.340852082008496,
+   "points": 1048576,
+   "rows": 0,
+   "points_log2": 20.0,
+   "decrypt_ns_per_point": 36549.4,
+   "powmatrix_ns_per_point": 12456.3,
+   "moments_ns_per_point": 7440.1,
+   "total_ns_per_point": 56591.8
+  },
+  {
+   "decrypt_s": 136.52440982998814,
+   "powmatrix_s": 43.15331193699967,
+   "moments_s": 30.332325552008115,
+   "rows_s": 0.15312483999878168,
+   "total_s": 210.1631721589947,
+   "points": 4194304,
+   "rows": 0,
+   "points_log2": 22.0,
+   "decrypt_ns_per_point": 32550.0,
+   "powmatrix_ns_per_point": 10288.6,
+   "moments_ns_per_point": 7231.8,
+   "total_ns_per_point": 50106.8
+  }
+ ],
+ "ns_per_point": 50106.8,
+ "target_points_log2": 48.0,
+ "core_seconds_per_structure": 14103811738.226562,
+ "core_seconds_per_structure_log2": 33.72
+}

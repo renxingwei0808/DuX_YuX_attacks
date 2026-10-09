@@ -1,0 +1,8 @@
+dux-2^8: 7 rounds, coords [0, 1, 2], 14 key monomials, 19 plaintext moments, 8 structures x 2^32 chosen ciphertexts = 2^35.0
+  moments done in 1334.1s
+  block 0: rank 10/13; k = [218, None, 6, 163] (true [218, 45, 6, 163])
+  block 1: rank 10/13; k = [93, None, 20, 94] (true [93, 119, 20, 94])
+  block 2: rank 10/13; k = [164, None, 212, 202] (true [164, 90, 212, 202])
+  block 3: rank 10/13; k = [180, None, 184, 45] (true [180, 231, 184, 45])
+recovered rk^0 == master key: False; data 2^35.0; 1334.2s
+saved results/E06_key_recovery_1round/s1/fast_partial_dux-28_r7_3_7_11_15_d8_c012.json

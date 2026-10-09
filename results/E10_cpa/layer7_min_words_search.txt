@@ -1,0 +1,6 @@
+q=65537 layer 7: {'s': 3, 'active': [1, 5, 9], 'pattern': '0010', 'threshold': 196608, 'margin': [-131072, 0, 65536, -327680]}
+q=65537 layer 7: {'s': 3, 'active': [1, 5, 9], 'pattern': '0010', 'threshold': 196608, 'margin': [-131072, 0, 65536, -327680]}
+q=65537 layer 7: {'s': 4, 'active': [1, 5, 9, 13], 'pattern': '0110', 'threshold': 262144, 'margin': [-65536, 65536, 131072, -262144]}
+q=65537 layer 7: {'s': 8, 'active': [0, 1, 2, 4, 5, 6, 8, 9], 'pattern': '1110', 'threshold': 524288, 'margin': [32768, 229376, 327680, -262144]}
+q=65537 layer 7: None
+all 16 words active, layer 7: 0110 D = [1310720, 786432, 524288, 2097152] T = 1048576

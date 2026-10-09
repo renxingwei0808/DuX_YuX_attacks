@@ -1,0 +1,7 @@
+yu2x-16 (F_2^16): r = 10, layer 9 pattern 1100 (O7 predicts 1100), balanced words [0, 1, 4, 5, 8, 9, 12, 13]
+  L-combined equations: 50 k-monomials/block x 4 blocks = 200 unknowns; margins [13494, 13369, -12589, -38643] -> 60 weights (a < 13369); 480 equations/structure; 1 structures
+  key 0: rows 480, rank 104/200, determined 16/16, correct 16/16
+  key 1: rows 480, rank 104/200, determined 16/16, correct 16/16
+  key 2: rows 480, rank 104/200, determined 16/16, correct 16/16
+  data 2^16.0 per key; 56.3s
+saved results/Y05_key_recovery/Y05-A4_yu2x16_r10.json

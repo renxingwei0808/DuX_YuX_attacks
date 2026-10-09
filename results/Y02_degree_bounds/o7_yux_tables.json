@@ -1,0 +1,3738 @@
+{
+ "structures": [
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 255,
+   "log2_data": 8.0,
+   "l_full": 4,
+   "next": "1100",
+   "margins_next": [
+    51,
+    47,
+    -53,
+    -157
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "1 word, position 3",
+   "active": [
+    3
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 255,
+   "log2_data": 8.0,
+   "l_full": 4,
+   "next": "1100",
+   "margins_next": [
+    4,
+    1,
+    -123,
+    -249
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "2 words (0,4)",
+   "active": [
+    0,
+    4
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 2,
+   "threshold": 510,
+   "log2_data": 16.0,
+   "l_full": 5,
+   "next": "0000",
+   "margins_next": [
+    -437,
+    -442,
+    -913,
+    -1389
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "3 words (0,4,8)",
+   "active": [
+    0,
+    4,
+    8
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 3,
+   "threshold": 765,
+   "log2_data": 24.0,
+   "l_full": 5,
+   "next": "0000",
+   "margins_next": [
+    -232,
+    -241,
+    -735,
+    -1231
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "4 words (0,4,8,12)",
+   "active": [
+    0,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 1020,
+   "log2_data": 32.0,
+   "l_full": 5,
+   "next": "0000",
+   "margins_next": [
+    -4,
+    -4,
+    -516,
+    -1028
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "5 words (0,1,4,8,12)",
+   "active": [
+    0,
+    1,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 1275,
+   "log2_data": 40.0,
+   "l_full": 5,
+   "next": "1100",
+   "margins_next": [
+    251,
+    251,
+    -261,
+    -773
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "6 words (0,1,3,4,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 6,
+   "threshold": 1530,
+   "log2_data": 48.0,
+   "l_full": 5,
+   "next": "1100",
+   "margins_next": [
+    506,
+    506,
+    -6,
+    -518
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "7 words (0,1,3,4,6,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 1785,
+   "log2_data": 56.0,
+   "l_full": 5,
+   "next": "1110",
+   "margins_next": [
+    761,
+    761,
+    249,
+    -263
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 1020,
+   "log2_data": 32.0,
+   "l_full": 5,
+   "next": "1110",
+   "margins_next": [
+    508,
+    508,
+    252,
+    -4
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "full block 0 + word 4",
+   "active": [
+    4
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 1275,
+   "log2_data": 40.0,
+   "l_full": 5,
+   "next": "1110",
+   "margins_next": [
+    459,
+    451,
+    47,
+    -358
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "full block 0 + words (4,8,12)",
+   "active": [
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 1785,
+   "log2_data": 56.0,
+   "l_full": 5,
+   "next": "1110",
+   "margins_next": [
+    788,
+    779,
+    285,
+    -211
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "full blocks 0,1",
+   "active": [],
+   "free_blocks": [
+    0,
+    1
+   ],
+   "direction": "dec",
+   "s": 8,
+   "threshold": 2040,
+   "log2_data": 64.0,
+   "l_full": 6,
+   "next": "0000",
+   "margins_next": [
+    -8,
+    -8,
+    -1032,
+    -2056
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "CPA 1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 255,
+   "log2_data": 8.0,
+   "l_full": 2,
+   "next": "0111",
+   "margins_next": [
+    -65,
+    55,
+    135,
+    175
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "0111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "CPA 1 word, position 1",
+   "active": [
+    1
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 255,
+   "log2_data": 8.0,
+   "l_full": 3,
+   "next": "0000",
+   "margins_next": [
+    -1281,
+    -705,
+    -321,
+    -129
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "CPA 2 words (1,5)",
+   "active": [
+    1,
+    5
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 2,
+   "threshold": 510,
+   "log2_data": 16.0,
+   "l_full": 3,
+   "next": "0001",
+   "margins_next": [
+    -1026,
+    -450,
+    -66,
+    126
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "0001",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-8",
+   "instance_label": "Yu2X-8",
+   "q": "2^8",
+   "structure": "CPA full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "enc",
+   "s": 4,
+   "threshold": 1020,
+   "log2_data": 32.0,
+   "l_full": 4,
+   "next": "0000",
+   "margins_next": [
+    -3076,
+    -1540,
+    -516,
+    -4
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 65535,
+   "log2_data": 16.0,
+   "l_full": 8,
+   "next": "1100",
+   "margins_next": [
+    13494,
+    13369,
+    -12589,
+    -38643
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "1 word, position 3",
+   "active": [
+    3
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 65535,
+   "log2_data": 16.0,
+   "l_full": 8,
+   "next": "1100",
+   "margins_next": [
+    1327,
+    1283,
+    -30799,
+    -62881
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "2 words (0,4)",
+   "active": [
+    0,
+    4
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 2,
+   "threshold": 131070,
+   "log2_data": 32.0,
+   "l_full": 9,
+   "next": "0000",
+   "margins_next": [
+    -110360,
+    -110624,
+    -231207,
+    -352054
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "3 words (0,4,8)",
+   "active": [
+    0,
+    4,
+    8
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 3,
+   "threshold": 196605,
+   "log2_data": 48.0,
+   "l_full": 9,
+   "next": "0000",
+   "margins_next": [
+    -58066,
+    -58161,
+    -185449,
+    -312737
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "4 words (0,4,8,12)",
+   "active": [
+    0,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 262140,
+   "log2_data": 64.0,
+   "l_full": 9,
+   "next": "0000",
+   "margins_next": [
+    -4,
+    -4,
+    -131076,
+    -262148
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "5 words (0,1,4,8,12)",
+   "active": [
+    0,
+    1,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 327675,
+   "log2_data": 80.0,
+   "l_full": 9,
+   "next": "1100",
+   "margins_next": [
+    65531,
+    65531,
+    -65541,
+    -196613
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "6 words (0,1,3,4,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 6,
+   "threshold": 393210,
+   "log2_data": 96.0,
+   "l_full": 9,
+   "next": "1100",
+   "margins_next": [
+    131066,
+    131066,
+    -6,
+    -131078
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "7 words (0,1,3,4,6,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 458745,
+   "log2_data": 112.0,
+   "l_full": 9,
+   "next": "1110",
+   "margins_next": [
+    196601,
+    196601,
+    65529,
+    -65543
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 262140,
+   "log2_data": 64.0,
+   "l_full": 9,
+   "next": "1110",
+   "margins_next": [
+    131068,
+    131068,
+    65532,
+    -4
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "full block 0 + word 4",
+   "active": [
+    4
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 327675,
+   "log2_data": 80.0,
+   "l_full": 9,
+   "next": "1110",
+   "margins_next": [
+    119415,
+    119319,
+    15237,
+    -88845
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "full block 0 + words (4,8,12)",
+   "active": [
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 458745,
+   "log2_data": 112.0,
+   "l_full": 9,
+   "next": "1110",
+   "margins_next": [
+    204074,
+    203979,
+    76691,
+    -50597
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "full blocks 0,1",
+   "active": [],
+   "free_blocks": [
+    0,
+    1
+   ],
+   "direction": "dec",
+   "s": 8,
+   "threshold": 524280,
+   "log2_data": 128.0,
+   "l_full": 10,
+   "next": "0000",
+   "margins_next": [
+    -8,
+    -8,
+    -262152,
+    -524296
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "CPA 1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 65535,
+   "log2_data": 16.0,
+   "l_full": 5,
+   "next": "0011",
+   "margins_next": [
+    -98305,
+    -36865,
+    4095,
+    24575
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0011",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "CPA 1 word, position 1",
+   "active": [
+    1
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 65535,
+   "log2_data": 16.0,
+   "l_full": 5,
+   "next": "0111",
+   "margins_next": [
+    -32769,
+    4095,
+    28671,
+    40959
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "CPA 2 words (1,5)",
+   "active": [
+    1,
+    5
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 2,
+   "threshold": 131070,
+   "log2_data": 32.0,
+   "l_full": 6,
+   "next": "0000",
+   "margins_next": [
+    -655362,
+    -360450,
+    -163842,
+    -65538
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yu2x-16",
+   "instance_label": "Yu2X-16",
+   "q": "2^16",
+   "structure": "CPA full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "enc",
+   "s": 4,
+   "threshold": 262140,
+   "log2_data": 64.0,
+   "l_full": 6,
+   "next": "0111",
+   "margins_next": [
+    -4,
+    98300,
+    163836,
+    196604
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 65536,
+   "log2_data": 16.0,
+   "l_full": 8,
+   "next": "1100",
+   "margins_next": [
+    13495,
+    13370,
+    -12588,
+    -38642
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "1 word, position 3",
+   "active": [
+    3
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 65536,
+   "log2_data": 16.0,
+   "l_full": 8,
+   "next": "1100",
+   "margins_next": [
+    1328,
+    1284,
+    -30798,
+    -62880
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "2 words (0,4)",
+   "active": [
+    0,
+    4
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 2,
+   "threshold": 131072,
+   "log2_data": 32.0,
+   "l_full": 9,
+   "next": "0000",
+   "margins_next": [
+    -110358,
+    -110622,
+    -231205,
+    -352052
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "3 words (0,4,8)",
+   "active": [
+    0,
+    4,
+    8
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 3,
+   "threshold": 196608,
+   "log2_data": 48.0,
+   "l_full": 9,
+   "next": "0000",
+   "margins_next": [
+    -58063,
+    -58158,
+    -185446,
+    -312734
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "4 words (0,4,8,12)",
+   "active": [
+    0,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 262144,
+   "log2_data": 64.0,
+   "l_full": 9,
+   "next": "0000",
+   "margins_next": [
+    0,
+    0,
+    -131072,
+    -262144
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "5 words (0,1,4,8,12)",
+   "active": [
+    0,
+    1,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 327680,
+   "log2_data": 80.0,
+   "l_full": 9,
+   "next": "1100",
+   "margins_next": [
+    65536,
+    65536,
+    -65536,
+    -196608
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "6 words (0,1,3,4,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 6,
+   "threshold": 393216,
+   "log2_data": 96.0,
+   "l_full": 9,
+   "next": "1100",
+   "margins_next": [
+    131072,
+    131072,
+    0,
+    -131072
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "7 words (0,1,3,4,6,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 458752,
+   "log2_data": 112.0,
+   "l_full": 9,
+   "next": "1110",
+   "margins_next": [
+    196608,
+    196608,
+    65536,
+    -65536
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 262144,
+   "log2_data": 64.0,
+   "l_full": 9,
+   "next": "1110",
+   "margins_next": [
+    131072,
+    131072,
+    65536,
+    0
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "full block 0 + word 4",
+   "active": [
+    4
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 327680,
+   "log2_data": 80.0,
+   "l_full": 9,
+   "next": "1110",
+   "margins_next": [
+    119420,
+    119324,
+    15242,
+    -88840
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "full block 0 + words (4,8,12)",
+   "active": [
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 458752,
+   "log2_data": 112.0,
+   "l_full": 9,
+   "next": "1110",
+   "margins_next": [
+    204081,
+    203986,
+    76698,
+    -50590
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "full blocks 0,1",
+   "active": [],
+   "free_blocks": [
+    0,
+    1
+   ],
+   "direction": "dec",
+   "s": 8,
+   "threshold": 524288,
+   "log2_data": 128.0,
+   "l_full": 10,
+   "next": "0000",
+   "margins_next": [
+    0,
+    0,
+    -262144,
+    -524288
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "CPA 1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 65536,
+   "log2_data": 16.0,
+   "l_full": 5,
+   "next": "0011",
+   "margins_next": [
+    -98304,
+    -36864,
+    4096,
+    24576
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0011",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "CPA 1 word, position 1",
+   "active": [
+    1
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 65536,
+   "log2_data": 16.0,
+   "l_full": 5,
+   "next": "0111",
+   "margins_next": [
+    -32768,
+    4096,
+    28672,
+    40960
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "CPA 2 words (1,5)",
+   "active": [
+    1,
+    5
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 2,
+   "threshold": 131072,
+   "log2_data": 32.0,
+   "l_full": 6,
+   "next": "0000",
+   "margins_next": [
+    -655360,
+    -360448,
+    -163840,
+    -65536
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "instance_label": "YupX-65537",
+   "q": "65537",
+   "structure": "CPA full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "enc",
+   "s": 4,
+   "threshold": 262144,
+   "log2_data": 64.0,
+   "l_full": 6,
+   "next": "0111",
+   "margins_next": [
+    0,
+    98304,
+    163840,
+    196608
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 15,
+   "log2_data": 4.0,
+   "l_full": 2,
+   "next": "1100",
+   "margins_next": [
+    2,
+    1,
+    -5,
+    -11
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "1 word, position 3",
+   "active": [
+    3
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 15,
+   "log2_data": 4.0,
+   "l_full": 2,
+   "next": "0000",
+   "margins_next": [
+    -1,
+    -1,
+    -9,
+    -17
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "2 words (0,4)",
+   "active": [
+    0,
+    4
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 2,
+   "threshold": 30,
+   "log2_data": 8.0,
+   "l_full": 2,
+   "next": "1110",
+   "margins_next": [
+    15,
+    14,
+    7,
+    -1
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "3 words (0,4,8)",
+   "active": [
+    0,
+    4,
+    8
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 3,
+   "threshold": 45,
+   "log2_data": 12.0,
+   "l_full": 3,
+   "next": "0000",
+   "margins_next": [
+    -18,
+    -19,
+    -50,
+    -82
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "4 words (0,4,8,12)",
+   "active": [
+    0,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 60,
+   "log2_data": 16.0,
+   "l_full": 3,
+   "next": "0000",
+   "margins_next": [
+    -4,
+    -4,
+    -36,
+    -68
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "5 words (0,1,4,8,12)",
+   "active": [
+    0,
+    1,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 75,
+   "log2_data": 20.0,
+   "l_full": 3,
+   "next": "1100",
+   "margins_next": [
+    11,
+    11,
+    -21,
+    -53
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "6 words (0,1,3,4,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 6,
+   "threshold": 90,
+   "log2_data": 24.0,
+   "l_full": 3,
+   "next": "1100",
+   "margins_next": [
+    26,
+    26,
+    -6,
+    -38
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "7 words (0,1,3,4,6,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 105,
+   "log2_data": 28.0,
+   "l_full": 3,
+   "next": "1110",
+   "margins_next": [
+    41,
+    41,
+    9,
+    -23
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 60,
+   "log2_data": 16.0,
+   "l_full": 3,
+   "next": "1110",
+   "margins_next": [
+    28,
+    28,
+    12,
+    -4
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "full block 0 + word 4",
+   "active": [
+    4
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 75,
+   "log2_data": 20.0,
+   "l_full": 3,
+   "next": "1100",
+   "margins_next": [
+    23,
+    23,
+    -3,
+    -29
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "full block 0 + words (4,8,12)",
+   "active": [
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 105,
+   "log2_data": 28.0,
+   "l_full": 3,
+   "next": "1110",
+   "margins_next": [
+    42,
+    41,
+    10,
+    -22
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "full blocks 0,1",
+   "active": [],
+   "free_blocks": [
+    0,
+    1
+   ],
+   "direction": "dec",
+   "s": 8,
+   "threshold": 120,
+   "log2_data": 32.0,
+   "l_full": 4,
+   "next": "0000",
+   "margins_next": [
+    -8,
+    -8,
+    -72,
+    -136
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "CPA 1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 15,
+   "log2_data": 4.0,
+   "l_full": 1,
+   "next": "0001",
+   "margins_next": [
+    -25,
+    -10,
+    0,
+    5
+   ],
+   "patterns": [
+    "1111",
+    "0001",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "CPA 1 word, position 1",
+   "active": [
+    1
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 15,
+   "log2_data": 4.0,
+   "l_full": 1,
+   "next": "0011",
+   "margins_next": [
+    -9,
+    0,
+    6,
+    9
+   ],
+   "patterns": [
+    "1111",
+    "0011",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "CPA 2 words (1,5)",
+   "active": [
+    1,
+    5
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 2,
+   "threshold": 30,
+   "log2_data": 8.0,
+   "l_full": 2,
+   "next": "0000",
+   "margins_next": [
+    -162,
+    -90,
+    -42,
+    -18
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-2^4",
+   "instance_label": "yuxtoy-2^4",
+   "q": "2^4",
+   "structure": "CPA full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "enc",
+   "s": 4,
+   "threshold": 60,
+   "log2_data": 16.0,
+   "l_full": 2,
+   "next": "0111",
+   "margins_next": [
+    -4,
+    20,
+    36,
+    44
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "0111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 192,
+   "log2_data": 7.59,
+   "l_full": 4,
+   "next": "0000",
+   "margins_next": [
+    -12,
+    -16,
+    -116,
+    -220
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "1 word, position 3",
+   "active": [
+    3
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 192,
+   "log2_data": 7.59,
+   "l_full": 4,
+   "next": "0000",
+   "margins_next": [
+    -59,
+    -62,
+    -186,
+    -312
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "2 words (0,4)",
+   "active": [
+    0,
+    4
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 2,
+   "threshold": 384,
+   "log2_data": 15.18,
+   "l_full": 4,
+   "next": "1110",
+   "margins_next": [
+    146,
+    144,
+    26,
+    -92
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "3 words (0,4,8)",
+   "active": [
+    0,
+    4,
+    8
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 3,
+   "threshold": 576,
+   "log2_data": 22.78,
+   "l_full": 5,
+   "next": "0000",
+   "margins_next": [
+    -421,
+    -430,
+    -924,
+    -1420
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "4 words (0,4,8,12)",
+   "active": [
+    0,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 768,
+   "log2_data": 30.37,
+   "l_full": 5,
+   "next": "0000",
+   "margins_next": [
+    -256,
+    -256,
+    -768,
+    -1280
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "5 words (0,1,4,8,12)",
+   "active": [
+    0,
+    1,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 960,
+   "log2_data": 37.96,
+   "l_full": 5,
+   "next": "0000",
+   "margins_next": [
+    -64,
+    -64,
+    -576,
+    -1088
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "6 words (0,1,3,4,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 6,
+   "threshold": 1152,
+   "log2_data": 45.55,
+   "l_full": 5,
+   "next": "1100",
+   "margins_next": [
+    128,
+    128,
+    -384,
+    -896
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "7 words (0,1,3,4,6,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 1344,
+   "log2_data": 53.15,
+   "l_full": 5,
+   "next": "1100",
+   "margins_next": [
+    320,
+    320,
+    -192,
+    -704
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 768,
+   "log2_data": 30.37,
+   "l_full": 5,
+   "next": "1100",
+   "margins_next": [
+    256,
+    256,
+    0,
+    -256
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "full block 0 + word 4",
+   "active": [
+    4
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 960,
+   "log2_data": 37.96,
+   "l_full": 5,
+   "next": "1100",
+   "margins_next": [
+    144,
+    136,
+    -268,
+    -673
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "full block 0 + words (4,8,12)",
+   "active": [
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 1344,
+   "log2_data": 53.15,
+   "l_full": 5,
+   "next": "1100",
+   "margins_next": [
+    347,
+    338,
+    -156,
+    -652
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "full blocks 0,1",
+   "active": [],
+   "free_blocks": [
+    0,
+    1
+   ],
+   "direction": "dec",
+   "s": 8,
+   "threshold": 1536,
+   "log2_data": 60.74,
+   "l_full": 6,
+   "next": "0000",
+   "margins_next": [
+    -512,
+    -512,
+    -1536,
+    -2560
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "CPA 1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 192,
+   "log2_data": 7.59,
+   "l_full": 2,
+   "next": "0011",
+   "margins_next": [
+    -128,
+    -8,
+    72,
+    112
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "0011",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "CPA 1 word, position 1",
+   "active": [
+    1
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 192,
+   "log2_data": 7.59,
+   "l_full": 2,
+   "next": "0111",
+   "margins_next": [
+    0,
+    72,
+    120,
+    144
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "0111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "CPA 2 words (1,5)",
+   "active": [
+    1,
+    5
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 2,
+   "threshold": 384,
+   "log2_data": 15.18,
+   "l_full": 3,
+   "next": "0000",
+   "margins_next": [
+    -1152,
+    -576,
+    -192,
+    0
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-193",
+   "instance_label": "yuxtoy-193",
+   "q": "193",
+   "structure": "CPA full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "enc",
+   "s": 4,
+   "threshold": 768,
+   "log2_data": 30.37,
+   "l_full": 4,
+   "next": "0000",
+   "margins_next": [
+    -3328,
+    -1792,
+    -768,
+    -256
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 256,
+   "log2_data": 8.01,
+   "l_full": 4,
+   "next": "1100",
+   "margins_next": [
+    52,
+    48,
+    -52,
+    -156
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "1 word, position 3",
+   "active": [
+    3
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 1,
+   "threshold": 256,
+   "log2_data": 8.01,
+   "l_full": 4,
+   "next": "1100",
+   "margins_next": [
+    5,
+    2,
+    -122,
+    -248
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "2 words (0,4)",
+   "active": [
+    0,
+    4
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 2,
+   "threshold": 512,
+   "log2_data": 16.01,
+   "l_full": 5,
+   "next": "0000",
+   "margins_next": [
+    -435,
+    -440,
+    -911,
+    -1387
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "3 words (0,4,8)",
+   "active": [
+    0,
+    4,
+    8
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 3,
+   "threshold": 768,
+   "log2_data": 24.02,
+   "l_full": 5,
+   "next": "0000",
+   "margins_next": [
+    -229,
+    -238,
+    -732,
+    -1228
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "4 words (0,4,8,12)",
+   "active": [
+    0,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 1024,
+   "log2_data": 32.02,
+   "l_full": 5,
+   "next": "0000",
+   "margins_next": [
+    0,
+    0,
+    -512,
+    -1024
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "5 words (0,1,4,8,12)",
+   "active": [
+    0,
+    1,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 1280,
+   "log2_data": 40.03,
+   "l_full": 5,
+   "next": "1100",
+   "margins_next": [
+    256,
+    256,
+    -256,
+    -768
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "6 words (0,1,3,4,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 6,
+   "threshold": 1536,
+   "log2_data": 48.03,
+   "l_full": 5,
+   "next": "1100",
+   "margins_next": [
+    512,
+    512,
+    0,
+    -512
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1100",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "7 words (0,1,3,4,6,8,12)",
+   "active": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    8,
+    12
+   ],
+   "free_blocks": [],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 1792,
+   "log2_data": 56.04,
+   "l_full": 5,
+   "next": "1110",
+   "margins_next": [
+    768,
+    768,
+    256,
+    -256
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 4,
+   "threshold": 1024,
+   "log2_data": 32.02,
+   "l_full": 5,
+   "next": "1110",
+   "margins_next": [
+    512,
+    512,
+    256,
+    0
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "full block 0 + word 4",
+   "active": [
+    4
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 5,
+   "threshold": 1280,
+   "log2_data": 40.03,
+   "l_full": 5,
+   "next": "1110",
+   "margins_next": [
+    464,
+    456,
+    52,
+    -353
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "full block 0 + words (4,8,12)",
+   "active": [
+    4,
+    8,
+    12
+   ],
+   "free_blocks": [
+    0
+   ],
+   "direction": "dec",
+   "s": 7,
+   "threshold": 1792,
+   "log2_data": 56.04,
+   "l_full": 5,
+   "next": "1110",
+   "margins_next": [
+    795,
+    786,
+    292,
+    -204
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1110",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "full blocks 0,1",
+   "active": [],
+   "free_blocks": [
+    0,
+    1
+   ],
+   "direction": "dec",
+   "s": 8,
+   "threshold": 2048,
+   "log2_data": 64.04,
+   "l_full": 6,
+   "next": "0000",
+   "margins_next": [
+    0,
+    0,
+    -1024,
+    -2048
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "CPA 1 word, position 0",
+   "active": [
+    0
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 256,
+   "log2_data": 8.01,
+   "l_full": 2,
+   "next": "0111",
+   "margins_next": [
+    -64,
+    56,
+    136,
+    176
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "0111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "CPA 1 word, position 1",
+   "active": [
+    1
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 1,
+   "threshold": 256,
+   "log2_data": 8.01,
+   "l_full": 3,
+   "next": "0000",
+   "margins_next": [
+    -1280,
+    -704,
+    -320,
+    -128
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "CPA 2 words (1,5)",
+   "active": [
+    1,
+    5
+   ],
+   "free_blocks": [],
+   "direction": "enc",
+   "s": 2,
+   "threshold": 512,
+   "log2_data": 16.01,
+   "l_full": 3,
+   "next": "0001",
+   "margins_next": [
+    -1024,
+    -448,
+    -64,
+    128
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "0001",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  },
+  {
+   "instance": "yuxtoy-257",
+   "instance_label": "yuxtoy-257",
+   "q": "257",
+   "structure": "CPA full block 0",
+   "active": [],
+   "free_blocks": [
+    0
+   ],
+   "direction": "enc",
+   "s": 4,
+   "threshold": 1024,
+   "log2_data": 32.02,
+   "l_full": 4,
+   "next": "0000",
+   "margins_next": [
+    -3072,
+    -1536,
+    -512,
+    0
+   ],
+   "patterns": [
+    "1111",
+    "1111",
+    "1111",
+    "1111",
+    "0000",
+    "0000",
+    "0000",
+    "0000"
+   ]
+  }
+ ],
+ "cosets": [
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 0, 2^8 coset",
+   "active": [
+    0
+   ],
+   "coset_k": 8,
+   "s": 1,
+   "threshold": 256,
+   "log2_data": 8,
+   "l_full": 4,
+   "next": "1100",
+   "margins_next": [
+    52,
+    48,
+    -52,
+    -156
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 3, 2^8 coset",
+   "active": [
+    3
+   ],
+   "coset_k": 8,
+   "s": 1,
+   "threshold": 256,
+   "log2_data": 8,
+   "l_full": 4,
+   "next": "1100",
+   "margins_next": [
+    5,
+    2,
+    -122,
+    -248
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 0, 2^9 coset",
+   "active": [
+    0
+   ],
+   "coset_k": 9,
+   "s": 1,
+   "threshold": 512,
+   "log2_data": 9,
+   "l_full": 5,
+   "next": "0000",
+   "margins_next": [
+    -304,
+    -312,
+    -716,
+    -1121
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 3, 2^9 coset",
+   "active": [
+    3
+   ],
+   "coset_k": 9,
+   "s": 1,
+   "threshold": 512,
+   "log2_data": 9,
+   "l_full": 5,
+   "next": "0000",
+   "margins_next": [
+    -494,
+    -496,
+    -998,
+    -1500
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 0, 2^10 coset",
+   "active": [
+    0
+   ],
+   "coset_k": 10,
+   "s": 1,
+   "threshold": 1024,
+   "log2_data": 10,
+   "l_full": 5,
+   "next": "1100",
+   "margins_next": [
+    208,
+    200,
+    -204,
+    -609
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 3, 2^10 coset",
+   "active": [
+    3
+   ],
+   "coset_k": 10,
+   "s": 1,
+   "threshold": 1024,
+   "log2_data": 10,
+   "l_full": 5,
+   "next": "1100",
+   "margins_next": [
+    18,
+    16,
+    -486,
+    -988
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 0, 2^11 coset",
+   "active": [
+    0
+   ],
+   "coset_k": 11,
+   "s": 1,
+   "threshold": 2048,
+   "log2_data": 11,
+   "l_full": 6,
+   "next": "0000",
+   "margins_next": [
+    -1217,
+    -1218,
+    -2850,
+    -4482
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 3, 2^11 coset",
+   "active": [
+    3
+   ],
+   "coset_k": 11,
+   "s": 1,
+   "threshold": 2048,
+   "log2_data": 11,
+   "l_full": 6,
+   "next": "0000",
+   "margins_next": [
+    -1969,
+    -1976,
+    -3981,
+    -5993
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 0, 2^12 coset",
+   "active": [
+    0
+   ],
+   "coset_k": 12,
+   "s": 1,
+   "threshold": 4096,
+   "log2_data": 12,
+   "l_full": 6,
+   "next": "1100",
+   "margins_next": [
+    831,
+    830,
+    -802,
+    -2434
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 3, 2^12 coset",
+   "active": [
+    3
+   ],
+   "coset_k": 12,
+   "s": 1,
+   "threshold": 4096,
+   "log2_data": 12,
+   "l_full": 6,
+   "next": "1100",
+   "margins_next": [
+    79,
+    72,
+    -1933,
+    -3945
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 0, 2^13 coset",
+   "active": [
+    0
+   ],
+   "coset_k": 13,
+   "s": 1,
+   "threshold": 8192,
+   "log2_data": 13,
+   "l_full": 7,
+   "next": "0000",
+   "margins_next": [
+    -4831,
+    -4868,
+    -11361,
+    -17891
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 3, 2^13 coset",
+   "active": [
+    3
+   ],
+   "coset_k": 13,
+   "s": 1,
+   "threshold": 8192,
+   "log2_data": 13,
+   "l_full": 7,
+   "next": "0000",
+   "margins_next": [
+    -7852,
+    -7890,
+    -15893,
+    -23934
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 0, 2^14 coset",
+   "active": [
+    0
+   ],
+   "coset_k": 14,
+   "s": 1,
+   "threshold": 16384,
+   "log2_data": 14,
+   "l_full": 7,
+   "next": "1100",
+   "margins_next": [
+    3361,
+    3324,
+    -3169,
+    -9699
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 3, 2^14 coset",
+   "active": [
+    3
+   ],
+   "coset_k": 14,
+   "s": 1,
+   "threshold": 16384,
+   "log2_data": 14,
+   "l_full": 7,
+   "next": "1100",
+   "margins_next": [
+    340,
+    302,
+    -7701,
+    -15742
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 0, 2^15 coset",
+   "active": [
+    0
+   ],
+   "coset_k": 15,
+   "s": 1,
+   "threshold": 32768,
+   "log2_data": 15,
+   "l_full": 8,
+   "next": "0000",
+   "margins_next": [
+    -19273,
+    -19398,
+    -45356,
+    -71410
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 3, 2^15 coset",
+   "active": [
+    3
+   ],
+   "coset_k": 15,
+   "s": 1,
+   "threshold": 32768,
+   "log2_data": 15,
+   "l_full": 8,
+   "next": "0000",
+   "margins_next": [
+    -31440,
+    -31484,
+    -63566,
+    -95648
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 0, 2^16 coset",
+   "active": [
+    0
+   ],
+   "coset_k": 16,
+   "s": 1,
+   "threshold": 65536,
+   "log2_data": 16,
+   "l_full": 8,
+   "next": "1100",
+   "margins_next": [
+    13495,
+    13370,
+    -12588,
+    -38642
+   ]
+  },
+  {
+   "instance": "yupx-65537",
+   "structure": "1 word position 3, 2^16 coset",
+   "active": [
+    3
+   ],
+   "coset_k": 16,
+   "s": 1,
+   "threshold": 65536,
+   "log2_data": 16,
+   "l_full": 8,
+   "next": "1100",
+   "margins_next": [
+    1328,
+    1284,
+    -30798,
+    -62880
+   ]
+  }
+ ]
+}

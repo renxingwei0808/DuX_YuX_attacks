@@ -1,0 +1,63 @@
+{
+ "instance": "dux-2^16",
+ "cipher": "dux",
+ "field": "F_2^16",
+ "rounds": 11,
+ "layers": 9,
+ "active_words": [
+  3
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "points_per_structure": 65536,
+ "structures": 1,
+ "slices": 65536,
+ "points_per_slice": 1,
+ "block_slices": 1,
+ "slice_chunk": 2048,
+ "monomials": 18025,
+ "weights": {
+  "n": 1500,
+  "dims": 1,
+  "margin": 24990,
+  "weight_word": 3,
+  "range": "a < 1500"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "equations": 6000,
+ "unknowns": 18014,
+ "rank": 4756,
+ "free": 13258,
+ "pinned": 2188,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 16.0,
+ "assemble_s": 2549.8,
+ "solve_s": 106.0,
+ "weight_curve": [],
+ "per_structure": [
+  {
+   "structure": 0,
+   "seed": 5007,
+   "moments_s": 1837.9,
+   "dgemm_s": 0.0
+  }
+ ],
+ "procs": 8,
+ "seed": 7,
+ "solver": "c-omp"
+}

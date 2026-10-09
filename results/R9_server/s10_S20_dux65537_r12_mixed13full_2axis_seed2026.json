@@ -1,0 +1,113 @@
+{
+ "instance": "dux-65537",
+ "cipher": "dux",
+ "field": "F_65537",
+ "rounds": 12,
+ "layers": 10,
+ "active_words": [
+  3,
+  7
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "weight_rule": "structure words ['2^13', 'full']: |a| < 3502; every coset axis needs a_i >= 1 and 2^k not dividing a_i (O12 Sect. 5.5), the full-field axes are unconstrained (T2)",
+ "points_per_structure": 536879104,
+ "structures": 1,
+ "slices": 8192,
+ "points_per_slice": 65537,
+ "coset": null,
+ "coset_reps": [],
+ "point_set": null,
+ "block_slices": 1,
+ "slice_chunk": 4096,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 38051,
+ "cheap_set": [
+  2
+ ],
+ "subspace_dims": null,
+ "weights": {
+  "n": 3501,
+  "dims": 2,
+  "margin": 3502,
+  "usable": 6130251,
+  "weight_min": 0,
+  "first": 1,
+  "last": 3501,
+  "weight_word": 3,
+  "degree_units_per_power": 1,
+  "range": "a < 3501",
+  "vandermonde_axes": 1,
+  "weight_words": [
+   3,
+   7
+  ],
+  "inner_tuples": null,
+  "usable_norm": 3502
+ },
+ "equation_rows": {
+  "combine": "0001",
+  "dim_K": 1,
+  "y": [
+   [
+    1,
+    65536,
+    1,
+    65536
+   ]
+  ]
+ },
+ "equations": 10500,
+ "unknowns": 38040,
+ "rank": 8188,
+ "free": 29852,
+ "pinned": 2592,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 29.0,
+ "assemble_s": 3430.0,
+ "solve_s": 1327.4,
+ "weight_curve": [],
+ "structure_curve": [],
+ "rows_dir": "/home/luck/dux-data/S20k13_seed2026",
+ "per_structure": [
+  {
+   "structure": 0,
+   "a1": 0,
+   "seed": 7026,
+   "moments_s": 663.8,
+   "dgemm_s": 54.8
+  },
+  {
+   "structure": 0,
+   "a1": 1,
+   "seed": 7026,
+   "moments_s": 974.2,
+   "dgemm_s": 67.8
+  },
+  {
+   "structure": 0,
+   "a1": 2,
+   "seed": 7026,
+   "moments_s": 767.9,
+   "dgemm_s": 54.0
+  }
+ ],
+ "procs": 32,
+ "seed": 2026,
+ "solver": "numpy-blocked"
+}

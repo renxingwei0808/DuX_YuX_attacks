@@ -1,0 +1,174 @@
+{
+ "instance": "dux-2^8",
+ "rounds": 7,
+ "active": [
+  3,
+  7,
+  11,
+  15
+ ],
+ "dim": 8,
+ "coords": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "mode": "sequential",
+ "structures": 3,
+ "steps": [
+  {
+   "block": 0,
+   "steps": [
+    {
+     "coord": 2,
+     "targets": [
+      0,
+      3
+     ],
+     "rank": 2,
+     "solved": [
+      0,
+      3
+     ]
+    },
+    {
+     "coord": 1,
+     "targets": [
+      2
+     ],
+     "candidates": 1,
+     "solved": [
+      2
+     ]
+    },
+    {
+     "coord": 3,
+     "targets": [
+      1
+     ],
+     "candidates": 1,
+     "solved": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "block": 1,
+   "steps": [
+    {
+     "coord": 2,
+     "targets": [
+      0,
+      3
+     ],
+     "rank": 2,
+     "solved": [
+      0,
+      3
+     ]
+    },
+    {
+     "coord": 1,
+     "targets": [
+      2
+     ],
+     "candidates": 1,
+     "solved": [
+      2
+     ]
+    },
+    {
+     "coord": 3,
+     "targets": [
+      1
+     ],
+     "candidates": 1,
+     "solved": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "block": 2,
+   "steps": [
+    {
+     "coord": 2,
+     "targets": [
+      0,
+      3
+     ],
+     "rank": 2,
+     "solved": [
+      0,
+      3
+     ]
+    },
+    {
+     "coord": 1,
+     "targets": [
+      2
+     ],
+     "candidates": 1,
+     "solved": [
+      2
+     ]
+    },
+    {
+     "coord": 3,
+     "targets": [
+      1
+     ],
+     "candidates": 1,
+     "solved": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "block": 3,
+   "steps": [
+    {
+     "coord": 2,
+     "targets": [
+      0,
+      3
+     ],
+     "rank": 2,
+     "solved": [
+      0,
+      3
+     ]
+    },
+    {
+     "coord": 1,
+     "targets": [
+      2
+     ],
+     "candidates": 1,
+     "solved": [
+      2
+     ]
+    },
+    {
+     "coord": 3,
+     "targets": [
+      1
+     ],
+     "candidates": 1,
+     "solved": [
+      1
+     ]
+    }
+   ]
+  }
+ ],
+ "success": true,
+ "data_log2_per_structure": 32,
+ "data_log2_total": 33.58,
+ "moments_s": 588.4,
+ "elapsed_s": 588.4
+}

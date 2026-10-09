@@ -1,0 +1,6 @@
+toy-2^4 (dux, F_2^4): M = 18025, the four plain rows (no --combine)
+  pi-orbits on the 18025 columns: 4532 (sizes {'1': 1, '2': 50, '4': 4481})
+  .. 500/1300 pseudo-structures (80 s)
+  .. 1000/1300 pseudo-structures (160 s)
+  ceiling: rank 4756 of 18025 columns, 2188 monomials determined, 16/16 key words
+saved results/E11_cheap_rows/w19/collapse_toy-2p4_4rows.json

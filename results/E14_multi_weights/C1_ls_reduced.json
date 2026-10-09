@@ -1,0 +1,2042 @@
+{
+ "instance": "dux-2^8",
+ "rounds": 7,
+ "active": [
+  0,
+  2,
+  3
+ ],
+ "layer": 6,
+ "class_bounds": [
+  836,
+  1142,
+  1560,
+  724
+ ],
+ "threshold": 765,
+ "margins": [
+  -71,
+  -377,
+  -795,
+  41
+ ],
+ "pattern": "0001",
+ "ls_class_bounds_W1": [
+  836,
+  1142,
+  1560,
+  724
+ ],
+ "ls_margin": 41,
+ "ls_subspaces": [
+  10,
+  4,
+  4
+ ],
+ "ls_total_log2_data": 27.32,
+ "mask_space_dims": {
+  "V_{2}": 1,
+  "V_{1,2}": 2,
+  "V_{0,1,2}": 3,
+  "V_{0,1,2,3}": 4
+ },
+ "weights": 41,
+ "runs": [
+  {
+   "seed": 2026,
+   "instance": "dux-2^8",
+   "rounds": 7,
+   "active": [
+    0,
+    2,
+    3
+   ],
+   "points": 16777216,
+   "weights": 41,
+   "stage_i": {
+    "unknowns": 8,
+    "masks": 1,
+    "rows": 41,
+    "rank": 8,
+    "free": 0,
+    "curve": [
+     {
+      "weights": 1,
+      "rows": 1,
+      "rank": 1
+     },
+     {
+      "weights": 2,
+      "rows": 2,
+      "rank": 2
+     },
+     {
+      "weights": 3,
+      "rows": 3,
+      "rank": 3
+     },
+     {
+      "weights": 4,
+      "rows": 4,
+      "rank": 4
+     },
+     {
+      "weights": 5,
+      "rows": 5,
+      "rank": 5
+     },
+     {
+      "weights": 6,
+      "rows": 6,
+      "rank": 6
+     },
+     {
+      "weights": 7,
+      "rows": 7,
+      "rank": 7
+     },
+     {
+      "weights": 8,
+      "rows": 8,
+      "rank": 8
+     },
+     {
+      "weights": 9,
+      "rows": 9,
+      "rank": 8
+     },
+     {
+      "weights": 10,
+      "rows": 10,
+      "rank": 8
+     },
+     {
+      "weights": 11,
+      "rows": 11,
+      "rank": 8
+     },
+     {
+      "weights": 12,
+      "rows": 12,
+      "rank": 8
+     },
+     {
+      "weights": 13,
+      "rows": 13,
+      "rank": 8
+     },
+     {
+      "weights": 14,
+      "rows": 14,
+      "rank": 8
+     },
+     {
+      "weights": 15,
+      "rows": 15,
+      "rank": 8
+     },
+     {
+      "weights": 16,
+      "rows": 16,
+      "rank": 8
+     },
+     {
+      "weights": 17,
+      "rows": 17,
+      "rank": 8
+     },
+     {
+      "weights": 18,
+      "rows": 18,
+      "rank": 8
+     },
+     {
+      "weights": 19,
+      "rows": 19,
+      "rank": 8
+     },
+     {
+      "weights": 20,
+      "rows": 20,
+      "rank": 8
+     },
+     {
+      "weights": 21,
+      "rows": 21,
+      "rank": 8
+     },
+     {
+      "weights": 22,
+      "rows": 22,
+      "rank": 8
+     },
+     {
+      "weights": 23,
+      "rows": 23,
+      "rank": 8
+     },
+     {
+      "weights": 24,
+      "rows": 24,
+      "rank": 8
+     },
+     {
+      "weights": 25,
+      "rows": 25,
+      "rank": 8
+     },
+     {
+      "weights": 26,
+      "rows": 26,
+      "rank": 8
+     },
+     {
+      "weights": 27,
+      "rows": 27,
+      "rank": 8
+     },
+     {
+      "weights": 28,
+      "rows": 28,
+      "rank": 8
+     },
+     {
+      "weights": 29,
+      "rows": 29,
+      "rank": 8
+     },
+     {
+      "weights": 30,
+      "rows": 30,
+      "rank": 8
+     },
+     {
+      "weights": 31,
+      "rows": 31,
+      "rank": 8
+     },
+     {
+      "weights": 32,
+      "rows": 32,
+      "rank": 8
+     },
+     {
+      "weights": 33,
+      "rows": 33,
+      "rank": 8
+     },
+     {
+      "weights": 34,
+      "rows": 34,
+      "rank": 8
+     },
+     {
+      "weights": 35,
+      "rows": 35,
+      "rank": 8
+     },
+     {
+      "weights": 36,
+      "rows": 36,
+      "rank": 8
+     },
+     {
+      "weights": 37,
+      "rows": 37,
+      "rank": 8
+     },
+     {
+      "weights": 38,
+      "rows": 38,
+      "rank": 8
+     },
+     {
+      "weights": 39,
+      "rows": 39,
+      "rank": 8
+     },
+     {
+      "weights": 40,
+      "rows": 40,
+      "rank": 8
+     },
+     {
+      "weights": 41,
+      "rows": 41,
+      "rank": 8
+     }
+    ],
+    "solved": true,
+    "correct": true
+   },
+   "stage_ii": {
+    "unknowns": 4,
+    "masks": 1,
+    "rows": 41,
+    "rank": 4,
+    "free": 0,
+    "curve": [
+     {
+      "weights": 1,
+      "rows": 1,
+      "rank": 1
+     },
+     {
+      "weights": 2,
+      "rows": 2,
+      "rank": 2
+     },
+     {
+      "weights": 3,
+      "rows": 3,
+      "rank": 3
+     },
+     {
+      "weights": 4,
+      "rows": 4,
+      "rank": 4
+     },
+     {
+      "weights": 5,
+      "rows": 5,
+      "rank": 4
+     },
+     {
+      "weights": 6,
+      "rows": 6,
+      "rank": 4
+     },
+     {
+      "weights": 7,
+      "rows": 7,
+      "rank": 4
+     },
+     {
+      "weights": 8,
+      "rows": 8,
+      "rank": 4
+     },
+     {
+      "weights": 9,
+      "rows": 9,
+      "rank": 4
+     },
+     {
+      "weights": 10,
+      "rows": 10,
+      "rank": 4
+     },
+     {
+      "weights": 11,
+      "rows": 11,
+      "rank": 4
+     },
+     {
+      "weights": 12,
+      "rows": 12,
+      "rank": 4
+     },
+     {
+      "weights": 13,
+      "rows": 13,
+      "rank": 4
+     },
+     {
+      "weights": 14,
+      "rows": 14,
+      "rank": 4
+     },
+     {
+      "weights": 15,
+      "rows": 15,
+      "rank": 4
+     },
+     {
+      "weights": 16,
+      "rows": 16,
+      "rank": 4
+     },
+     {
+      "weights": 17,
+      "rows": 17,
+      "rank": 4
+     },
+     {
+      "weights": 18,
+      "rows": 18,
+      "rank": 4
+     },
+     {
+      "weights": 19,
+      "rows": 19,
+      "rank": 4
+     },
+     {
+      "weights": 20,
+      "rows": 20,
+      "rank": 4
+     },
+     {
+      "weights": 21,
+      "rows": 21,
+      "rank": 4
+     },
+     {
+      "weights": 22,
+      "rows": 22,
+      "rank": 4
+     },
+     {
+      "weights": 23,
+      "rows": 23,
+      "rank": 4
+     },
+     {
+      "weights": 24,
+      "rows": 24,
+      "rank": 4
+     },
+     {
+      "weights": 25,
+      "rows": 25,
+      "rank": 4
+     },
+     {
+      "weights": 26,
+      "rows": 26,
+      "rank": 4
+     },
+     {
+      "weights": 27,
+      "rows": 27,
+      "rank": 4
+     },
+     {
+      "weights": 28,
+      "rows": 28,
+      "rank": 4
+     },
+     {
+      "weights": 29,
+      "rows": 29,
+      "rank": 4
+     },
+     {
+      "weights": 30,
+      "rows": 30,
+      "rank": 4
+     },
+     {
+      "weights": 31,
+      "rows": 31,
+      "rank": 4
+     },
+     {
+      "weights": 32,
+      "rows": 32,
+      "rank": 4
+     },
+     {
+      "weights": 33,
+      "rows": 33,
+      "rank": 4
+     },
+     {
+      "weights": 34,
+      "rows": 34,
+      "rank": 4
+     },
+     {
+      "weights": 35,
+      "rows": 35,
+      "rank": 4
+     },
+     {
+      "weights": 36,
+      "rows": 36,
+      "rank": 4
+     },
+     {
+      "weights": 37,
+      "rows": 37,
+      "rank": 4
+     },
+     {
+      "weights": 38,
+      "rows": 38,
+      "rank": 4
+     },
+     {
+      "weights": 39,
+      "rows": 39,
+      "rank": 4
+     },
+     {
+      "weights": 40,
+      "rows": 40,
+      "rank": 4
+     },
+     {
+      "weights": 41,
+      "rows": 41,
+      "rank": 4
+     }
+    ],
+    "solved": true,
+    "correct": true
+   },
+   "stage_iii": {
+    "unknowns": 8,
+    "effective_columns": 7,
+    "masks": 4,
+    "rows": 164,
+    "rank": 7,
+    "free": 1,
+    "curve": [
+     {
+      "weights": 1,
+      "rows": 4,
+      "rank": 2
+     },
+     {
+      "weights": 2,
+      "rows": 8,
+      "rank": 4
+     },
+     {
+      "weights": 3,
+      "rows": 12,
+      "rank": 6
+     },
+     {
+      "weights": 4,
+      "rows": 16,
+      "rank": 7
+     },
+     {
+      "weights": 5,
+      "rows": 20,
+      "rank": 7
+     },
+     {
+      "weights": 6,
+      "rows": 24,
+      "rank": 7
+     },
+     {
+      "weights": 7,
+      "rows": 28,
+      "rank": 7
+     },
+     {
+      "weights": 8,
+      "rows": 32,
+      "rank": 7
+     },
+     {
+      "weights": 9,
+      "rows": 36,
+      "rank": 7
+     },
+     {
+      "weights": 10,
+      "rows": 40,
+      "rank": 7
+     },
+     {
+      "weights": 11,
+      "rows": 44,
+      "rank": 7
+     },
+     {
+      "weights": 12,
+      "rows": 48,
+      "rank": 7
+     },
+     {
+      "weights": 13,
+      "rows": 52,
+      "rank": 7
+     },
+     {
+      "weights": 14,
+      "rows": 56,
+      "rank": 7
+     },
+     {
+      "weights": 15,
+      "rows": 60,
+      "rank": 7
+     },
+     {
+      "weights": 16,
+      "rows": 64,
+      "rank": 7
+     },
+     {
+      "weights": 17,
+      "rows": 68,
+      "rank": 7
+     },
+     {
+      "weights": 18,
+      "rows": 72,
+      "rank": 7
+     },
+     {
+      "weights": 19,
+      "rows": 76,
+      "rank": 7
+     },
+     {
+      "weights": 20,
+      "rows": 80,
+      "rank": 7
+     },
+     {
+      "weights": 21,
+      "rows": 84,
+      "rank": 7
+     },
+     {
+      "weights": 22,
+      "rows": 88,
+      "rank": 7
+     },
+     {
+      "weights": 23,
+      "rows": 92,
+      "rank": 7
+     },
+     {
+      "weights": 24,
+      "rows": 96,
+      "rank": 7
+     },
+     {
+      "weights": 25,
+      "rows": 100,
+      "rank": 7
+     },
+     {
+      "weights": 26,
+      "rows": 104,
+      "rank": 7
+     },
+     {
+      "weights": 27,
+      "rows": 108,
+      "rank": 7
+     },
+     {
+      "weights": 28,
+      "rows": 112,
+      "rank": 7
+     },
+     {
+      "weights": 29,
+      "rows": 116,
+      "rank": 7
+     },
+     {
+      "weights": 30,
+      "rows": 120,
+      "rank": 7
+     },
+     {
+      "weights": 31,
+      "rows": 124,
+      "rank": 7
+     },
+     {
+      "weights": 32,
+      "rows": 128,
+      "rank": 7
+     },
+     {
+      "weights": 33,
+      "rows": 132,
+      "rank": 7
+     },
+     {
+      "weights": 34,
+      "rows": 136,
+      "rank": 7
+     },
+     {
+      "weights": 35,
+      "rows": 140,
+      "rank": 7
+     },
+     {
+      "weights": 36,
+      "rows": 144,
+      "rank": 7
+     },
+     {
+      "weights": 37,
+      "rows": 148,
+      "rank": 7
+     },
+     {
+      "weights": 38,
+      "rows": 152,
+      "rank": 7
+     },
+     {
+      "weights": 39,
+      "rows": 156,
+      "rank": 7
+     },
+     {
+      "weights": 40,
+      "rows": 160,
+      "rank": 7
+     },
+     {
+      "weights": 41,
+      "rows": 164,
+      "rank": 7
+     }
+    ],
+    "solved": true,
+    "correct": true
+   },
+   "key_words_correct": 16,
+   "key_words_total": 16,
+   "data_log2": 24.0,
+   "decrypt_s": 19.9
+  },
+  {
+   "seed": 7,
+   "instance": "dux-2^8",
+   "rounds": 7,
+   "active": [
+    0,
+    2,
+    3
+   ],
+   "points": 16777216,
+   "weights": 41,
+   "stage_i": {
+    "unknowns": 8,
+    "masks": 1,
+    "rows": 41,
+    "rank": 8,
+    "free": 0,
+    "curve": [
+     {
+      "weights": 1,
+      "rows": 1,
+      "rank": 1
+     },
+     {
+      "weights": 2,
+      "rows": 2,
+      "rank": 2
+     },
+     {
+      "weights": 3,
+      "rows": 3,
+      "rank": 3
+     },
+     {
+      "weights": 4,
+      "rows": 4,
+      "rank": 4
+     },
+     {
+      "weights": 5,
+      "rows": 5,
+      "rank": 5
+     },
+     {
+      "weights": 6,
+      "rows": 6,
+      "rank": 6
+     },
+     {
+      "weights": 7,
+      "rows": 7,
+      "rank": 7
+     },
+     {
+      "weights": 8,
+      "rows": 8,
+      "rank": 8
+     },
+     {
+      "weights": 9,
+      "rows": 9,
+      "rank": 8
+     },
+     {
+      "weights": 10,
+      "rows": 10,
+      "rank": 8
+     },
+     {
+      "weights": 11,
+      "rows": 11,
+      "rank": 8
+     },
+     {
+      "weights": 12,
+      "rows": 12,
+      "rank": 8
+     },
+     {
+      "weights": 13,
+      "rows": 13,
+      "rank": 8
+     },
+     {
+      "weights": 14,
+      "rows": 14,
+      "rank": 8
+     },
+     {
+      "weights": 15,
+      "rows": 15,
+      "rank": 8
+     },
+     {
+      "weights": 16,
+      "rows": 16,
+      "rank": 8
+     },
+     {
+      "weights": 17,
+      "rows": 17,
+      "rank": 8
+     },
+     {
+      "weights": 18,
+      "rows": 18,
+      "rank": 8
+     },
+     {
+      "weights": 19,
+      "rows": 19,
+      "rank": 8
+     },
+     {
+      "weights": 20,
+      "rows": 20,
+      "rank": 8
+     },
+     {
+      "weights": 21,
+      "rows": 21,
+      "rank": 8
+     },
+     {
+      "weights": 22,
+      "rows": 22,
+      "rank": 8
+     },
+     {
+      "weights": 23,
+      "rows": 23,
+      "rank": 8
+     },
+     {
+      "weights": 24,
+      "rows": 24,
+      "rank": 8
+     },
+     {
+      "weights": 25,
+      "rows": 25,
+      "rank": 8
+     },
+     {
+      "weights": 26,
+      "rows": 26,
+      "rank": 8
+     },
+     {
+      "weights": 27,
+      "rows": 27,
+      "rank": 8
+     },
+     {
+      "weights": 28,
+      "rows": 28,
+      "rank": 8
+     },
+     {
+      "weights": 29,
+      "rows": 29,
+      "rank": 8
+     },
+     {
+      "weights": 30,
+      "rows": 30,
+      "rank": 8
+     },
+     {
+      "weights": 31,
+      "rows": 31,
+      "rank": 8
+     },
+     {
+      "weights": 32,
+      "rows": 32,
+      "rank": 8
+     },
+     {
+      "weights": 33,
+      "rows": 33,
+      "rank": 8
+     },
+     {
+      "weights": 34,
+      "rows": 34,
+      "rank": 8
+     },
+     {
+      "weights": 35,
+      "rows": 35,
+      "rank": 8
+     },
+     {
+      "weights": 36,
+      "rows": 36,
+      "rank": 8
+     },
+     {
+      "weights": 37,
+      "rows": 37,
+      "rank": 8
+     },
+     {
+      "weights": 38,
+      "rows": 38,
+      "rank": 8
+     },
+     {
+      "weights": 39,
+      "rows": 39,
+      "rank": 8
+     },
+     {
+      "weights": 40,
+      "rows": 40,
+      "rank": 8
+     },
+     {
+      "weights": 41,
+      "rows": 41,
+      "rank": 8
+     }
+    ],
+    "solved": true,
+    "correct": true
+   },
+   "stage_ii": {
+    "unknowns": 4,
+    "masks": 1,
+    "rows": 41,
+    "rank": 4,
+    "free": 0,
+    "curve": [
+     {
+      "weights": 1,
+      "rows": 1,
+      "rank": 1
+     },
+     {
+      "weights": 2,
+      "rows": 2,
+      "rank": 2
+     },
+     {
+      "weights": 3,
+      "rows": 3,
+      "rank": 3
+     },
+     {
+      "weights": 4,
+      "rows": 4,
+      "rank": 4
+     },
+     {
+      "weights": 5,
+      "rows": 5,
+      "rank": 4
+     },
+     {
+      "weights": 6,
+      "rows": 6,
+      "rank": 4
+     },
+     {
+      "weights": 7,
+      "rows": 7,
+      "rank": 4
+     },
+     {
+      "weights": 8,
+      "rows": 8,
+      "rank": 4
+     },
+     {
+      "weights": 9,
+      "rows": 9,
+      "rank": 4
+     },
+     {
+      "weights": 10,
+      "rows": 10,
+      "rank": 4
+     },
+     {
+      "weights": 11,
+      "rows": 11,
+      "rank": 4
+     },
+     {
+      "weights": 12,
+      "rows": 12,
+      "rank": 4
+     },
+     {
+      "weights": 13,
+      "rows": 13,
+      "rank": 4
+     },
+     {
+      "weights": 14,
+      "rows": 14,
+      "rank": 4
+     },
+     {
+      "weights": 15,
+      "rows": 15,
+      "rank": 4
+     },
+     {
+      "weights": 16,
+      "rows": 16,
+      "rank": 4
+     },
+     {
+      "weights": 17,
+      "rows": 17,
+      "rank": 4
+     },
+     {
+      "weights": 18,
+      "rows": 18,
+      "rank": 4
+     },
+     {
+      "weights": 19,
+      "rows": 19,
+      "rank": 4
+     },
+     {
+      "weights": 20,
+      "rows": 20,
+      "rank": 4
+     },
+     {
+      "weights": 21,
+      "rows": 21,
+      "rank": 4
+     },
+     {
+      "weights": 22,
+      "rows": 22,
+      "rank": 4
+     },
+     {
+      "weights": 23,
+      "rows": 23,
+      "rank": 4
+     },
+     {
+      "weights": 24,
+      "rows": 24,
+      "rank": 4
+     },
+     {
+      "weights": 25,
+      "rows": 25,
+      "rank": 4
+     },
+     {
+      "weights": 26,
+      "rows": 26,
+      "rank": 4
+     },
+     {
+      "weights": 27,
+      "rows": 27,
+      "rank": 4
+     },
+     {
+      "weights": 28,
+      "rows": 28,
+      "rank": 4
+     },
+     {
+      "weights": 29,
+      "rows": 29,
+      "rank": 4
+     },
+     {
+      "weights": 30,
+      "rows": 30,
+      "rank": 4
+     },
+     {
+      "weights": 31,
+      "rows": 31,
+      "rank": 4
+     },
+     {
+      "weights": 32,
+      "rows": 32,
+      "rank": 4
+     },
+     {
+      "weights": 33,
+      "rows": 33,
+      "rank": 4
+     },
+     {
+      "weights": 34,
+      "rows": 34,
+      "rank": 4
+     },
+     {
+      "weights": 35,
+      "rows": 35,
+      "rank": 4
+     },
+     {
+      "weights": 36,
+      "rows": 36,
+      "rank": 4
+     },
+     {
+      "weights": 37,
+      "rows": 37,
+      "rank": 4
+     },
+     {
+      "weights": 38,
+      "rows": 38,
+      "rank": 4
+     },
+     {
+      "weights": 39,
+      "rows": 39,
+      "rank": 4
+     },
+     {
+      "weights": 40,
+      "rows": 40,
+      "rank": 4
+     },
+     {
+      "weights": 41,
+      "rows": 41,
+      "rank": 4
+     }
+    ],
+    "solved": true,
+    "correct": true
+   },
+   "stage_iii": {
+    "unknowns": 8,
+    "effective_columns": 7,
+    "masks": 4,
+    "rows": 164,
+    "rank": 7,
+    "free": 1,
+    "curve": [
+     {
+      "weights": 1,
+      "rows": 4,
+      "rank": 2
+     },
+     {
+      "weights": 2,
+      "rows": 8,
+      "rank": 4
+     },
+     {
+      "weights": 3,
+      "rows": 12,
+      "rank": 6
+     },
+     {
+      "weights": 4,
+      "rows": 16,
+      "rank": 7
+     },
+     {
+      "weights": 5,
+      "rows": 20,
+      "rank": 7
+     },
+     {
+      "weights": 6,
+      "rows": 24,
+      "rank": 7
+     },
+     {
+      "weights": 7,
+      "rows": 28,
+      "rank": 7
+     },
+     {
+      "weights": 8,
+      "rows": 32,
+      "rank": 7
+     },
+     {
+      "weights": 9,
+      "rows": 36,
+      "rank": 7
+     },
+     {
+      "weights": 10,
+      "rows": 40,
+      "rank": 7
+     },
+     {
+      "weights": 11,
+      "rows": 44,
+      "rank": 7
+     },
+     {
+      "weights": 12,
+      "rows": 48,
+      "rank": 7
+     },
+     {
+      "weights": 13,
+      "rows": 52,
+      "rank": 7
+     },
+     {
+      "weights": 14,
+      "rows": 56,
+      "rank": 7
+     },
+     {
+      "weights": 15,
+      "rows": 60,
+      "rank": 7
+     },
+     {
+      "weights": 16,
+      "rows": 64,
+      "rank": 7
+     },
+     {
+      "weights": 17,
+      "rows": 68,
+      "rank": 7
+     },
+     {
+      "weights": 18,
+      "rows": 72,
+      "rank": 7
+     },
+     {
+      "weights": 19,
+      "rows": 76,
+      "rank": 7
+     },
+     {
+      "weights": 20,
+      "rows": 80,
+      "rank": 7
+     },
+     {
+      "weights": 21,
+      "rows": 84,
+      "rank": 7
+     },
+     {
+      "weights": 22,
+      "rows": 88,
+      "rank": 7
+     },
+     {
+      "weights": 23,
+      "rows": 92,
+      "rank": 7
+     },
+     {
+      "weights": 24,
+      "rows": 96,
+      "rank": 7
+     },
+     {
+      "weights": 25,
+      "rows": 100,
+      "rank": 7
+     },
+     {
+      "weights": 26,
+      "rows": 104,
+      "rank": 7
+     },
+     {
+      "weights": 27,
+      "rows": 108,
+      "rank": 7
+     },
+     {
+      "weights": 28,
+      "rows": 112,
+      "rank": 7
+     },
+     {
+      "weights": 29,
+      "rows": 116,
+      "rank": 7
+     },
+     {
+      "weights": 30,
+      "rows": 120,
+      "rank": 7
+     },
+     {
+      "weights": 31,
+      "rows": 124,
+      "rank": 7
+     },
+     {
+      "weights": 32,
+      "rows": 128,
+      "rank": 7
+     },
+     {
+      "weights": 33,
+      "rows": 132,
+      "rank": 7
+     },
+     {
+      "weights": 34,
+      "rows": 136,
+      "rank": 7
+     },
+     {
+      "weights": 35,
+      "rows": 140,
+      "rank": 7
+     },
+     {
+      "weights": 36,
+      "rows": 144,
+      "rank": 7
+     },
+     {
+      "weights": 37,
+      "rows": 148,
+      "rank": 7
+     },
+     {
+      "weights": 38,
+      "rows": 152,
+      "rank": 7
+     },
+     {
+      "weights": 39,
+      "rows": 156,
+      "rank": 7
+     },
+     {
+      "weights": 40,
+      "rows": 160,
+      "rank": 7
+     },
+     {
+      "weights": 41,
+      "rows": 164,
+      "rank": 7
+     }
+    ],
+    "solved": true,
+    "correct": true
+   },
+   "key_words_correct": 16,
+   "key_words_total": 16,
+   "data_log2": 24.0,
+   "decrypt_s": 20.4
+  },
+  {
+   "seed": 11,
+   "instance": "dux-2^8",
+   "rounds": 7,
+   "active": [
+    0,
+    2,
+    3
+   ],
+   "points": 16777216,
+   "weights": 41,
+   "stage_i": {
+    "unknowns": 8,
+    "masks": 1,
+    "rows": 41,
+    "rank": 8,
+    "free": 0,
+    "curve": [
+     {
+      "weights": 1,
+      "rows": 1,
+      "rank": 1
+     },
+     {
+      "weights": 2,
+      "rows": 2,
+      "rank": 2
+     },
+     {
+      "weights": 3,
+      "rows": 3,
+      "rank": 3
+     },
+     {
+      "weights": 4,
+      "rows": 4,
+      "rank": 4
+     },
+     {
+      "weights": 5,
+      "rows": 5,
+      "rank": 5
+     },
+     {
+      "weights": 6,
+      "rows": 6,
+      "rank": 6
+     },
+     {
+      "weights": 7,
+      "rows": 7,
+      "rank": 7
+     },
+     {
+      "weights": 8,
+      "rows": 8,
+      "rank": 8
+     },
+     {
+      "weights": 9,
+      "rows": 9,
+      "rank": 8
+     },
+     {
+      "weights": 10,
+      "rows": 10,
+      "rank": 8
+     },
+     {
+      "weights": 11,
+      "rows": 11,
+      "rank": 8
+     },
+     {
+      "weights": 12,
+      "rows": 12,
+      "rank": 8
+     },
+     {
+      "weights": 13,
+      "rows": 13,
+      "rank": 8
+     },
+     {
+      "weights": 14,
+      "rows": 14,
+      "rank": 8
+     },
+     {
+      "weights": 15,
+      "rows": 15,
+      "rank": 8
+     },
+     {
+      "weights": 16,
+      "rows": 16,
+      "rank": 8
+     },
+     {
+      "weights": 17,
+      "rows": 17,
+      "rank": 8
+     },
+     {
+      "weights": 18,
+      "rows": 18,
+      "rank": 8
+     },
+     {
+      "weights": 19,
+      "rows": 19,
+      "rank": 8
+     },
+     {
+      "weights": 20,
+      "rows": 20,
+      "rank": 8
+     },
+     {
+      "weights": 21,
+      "rows": 21,
+      "rank": 8
+     },
+     {
+      "weights": 22,
+      "rows": 22,
+      "rank": 8
+     },
+     {
+      "weights": 23,
+      "rows": 23,
+      "rank": 8
+     },
+     {
+      "weights": 24,
+      "rows": 24,
+      "rank": 8
+     },
+     {
+      "weights": 25,
+      "rows": 25,
+      "rank": 8
+     },
+     {
+      "weights": 26,
+      "rows": 26,
+      "rank": 8
+     },
+     {
+      "weights": 27,
+      "rows": 27,
+      "rank": 8
+     },
+     {
+      "weights": 28,
+      "rows": 28,
+      "rank": 8
+     },
+     {
+      "weights": 29,
+      "rows": 29,
+      "rank": 8
+     },
+     {
+      "weights": 30,
+      "rows": 30,
+      "rank": 8
+     },
+     {
+      "weights": 31,
+      "rows": 31,
+      "rank": 8
+     },
+     {
+      "weights": 32,
+      "rows": 32,
+      "rank": 8
+     },
+     {
+      "weights": 33,
+      "rows": 33,
+      "rank": 8
+     },
+     {
+      "weights": 34,
+      "rows": 34,
+      "rank": 8
+     },
+     {
+      "weights": 35,
+      "rows": 35,
+      "rank": 8
+     },
+     {
+      "weights": 36,
+      "rows": 36,
+      "rank": 8
+     },
+     {
+      "weights": 37,
+      "rows": 37,
+      "rank": 8
+     },
+     {
+      "weights": 38,
+      "rows": 38,
+      "rank": 8
+     },
+     {
+      "weights": 39,
+      "rows": 39,
+      "rank": 8
+     },
+     {
+      "weights": 40,
+      "rows": 40,
+      "rank": 8
+     },
+     {
+      "weights": 41,
+      "rows": 41,
+      "rank": 8
+     }
+    ],
+    "solved": true,
+    "correct": true
+   },
+   "stage_ii": {
+    "unknowns": 4,
+    "masks": 1,
+    "rows": 41,
+    "rank": 4,
+    "free": 0,
+    "curve": [
+     {
+      "weights": 1,
+      "rows": 1,
+      "rank": 1
+     },
+     {
+      "weights": 2,
+      "rows": 2,
+      "rank": 2
+     },
+     {
+      "weights": 3,
+      "rows": 3,
+      "rank": 3
+     },
+     {
+      "weights": 4,
+      "rows": 4,
+      "rank": 4
+     },
+     {
+      "weights": 5,
+      "rows": 5,
+      "rank": 4
+     },
+     {
+      "weights": 6,
+      "rows": 6,
+      "rank": 4
+     },
+     {
+      "weights": 7,
+      "rows": 7,
+      "rank": 4
+     },
+     {
+      "weights": 8,
+      "rows": 8,
+      "rank": 4
+     },
+     {
+      "weights": 9,
+      "rows": 9,
+      "rank": 4
+     },
+     {
+      "weights": 10,
+      "rows": 10,
+      "rank": 4
+     },
+     {
+      "weights": 11,
+      "rows": 11,
+      "rank": 4
+     },
+     {
+      "weights": 12,
+      "rows": 12,
+      "rank": 4
+     },
+     {
+      "weights": 13,
+      "rows": 13,
+      "rank": 4
+     },
+     {
+      "weights": 14,
+      "rows": 14,
+      "rank": 4
+     },
+     {
+      "weights": 15,
+      "rows": 15,
+      "rank": 4
+     },
+     {
+      "weights": 16,
+      "rows": 16,
+      "rank": 4
+     },
+     {
+      "weights": 17,
+      "rows": 17,
+      "rank": 4
+     },
+     {
+      "weights": 18,
+      "rows": 18,
+      "rank": 4
+     },
+     {
+      "weights": 19,
+      "rows": 19,
+      "rank": 4
+     },
+     {
+      "weights": 20,
+      "rows": 20,
+      "rank": 4
+     },
+     {
+      "weights": 21,
+      "rows": 21,
+      "rank": 4
+     },
+     {
+      "weights": 22,
+      "rows": 22,
+      "rank": 4
+     },
+     {
+      "weights": 23,
+      "rows": 23,
+      "rank": 4
+     },
+     {
+      "weights": 24,
+      "rows": 24,
+      "rank": 4
+     },
+     {
+      "weights": 25,
+      "rows": 25,
+      "rank": 4
+     },
+     {
+      "weights": 26,
+      "rows": 26,
+      "rank": 4
+     },
+     {
+      "weights": 27,
+      "rows": 27,
+      "rank": 4
+     },
+     {
+      "weights": 28,
+      "rows": 28,
+      "rank": 4
+     },
+     {
+      "weights": 29,
+      "rows": 29,
+      "rank": 4
+     },
+     {
+      "weights": 30,
+      "rows": 30,
+      "rank": 4
+     },
+     {
+      "weights": 31,
+      "rows": 31,
+      "rank": 4
+     },
+     {
+      "weights": 32,
+      "rows": 32,
+      "rank": 4
+     },
+     {
+      "weights": 33,
+      "rows": 33,
+      "rank": 4
+     },
+     {
+      "weights": 34,
+      "rows": 34,
+      "rank": 4
+     },
+     {
+      "weights": 35,
+      "rows": 35,
+      "rank": 4
+     },
+     {
+      "weights": 36,
+      "rows": 36,
+      "rank": 4
+     },
+     {
+      "weights": 37,
+      "rows": 37,
+      "rank": 4
+     },
+     {
+      "weights": 38,
+      "rows": 38,
+      "rank": 4
+     },
+     {
+      "weights": 39,
+      "rows": 39,
+      "rank": 4
+     },
+     {
+      "weights": 40,
+      "rows": 40,
+      "rank": 4
+     },
+     {
+      "weights": 41,
+      "rows": 41,
+      "rank": 4
+     }
+    ],
+    "solved": true,
+    "correct": true
+   },
+   "stage_iii": {
+    "unknowns": 8,
+    "effective_columns": 7,
+    "masks": 4,
+    "rows": 164,
+    "rank": 7,
+    "free": 1,
+    "curve": [
+     {
+      "weights": 1,
+      "rows": 4,
+      "rank": 2
+     },
+     {
+      "weights": 2,
+      "rows": 8,
+      "rank": 4
+     },
+     {
+      "weights": 3,
+      "rows": 12,
+      "rank": 6
+     },
+     {
+      "weights": 4,
+      "rows": 16,
+      "rank": 7
+     },
+     {
+      "weights": 5,
+      "rows": 20,
+      "rank": 7
+     },
+     {
+      "weights": 6,
+      "rows": 24,
+      "rank": 7
+     },
+     {
+      "weights": 7,
+      "rows": 28,
+      "rank": 7
+     },
+     {
+      "weights": 8,
+      "rows": 32,
+      "rank": 7
+     },
+     {
+      "weights": 9,
+      "rows": 36,
+      "rank": 7
+     },
+     {
+      "weights": 10,
+      "rows": 40,
+      "rank": 7
+     },
+     {
+      "weights": 11,
+      "rows": 44,
+      "rank": 7
+     },
+     {
+      "weights": 12,
+      "rows": 48,
+      "rank": 7
+     },
+     {
+      "weights": 13,
+      "rows": 52,
+      "rank": 7
+     },
+     {
+      "weights": 14,
+      "rows": 56,
+      "rank": 7
+     },
+     {
+      "weights": 15,
+      "rows": 60,
+      "rank": 7
+     },
+     {
+      "weights": 16,
+      "rows": 64,
+      "rank": 7
+     },
+     {
+      "weights": 17,
+      "rows": 68,
+      "rank": 7
+     },
+     {
+      "weights": 18,
+      "rows": 72,
+      "rank": 7
+     },
+     {
+      "weights": 19,
+      "rows": 76,
+      "rank": 7
+     },
+     {
+      "weights": 20,
+      "rows": 80,
+      "rank": 7
+     },
+     {
+      "weights": 21,
+      "rows": 84,
+      "rank": 7
+     },
+     {
+      "weights": 22,
+      "rows": 88,
+      "rank": 7
+     },
+     {
+      "weights": 23,
+      "rows": 92,
+      "rank": 7
+     },
+     {
+      "weights": 24,
+      "rows": 96,
+      "rank": 7
+     },
+     {
+      "weights": 25,
+      "rows": 100,
+      "rank": 7
+     },
+     {
+      "weights": 26,
+      "rows": 104,
+      "rank": 7
+     },
+     {
+      "weights": 27,
+      "rows": 108,
+      "rank": 7
+     },
+     {
+      "weights": 28,
+      "rows": 112,
+      "rank": 7
+     },
+     {
+      "weights": 29,
+      "rows": 116,
+      "rank": 7
+     },
+     {
+      "weights": 30,
+      "rows": 120,
+      "rank": 7
+     },
+     {
+      "weights": 31,
+      "rows": 124,
+      "rank": 7
+     },
+     {
+      "weights": 32,
+      "rows": 128,
+      "rank": 7
+     },
+     {
+      "weights": 33,
+      "rows": 132,
+      "rank": 7
+     },
+     {
+      "weights": 34,
+      "rows": 136,
+      "rank": 7
+     },
+     {
+      "weights": 35,
+      "rows": 140,
+      "rank": 7
+     },
+     {
+      "weights": 36,
+      "rows": 144,
+      "rank": 7
+     },
+     {
+      "weights": 37,
+      "rows": 148,
+      "rank": 7
+     },
+     {
+      "weights": 38,
+      "rows": 152,
+      "rank": 7
+     },
+     {
+      "weights": 39,
+      "rows": 156,
+      "rank": 7
+     },
+     {
+      "weights": 40,
+      "rows": 160,
+      "rank": 7
+     },
+     {
+      "weights": 41,
+      "rows": 164,
+      "rank": 7
+     }
+    ],
+    "solved": true,
+    "correct": true
+   },
+   "key_words_correct": 16,
+   "key_words_total": 16,
+   "data_log2": 24.0,
+   "decrypt_s": 18.9
+  }
+ ],
+ "all_keys_16_of_16": true
+}

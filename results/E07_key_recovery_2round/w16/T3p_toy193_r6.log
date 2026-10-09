@@ -1,0 +1,25 @@
+toy-193 (F_193): r = 6 (4-layer distinguisher + 2), unknown inner blocks [0, 1, 2, 3], outer blocks [0, 1, 2, 3], active words [3]
+  monomials M = 38051 = 2^15.2; 20 structures x 193 chosen ciphertexts = 2^11.9 data; 4 eqs/structure
+  O12 weights: dims 1, margin 136 (layer 4 pattern 1111), 110 weights/structure -> 440 equations/structure
+  assembled 1/20 structures (440 rows, 8.3s)
+  assembled 2/20 structures (440 rows, 15.4s)
+  assembled 3/20 structures (440 rows, 22.8s)
+  assembled 4/20 structures (440 rows, 30.3s)
+  assembled 5/20 structures (440 rows, 37.4s)
+  assembled 6/20 structures (440 rows, 43.6s)
+  assembled 7/20 structures (440 rows, 50.6s)
+  assembled 8/20 structures (440 rows, 57.2s)
+  assembled 9/20 structures (440 rows, 64.5s)
+  assembled 10/20 structures (440 rows, 71.8s)
+  assembled 11/20 structures (440 rows, 78.8s)
+  assembled 12/20 structures (440 rows, 86.7s)
+  assembled 13/20 structures (440 rows, 94.1s)
+  assembled 14/20 structures (440 rows, 102.0s)
+  assembled 15/20 structures (440 rows, 108.7s)
+  assembled 16/20 structures (440 rows, 115.6s)
+  assembled 17/20 structures (440 rows, 122.5s)
+  assembled 18/20 structures (440 rows, 128.7s)
+  assembled 19/20 structures (440 rows, 135.4s)
+  assembled 20/20 structures (440 rows, 142.3s)
+  system 8800 x 38050 over F_193 (1 columns pinned)
+  [the 8800 x 38050 elimination over F_193 was OOM-killed by the 15 GB container cgroup (peak 11.7 GB measured at 9200 rows); the identically shaped F_257 solve of T1 did fit. Assembly (20 structures x 110 weights, 142.3 s) completed. See results/E07_key_recovery_2round/SUMMARY_weighted.md Sect. 3.4]

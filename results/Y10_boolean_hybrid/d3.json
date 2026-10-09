@@ -1,0 +1,444 @@
+{
+ "calibration": {
+  "unknowns_C(128,<=12)": 54.55,
+  "paper_says": "2^54.6 (p. 17)",
+  "log2_Tc": 95.55,
+  "paper_Tc": "2^95.6 (text, p. 17) / 2^95.5 (Table 1, p. 4)",
+  "log2_Ts_bitops": 129.29,
+  "paper_Ts_bitops": "2^129.3 (p. 17)",
+  "log2_Ts_10round": 115.38,
+  "paper_Ts": "2^115.4 (text, p. 17) / 2^115.3 (Table 1, p. 4)"
+ },
+ "lower_bound": {
+  "deg_sum_v0v1": 4,
+  "support_sum_v0v1": 190,
+  "deg_sum_v": [
+   4,
+   4,
+   4,
+   4
+  ],
+  "top_monomials": [
+   [
+    6,
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    6,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    6,
+    2,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "blocks_symbolic": 1,
+  "structures": 4,
+  "moebius": {
+   "12": {
+    "instance": "yu2x-16",
+    "nbits": 12,
+    "words": [
+     0,
+     1,
+     4,
+     5,
+     8
+    ],
+    "bits_per_word": [
+     3,
+     3,
+     2,
+     2,
+     2
+    ],
+    "structures": 4,
+    "layers": 3,
+    "degree_per_output_bit": [
+     12,
+     12,
+     11,
+     12,
+     11,
+     11,
+     11,
+     12,
+     11,
+     11,
+     11,
+     11,
+     11,
+     11,
+     12,
+     11
+    ],
+    "degree": 12,
+    "saturated": true
+   },
+   "16": {
+    "instance": "yu2x-16",
+    "nbits": 16,
+    "words": [
+     0,
+     1,
+     4,
+     5,
+     8
+    ],
+    "bits_per_word": [
+     4,
+     3,
+     3,
+     3,
+     3
+    ],
+    "structures": 4,
+    "layers": 3,
+    "degree_per_output_bit": [
+     15,
+     16,
+     16,
+     15,
+     16,
+     16,
+     16,
+     16,
+     15,
+     16,
+     15,
+     15,
+     16,
+     15,
+     15,
+     15
+    ],
+    "degree": 16,
+    "saturated": true
+   },
+   "20": {
+    "instance": "yu2x-16",
+    "nbits": 20,
+    "words": [
+     0,
+     1,
+     4,
+     5,
+     8
+    ],
+    "bits_per_word": [
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "structures": 4,
+    "layers": 3,
+    "degree_per_output_bit": [
+     20,
+     20,
+     19,
+     19,
+     20,
+     19,
+     20,
+     20,
+     19,
+     19,
+     20,
+     20,
+     20,
+     19,
+     19,
+     20
+    ],
+    "degree": 20,
+    "saturated": true
+   }
+  },
+  "moebius_control_2_layers": {
+   "12": {
+    "instance": "yu2x-16",
+    "nbits": 12,
+    "words": [
+     0,
+     1,
+     4,
+     5,
+     8
+    ],
+    "bits_per_word": [
+     3,
+     3,
+     2,
+     2,
+     2
+    ],
+    "structures": 4,
+    "layers": 2,
+    "degree_per_output_bit": [
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6
+    ],
+    "degree": 6,
+    "saturated": false
+   },
+   "16": {
+    "instance": "yu2x-16",
+    "nbits": 16,
+    "words": [
+     0,
+     1,
+     4,
+     5,
+     8
+    ],
+    "bits_per_word": [
+     4,
+     3,
+     3,
+     3,
+     3
+    ],
+    "structures": 4,
+    "layers": 2,
+    "degree_per_output_bit": [
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6
+    ],
+    "degree": 6,
+    "saturated": false
+   },
+   "20": {
+    "instance": "yu2x-16",
+    "nbits": 20,
+    "words": [
+     0,
+     1,
+     4,
+     5,
+     8
+    ],
+    "bits_per_word": [
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "structures": 4,
+    "layers": 2,
+    "degree_per_output_bit": [
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6
+    ],
+    "degree": 6,
+    "saturated": false
+   }
+  },
+  "d3_lower": 20
+ },
+ "upper_bound": {
+  "one_layer": 4,
+  "second_layer": [
+   32,
+   20,
+   12,
+   8
+  ],
+  "deg_v_max": 32,
+  "d3_upper": 64
+ },
+ "verdict_table": [
+  {
+   "d": 4,
+   "log2_unknowns": 27.4,
+   "log2_Tc": 83.4,
+   "log2_Ts_bitops": 64.95,
+   "log2_Ts": 49.66,
+   "under_2_128": true
+  },
+  {
+   "d": 5,
+   "log2_unknowns": 33.07,
+   "log2_Tc": 89.07,
+   "log2_Ts_bitops": 78.36,
+   "log2_Ts": 63.08,
+   "under_2_128": true
+  },
+  {
+   "d": 6,
+   "log2_unknowns": 38.46,
+   "log2_Tc": 94.46,
+   "log2_Ts_bitops": 91.14,
+   "log2_Ts": 75.86,
+   "under_2_128": true
+  },
+  {
+   "d": 7,
+   "log2_unknowns": 43.62,
+   "log2_Tc": 99.62,
+   "log2_Ts_bitops": 103.38,
+   "log2_Ts": 88.1,
+   "under_2_128": true
+  },
+  {
+   "d": 8,
+   "log2_unknowns": 48.59,
+   "log2_Tc": 104.59,
+   "log2_Ts_bitops": 115.15,
+   "log2_Ts": 99.87,
+   "under_2_128": true
+  },
+  {
+   "d": 9,
+   "log2_unknowns": 53.38,
+   "log2_Tc": 109.38,
+   "log2_Ts_bitops": 126.51,
+   "log2_Ts": 111.22,
+   "under_2_128": true
+  },
+  {
+   "d": 10,
+   "log2_unknowns": 58.01,
+   "log2_Tc": 114.01,
+   "log2_Ts_bitops": 137.49,
+   "log2_Ts": 122.2,
+   "under_2_128": true
+  },
+  {
+   "d": 11,
+   "log2_unknowns": 62.5,
+   "log2_Tc": 118.5,
+   "log2_Ts_bitops": 148.13,
+   "log2_Ts": 132.84,
+   "under_2_128": false
+  },
+  {
+   "d": 12,
+   "log2_unknowns": 66.86,
+   "log2_Tc": 122.86,
+   "log2_Ts_bitops": 158.46,
+   "log2_Ts": 143.17,
+   "under_2_128": false
+  },
+  {
+   "d": 13,
+   "log2_unknowns": 71.1,
+   "log2_Tc": 127.1,
+   "log2_Ts_bitops": 168.5,
+   "log2_Ts": 153.21,
+   "under_2_128": false
+  },
+  {
+   "d": 14,
+   "log2_unknowns": 75.22,
+   "log2_Tc": 131.22,
+   "log2_Ts_bitops": 178.27,
+   "log2_Ts": 162.99,
+   "under_2_128": false
+  },
+  {
+   "d": 15,
+   "log2_unknowns": 79.24,
+   "log2_Tc": 135.24,
+   "log2_Ts_bitops": 187.8,
+   "log2_Ts": 172.51,
+   "under_2_128": false
+  },
+  {
+   "d": 16,
+   "log2_unknowns": 83.16,
+   "log2_Tc": 139.16,
+   "log2_Ts_bitops": 197.08,
+   "log2_Ts": 181.8,
+   "under_2_128": false
+  }
+ ],
+ "largest_d_under_2_128": 10,
+ "closed": true
+}

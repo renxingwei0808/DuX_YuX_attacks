@@ -1,0 +1,41 @@
+{
+ "instance": "yuxtoy-257",
+ "field": "F_257",
+ "rounds": 6,
+ "layers": 4,
+ "unknown_blocks": [
+  0
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  0
+ ],
+ "points_per_structure": 257,
+ "monomials": 1321,
+ "weights": null,
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "structures": 400,
+ "equations": 1600,
+ "unknowns": 1320,
+ "rank": 317,
+ "free": 1003,
+ "pinned": 91,
+ "inner_correct": 4,
+ "inner_total": 4,
+ "normalise": false,
+ "assume_L1": false,
+ "data_log2": 16.65,
+ "assemble_s": 6.0,
+ "solve_s": 4.0,
+ "procs": 4,
+ "seed": 2026,
+ "solver": "numpy"
+}

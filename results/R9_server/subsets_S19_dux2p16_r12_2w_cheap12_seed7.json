@@ -1,0 +1,102 @@
+{
+ "instance": "dux-2^16",
+ "layers": 10,
+ "active": "3,7",
+ "combine": "1101",
+ "cheap_set": [
+  1,
+  2
+ ],
+ "dim_K": 4,
+ "rows_files": [
+  "/tmp/r9_rows_dux2p16_seed7_st0.npy"
+ ],
+ "seed": 7,
+ "weights_available": 7200,
+ "subsets": [
+  {
+   "weights": 3014,
+   "first_weight": 1,
+   "last_weight": 6027,
+   "rows": 12056,
+   "rank": 11210,
+   "free": 36528,
+   "pinned": 1122,
+   "inner_correct": 0,
+   "solve_s": 287.2,
+   "subset": "odd:3014"
+  },
+  {
+   "weights": 3014,
+   "first_weight": 0,
+   "last_weight": 3013,
+   "rows": 12056,
+   "rank": 11210,
+   "free": 36528,
+   "pinned": 1122,
+   "inner_correct": 0,
+   "solve_s": 286.5,
+   "subset": "all:3014"
+  },
+  {
+   "weights": 3165,
+   "first_weight": 1,
+   "last_weight": 6329,
+   "rows": 12660,
+   "rank": 11663,
+   "free": 36075,
+   "pinned": 1122,
+   "inner_correct": 0,
+   "solve_s": 304.9,
+   "subset": "odd:3165"
+  },
+  {
+   "weights": 3165,
+   "first_weight": 0,
+   "last_weight": 3164,
+   "rows": 12660,
+   "rank": 11663,
+   "free": 36075,
+   "pinned": 1122,
+   "inner_correct": 0,
+   "solve_s": 297.2,
+   "subset": "all:3165"
+  },
+  {
+   "weights": 3600,
+   "first_weight": 1,
+   "last_weight": 7199,
+   "rows": 14400,
+   "rank": 12056,
+   "free": 35682,
+   "pinned": 5812,
+   "inner_correct": 16,
+   "solve_s": 347.4,
+   "subset": "odd:3600"
+  },
+  {
+   "weights": 3600,
+   "first_weight": 0,
+   "last_weight": 7198,
+   "rows": 14400,
+   "rank": 12056,
+   "free": 35682,
+   "pinned": 5812,
+   "inner_correct": 16,
+   "solve_s": 349.7,
+   "subset": "even:3600"
+  },
+  {
+   "weights": 3600,
+   "first_weight": 0,
+   "last_weight": 3599,
+   "rows": 14400,
+   "rank": 12056,
+   "free": 35682,
+   "pinned": 5812,
+   "inner_correct": 16,
+   "solve_s": 351.5,
+   "subset": "all:3600"
+  }
+ ]
+}

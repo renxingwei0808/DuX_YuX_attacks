@@ -1,0 +1,677 @@
+{
+ "instance": "dux-2^8",
+ "rounds": 5,
+ "active": [
+  1,
+  5,
+  9,
+  13
+ ],
+ "dim": 8,
+ "balanced_positions": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "unknowns": 53,
+ "kappa_monomials_per_block": 14,
+ "moments": 18,
+ "equations_per_structure": 16,
+ "structures": 8,
+ "points_per_structure_log2": 32,
+ "data_log2": 35.0,
+ "keys": 2,
+ "seed": 2026,
+ "threads": 10,
+ "results": [
+  {
+   "key_index": 0,
+   "n_min": 2,
+   "rank_max": 40,
+   "unknowns": 52,
+   "data_log2_at_nmin": 33.0,
+   "moments_seconds": 7723.6,
+   "seconds_per_structure": 965.5,
+   "elapsed_s": 7723.8,
+   "curve": [
+    {
+     "N": 1,
+     "rank": 16,
+     "words": 0,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "candidates": null
+      },
+      {
+       "block": 1,
+       "free": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "candidates": null
+      },
+      {
+       "block": 2,
+       "free": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "candidates": null
+      },
+      {
+       "block": 3,
+       "free": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "candidates": null
+      }
+     ],
+     "known_pair_ok": false,
+     "master_key_ok": false
+    },
+    {
+     "N": 2,
+     "rank": 28,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 3,
+     "rank": 36,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 4,
+     "rank": 40,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 5,
+     "rank": 40,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 6,
+     "rank": 40,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 7,
+     "rank": 40,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 8,
+     "rank": 40,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    }
+   ],
+   "final": {
+    "master_key_ok": true,
+    "known_pair_ok": true
+   }
+  },
+  {
+   "key_index": 1,
+   "n_min": 2,
+   "rank_max": 40,
+   "unknowns": 52,
+   "data_log2_at_nmin": 33.0,
+   "moments_seconds": 8270.5,
+   "seconds_per_structure": 1033.6,
+   "elapsed_s": 8270.7,
+   "curve": [
+    {
+     "N": 1,
+     "rank": 16,
+     "words": 0,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "candidates": null
+      },
+      {
+       "block": 1,
+       "free": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "candidates": null
+      },
+      {
+       "block": 2,
+       "free": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "candidates": null
+      },
+      {
+       "block": 3,
+       "free": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "candidates": null
+      }
+     ],
+     "known_pair_ok": false,
+     "master_key_ok": false
+    },
+    {
+     "N": 2,
+     "rank": 28,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 3,
+     "rank": 36,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 4,
+     "rank": 40,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 5,
+     "rank": 40,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 6,
+     "rank": 40,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 7,
+     "rank": 40,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    },
+    {
+     "N": 8,
+     "rank": 40,
+     "words": 16,
+     "free_words": [
+      {
+       "block": 0,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 1,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 2,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      },
+      {
+       "block": 3,
+       "free": [
+        3
+       ],
+       "candidates": 1
+      }
+     ],
+     "known_pair_ok": true,
+     "master_key_ok": true
+    }
+   ],
+   "final": {
+    "master_key_ok": true,
+    "known_pair_ok": true
+   }
+  }
+ ]
+}

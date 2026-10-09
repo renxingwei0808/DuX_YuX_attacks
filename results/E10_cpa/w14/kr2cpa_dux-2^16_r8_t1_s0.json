@@ -1,0 +1,65 @@
+{
+ "instance": "dux-2^16",
+ "field": "F_2^16",
+ "rounds": 8,
+ "layers": 6,
+ "active_words": [
+  1
+ ],
+ "points_per_structure": 65536,
+ "coords": [
+  0,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "monomials": 3259,
+ "unknowns": 3248,
+ "equations_per_structure": 8,
+ "structures": 170,
+ "pseudo": false,
+ "rank": 1336,
+ "free": 1912,
+ "kappa_correct": 16,
+ "master_key_ok": true,
+ "known_pair_ok": true,
+ "curve": [
+  {
+   "structures": 167,
+   "equations": 1336,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 23.38
+  },
+  {
+   "structures": 168,
+   "equations": 1344,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 23.39
+  },
+  {
+   "structures": 170,
+   "equations": 1360,
+   "rank": 1336,
+   "free": 1912,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 23.41
+  }
+ ],
+ "seed": 0,
+ "data_log2": 23.41,
+ "assemble_s": 1297.2
+}

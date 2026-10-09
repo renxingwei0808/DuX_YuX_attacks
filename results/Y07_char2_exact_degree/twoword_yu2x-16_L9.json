@@ -1,0 +1,358 @@
+{
+ "instance": "yu2x-16",
+ "cipher": "yux",
+ "field": "F_2^16",
+ "rounds": 12,
+ "active": [
+  0,
+  4
+ ],
+ "layers": 9,
+ "threshold": 131070,
+ "keys": 3,
+ "seed": 2026,
+ "max_weight": 30000,
+ "words": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "data_log2": 32.0,
+ "key_independent_words": 16,
+ "rows": [
+  {
+   "word": 0,
+   "D_maxplus": 60009,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 1,
+   "D_maxplus": 60209,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 2,
+   "D_maxplus": 90229,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 3,
+   "D_maxplus": 120218,
+   "T": 131070,
+   "a_star_axis0": 13250,
+   "a_star_axis1": 12738,
+   "lower_bound_axis0": 117820,
+   "lower_bound_axis1": 118332,
+   "a_star_axis0_per_key": [
+    13250,
+    13250,
+    13250
+   ],
+   "a_star_axis1_per_key": [
+    12738,
+    12738,
+    12738
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 4,
+   "D_maxplus": 60240,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 5,
+   "D_maxplus": 60240,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 6,
+   "D_maxplus": 90460,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 7,
+   "D_maxplus": 120480,
+   "T": 131070,
+   "a_star_axis0": 13415,
+   "a_star_axis1": 12946,
+   "lower_bound_axis0": 117655,
+   "lower_bound_axis1": 118124,
+   "a_star_axis0_per_key": [
+    13415,
+    13415,
+    13415
+   ],
+   "a_star_axis1_per_key": [
+    12946,
+    12946,
+    12946
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 8,
+   "D_maxplus": 60407,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 9,
+   "D_maxplus": 60440,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 10,
+   "D_maxplus": 90627,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 11,
+   "D_maxplus": 120847,
+   "T": 131070,
+   "a_star_axis0": 13178,
+   "a_star_axis1": 12818,
+   "lower_bound_axis0": 117892,
+   "lower_bound_axis1": 118252,
+   "a_star_axis0_per_key": [
+    13178,
+    13178,
+    13178
+   ],
+   "a_star_axis1_per_key": [
+    12818,
+    12818,
+    12818
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 12,
+   "D_maxplus": 60176,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 13,
+   "D_maxplus": 60407,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 14,
+   "D_maxplus": 90396,
+   "T": 131070,
+   "a_star_axis0": null,
+   "a_star_axis1": null,
+   "lower_bound_axis0": null,
+   "lower_bound_axis1": null,
+   "a_star_axis0_per_key": [
+    null,
+    null,
+    null
+   ],
+   "a_star_axis1_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "word": 15,
+   "D_maxplus": 120583,
+   "T": 131070,
+   "a_star_axis0": 13055,
+   "a_star_axis1": 12754,
+   "lower_bound_axis0": 118015,
+   "lower_bound_axis1": 118316,
+   "a_star_axis0_per_key": [
+    13055,
+    13055,
+    13055
+   ],
+   "a_star_axis1_per_key": [
+    12754,
+    12754,
+    12754
+   ],
+   "key_independent": true
+  }
+ ],
+ "seconds": 10005.8
+}

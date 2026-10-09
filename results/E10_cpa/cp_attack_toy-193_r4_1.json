@@ -1,0 +1,103 @@
+{
+ "instance": "toy-193",
+ "rounds": 4,
+ "active": [
+  1
+ ],
+ "balanced_positions": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "unknowns": 57,
+ "kappa_monomials_per_block": 15,
+ "moments": 18,
+ "equations_per_structure": 16,
+ "structures": 6,
+ "data_log2": 10.18,
+ "keys": 2,
+ "seed": 2026,
+ "results": [
+  {
+   "key_index": 0,
+   "rank": 40,
+   "unknowns": 56,
+   "decoupled": true,
+   "free_words": [
+    {
+     "block": 0,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 1,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 2,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 3,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    }
+   ],
+   "last_round_key_ok": true,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "elapsed_s": 0.0
+  },
+  {
+   "key_index": 1,
+   "rank": 40,
+   "unknowns": 56,
+   "decoupled": true,
+   "free_words": [
+    {
+     "block": 0,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 1,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 2,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    },
+    {
+     "block": 3,
+     "free": [
+      3
+     ],
+     "candidates": 1
+    }
+   ],
+   "last_round_key_ok": true,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "elapsed_s": 0.0
+  }
+ ]
+}

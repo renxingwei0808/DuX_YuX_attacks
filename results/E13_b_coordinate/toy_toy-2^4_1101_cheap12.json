@@ -1,0 +1,98 @@
+{
+ "runs": [
+  {
+   "seed": 2026,
+   "instance": "toy-2^4",
+   "layers": 3,
+   "active": [
+    3
+   ],
+   "combine": "1101",
+   "cheap_set": [
+    1,
+    2
+   ],
+   "dim_K": 4,
+   "weights": 4,
+   "weight_subset": "all",
+   "weight_list": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ]
+   ],
+   "weight_rule": "full-domain words: |a| < T - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4",
+   "margin": 4,
+   "structures": 1500,
+   "points_per_structure": 16,
+   "rows": 24000,
+   "monomials": 47749,
+   "unknowns": 47738,
+   "rank": 12056,
+   "free": 35682,
+   "pinned_monomials": 5812,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "reencryption_ok": true,
+   "log2_data": 14.55,
+   "assemble_s": 1081.5,
+   "solve_s": 1881.9
+  },
+  {
+   "seed": 7,
+   "instance": "toy-2^4",
+   "layers": 3,
+   "active": [
+    3
+   ],
+   "combine": "1101",
+   "cheap_set": [
+    1,
+    2
+   ],
+   "dim_K": 4,
+   "weights": 4,
+   "weight_subset": "all",
+   "weight_list": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ]
+   ],
+   "weight_rule": "full-domain words: |a| < T - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4",
+   "margin": 4,
+   "structures": 1500,
+   "points_per_structure": 16,
+   "rows": 24000,
+   "monomials": 47749,
+   "unknowns": 47738,
+   "rank": 12056,
+   "free": 35682,
+   "pinned_monomials": 5812,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "reencryption_ok": true,
+   "log2_data": 14.55,
+   "assemble_s": 1153.2,
+   "solve_s": 1754.5
+  }
+ ],
+ "all_keys_16_of_16": true,
+ "all_reencryption_ok": true
+}

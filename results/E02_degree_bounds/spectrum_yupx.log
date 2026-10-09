@@ -1,0 +1,39 @@
+--- yupx-65537 seed 2026 (active word 0) ---
+  layer  1: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  2: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  3: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  4: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  5: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  6: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  7: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  8: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  9: exact degrees [51763, 51888, 65536, 65536, 52041, 52041, 65536, 65536, 52012, 52166, 65536, 65536, 51734, 52012, 65536, 65536]
+  layer 10: exact degrees [65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536]
+--- yupx-65537 seed 2027 (active word 0) ---
+  layer  1: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  2: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  3: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  4: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  5: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  6: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  7: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  8: exact degrees [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+  layer  9: exact degrees [51763, 51888, 65536, 65536, 52041, 52041, 65536, 65536, 52012, 52166, 65536, 65536, 51734, 52012, 65536, 65536]
+  layer 10: exact degrees [65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536]
+--- exact vs max-plus, per word ---
+    tight     : exact degree == the bound and below q-1 (the bound is met)
+    saturated : the bound is >= q-1, so the exact degree cannot show it
+    constant  : the bound is 0 and the word really is constant
+    LOOSE     : exact degree < bound while the bound is still < q-1
+  layer  1: {'LOOSE': 4, 'constant': 12}   bound[0:4] [1, 1, 1, 2] exact[0:4] [None, None, None, None]
+  layer  2: {'LOOSE': 16}   bound[0:4] [2, 3, 4, 5] exact[0:4] [None, None, None, None]
+  layer  3: {'LOOSE': 16}   bound[0:4] [12, 14, 19, 26] exact[0:4] [None, None, None, None]
+  layer  4: {'LOOSE': 16}   bound[0:4] [49, 49, 75, 98] exact[0:4] [None, None, None, None]
+  layer  5: {'LOOSE': 16}   bound[0:4] [193, 204, 297, 397] exact[0:4] [None, None, None, None]
+  layer  6: {'LOOSE': 16}   bound[0:4] [816, 816, 1228, 1632] exact[0:4] [None, None, None, None]
+  layer  7: {'LOOSE': 16}   bound[0:4] [3186, 3227, 4819, 6413] exact[0:4] [None, None, None, None]
+  layer  8: {'LOOSE': 16}   bound[0:4] [13023, 13060, 19553, 26083] exact[0:4] [None, None, None, None]
+  layer  9: {'saturated': 8, 'tight': 8}   bound[0:4] [51763, 51888, 77846, 103651] exact[0:4] [51763, 51888, 65536, 65536]
+  layer 10: {'saturated': 16}   bound[0:4] [207924, 208356, 312102, 416280] exact[0:4] [65536, 65536, 65536, 65536]
+  => every unsaturated word meets its bound: False
+saved results/E02_degree_bounds/spectrum_yupx-65537_pos0_maxa14000.json

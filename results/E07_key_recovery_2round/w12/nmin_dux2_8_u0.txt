@@ -1,0 +1,89 @@
+== dux-2^8 u0 N=46
+  monomials M = 763 = 2^9.6; 46 structures x 256 chosen ciphertexts = 2^13.5 data; 4 eqs/structure
+  rank 182 / 762 unknowns (580 free), 43 monomials pinned down  (0.1s)
+  inner key words recovered correctly: 4/4
+  data 2^13.52; assemble 0.5s, solve 0.1s
+== dux-2^8 u0 N=50
+  monomials M = 763 = 2^9.6; 50 structures x 256 chosen ciphertexts = 2^13.6 data; 4 eqs/structure
+  rank 184 / 762 unknowns (578 free), 70 monomials pinned down  (0.1s)
+  inner key words recovered correctly: 4/4
+  data 2^13.64; assemble 0.5s, solve 0.1s
+== dux-2^8 u0 N=55
+  monomials M = 763 = 2^9.6; 55 structures x 256 chosen ciphertexts = 2^13.8 data; 4 eqs/structure
+  rank 184 / 762 unknowns (578 free), 70 monomials pinned down  (0.1s)
+  inner key words recovered correctly: 4/4
+  data 2^13.78; assemble 0.6s, solve 0.1s
+== dux-2^8 u0 N=60
+  monomials M = 763 = 2^9.6; 60 structures x 256 chosen ciphertexts = 2^13.9 data; 4 eqs/structure
+  rank 184 / 762 unknowns (578 free), 70 monomials pinned down  (0.1s)
+  inner key words recovered correctly: 4/4
+  data 2^13.91; assemble 0.6s, solve 0.1s
+== dux-2^8 u0 N=70
+  monomials M = 763 = 2^9.6; 70 structures x 256 chosen ciphertexts = 2^14.1 data; 4 eqs/structure
+  rank 184 / 762 unknowns (578 free), 70 monomials pinned down  (0.1s)
+  inner key words recovered correctly: 4/4
+  data 2^14.13; assemble 0.7s, solve 0.1s
+== dux-2^8 u0 N=30
+  rank 120 / 762 unknowns (642 free), 0 monomials pinned down  (0.0s)
+  inner key words recovered correctly: 0/4
+  data 2^12.91; assemble 0.3s, solve 0.0s
+== dux-2^8 u0 N=40
+  rank 160 / 762 unknowns (602 free), 0 monomials pinned down  (0.1s)
+  inner key words recovered correctly: 0/4
+  data 2^13.32; assemble 0.5s, solve 0.1s
+== dux-2^8 u0 N=46
+  rank 182 / 762 unknowns (580 free), 43 monomials pinned down  (0.1s)
+  inner key words recovered correctly: 4/4
+  data 2^13.52; assemble 0.5s, solve 0.1s
+== toy-2^4 u0 N=60
+  rank 180 / 762 unknowns (582 free), 61 monomials pinned down  (0.1s)
+  inner key words recovered correctly: 4/4
+  data 2^13.91; assemble 0.6s, solve 0.1s
+== toy-2^4 u0 N=80
+  rank 180 / 762 unknowns (582 free), 61 monomials pinned down  (0.1s)
+  inner key words recovered correctly: 4/4
+  data 2^14.32; assemble 0.8s, solve 0.1s
+== toy-2^4 u0 N=100
+  rank 180 / 762 unknowns (582 free), 61 monomials pinned down  (0.2s)
+  inner key words recovered correctly: 4/4
+  data 2^14.64; assemble 1.1s, solve 0.2s
+== toy-193 u0 N=60
+  rank 240 / 1081 unknowns (841 free), 0 monomials pinned down  (0.5s)
+  inner key words recovered correctly: 0/4
+  data 2^21.09; assemble 13.7s, solve 0.5s
+== toy-193 u0 N=80
+  rank 280 / 1081 unknowns (801 free), 68 monomials pinned down  (0.8s)
+  inner key words recovered correctly: 4/4
+  data 2^21.51; assemble 19.4s, solve 0.8s
+== toy-193 u0 N=100
+  rank 300 / 1081 unknowns (781 free), 68 monomials pinned down  (1.0s)
+  inner key words recovered correctly: 4/4
+  data 2^21.83; assemble 23.7s, solve 1.0s
+toy-2^4 u0 N=42:   rank 168 / 762 unknowns (594 free), 0 monomials pinned down  (0.1s)   inner key words recovered correctly: 0/4 
+toy-2^4 u0 N=44:   rank 176 / 762 unknowns (586 free), 41 monomials pinned down  (0.1s)   inner key words recovered correctly: 4/4 
+toy-2^4 u0 N=45:   rank 177 / 762 unknowns (585 free), 41 monomials pinned down  (0.1s)   inner key words recovered correctly: 4/4 
+toy-2^4 u0 N=46:   rank 178 / 762 unknowns (584 free), 43 monomials pinned down  (0.1s)   inner key words recovered correctly: 4/4 
+toy-2^4 u0 N=47:   rank 179 / 762 unknowns (583 free), 44 monomials pinned down  (0.1s)   inner key words recovered correctly: 4/4 
+toy-2^4 u0 N=50:   rank 180 / 762 unknowns (582 free), 61 monomials pinned down  (0.1s)   inner key words recovered correctly: 4/4 
+dux-2^8 u0 N=43:   rank 172 / 762 unknowns (590 free), 0 monomials pinned down  (0.1s)   inner key words recovered correctly: 0/4 
+dux-2^8 u0 N=44:   rank 176 / 762 unknowns (586 free), 0 monomials pinned down  (0.1s)   inner key words recovered correctly: 0/4 
+dux-2^8 u0 N=45:   rank 180 / 762 unknowns (582 free), 0 monomials pinned down  (0.1s)   inner key words recovered correctly: 0/4 
+dux-2^8 u0 N=46:   rank 182 / 762 unknowns (580 free), 43 monomials pinned down  (0.1s)   inner key words recovered correctly: 4/4 
+toy-193 u0 N=72:   rank 272 / 1081 unknowns (809 free), 68 monomials pinned down  (0.7s)   inner key words recovered correctly: 4/4 
+toy-193 u0 N=75:   rank 275 / 1081 unknowns (806 free), 68 monomials pinned down  (0.7s)   inner key words recovered correctly: 4/4 
+toy-193 u0 N=76:   rank 276 / 1081 unknowns (805 free), 68 monomials pinned down  (0.7s)   inner key words recovered correctly: 4/4 
+toy-193 u0 N=78:   rank 278 / 1081 unknowns (803 free), 68 monomials pinned down  (0.8s)   inner key words recovered correctly: 4/4 
+toy-193 u0 N=62:   rank 248 / 1081 unknowns (833 free), 0 monomials pinned down  (0.5s)   inner key words recovered correctly: 0/4 
+toy-193 u0 N=65:   rank 259 / 1081 unknowns (822 free), 43 monomials pinned down  (0.6s)   inner key words recovered correctly: 4/4 
+toy-193 u0 N=68:   rank 265 / 1081 unknowns (816 free), 43 monomials pinned down  (0.6s)   inner key words recovered correctly: 4/4 
+toy-193 u0 N=70:   rank 269 / 1081 unknowns (812 free), 43 monomials pinned down  (0.7s)   inner key words recovered correctly: 4/4 
+dux-2^8 u01 N=270:   rank 1070 / 4016 unknowns (2946 free), 387 monomials pinned down  (23.6s)   inner key words recovered correctly: 8/8 
+dux-2^8 u01 N=280:   rank 1072 / 4016 unknowns (2944 free), 451 monomials pinned down  (29.3s)   inner key words recovered correctly: 8/8 
+dux-2^8 u01 N=300:   rank 1072 / 4016 unknowns (2944 free), 451 monomials pinned down  (28.8s)   inner key words recovered correctly: 8/8 
+dux-2^8 u01 N=350:   rank 1072 / 4016 unknowns (2944 free), 451 monomials pinned down  (35.8s)   inner key words recovered correctly: 8/8 
+dux-2^8 u01 N=255:   rank 1020 / 4016 unknowns (2996 free), 0 monomials pinned down  (20.3s)   inner key words recovered correctly: 0/8 
+dux-2^8 u01 N=262:   rank 1048 / 4016 unknowns (2968 free), 0 monomials pinned down  (21.6s)   inner key words recovered correctly: 0/8 
+dux-2^8 u01 N=268:   rank 1068 / 4016 unknowns (2948 free), 387 monomials pinned down  (22.8s)   inner key words recovered correctly: 8/8 
+toy-2^4 u01 N=268:   rank 1063 / 4016 unknowns (2953 free), 387 monomials pinned down  (22.7s)   inner key words recovered correctly: 8/8 
+toy-2^4 u01 N=275:   rank 1068 / 4016 unknowns (2948 free), 451 monomials pinned down  (23.9s)   inner key words recovered correctly: 8/8 
+toy-2^4 u01 N=300:   rank 1068 / 4016 unknowns (2948 free), 451 monomials pinned down  (29.1s)   inner key words recovered correctly: 8/8 

@@ -1,0 +1,9 @@
+toy-2^4 (dux, F_2^4): M = 18025, combine 0001 -> dim K = 1, y = [[1, 1, 1, 1]]
+  pi-orbits on the 18025 columns: 4532 (sizes {'1': 1, '2': 50, '4': 4481})
+    y = [1, 1, 1, 1]: tau-valuation 3, rank(tau^3) = 4481   <-- ORBIT SUMS ONLY
+  Phi_j = pi^j Phi_0 rho^j: True; char-2 depth-3 expansion: True; symmetrised row is a pi-eigenvector +1 (pi-invariant orbit sums): True
+  .. 2000/6000 pseudo-structures (436 s)
+  .. 4000/6000 pseudo-structures (765 s)
+  .. 6000/6000 pseudo-structures (1068 s)
+  ceiling: rank 2168 of 18025 columns, 1122 monomials determined, 0/16 key words
+saved results/E11_cheap_rows/w19/collapse_toy-2p4_comb0001.json

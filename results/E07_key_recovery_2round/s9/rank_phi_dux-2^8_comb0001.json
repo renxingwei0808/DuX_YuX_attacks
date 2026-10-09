@@ -1,0 +1,57 @@
+{
+ "instance": "dux-2^8",
+ "cipher": "dux",
+ "q": 256,
+ "char": 2,
+ "monomials": 18025,
+ "combine": "0001",
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "rows_per_structure": 1,
+ "moments": "realizable",
+ "npts": 256,
+ "seed": 2026,
+ "curve": [
+  {
+   "structures": 2000,
+   "rows": 2000,
+   "rank": 2000,
+   "seconds": 418.4
+  },
+  {
+   "structures": 4000,
+   "rows": 4000,
+   "rank": 2178,
+   "seconds": 1130.6
+  },
+  {
+   "structures": 5000,
+   "rows": 5000,
+   "rank": 2178,
+   "seconds": 1567.1
+  },
+  {
+   "structures": 6000,
+   "rows": 6000,
+   "rank": 2178,
+   "seconds": 2009.3
+  },
+  {
+   "structures": 7000,
+   "rows": 7000,
+   "rank": 2178,
+   "seconds": 2467.5
+  },
+  {
+   "structures": 8000,
+   "rows": 8000,
+   "rank": 2178,
+   "seconds": 2916.7
+  }
+ ],
+ "saturated_rank": 2178
+}

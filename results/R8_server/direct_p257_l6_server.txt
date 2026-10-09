@@ -1,0 +1,9 @@
+--- seed 1 start 1789617068 20:51:08 threads=32 ---
+direct p=257 layers=6 seed=1 amax=257 sums: 0 0 0 86 0 0 0 231 0 0 0 222 0 0 0 244
+seed 1 wall 811.44 s user 24020.84 s sys 0.36 s maxrss 1664 KB
+--- seed 1 end 1789617880 21:04:40 ---
+--- seed 2 start 1789617880 21:04:40 threads=32 ---
+direct p=257 layers=6 seed=2 amax=257 sums: 0 0 0 86 0 0 0 231 0 0 0 222 0 0 0 244
+seed 2 wall 721.54 s user 20781.47 s sys 0.47 s maxrss 1664 KB
+--- seed 2 end 1789618601 21:16:41 ---
+O14DONE 21:16

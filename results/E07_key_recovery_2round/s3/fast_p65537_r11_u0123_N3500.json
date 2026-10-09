@@ -1,0 +1,32 @@
+{
+ "instance": "dux-65537",
+ "rounds": 11,
+ "layers": 9,
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "monomials": 38051,
+ "structures": 3500,
+ "equations": 14000,
+ "unknowns": 38040,
+ "rank": 8608,
+ "free": 29432,
+ "pinned": 2592,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 27.77,
+ "assemble_s": 456.2,
+ "solve_s": 1306.1,
+ "procs": 24,
+ "seed": 2026
+}

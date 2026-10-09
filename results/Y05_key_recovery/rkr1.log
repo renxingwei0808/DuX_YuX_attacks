@@ -1,0 +1,30 @@
+  auto weights: a in [0, 1, 2, 3, 13370, 13495, 13524, 13648, 13773, 13802] (the layer-9 balance of some word breaks at each of them; the layer-8 zero-sum holds for a < 39453; a scan up from 0 is the fallback)
+yupx-65537, 9 rounds, active [0], 1 structures x 2^16 chosen ciphertexts
+  success 3/3 = 100.0%   structures used: min 1, max 1, mean 1.00
+  retries triggered by: none   (134.1s, 44.70s per key)
+saved results/Y05_key_recovery/success_rate_yupx-65537_r9.json
+  auto weights: a in [0, 1, 2, 3, 13369, 13494, 13523, 13647, 13772, 13801] (the layer-9 balance of some word breaks at each of them; the layer-8 zero-sum holds for a < 39452; a scan up from 0 is the fallback)
+yu2x-16, 9 rounds, active [0], 1 structures x 2^16 chosen ciphertexts
+  success 0/3 = 0.0%   structures used: min 5, max 5, mean 5.00
+  retries triggered by: {'coordinate 3 does not determine (k0,k1)': 12}   (457.7s, 152.58s per key)
+saved results/Y05_key_recovery/success_rate_yu2x-16_r9.json
+  auto weights: a in [0, 1, 2, 3, 47, 51, 53, 58, 62, 64] (the layer-5 balance of some word breaks at each of them; the layer-4 zero-sum holds for a < 151; a scan up from 0 is the fallback)
+yu2x-8, 5 rounds, active [0], 2 structures x 2^8 chosen ciphertexts
+  success 50/50 = 100.0%   structures used: min 2, max 2, mean 2.00
+  retries triggered by: none   (3.5s, 0.07s per key)
+saved results/Y05_key_recovery/success_rate_yu2x-8_r5.json
+  auto weights: a in [0, 1, 2, 3, 48, 52, 54, 59, 63, 65] (the layer-5 balance of some word breaks at each of them; the layer-4 zero-sum holds for a < 152; a scan up from 0 is the fallback)
+yuxtoy-257, 5 rounds, active [0], 2 structures x 2^8 chosen ciphertexts
+  success 50/50 = 100.0%   structures used: min 2, max 2, mean 2.00
+  retries triggered by: none   (2.0s, 0.04s per key)
+saved results/Y05_key_recovery/success_rate_yuxtoy-257_r5.json
+  auto weights: a in [0, 1, 2, 3] (the layer-5 balance of some word breaks at each of them; the layer-4 zero-sum holds for a < 88; a scan up from 0 is the fallback)
+yuxtoy-193, 5 rounds, active [0], 2 structures x 2^7 chosen ciphertexts
+  success 50/50 = 100.0%   structures used: min 2, max 2, mean 2.00
+  retries triggered by: none   (0.7s, 0.01s per key)
+saved results/Y05_key_recovery/success_rate_yuxtoy-193_r5.json
+  auto weights: a in [0, 1, 2, 3, 4, 5] (the layer-3 balance of some word breaks at each of them; the layer-2 zero-sum holds for a < 8; a scan up from 0 is the fallback)
+yuxtoy-2^4, 3 rounds, active [0], 3 structures x 2^4 chosen ciphertexts
+  success 50/50 = 100.0%   structures used: min 3, max 3, mean 3.00
+  retries triggered by: none   (1.0s, 0.02s per key)
+saved results/Y05_key_recovery/success_rate_yuxtoy-2^4_r3.json

@@ -1,0 +1,66 @@
+{
+ "instance": "toy-257",
+ "field": "F_257",
+ "rounds": 5,
+ "layers": 3,
+ "active_words": [
+  1
+ ],
+ "points_per_structure": 257,
+ "coords": [
+  0,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "monomials": 3307,
+ "unknowns": 3296,
+ "equations_per_structure": 1024,
+ "weights": {
+  "n": 128,
+  "dims": 1,
+  "margin": 128,
+  "weight_word": 1,
+  "range": "|a| < 128"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per (outer block, coord)"
+ },
+ "structures": 2,
+ "pseudo": false,
+ "rank": 1404,
+ "free": 1892,
+ "kappa_correct": 16,
+ "master_key_ok": true,
+ "known_pair_ok": true,
+ "curve": [
+  {
+   "structures": 1,
+   "equations": 1024,
+   "rank": 1024,
+   "free": 2272,
+   "kappa_correct": 0,
+   "master_key_ok": false,
+   "known_pair_ok": false,
+   "data_log2": 8.01
+  },
+  {
+   "structures": 2,
+   "equations": 2048,
+   "rank": 1404,
+   "free": 1892,
+   "kappa_correct": 16,
+   "master_key_ok": true,
+   "known_pair_ok": true,
+   "data_log2": 9.01
+  }
+ ],
+ "seed": 2026,
+ "data_log2": 9.01,
+ "assemble_s": 3.1
+}

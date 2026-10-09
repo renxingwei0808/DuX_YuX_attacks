@@ -1,0 +1,77 @@
+{
+ "instance": "yupx-65537",
+ "cipher": "yux",
+ "field": "F_65537",
+ "rounds": 10,
+ "layers": 8,
+ "active_words": [
+  0
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "weight_rule": "full-domain words: |a| < T - D = 39453",
+ "points_per_structure": 65537,
+ "structures": 1,
+ "slices": 65537,
+ "points_per_slice": 1,
+ "coset": null,
+ "coset_reps": [],
+ "block_slices": 512,
+ "slice_chunk": 4096,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 53857,
+ "weights": {
+  "n": 2154,
+  "dims": 1,
+  "margin": 39453,
+  "usable": 39453,
+  "weight_min": 1,
+  "first": 1,
+  "last": 2154,
+  "weight_word": 0,
+  "degree_units_per_power": 1,
+  "range": "a < 2154"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "equations": 8616,
+ "unknowns": 53846,
+ "rank": 8576,
+ "free": 45270,
+ "pinned": 2088,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 16.0,
+ "assemble_s": 1155.8,
+ "solve_s": 1842.6,
+ "weight_curve": [],
+ "structure_curve": [],
+ "rows_dir": null,
+ "per_structure": [
+  {
+   "structure": 0,
+   "seed": 7026,
+   "moments_s": 97.2,
+   "dgemm_s": 524.6
+  }
+ ],
+ "procs": 12,
+ "seed": 2026,
+ "solver": "numpy-blocked"
+}

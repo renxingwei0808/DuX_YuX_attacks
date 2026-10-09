@@ -1,0 +1,9 @@
+dux-2^16: rank(Phi_stack) from uniform pseudo-structures (seed 2026)
+  N =   800  rows =   3200  rank =   3200   (140 s)
+  N =  1000  rows =   4000  rank =   4000   (230 s)
+  N =  1189  rows =   4756  rank =   4756   (342 s)
+  N =  1200  rows =   4800  rank =   4800   (420 s)
+  N =  1400  rows =   5600  rank =   5600   (551 s)
+  N =  1600  rows =   6400  rank =   5954   (691 s)
+saturated rank = 5954  (monomials M = 18025)
+saved results/E07_key_recovery_2round/w13/rank_phi_dux-2^16_uniform.json

@@ -1,0 +1,42 @@
+{
+ "instance": "dux-65537",
+ "q": 65537,
+ "char": 65537,
+ "monomials": 38051,
+ "moments": "realizable",
+ "npts": 256,
+ "seed": 2026,
+ "curve": [
+  {
+   "structures": 2000,
+   "rows": 8000,
+   "rank": 8000,
+   "seconds": 2163.1
+  },
+  {
+   "structures": 2152,
+   "rows": 8608,
+   "rank": 8608,
+   "seconds": 2396.3
+  },
+  {
+   "structures": 2200,
+   "rows": 8800,
+   "rank": 8618,
+   "seconds": 2416.0
+  },
+  {
+   "structures": 2300,
+   "rows": 9200,
+   "rank": 8618,
+   "seconds": 2422.7
+  },
+  {
+   "structures": 2400,
+   "rows": 9600,
+   "rank": 8618,
+   "seconds": 2429.1
+  }
+ ],
+ "saturated_rank": 8618
+}

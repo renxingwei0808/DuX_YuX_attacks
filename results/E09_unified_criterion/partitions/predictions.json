@@ -1,0 +1,2316 @@
+[
+ {
+  "q": "65537",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "s": 1,
+  "log2_data": 16.0,
+  "threshold": 65536,
+  "r_b": 8,
+  "r_f": 5,
+  "rounds": 13,
+  "backward_bounds": [
+   10084,
+   13775,
+   18817,
+   8733
+  ],
+  "forward_bounds": [
+   7680,
+   4608,
+   3072,
+   12288
+  ],
+  "backward_bounds_next": [
+   37634,
+   51409,
+   70226,
+   32592
+  ],
+  "forward_bounds_next": [
+   61440,
+   36864,
+   24576,
+   98304
+  ],
+  "backward_max_per_layer": [
+   2,
+   7,
+   26,
+   97,
+   362,
+   1351,
+   5042,
+   18817,
+   70226
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536,
+   12288,
+   98304
+  ]
+ },
+ {
+  "q": "2^16",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "s": 1,
+  "log2_data": 16.0,
+  "threshold": 65535,
+  "r_b": 8,
+  "r_f": 5,
+  "rounds": 13,
+  "backward_bounds": [
+   10084,
+   13775,
+   18817,
+   8733
+  ],
+  "forward_bounds": [
+   7680,
+   4608,
+   3072,
+   12288
+  ],
+  "backward_bounds_next": [
+   37634,
+   51409,
+   70226,
+   32592
+  ],
+  "forward_bounds_next": [
+   61440,
+   36864,
+   24576,
+   98304
+  ],
+  "backward_max_per_layer": [
+   2,
+   7,
+   26,
+   97,
+   362,
+   1351,
+   5042,
+   18817,
+   70226
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536,
+   12288,
+   98304
+  ]
+ },
+ {
+  "q": "65537",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0,
+   1
+  ],
+  "free_blocks": [],
+  "s": 2,
+  "log2_data": 32.0,
+  "threshold": 131072,
+  "r_b": 9,
+  "r_f": 6,
+  "rounds": 15,
+  "backward_bounds": [
+   59362,
+   81090,
+   110771,
+   51409
+  ],
+  "forward_bounds": [
+   61440,
+   36864,
+   24576,
+   98304
+  ],
+  "backward_bounds_next": [
+   221542,
+   302632,
+   413403,
+   191861
+  ],
+  "forward_bounds_next": [
+   491520,
+   294912,
+   196608,
+   786432
+  ],
+  "backward_max_per_layer": [
+   3,
+   11,
+   41,
+   153,
+   571,
+   2131,
+   7953,
+   29681,
+   110771,
+   413403
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536,
+   12288,
+   98304,
+   786432
+  ]
+ },
+ {
+  "q": "2^16",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0,
+   1
+  ],
+  "free_blocks": [],
+  "s": 2,
+  "log2_data": 32.0,
+  "threshold": 131070,
+  "r_b": 9,
+  "r_f": 6,
+  "rounds": 15,
+  "backward_bounds": [
+   59362,
+   81090,
+   110771,
+   51409
+  ],
+  "forward_bounds": [
+   61440,
+   36864,
+   24576,
+   98304
+  ],
+  "backward_bounds_next": [
+   221542,
+   302632,
+   413403,
+   191861
+  ],
+  "forward_bounds_next": [
+   491520,
+   294912,
+   196608,
+   786432
+  ],
+  "backward_max_per_layer": [
+   3,
+   11,
+   41,
+   153,
+   571,
+   2131,
+   7953,
+   29681,
+   110771,
+   413403
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536,
+   12288,
+   98304,
+   786432
+  ]
+ },
+ {
+  "q": "65537",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0,
+   4,
+   8,
+   12
+  ],
+  "free_blocks": [],
+  "s": 4,
+  "log2_data": 64.0,
+  "threshold": 262144,
+  "r_b": 10,
+  "r_f": 6,
+  "rounds": 16,
+  "backward_bounds": [
+   140452,
+   191861,
+   262087,
+   121635
+  ],
+  "forward_bounds": [
+   61440,
+   36864,
+   24576,
+   98304
+  ],
+  "backward_bounds_next": [
+   524174,
+   716035,
+   978122,
+   453948
+  ],
+  "forward_bounds_next": [
+   491520,
+   294912,
+   196608,
+   786432
+  ],
+  "backward_max_per_layer": [
+   2,
+   7,
+   26,
+   97,
+   362,
+   1351,
+   5042,
+   18817,
+   70226,
+   262087,
+   978122
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536,
+   12288,
+   98304,
+   786432
+  ]
+ },
+ {
+  "q": "2^16",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0,
+   4,
+   8,
+   12
+  ],
+  "free_blocks": [],
+  "s": 4,
+  "log2_data": 64.0,
+  "threshold": 262140,
+  "r_b": 10,
+  "r_f": 6,
+  "rounds": 16,
+  "backward_bounds": [
+   140452,
+   191861,
+   262087,
+   121635
+  ],
+  "forward_bounds": [
+   61440,
+   36864,
+   24576,
+   98304
+  ],
+  "backward_bounds_next": [
+   524174,
+   716035,
+   978122,
+   453948
+  ],
+  "forward_bounds_next": [
+   491520,
+   294912,
+   196608,
+   786432
+  ],
+  "backward_max_per_layer": [
+   2,
+   7,
+   26,
+   97,
+   362,
+   1351,
+   5042,
+   18817,
+   70226,
+   262087,
+   978122
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536,
+   12288,
+   98304,
+   786432
+  ]
+ },
+ {
+  "q": "2^8",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "s": 1,
+  "log2_data": 8.0,
+  "threshold": 255,
+  "r_b": 4,
+  "r_f": 3,
+  "rounds": 7,
+  "backward_bounds": [
+   52,
+   71,
+   97,
+   45
+  ],
+  "forward_bounds": [
+   120,
+   72,
+   48,
+   192
+  ],
+  "backward_bounds_next": [
+   194,
+   265,
+   362,
+   168
+  ],
+  "forward_bounds_next": [
+   960,
+   576,
+   384,
+   1536
+  ],
+  "backward_max_per_layer": [
+   2,
+   7,
+   26,
+   97,
+   362
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536
+  ]
+ },
+ {
+  "q": "2^8",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0,
+   4
+  ],
+  "free_blocks": [],
+  "s": 2,
+  "log2_data": 16.0,
+  "threshold": 510,
+  "r_b": 5,
+  "r_f": 3,
+  "rounds": 8,
+  "backward_bounds": [
+   194,
+   265,
+   362,
+   168
+  ],
+  "forward_bounds": [
+   120,
+   72,
+   48,
+   192
+  ],
+  "backward_bounds_next": [
+   724,
+   989,
+   1351,
+   627
+  ],
+  "forward_bounds_next": [
+   960,
+   576,
+   384,
+   1536
+  ],
+  "backward_max_per_layer": [
+   2,
+   7,
+   26,
+   97,
+   362,
+   1351
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536
+  ]
+ },
+ {
+  "q": "2^8",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0,
+   1,
+   4
+  ],
+  "free_blocks": [],
+  "s": 3,
+  "log2_data": 24.0,
+  "threshold": 765,
+  "r_b": 5,
+  "r_f": 3,
+  "rounds": 8,
+  "backward_bounds": [
+   306,
+   418,
+   571,
+   265
+  ],
+  "forward_bounds": [
+   120,
+   72,
+   48,
+   192
+  ],
+  "backward_bounds_next": [
+   1142,
+   1560,
+   2131,
+   989
+  ],
+  "forward_bounds_next": [
+   960,
+   576,
+   384,
+   1536
+  ],
+  "backward_max_per_layer": [
+   3,
+   11,
+   41,
+   153,
+   571,
+   2131
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536
+  ]
+ },
+ {
+  "q": "2^8",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "free_blocks": [],
+  "s": 4,
+  "log2_data": 32.0,
+  "threshold": 1020,
+  "r_b": 5,
+  "r_f": 3,
+  "rounds": 8,
+  "backward_bounds": [
+   418,
+   571,
+   780,
+   362
+  ],
+  "forward_bounds": [
+   320,
+   192,
+   128,
+   512
+  ],
+  "backward_bounds_next": [
+   1560,
+   2131,
+   2911,
+   1351
+  ],
+  "forward_bounds_next": [
+   2560,
+   1536,
+   1024,
+   4096
+  ],
+  "backward_max_per_layer": [
+   4,
+   15,
+   56,
+   209,
+   780,
+   2911
+  ],
+  "forward_max_per_layer": [
+   8,
+   64,
+   512,
+   4096
+  ]
+ },
+ {
+  "q": "2^8",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0,
+   1,
+   2,
+   4,
+   5,
+   6,
+   8,
+   9,
+   10,
+   12,
+   13,
+   14
+  ],
+  "free_blocks": [],
+  "s": 12,
+  "log2_data": 96.0,
+  "threshold": 3060,
+  "r_b": 6,
+  "r_f": 4,
+  "rounds": 10,
+  "backward_bounds": [
+   1560,
+   2131,
+   2911,
+   1351
+  ],
+  "forward_bounds": [
+   960,
+   576,
+   384,
+   1536
+  ],
+  "backward_bounds_next": [
+   5822,
+   7953,
+   10864,
+   5042
+  ],
+  "forward_bounds_next": [
+   7680,
+   4608,
+   3072,
+   12288
+  ],
+  "backward_max_per_layer": [
+   4,
+   15,
+   56,
+   209,
+   780,
+   2911,
+   10864
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536,
+   12288
+  ]
+ },
+ {
+  "q": "65537",
+  "cipher": "dux",
+  "align": "before-L",
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "s": 4,
+  "log2_data": 64.0,
+  "threshold": 262144,
+  "r_b": 10,
+  "r_f": 5,
+  "rounds": 15,
+  "backward_bounds": [
+   81090,
+   110771,
+   151316,
+   70226
+  ],
+  "forward_bounds": [
+   20480,
+   12288,
+   8192,
+   32768
+  ],
+  "backward_bounds_next": [
+   302632,
+   413403,
+   564719,
+   262087
+  ],
+  "forward_bounds_next": [
+   163840,
+   98304,
+   65536,
+   262144
+  ],
+  "backward_max_per_layer": [
+   1,
+   4,
+   15,
+   56,
+   209,
+   780,
+   2911,
+   10864,
+   40545,
+   151316,
+   564719
+  ],
+  "forward_max_per_layer": [
+   8,
+   64,
+   512,
+   4096,
+   32768,
+   262144
+  ]
+ },
+ {
+  "q": "2^16",
+  "cipher": "dux",
+  "align": "before-L",
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "s": 4,
+  "log2_data": 64.0,
+  "threshold": 262140,
+  "r_b": 10,
+  "r_f": 5,
+  "rounds": 15,
+  "backward_bounds": [
+   81090,
+   110771,
+   151316,
+   70226
+  ],
+  "forward_bounds": [
+   20480,
+   12288,
+   8192,
+   32768
+  ],
+  "backward_bounds_next": [
+   302632,
+   413403,
+   564719,
+   262087
+  ],
+  "forward_bounds_next": [
+   163840,
+   98304,
+   65536,
+   262144
+  ],
+  "backward_max_per_layer": [
+   1,
+   4,
+   15,
+   56,
+   209,
+   780,
+   2911,
+   10864,
+   40545,
+   151316,
+   564719
+  ],
+  "forward_max_per_layer": [
+   8,
+   64,
+   512,
+   4096,
+   32768,
+   262144
+  ]
+ },
+ {
+  "q": "2^8",
+  "cipher": "dux",
+  "align": "before-L",
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "s": 4,
+  "log2_data": 32.0,
+  "threshold": 1020,
+  "r_b": 6,
+  "r_f": 3,
+  "rounds": 9,
+  "backward_bounds": [
+   418,
+   571,
+   780,
+   362
+  ],
+  "forward_bounds": [
+   320,
+   192,
+   128,
+   512
+  ],
+  "backward_bounds_next": [
+   1560,
+   2131,
+   2911,
+   1351
+  ],
+  "forward_bounds_next": [
+   2560,
+   1536,
+   1024,
+   4096
+  ],
+  "backward_max_per_layer": [
+   1,
+   4,
+   15,
+   56,
+   209,
+   780,
+   2911
+  ],
+  "forward_max_per_layer": [
+   8,
+   64,
+   512,
+   4096
+  ]
+ },
+ {
+  "q": "65537",
+  "cipher": "dux",
+  "align": "before-L",
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "s": 1,
+  "log2_data": 16.0,
+  "threshold": 65536,
+  "r_b": 8,
+  "r_f": 5,
+  "rounds": 13,
+  "backward_bounds": [
+   10084,
+   13775,
+   18817,
+   8733
+  ],
+  "forward_bounds": [
+   20480,
+   12288,
+   8192,
+   32768
+  ],
+  "backward_bounds_next": [
+   37634,
+   51409,
+   70226,
+   32592
+  ],
+  "forward_bounds_next": [
+   163840,
+   98304,
+   65536,
+   262144
+  ],
+  "backward_max_per_layer": [
+   2,
+   7,
+   26,
+   97,
+   362,
+   1351,
+   5042,
+   18817,
+   70226
+  ],
+  "forward_max_per_layer": [
+   8,
+   64,
+   512,
+   4096,
+   32768,
+   262144
+  ]
+ },
+ {
+  "q": "65537",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "s": 1,
+  "log2_data": 16.0,
+  "threshold": 65536,
+  "r_b": 8,
+  "r_f": 5,
+  "rounds": 13,
+  "backward_bounds": [
+   16384,
+   16384,
+   24576,
+   32768
+  ],
+  "forward_bounds": [
+   20480,
+   12800,
+   7680,
+   5120
+  ],
+  "backward_bounds_next": [
+   65536,
+   65536,
+   98304,
+   131072
+  ],
+  "forward_bounds_next": [
+   163840,
+   102400,
+   61440,
+   40960
+  ],
+  "backward_max_per_layer": [
+   2,
+   8,
+   32,
+   128,
+   512,
+   2048,
+   8192,
+   32768,
+   131072
+  ],
+  "forward_max_per_layer": [
+   5,
+   40,
+   320,
+   2560,
+   20480,
+   163840
+  ]
+ },
+ {
+  "q": "2^16",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "s": 1,
+  "log2_data": 16.0,
+  "threshold": 65535,
+  "r_b": 8,
+  "r_f": 5,
+  "rounds": 13,
+  "backward_bounds": [
+   16384,
+   16384,
+   24576,
+   32768
+  ],
+  "forward_bounds": [
+   20480,
+   12800,
+   7680,
+   5120
+  ],
+  "backward_bounds_next": [
+   65536,
+   65536,
+   98304,
+   131072
+  ],
+  "forward_bounds_next": [
+   163840,
+   102400,
+   61440,
+   40960
+  ],
+  "backward_max_per_layer": [
+   2,
+   8,
+   32,
+   128,
+   512,
+   2048,
+   8192,
+   32768,
+   131072
+  ],
+  "forward_max_per_layer": [
+   5,
+   40,
+   320,
+   2560,
+   20480,
+   163840
+  ]
+ },
+ {
+  "q": "65537",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   1,
+   2
+  ],
+  "free_blocks": [],
+  "s": 2,
+  "log2_data": 32.0,
+  "threshold": 131072,
+  "r_b": 8,
+  "r_f": 6,
+  "rounds": 14,
+  "backward_bounds": [
+   32768,
+   32768,
+   49152,
+   65536
+  ],
+  "forward_bounds": [
+   98304,
+   61440,
+   36864,
+   24576
+  ],
+  "backward_bounds_next": [
+   131072,
+   131072,
+   196608,
+   262144
+  ],
+  "forward_bounds_next": [
+   786432,
+   491520,
+   294912,
+   196608
+  ],
+  "backward_max_per_layer": [
+   4,
+   16,
+   64,
+   256,
+   1024,
+   4096,
+   16384,
+   65536,
+   262144
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536,
+   12288,
+   98304,
+   786432
+  ]
+ },
+ {
+  "q": "2^16",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   1,
+   2
+  ],
+  "free_blocks": [],
+  "s": 2,
+  "log2_data": 32.0,
+  "threshold": 131070,
+  "r_b": 8,
+  "r_f": 6,
+  "rounds": 14,
+  "backward_bounds": [
+   32768,
+   32768,
+   49152,
+   65536
+  ],
+  "forward_bounds": [
+   98304,
+   61440,
+   36864,
+   24576
+  ],
+  "backward_bounds_next": [
+   131072,
+   131072,
+   196608,
+   262144
+  ],
+  "forward_bounds_next": [
+   786432,
+   491520,
+   294912,
+   196608
+  ],
+  "backward_max_per_layer": [
+   4,
+   16,
+   64,
+   256,
+   1024,
+   4096,
+   16384,
+   65536,
+   262144
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536,
+   12288,
+   98304,
+   786432
+  ]
+ },
+ {
+  "q": "65537",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   0,
+   3,
+   8
+  ],
+  "free_blocks": [],
+  "s": 3,
+  "log2_data": 48.0,
+  "threshold": 196608,
+  "r_b": 9,
+  "r_f": 6,
+  "rounds": 15,
+  "backward_bounds": [
+   87381,
+   87382,
+   131072,
+   174763
+  ],
+  "forward_bounds": [
+   163840,
+   102400,
+   61440,
+   40960
+  ],
+  "backward_bounds_next": [
+   349525,
+   349526,
+   524288,
+   699051
+  ],
+  "forward_bounds_next": [
+   1310720,
+   819200,
+   491520,
+   327680
+  ],
+  "backward_max_per_layer": [
+   3,
+   11,
+   43,
+   171,
+   683,
+   2731,
+   10923,
+   43691,
+   174763,
+   699051
+  ],
+  "forward_max_per_layer": [
+   5,
+   40,
+   320,
+   2560,
+   20480,
+   163840,
+   1310720
+  ]
+ },
+ {
+  "q": "65537",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   0,
+   2,
+   3,
+   6
+  ],
+  "free_blocks": [],
+  "s": 4,
+  "log2_data": 64.0,
+  "threshold": 262144,
+  "r_b": 9,
+  "r_f": 6,
+  "rounds": 15,
+  "backward_bounds": [
+   129180,
+   129304,
+   193832,
+   258455
+  ],
+  "forward_bounds": [
+   163840,
+   102400,
+   61440,
+   40960
+  ],
+  "backward_bounds_next": [
+   516815,
+   516910,
+   775270,
+   1033630
+  ],
+  "forward_bounds_next": [
+   1310720,
+   819200,
+   491520,
+   327680
+  ],
+  "backward_max_per_layer": [
+   4,
+   16,
+   64,
+   255,
+   1015,
+   4044,
+   16172,
+   64652,
+   258455,
+   1033630
+  ],
+  "forward_max_per_layer": [
+   5,
+   40,
+   320,
+   2560,
+   20480,
+   163840,
+   1310720
+  ]
+ },
+ {
+  "q": "2^16",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   0,
+   2,
+   3,
+   6
+  ],
+  "free_blocks": [],
+  "s": 4,
+  "log2_data": 64.0,
+  "threshold": 262140,
+  "r_b": 9,
+  "r_f": 6,
+  "rounds": 15,
+  "backward_bounds": [
+   129180,
+   129304,
+   193832,
+   258455
+  ],
+  "forward_bounds": [
+   163840,
+   102400,
+   61440,
+   40960
+  ],
+  "backward_bounds_next": [
+   516815,
+   516910,
+   775270,
+   1033630
+  ],
+  "forward_bounds_next": [
+   1310720,
+   819200,
+   491520,
+   327680
+  ],
+  "backward_max_per_layer": [
+   4,
+   16,
+   64,
+   255,
+   1015,
+   4044,
+   16172,
+   64652,
+   258455,
+   1033630
+  ],
+  "forward_max_per_layer": [
+   5,
+   40,
+   320,
+   2560,
+   20480,
+   163840,
+   1310720
+  ]
+ },
+ {
+  "q": "65537",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   0,
+   4,
+   8,
+   12
+  ],
+  "free_blocks": [],
+  "s": 4,
+  "log2_data": 64.0,
+  "threshold": 262144,
+  "r_b": 8,
+  "r_f": 6,
+  "rounds": 14,
+  "backward_bounds": [
+   32768,
+   32768,
+   49152,
+   65536
+  ],
+  "forward_bounds": [
+   163840,
+   102400,
+   61440,
+   40960
+  ],
+  "backward_bounds_next": [
+   131072,
+   131072,
+   196608,
+   262144
+  ],
+  "forward_bounds_next": [
+   1310720,
+   819200,
+   491520,
+   327680
+  ],
+  "backward_max_per_layer": [
+   4,
+   16,
+   64,
+   256,
+   1024,
+   4096,
+   16384,
+   65536,
+   262144
+  ],
+  "forward_max_per_layer": [
+   5,
+   40,
+   320,
+   2560,
+   20480,
+   163840,
+   1310720
+  ]
+ },
+ {
+  "q": "65537",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "s": 4,
+  "log2_data": 64.0,
+  "threshold": 262144,
+  "r_b": 8,
+  "r_f": 5,
+  "rounds": 13,
+  "backward_bounds": [
+   32768,
+   32768,
+   49152,
+   65536
+  ],
+  "forward_bounds": [
+   32768,
+   20480,
+   12288,
+   8192
+  ],
+  "backward_bounds_next": [
+   131072,
+   131072,
+   196608,
+   262144
+  ],
+  "forward_bounds_next": [
+   262144,
+   163840,
+   98304,
+   65536
+  ],
+  "backward_max_per_layer": [
+   4,
+   16,
+   64,
+   256,
+   1024,
+   4096,
+   16384,
+   65536,
+   262144
+  ],
+  "forward_max_per_layer": [
+   8,
+   64,
+   512,
+   4096,
+   32768,
+   262144
+  ]
+ },
+ {
+  "q": "65537",
+  "cipher": "yux",
+  "align": "before-L",
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "s": 4,
+  "log2_data": 64.0,
+  "threshold": 262144,
+  "r_b": 9,
+  "r_f": 5,
+  "rounds": 14,
+  "backward_bounds": [
+   32768,
+   32768,
+   49152,
+   65536
+  ],
+  "forward_bounds": [
+   32768,
+   20480,
+   12288,
+   8192
+  ],
+  "backward_bounds_next": [
+   131072,
+   131072,
+   196608,
+   262144
+  ],
+  "forward_bounds_next": [
+   262144,
+   163840,
+   98304,
+   65536
+  ],
+  "backward_max_per_layer": [
+   1,
+   4,
+   16,
+   64,
+   256,
+   1024,
+   4096,
+   16384,
+   65536,
+   262144
+  ],
+  "forward_max_per_layer": [
+   8,
+   64,
+   512,
+   4096,
+   32768,
+   262144
+  ]
+ },
+ {
+  "q": "2^16",
+  "cipher": "yux",
+  "align": "before-L",
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "s": 4,
+  "log2_data": 64.0,
+  "threshold": 262140,
+  "r_b": 9,
+  "r_f": 5,
+  "rounds": 14,
+  "backward_bounds": [
+   32768,
+   32768,
+   49152,
+   65536
+  ],
+  "forward_bounds": [
+   32768,
+   20480,
+   12288,
+   8192
+  ],
+  "backward_bounds_next": [
+   131072,
+   131072,
+   196608,
+   262144
+  ],
+  "forward_bounds_next": [
+   262144,
+   163840,
+   98304,
+   65536
+  ],
+  "backward_max_per_layer": [
+   1,
+   4,
+   16,
+   64,
+   256,
+   1024,
+   4096,
+   16384,
+   65536,
+   262144
+  ],
+  "forward_max_per_layer": [
+   8,
+   64,
+   512,
+   4096,
+   32768,
+   262144
+  ]
+ },
+ {
+  "q": "2^8",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   1
+  ],
+  "free_blocks": [],
+  "s": 1,
+  "log2_data": 8.0,
+  "threshold": 255,
+  "r_b": 4,
+  "r_f": 3,
+  "rounds": 7,
+  "backward_bounds": [
+   104,
+   104,
+   156,
+   208
+  ],
+  "forward_bounds": [
+   192,
+   120,
+   72,
+   48
+  ],
+  "backward_bounds_next": [
+   408,
+   416,
+   616,
+   824
+  ],
+  "forward_bounds_next": [
+   1536,
+   960,
+   576,
+   384
+  ],
+  "backward_max_per_layer": [
+   4,
+   14,
+   52,
+   208,
+   824
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536
+  ]
+ },
+ {
+  "q": "2^8",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   0,
+   2
+  ],
+  "free_blocks": [],
+  "s": 2,
+  "log2_data": 16.0,
+  "threshold": 510,
+  "r_b": 4,
+  "r_f": 3,
+  "rounds": 7,
+  "backward_bounds": [
+   123,
+   126,
+   186,
+   248
+  ],
+  "forward_bounds": [
+   320,
+   200,
+   120,
+   80
+  ],
+  "backward_bounds_next": [
+   494,
+   496,
+   742,
+   988
+  ],
+  "forward_bounds_next": [
+   2560,
+   1600,
+   960,
+   640
+  ],
+  "backward_max_per_layer": [
+   4,
+   16,
+   63,
+   248,
+   988
+  ],
+  "forward_max_per_layer": [
+   5,
+   40,
+   320,
+   2560
+  ]
+ },
+ {
+  "q": "2^8",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   0,
+   1,
+   3,
+   5
+  ],
+  "free_blocks": [],
+  "s": 4,
+  "log2_data": 32.0,
+  "threshold": 1020,
+  "r_b": 5,
+  "r_f": 3,
+  "rounds": 8,
+  "backward_bounds": [
+   505,
+   510,
+   760,
+   1015
+  ],
+  "forward_bounds": [
+   512,
+   320,
+   192,
+   128
+  ],
+  "backward_bounds_next": [
+   2021,
+   2030,
+   3036,
+   4044
+  ],
+  "forward_bounds_next": [
+   4096,
+   2560,
+   1536,
+   1024
+  ],
+  "backward_max_per_layer": [
+   4,
+   16,
+   64,
+   255,
+   1015,
+   4044
+  ],
+  "forward_max_per_layer": [
+   8,
+   64,
+   512,
+   4096
+  ]
+ },
+ {
+  "q": "2^8",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "s": 4,
+  "log2_data": 32.0,
+  "threshold": 1020,
+  "r_b": 4,
+  "r_f": 3,
+  "rounds": 7,
+  "backward_bounds": [
+   128,
+   128,
+   192,
+   256
+  ],
+  "forward_bounds": [
+   512,
+   320,
+   192,
+   128
+  ],
+  "backward_bounds_next": [
+   512,
+   512,
+   768,
+   1024
+  ],
+  "forward_bounds_next": [
+   4096,
+   2560,
+   1536,
+   1024
+  ],
+  "backward_max_per_layer": [
+   4,
+   16,
+   64,
+   256,
+   1024
+  ],
+  "forward_max_per_layer": [
+   8,
+   64,
+   512,
+   4096
+  ]
+ },
+ {
+  "q": "2^8",
+  "cipher": "yux",
+  "align": "before-L",
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "s": 4,
+  "log2_data": 32.0,
+  "threshold": 1020,
+  "r_b": 5,
+  "r_f": 3,
+  "rounds": 8,
+  "backward_bounds": [
+   128,
+   128,
+   192,
+   256
+  ],
+  "forward_bounds": [
+   512,
+   320,
+   192,
+   128
+  ],
+  "backward_bounds_next": [
+   512,
+   512,
+   768,
+   1024
+  ],
+  "forward_bounds_next": [
+   4096,
+   2560,
+   1536,
+   1024
+  ],
+  "backward_max_per_layer": [
+   1,
+   4,
+   16,
+   64,
+   256,
+   1024
+  ],
+  "forward_max_per_layer": [
+   8,
+   64,
+   512,
+   4096
+  ]
+ },
+ {
+  "q": "2^4",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "s": 1,
+  "log2_data": 4.0,
+  "threshold": 15,
+  "r_b": 2,
+  "r_f": 1,
+  "rounds": 3,
+  "backward_bounds": [
+   4,
+   5,
+   7,
+   3
+  ],
+  "forward_bounds": [
+   2,
+   1,
+   1,
+   3
+  ],
+  "backward_bounds_next": [
+   14,
+   19,
+   26,
+   12
+  ],
+  "forward_bounds_next": [
+   15,
+   9,
+   6,
+   24
+  ],
+  "backward_max_per_layer": [
+   2,
+   7,
+   26
+  ],
+  "forward_max_per_layer": [
+   3,
+   24
+  ]
+ },
+ {
+  "q": "2^4",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0,
+   4
+  ],
+  "free_blocks": [],
+  "s": 2,
+  "log2_data": 8.0,
+  "threshold": 30,
+  "r_b": 3,
+  "r_f": 2,
+  "rounds": 5,
+  "backward_bounds": [
+   14,
+   19,
+   26,
+   12
+  ],
+  "forward_bounds": [
+   15,
+   9,
+   6,
+   24
+  ],
+  "backward_bounds_next": [
+   52,
+   71,
+   97,
+   45
+  ],
+  "forward_bounds_next": [
+   120,
+   72,
+   48,
+   192
+  ],
+  "backward_max_per_layer": [
+   2,
+   7,
+   26,
+   97
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192
+  ]
+ },
+ {
+  "q": "2^4",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "free_blocks": [],
+  "s": 4,
+  "log2_data": 16.0,
+  "threshold": 60,
+  "r_b": 3,
+  "r_f": 2,
+  "rounds": 5,
+  "backward_bounds": [
+   30,
+   41,
+   56,
+   26
+  ],
+  "forward_bounds": [
+   15,
+   9,
+   6,
+   24
+  ],
+  "backward_bounds_next": [
+   112,
+   153,
+   209,
+   97
+  ],
+  "forward_bounds_next": [
+   120,
+   72,
+   48,
+   192
+  ],
+  "backward_max_per_layer": [
+   4,
+   15,
+   56,
+   209
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192
+  ]
+ },
+ {
+  "q": "2^4",
+  "cipher": "dux",
+  "align": "before-L",
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "s": 4,
+  "log2_data": 16.0,
+  "threshold": 60,
+  "r_b": 4,
+  "r_f": 1,
+  "rounds": 5,
+  "backward_bounds": [
+   30,
+   41,
+   56,
+   26
+  ],
+  "forward_bounds": [
+   5,
+   3,
+   2,
+   8
+  ],
+  "backward_bounds_next": [
+   112,
+   153,
+   209,
+   97
+  ],
+  "forward_bounds_next": [
+   40,
+   24,
+   16,
+   64
+  ],
+  "backward_max_per_layer": [
+   1,
+   4,
+   15,
+   56,
+   209
+  ],
+  "forward_max_per_layer": [
+   8,
+   64
+  ]
+ },
+ {
+  "q": "257",
+  "cipher": "dux",
+  "align": "after-L",
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "s": 1,
+  "log2_data": 8.01,
+  "threshold": 256,
+  "r_b": 4,
+  "r_f": 3,
+  "rounds": 7,
+  "backward_bounds": [
+   52,
+   71,
+   97,
+   45
+  ],
+  "forward_bounds": [
+   120,
+   72,
+   48,
+   192
+  ],
+  "backward_bounds_next": [
+   194,
+   265,
+   362,
+   168
+  ],
+  "forward_bounds_next": [
+   960,
+   576,
+   384,
+   1536
+  ],
+  "backward_max_per_layer": [
+   2,
+   7,
+   26,
+   97,
+   362
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192,
+   1536
+  ]
+ },
+ {
+  "q": "2^4",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "s": 1,
+  "log2_data": 4.0,
+  "threshold": 15,
+  "r_b": 2,
+  "r_f": 1,
+  "rounds": 3,
+  "backward_bounds": [
+   4,
+   4,
+   6,
+   8
+  ],
+  "forward_bounds": [
+   5,
+   3,
+   2,
+   1
+  ],
+  "backward_bounds_next": [
+   16,
+   16,
+   24,
+   32
+  ],
+  "forward_bounds_next": [
+   40,
+   25,
+   15,
+   10
+  ],
+  "backward_max_per_layer": [
+   2,
+   8,
+   32
+  ],
+  "forward_max_per_layer": [
+   5,
+   40
+  ]
+ },
+ {
+  "q": "2^4",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   1,
+   2
+  ],
+  "free_blocks": [],
+  "s": 2,
+  "log2_data": 8.0,
+  "threshold": 30,
+  "r_b": 2,
+  "r_f": 2,
+  "rounds": 4,
+  "backward_bounds": [
+   8,
+   8,
+   12,
+   16
+  ],
+  "forward_bounds": [
+   24,
+   15,
+   9,
+   6
+  ],
+  "backward_bounds_next": [
+   32,
+   32,
+   48,
+   64
+  ],
+  "forward_bounds_next": [
+   192,
+   120,
+   72,
+   48
+  ],
+  "backward_max_per_layer": [
+   4,
+   16,
+   64
+  ],
+  "forward_max_per_layer": [
+   3,
+   24,
+   192
+  ]
+ },
+ {
+  "q": "2^4",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   0,
+   3,
+   5,
+   8
+  ],
+  "free_blocks": [],
+  "s": 4,
+  "log2_data": 16.0,
+  "threshold": 60,
+  "r_b": 3,
+  "r_f": 2,
+  "rounds": 5,
+  "backward_bounds": [
+   29,
+   30,
+   44,
+   59
+  ],
+  "forward_bounds": [
+   40,
+   25,
+   15,
+   10
+  ],
+  "backward_bounds_next": [
+   117,
+   118,
+   176,
+   235
+  ],
+  "forward_bounds_next": [
+   320,
+   200,
+   120,
+   80
+  ],
+  "backward_max_per_layer": [
+   4,
+   15,
+   59,
+   235
+  ],
+  "forward_max_per_layer": [
+   5,
+   40,
+   320
+  ]
+ },
+ {
+  "q": "2^4",
+  "cipher": "yux",
+  "align": "before-L",
+  "active": [],
+  "free_blocks": [
+   0
+  ],
+  "s": 4,
+  "log2_data": 16.0,
+  "threshold": 60,
+  "r_b": 3,
+  "r_f": 1,
+  "rounds": 4,
+  "backward_bounds": [
+   8,
+   8,
+   12,
+   16
+  ],
+  "forward_bounds": [
+   8,
+   5,
+   3,
+   2
+  ],
+  "backward_bounds_next": [
+   32,
+   32,
+   48,
+   64
+  ],
+  "forward_bounds_next": [
+   64,
+   40,
+   24,
+   16
+  ],
+  "backward_max_per_layer": [
+   1,
+   4,
+   16,
+   64
+  ],
+  "forward_max_per_layer": [
+   8,
+   64
+  ]
+ },
+ {
+  "q": "257",
+  "cipher": "yux",
+  "align": "after-L",
+  "active": [
+   0
+  ],
+  "free_blocks": [],
+  "s": 1,
+  "log2_data": 8.01,
+  "threshold": 256,
+  "r_b": 4,
+  "r_f": 2,
+  "rounds": 6,
+  "backward_bounds": [
+   64,
+   64,
+   96,
+   128
+  ],
+  "forward_bounds": [
+   40,
+   25,
+   15,
+   10
+  ],
+  "backward_bounds_next": [
+   256,
+   256,
+   384,
+   512
+  ],
+  "forward_bounds_next": [
+   320,
+   200,
+   120,
+   80
+  ],
+  "backward_max_per_layer": [
+   2,
+   8,
+   32,
+   128,
+   512
+  ],
+  "forward_max_per_layer": [
+   5,
+   40,
+   320
+  ]
+ }
+]

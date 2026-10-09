@@ -1,0 +1,58 @@
+{
+ "instance": "yu2x-16",
+ "cipher": "yux",
+ "field": "F_2^16",
+ "rounds": 10,
+ "layers": 9,
+ "pattern": "1100",
+ "predicted_pattern": "1100",
+ "balanced_words": [
+  0,
+  1,
+  4,
+  5,
+  8,
+  9,
+  12,
+  13
+ ],
+ "margins": [
+  13494,
+  13369,
+  -12589,
+  -38643
+ ],
+ "weights": 60,
+ "weight_bound": 13369,
+ "monomials_per_block": 50,
+ "unknowns": 200,
+ "equations_per_structure": 480,
+ "structures": 1,
+ "data_log2": 16.0,
+ "keys": 3,
+ "seed": 2026,
+ "results": [
+  {
+   "key": 0,
+   "determined": 16,
+   "correct": 16,
+   "rank": 104,
+   "rows": 480
+  },
+  {
+   "key": 1,
+   "determined": 16,
+   "correct": 16,
+   "rank": 104,
+   "rows": 480
+  },
+  {
+   "key": 2,
+   "determined": 16,
+   "correct": 16,
+   "rank": 104,
+   "rows": 480
+  }
+ ],
+ "elapsed_s": 56.3
+}

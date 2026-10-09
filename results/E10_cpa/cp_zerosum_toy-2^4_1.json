@@ -1,0 +1,122 @@
+{
+ "instance": "toy-2^4",
+ "direction": "enc",
+ "active": [
+  1
+ ],
+ "points_per_structure": 16,
+ "data_log2": 4.0,
+ "keys": 3,
+ "seed": 2026,
+ "threshold": 15,
+ "predicted_patterns": [
+  "1111",
+  "1110",
+  "0000",
+  "0000",
+  "0000"
+ ],
+ "predicted_l_full": 1,
+ "predicted_next": "1110",
+ "measured_l_full": 1,
+ "measured": [
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1111111011101111",
+    "block_pattern": "1110",
+    "balanced": 14
+   },
+   {
+    "layer": 3,
+    "words": "0000000000000001",
+    "block_pattern": "0000",
+    "balanced": 1
+   },
+   {
+    "layer": 4,
+    "words": "0000000000000010",
+    "block_pattern": "0000",
+    "balanced": 1
+   },
+   {
+    "layer": 5,
+    "words": "0000000100000000",
+    "block_pattern": "0000",
+    "balanced": 1
+   }
+  ],
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1110111011111111",
+    "block_pattern": "1110",
+    "balanced": 14
+   },
+   {
+    "layer": 3,
+    "words": "0000000001000000",
+    "block_pattern": "0000",
+    "balanced": 1
+   },
+   {
+    "layer": 4,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   },
+   {
+    "layer": 5,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   }
+  ],
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1111111011101111",
+    "block_pattern": "1110",
+    "balanced": 14
+   },
+   {
+    "layer": 3,
+    "words": "1010000000000000",
+    "block_pattern": "0000",
+    "balanced": 2
+   },
+   {
+    "layer": 4,
+    "words": "0001100000000000",
+    "block_pattern": "0000",
+    "balanced": 2
+   },
+   {
+    "layer": 5,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   }
+  ]
+ ],
+ "prediction_matches": true,
+ "elapsed_s": 0.0
+}

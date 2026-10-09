@@ -1,0 +1,746 @@
+{
+ "instance": "yuxtoy-2^4",
+ "cipher": "yux",
+ "field": "F_2^4",
+ "rounds": 7,
+ "free_block": 0,
+ "active": [
+  3,
+  0,
+  1,
+  2
+ ],
+ "threshold": 60,
+ "layers": 5,
+ "first_layer": 3,
+ "keys": 3,
+ "seed": 2026,
+ "max_weight": 60,
+ "data_log2": 16.0,
+ "cells": 48,
+ "tight_cells": 21,
+ "violations": 0,
+ "rows": [
+  {
+   "layer": 3,
+   "word": 0,
+   "D_maxplus": 8,
+   "margin": 52,
+   "predicted_first_nonzero_a": 26,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 1,
+   "D_maxplus": 8,
+   "margin": 52,
+   "predicted_first_nonzero_a": 26,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 2,
+   "D_maxplus": 12,
+   "margin": 48,
+   "predicted_first_nonzero_a": 24,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 3,
+   "D_maxplus": 16,
+   "margin": 44,
+   "predicted_first_nonzero_a": 22,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 4,
+   "D_maxplus": 8,
+   "margin": 52,
+   "predicted_first_nonzero_a": 26,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 5,
+   "D_maxplus": 8,
+   "margin": 52,
+   "predicted_first_nonzero_a": 26,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 6,
+   "D_maxplus": 12,
+   "margin": 48,
+   "predicted_first_nonzero_a": 24,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 7,
+   "D_maxplus": 16,
+   "margin": 44,
+   "predicted_first_nonzero_a": 22,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 8,
+   "D_maxplus": 8,
+   "margin": 52,
+   "predicted_first_nonzero_a": 26,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 9,
+   "D_maxplus": 8,
+   "margin": 52,
+   "predicted_first_nonzero_a": 26,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 10,
+   "D_maxplus": 12,
+   "margin": 48,
+   "predicted_first_nonzero_a": 24,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 11,
+   "D_maxplus": 16,
+   "margin": 44,
+   "predicted_first_nonzero_a": 22,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 12,
+   "D_maxplus": 8,
+   "margin": 52,
+   "predicted_first_nonzero_a": 26,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 13,
+   "D_maxplus": 8,
+   "margin": 52,
+   "predicted_first_nonzero_a": 26,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 14,
+   "D_maxplus": 12,
+   "margin": 48,
+   "predicted_first_nonzero_a": 24,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 3,
+   "word": 15,
+   "D_maxplus": 16,
+   "margin": 44,
+   "predicted_first_nonzero_a": 22,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 0,
+   "D_maxplus": 32,
+   "margin": 28,
+   "predicted_first_nonzero_a": 14,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 1,
+   "D_maxplus": 32,
+   "margin": 28,
+   "predicted_first_nonzero_a": 14,
+   "measured_first_nonzero_a": 15,
+   "verdict": "loose",
+   "measured_per_key": [
+    15,
+    15,
+    15
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 2,
+   "D_maxplus": 48,
+   "margin": 12,
+   "predicted_first_nonzero_a": 6,
+   "measured_first_nonzero_a": 6,
+   "verdict": "tight",
+   "measured_per_key": [
+    6,
+    6,
+    6
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 3,
+   "D_maxplus": 64,
+   "margin": -4,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 4,
+   "D_maxplus": 32,
+   "margin": 28,
+   "predicted_first_nonzero_a": 14,
+   "measured_first_nonzero_a": 15,
+   "verdict": "loose",
+   "measured_per_key": [
+    15,
+    15,
+    15
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 5,
+   "D_maxplus": 32,
+   "margin": 28,
+   "predicted_first_nonzero_a": 14,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 6,
+   "D_maxplus": 48,
+   "margin": 12,
+   "predicted_first_nonzero_a": 6,
+   "measured_first_nonzero_a": 6,
+   "verdict": "tight",
+   "measured_per_key": [
+    6,
+    6,
+    6
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 7,
+   "D_maxplus": 64,
+   "margin": -4,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 8,
+   "D_maxplus": 32,
+   "margin": 28,
+   "predicted_first_nonzero_a": 14,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 9,
+   "D_maxplus": 32,
+   "margin": 28,
+   "predicted_first_nonzero_a": 14,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 10,
+   "D_maxplus": 48,
+   "margin": 12,
+   "predicted_first_nonzero_a": 6,
+   "measured_first_nonzero_a": 6,
+   "verdict": "tight",
+   "measured_per_key": [
+    6,
+    6,
+    6
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 11,
+   "D_maxplus": 64,
+   "margin": -4,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 1,
+   "verdict": "loose",
+   "measured_per_key": [
+    1,
+    0,
+    0
+   ],
+   "key_independent": false
+  },
+  {
+   "layer": 4,
+   "word": 12,
+   "D_maxplus": 32,
+   "margin": 28,
+   "predicted_first_nonzero_a": 14,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 13,
+   "D_maxplus": 32,
+   "margin": 28,
+   "predicted_first_nonzero_a": 14,
+   "measured_first_nonzero_a": null,
+   "verdict": "loose",
+   "measured_per_key": [
+    null,
+    null,
+    null
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 14,
+   "D_maxplus": 48,
+   "margin": 12,
+   "predicted_first_nonzero_a": 6,
+   "measured_first_nonzero_a": 6,
+   "verdict": "tight",
+   "measured_per_key": [
+    6,
+    6,
+    6
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 4,
+   "word": 15,
+   "D_maxplus": 64,
+   "margin": -4,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 2,
+   "verdict": "loose",
+   "measured_per_key": [
+    2,
+    0,
+    0
+   ],
+   "key_independent": false
+  },
+  {
+   "layer": 5,
+   "word": 0,
+   "D_maxplus": 128,
+   "margin": -68,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 1,
+   "D_maxplus": 128,
+   "margin": -68,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 2,
+   "D_maxplus": 192,
+   "margin": -132,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 3,
+   "D_maxplus": 256,
+   "margin": -196,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 4,
+   "D_maxplus": 128,
+   "margin": -68,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 5,
+   "D_maxplus": 128,
+   "margin": -68,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 6,
+   "D_maxplus": 192,
+   "margin": -132,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 7,
+   "D_maxplus": 256,
+   "margin": -196,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 8,
+   "D_maxplus": 128,
+   "margin": -68,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 9,
+   "D_maxplus": 128,
+   "margin": -68,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 10,
+   "D_maxplus": 192,
+   "margin": -132,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 1,
+   "verdict": "loose",
+   "measured_per_key": [
+    1,
+    0,
+    0
+   ],
+   "key_independent": false
+  },
+  {
+   "layer": 5,
+   "word": 11,
+   "D_maxplus": 256,
+   "margin": -196,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 12,
+   "D_maxplus": 128,
+   "margin": -68,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 13,
+   "D_maxplus": 128,
+   "margin": -68,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    1
+   ],
+   "key_independent": false
+  },
+  {
+   "layer": 5,
+   "word": 14,
+   "D_maxplus": 192,
+   "margin": -132,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  },
+  {
+   "layer": 5,
+   "word": 15,
+   "D_maxplus": 256,
+   "margin": -196,
+   "predicted_first_nonzero_a": 0,
+   "measured_first_nonzero_a": 0,
+   "verdict": "tight",
+   "measured_per_key": [
+    0,
+    0,
+    0
+   ],
+   "key_independent": true
+  }
+ ],
+ "seconds": 13.5
+}

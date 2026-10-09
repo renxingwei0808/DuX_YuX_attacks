@@ -1,0 +1,124 @@
+{
+ "instance": "yupx-65537",
+ "cipher": "yux",
+ "field": "F_65537",
+ "rounds": 10,
+ "layers": 8,
+ "active_words": [
+  0
+ ],
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "free_blocks": [],
+ "ks_literal": false,
+ "weight_rule": "O15 point sets of sizes [28239]: T' = 28238 = sum_i (n_i - 1), |a| < T' - D = 2155",
+ "points_per_structure": 28239,
+ "structures": 1,
+ "slices": 28239,
+ "points_per_slice": 1,
+ "coset": null,
+ "coset_reps": [],
+ "mixed": null,
+ "point_set": {
+  "n": 28239,
+  "words": 1,
+  "seed": 6026,
+  "threshold": 28238
+ },
+ "block_slices": 512,
+ "slice_chunk": 4096,
+ "slice_parts": 1,
+ "point_chunk": 65536,
+ "monomials": 53857,
+ "cheap_set": [
+  2
+ ],
+ "subspace_dims": null,
+ "weights": {
+  "n": 2155,
+  "dims": 1,
+  "margin": 2155,
+  "usable": 2155,
+  "weight_min": 0,
+  "first": 0,
+  "last": 2154,
+  "weight_word": 0,
+  "degree_units_per_power": 1,
+  "range": "a < 2155",
+  "vandermonde_axes": 1,
+  "weight_words": [
+   0
+  ],
+  "inner_tuples": null,
+  "usable_norm": 2155
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "equations": 8620,
+ "unknowns": 53846,
+ "rank": 8608,
+ "free": 45238,
+ "pinned": 2088,
+ "inner_correct": 16,
+ "inner_total": 16,
+ "normalise": true,
+ "data_log2": 14.79,
+ "assemble_s": 769.0,
+ "solve_s": 922.9,
+ "weight_curve": [],
+ "structure_curve": [],
+ "rows_dir": null,
+ "per_structure": [
+  {
+   "structure": 0,
+   "a1": 0,
+   "seed": 7026,
+   "moments_s": 240.1,
+   "dgemm_s": 269.6
+  }
+ ],
+ "procs": 1,
+ "seed": 2026,
+ "solver": "numpy-blocked",
+ "protocol": {
+  "cores": "29",
+  "solve_threads": 1,
+  "wall_s": 1705.77,
+  "user_s": 1497.21,
+  "sys_s": 208.35,
+  "cpu_s": 1705.56,
+  "core_hours": 0.474,
+  "maxrss_kb": 17478328,
+  "maxrss_gb": 16.67,
+  "cpu_pct": 99,
+  "wall_over_cpu": 1.0,
+  "threads": {
+   "samples": 170,
+   "max_nlwp": 1,
+   "max_procs": 3,
+   "first_ts": 1790003293,
+   "last_ts": 1790004995
+  },
+  "loadavg_start": "78.89 87.59 99.52",
+  "loadavg_end": "17.12 21.55 46.18",
+  "start": "2026-09-21T08:08:13-07:00",
+  "end": "2026-09-21T08:36:39-07:00",
+  "exit": "0",
+  "machine": "2 x Intel Xeon Gold 6230R (26 cores / 52 threads each, 2.10 GHz base, 4.00 GHz max turbo), 251 GB RAM",
+  "single_threaded": true,
+  "not_preempted": true,
+  "procs": 1
+ }
+}

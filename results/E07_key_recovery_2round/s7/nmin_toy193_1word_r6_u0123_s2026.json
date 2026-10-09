@@ -1,0 +1,71 @@
+{
+ "instance": "toy-193",
+ "field": "F_193",
+ "rounds": 6,
+ "layers": 4,
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  3
+ ],
+ "points_per_structure": 193,
+ "monomials": 38051,
+ "normalise": true,
+ "assume_L1": false,
+ "seed": 2026,
+ "assembled": 2400,
+ "assemble_s": 19.1,
+ "procs": 24,
+ "scan": [
+  {
+   "N": 2100,
+   "equations": 8400,
+   "unknowns": 38040,
+   "rank": 8400,
+   "free": 29640,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "data_log2": 18.63,
+   "solve_s": 482.5
+  },
+  {
+   "N": 2152,
+   "equations": 8608,
+   "unknowns": 38040,
+   "rank": 8560,
+   "free": 29480,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 18.66,
+   "solve_s": 494.2
+  },
+  {
+   "N": 2400,
+   "equations": 9600,
+   "unknowns": 38040,
+   "rank": 8560,
+   "free": 29480,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "data_log2": 18.82,
+   "solve_s": 550.9
+  }
+ ],
+ "N_min": 2152,
+ "rank_max": 8560,
+ "rank_saturation_N": 2152,
+ "N_min_rule_rank_over_neq": 2140
+}

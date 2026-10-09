@@ -1,0 +1,37 @@
+{
+ "instance": "toy-257",
+ "cipher": "dux",
+ "q": 257,
+ "char": 257,
+ "monomials": 7780,
+ "combine": "0001",
+ "unknown_blocks": [
+  0,
+  1
+ ],
+ "rows_per_structure": 1,
+ "moments": "realizable",
+ "npts": 256,
+ "seed": 2026,
+ "curve": [
+  {
+   "structures": 2000,
+   "rows": 2000,
+   "rank": 1649,
+   "seconds": 222.1
+  },
+  {
+   "structures": 3000,
+   "rows": 3000,
+   "rank": 1649,
+   "seconds": 279.8
+  },
+  {
+   "structures": 4000,
+   "rows": 4000,
+   "rank": 1649,
+   "seconds": 336.7
+  }
+ ],
+ "saturated_rank": 1649
+}

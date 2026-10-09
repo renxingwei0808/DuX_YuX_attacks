@@ -1,0 +1,48 @@
+{
+ "instance": "yuxtoy-257",
+ "cipher": "yux",
+ "q": 257,
+ "char": 257,
+ "monomials": 1321,
+ "combine": null,
+ "unknown_blocks": [
+  0
+ ],
+ "rows_per_structure": 4,
+ "moments": "realizable",
+ "npts": 256,
+ "seed": 2026,
+ "curve": [
+  {
+   "structures": 50,
+   "rows": 200,
+   "rank": 185,
+   "seconds": 1.5
+  },
+  {
+   "structures": 80,
+   "rows": 320,
+   "rank": 274,
+   "seconds": 2.4
+  },
+  {
+   "structures": 100,
+   "rows": 400,
+   "rank": 295,
+   "seconds": 2.6
+  },
+  {
+   "structures": 150,
+   "rows": 600,
+   "rank": 317,
+   "seconds": 3.5
+  },
+  {
+   "structures": 200,
+   "rows": 800,
+   "rank": 317,
+   "seconds": 4.2
+  }
+ ],
+ "saturated_rank": 317
+}

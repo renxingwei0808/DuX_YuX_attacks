@@ -1,0 +1,164 @@
+{
+ "instance": "toy-257",
+ "field": "F_257",
+ "rounds": 7,
+ "layers": 5,
+ "unknown_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  3
+ ],
+ "points_per_structure": 257,
+ "monomials": 38051,
+ "weights": {
+  "n": 40,
+  "dims": 1,
+  "margin": 47,
+  "weight_word": 3,
+  "range": "|a| < 47"
+ },
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "weight_scan": [
+  {
+   "rank": 220,
+   "free": 37820,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "equations": 220,
+   "unknowns": 38040,
+   "solve_s": 1.3,
+   "weights": 1,
+   "structures": 55,
+   "data_log2": 13.79
+  },
+  {
+   "rank": 440,
+   "free": 37600,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "equations": 440,
+   "unknowns": 38040,
+   "solve_s": 3.3,
+   "weights": 2,
+   "structures": 55,
+   "data_log2": 13.79
+  },
+  {
+   "rank": 880,
+   "free": 37160,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "equations": 880,
+   "unknowns": 38040,
+   "solve_s": 9.6,
+   "weights": 4,
+   "structures": 55,
+   "data_log2": 13.79
+  },
+  {
+   "rank": 1760,
+   "free": 36280,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "equations": 1760,
+   "unknowns": 38040,
+   "solve_s": 28.3,
+   "weights": 8,
+   "structures": 55,
+   "data_log2": 13.79
+  },
+  {
+   "rank": 3520,
+   "free": 34520,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "equations": 3520,
+   "unknowns": 38040,
+   "solve_s": 96.0,
+   "weights": 16,
+   "structures": 55,
+   "data_log2": 13.79
+  },
+  {
+   "rank": 5280,
+   "free": 32760,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "equations": 5280,
+   "unknowns": 38040,
+   "solve_s": 204.8,
+   "weights": 24,
+   "structures": 55,
+   "data_log2": 13.79
+  },
+  {
+   "rank": 7040,
+   "free": 31000,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "equations": 7040,
+   "unknowns": 38040,
+   "solve_s": 382.7,
+   "weights": 32,
+   "structures": 55,
+   "data_log2": 13.79
+  },
+  {
+   "rank": 8608,
+   "free": 29432,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "equations": 8800,
+   "unknowns": 38040,
+   "solve_s": 776.9,
+   "weights": 40,
+   "structures": 55,
+   "data_log2": 13.79
+  }
+ ],
+ "normalise": true,
+ "assume_L1": false,
+ "seed": 2026,
+ "assembled": 55,
+ "assemble_s": 223.4,
+ "procs": 24,
+ "scan": [
+  {
+   "rank": 8608,
+   "free": 29432,
+   "pinned": 2592,
+   "inner_correct": 16,
+   "inner_total": 16,
+   "equations": 8800,
+   "unknowns": 38040,
+   "solve_s": 934.3,
+   "N": 55,
+   "data_log2": 13.79
+  }
+ ],
+ "N_min": 55,
+ "rank_max": 8608,
+ "rank_saturation_N": 55,
+ "N_min_rule_rank_over_neq": 2152
+}

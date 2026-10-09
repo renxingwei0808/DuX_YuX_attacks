@@ -1,0 +1,484 @@
+{
+ "instance": "yu2x-16",
+ "cipher": "yux",
+ "field": "F_2^16",
+ "rounds": 12,
+ "active": [
+  0
+ ],
+ "layers": 10,
+ "first_layer": 9,
+ "words": [
+  0,
+  4,
+  8,
+  12,
+  1,
+  5,
+  9,
+  13
+ ],
+ "keys": 3,
+ "seed": 2026,
+ "max_scan": 6000,
+ "spectrum_layers": [
+  9,
+  10
+ ],
+ "data_log2": 16.0,
+ "key_independent_cells": 16,
+ "cells": 16,
+ "ratio_exact_to_maxplus": 0.4372,
+ "rows": [
+  {
+   "layer": 9,
+   "word": 0,
+   "D_maxplus": 51763,
+   "spectrum_first_nonzero_a": 17407,
+   "spectrum_zero_prefix": 17407,
+   "spectrum_interior_zeros": 3,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 48128,
+   "ratio": 0.9298,
+   "D_exact_per_key": [
+    48128,
+    48128,
+    48128
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    3,
+    0,
+    0
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 17407
+  },
+  {
+   "layer": 9,
+   "word": 4,
+   "D_maxplus": 52041,
+   "spectrum_first_nonzero_a": 17503,
+   "spectrum_zero_prefix": 17503,
+   "spectrum_interior_zeros": 0,
+   "spectrum_has_interior_hole": false,
+   "D_exact": 48032,
+   "ratio": 0.923,
+   "D_exact_per_key": [
+    48032,
+    48032,
+    48032
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    0,
+    1,
+    1
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 17503
+  },
+  {
+   "layer": 9,
+   "word": 8,
+   "D_maxplus": 52012,
+   "spectrum_first_nonzero_a": 17503,
+   "spectrum_zero_prefix": 17503,
+   "spectrum_interior_zeros": 1,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 48032,
+   "ratio": 0.9235,
+   "D_exact_per_key": [
+    48032,
+    48032,
+    48032
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    1,
+    2,
+    0
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 17503
+  },
+  {
+   "layer": 9,
+   "word": 12,
+   "D_maxplus": 51734,
+   "spectrum_first_nonzero_a": 17407,
+   "spectrum_zero_prefix": 17407,
+   "spectrum_interior_zeros": 1,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 48128,
+   "ratio": 0.9303,
+   "D_exact_per_key": [
+    48128,
+    48128,
+    48128
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    1,
+    1,
+    1
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 17407
+  },
+  {
+   "layer": 9,
+   "word": 1,
+   "D_maxplus": 51888,
+   "spectrum_first_nonzero_a": 17311,
+   "spectrum_zero_prefix": 17311,
+   "spectrum_interior_zeros": 49,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 48224,
+   "ratio": 0.9294,
+   "D_exact_per_key": [
+    48224,
+    48224,
+    48224
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    49,
+    49,
+    48
+   ],
+   "common_interior_zeros": 48,
+   "common_interior_zero_a": [
+    17312,
+    17314,
+    17316,
+    17318,
+    17320,
+    17322,
+    17324,
+    17326,
+    17328,
+    17330,
+    17332,
+    17334,
+    17336,
+    17338,
+    17340,
+    17342,
+    17344,
+    17346,
+    17348,
+    17350,
+    17352,
+    17354,
+    17356,
+    17358,
+    17360,
+    17362,
+    17364,
+    17366,
+    17368,
+    17370,
+    17372,
+    17374,
+    17376,
+    17378,
+    17380,
+    17382,
+    17384,
+    17386,
+    17388,
+    17390,
+    17392,
+    17394,
+    17396,
+    17398,
+    17400,
+    17402,
+    17404,
+    17406
+   ],
+   "common_first_nonzero_a": 17311
+  },
+  {
+   "layer": 9,
+   "word": 5,
+   "D_maxplus": 52041,
+   "spectrum_first_nonzero_a": 17407,
+   "spectrum_zero_prefix": 17407,
+   "spectrum_interior_zeros": 1,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 48128,
+   "ratio": 0.9248,
+   "D_exact_per_key": [
+    48128,
+    48128,
+    48128
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    1,
+    0,
+    2
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 17407
+  },
+  {
+   "layer": 9,
+   "word": 9,
+   "D_maxplus": 52166,
+   "spectrum_first_nonzero_a": 17407,
+   "spectrum_zero_prefix": 17407,
+   "spectrum_interior_zeros": 0,
+   "spectrum_has_interior_hole": false,
+   "D_exact": 48128,
+   "ratio": 0.9226,
+   "D_exact_per_key": [
+    48128,
+    48128,
+    48128
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    0,
+    1,
+    1
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 17407
+  },
+  {
+   "layer": 9,
+   "word": 13,
+   "D_maxplus": 52012,
+   "spectrum_first_nonzero_a": 17503,
+   "spectrum_zero_prefix": 17503,
+   "spectrum_interior_zeros": 0,
+   "spectrum_has_interior_hole": false,
+   "D_exact": 48032,
+   "ratio": 0.9235,
+   "D_exact_per_key": [
+    48032,
+    48032,
+    48032
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    0,
+    2,
+    1
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 17503
+  },
+  {
+   "layer": 10,
+   "word": 0,
+   "D_maxplus": 207924,
+   "spectrum_first_nonzero_a": 0,
+   "spectrum_zero_prefix": 0,
+   "spectrum_interior_zeros": 3,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 65535,
+   "ratio": 0.3152,
+   "D_exact_per_key": [
+    65535,
+    65535,
+    65535
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    3,
+    3,
+    2
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 0
+  },
+  {
+   "layer": 10,
+   "word": 4,
+   "D_maxplus": 207397,
+   "spectrum_first_nonzero_a": 0,
+   "spectrum_zero_prefix": 0,
+   "spectrum_interior_zeros": 1,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 65535,
+   "ratio": 0.316,
+   "D_exact_per_key": [
+    65535,
+    65535,
+    65535
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    1,
+    0,
+    2
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 0
+  },
+  {
+   "layer": 10,
+   "word": 8,
+   "D_maxplus": 207733,
+   "spectrum_first_nonzero_a": 0,
+   "spectrum_zero_prefix": 0,
+   "spectrum_interior_zeros": 1,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 65535,
+   "ratio": 0.3155,
+   "D_exact_per_key": [
+    65535,
+    65535,
+    65535
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    1,
+    1,
+    1
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 0
+  },
+  {
+   "layer": 10,
+   "word": 12,
+   "D_maxplus": 208260,
+   "spectrum_first_nonzero_a": 0,
+   "spectrum_zero_prefix": 0,
+   "spectrum_interior_zeros": 1,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 65535,
+   "ratio": 0.3147,
+   "D_exact_per_key": [
+    65535,
+    65535,
+    65535
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    1,
+    0,
+    1
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 0
+  },
+  {
+   "layer": 10,
+   "word": 1,
+   "D_maxplus": 208356,
+   "spectrum_first_nonzero_a": 0,
+   "spectrum_zero_prefix": 0,
+   "spectrum_interior_zeros": 0,
+   "spectrum_has_interior_hole": false,
+   "D_exact": 65535,
+   "ratio": 0.3145,
+   "D_exact_per_key": [
+    65535,
+    65535,
+    65535
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    0,
+    1,
+    0
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 0
+  },
+  {
+   "layer": 10,
+   "word": 5,
+   "D_maxplus": 207924,
+   "spectrum_first_nonzero_a": 0,
+   "spectrum_zero_prefix": 0,
+   "spectrum_interior_zeros": 1,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 65535,
+   "ratio": 0.3152,
+   "D_exact_per_key": [
+    65535,
+    65535,
+    65535
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    1,
+    1,
+    1
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 0
+  },
+  {
+   "layer": 10,
+   "word": 9,
+   "D_maxplus": 207829,
+   "spectrum_first_nonzero_a": 0,
+   "spectrum_zero_prefix": 0,
+   "spectrum_interior_zeros": 1,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 65535,
+   "ratio": 0.3153,
+   "D_exact_per_key": [
+    65535,
+    65535,
+    65535
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    1,
+    1,
+    4
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 0
+  },
+  {
+   "layer": 10,
+   "word": 13,
+   "D_maxplus": 208260,
+   "spectrum_first_nonzero_a": 0,
+   "spectrum_zero_prefix": 0,
+   "spectrum_interior_zeros": 1,
+   "spectrum_has_interior_hole": true,
+   "D_exact": 65535,
+   "ratio": 0.3147,
+   "D_exact_per_key": [
+    65535,
+    65535,
+    65535
+   ],
+   "key_independent": true,
+   "spectrum_interior_zeros_per_key": [
+    1,
+    2,
+    0
+   ],
+   "common_interior_zeros": 0,
+   "common_interior_zero_a": [],
+   "common_first_nonzero_a": 0
+  }
+ ],
+ "seconds": 11791.0
+}

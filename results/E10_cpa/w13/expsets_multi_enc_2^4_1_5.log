@@ -1,0 +1,7 @@
+DuX(2^4), active [1, 5], per-word dimension 4, enc (data 2^8): separable exponent-set bound
+layer | degree bound (block 0: words 0..3) | max/16s | guaranteed-balanced pattern
+    1 | [1, 1, 0, 1]         |    1/8    | 1111111111111111 (16)
+    2 | [6, 4, 4, 8]         |    8/8    | 1110111011111111 (14)
+    3 | [8, 8, 8, 8]         |    8/8    | 0000000000000000 (0)
+    4 | [8, 8, 8, 8]         |    8/8    | 0000000000000000 (0)
+saved results/E10_cpa/w13/expsets_multi_enc_2^4_1_5.json

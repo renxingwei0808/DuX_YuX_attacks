@@ -1,0 +1,7 @@
+yupx-65537 (F_65537): r = 10, layer 9 pattern 1100 (O7 predicts 1100), balanced words [0, 1, 4, 5, 8, 9, 12, 13]
+  L-combined equations: 80 k-monomials/block x 4 blocks = 320 unknowns; margins [13495, 13370, -12588, -38642] -> 60 weights (a < 13370); 480 equations/structure; 1 structures
+  key 0: rows 480, rank 136/320, determined 16/16, correct 16/16
+  key 1: rows 480, rank 136/320, determined 16/16, correct 16/16
+  key 2: rows 480, rank 136/320, determined 16/16, correct 16/16
+  data 2^16.0 per key; 45.4s
+saved results/Y05_key_recovery/Y05-A4_yupx_r10.json

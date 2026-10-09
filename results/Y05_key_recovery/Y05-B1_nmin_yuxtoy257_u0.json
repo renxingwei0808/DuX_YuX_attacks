@@ -1,0 +1,122 @@
+{
+ "instance": "yuxtoy-257",
+ "field": "F_257",
+ "rounds": 6,
+ "layers": 4,
+ "unknown_blocks": [
+  0
+ ],
+ "outer_blocks": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "active_words": [
+  0
+ ],
+ "points_per_structure": 257,
+ "monomials": 1321,
+ "weights": null,
+ "equation_rows": {
+  "combine": null,
+  "rows": "one per outer block"
+ },
+ "weight_scan": [],
+ "normalise": false,
+ "assume_L1": false,
+ "seed": 2026,
+ "assembled": 200,
+ "assemble_s": 3.5,
+ "procs": 4,
+ "scan": [
+  {
+   "rank": 240,
+   "free": 1080,
+   "pinned": 0,
+   "inner_correct": 0,
+   "inner_total": 4,
+   "equations": 240,
+   "unknowns": 1320,
+   "solve_s": 0.6,
+   "N": 60,
+   "data_log2": 13.91
+  },
+  {
+   "rank": 276,
+   "free": 1044,
+   "pinned": 57,
+   "inner_correct": 4,
+   "inner_total": 4,
+   "equations": 320,
+   "unknowns": 1320,
+   "solve_s": 1.2,
+   "N": 80,
+   "data_log2": 14.33
+  },
+  {
+   "rank": 286,
+   "free": 1034,
+   "pinned": 57,
+   "inner_correct": 4,
+   "inner_total": 4,
+   "equations": 360,
+   "unknowns": 1320,
+   "solve_s": 1.3,
+   "N": 90,
+   "data_log2": 14.5
+  },
+  {
+   "rank": 296,
+   "free": 1024,
+   "pinned": 57,
+   "inner_correct": 4,
+   "inner_total": 4,
+   "equations": 400,
+   "unknowns": 1320,
+   "solve_s": 1.1,
+   "N": 100,
+   "data_log2": 14.65
+  },
+  {
+   "rank": 316,
+   "free": 1004,
+   "pinned": 57,
+   "inner_correct": 4,
+   "inner_total": 4,
+   "equations": 480,
+   "unknowns": 1320,
+   "solve_s": 1.5,
+   "N": 120,
+   "data_log2": 14.91
+  },
+  {
+   "rank": 317,
+   "free": 1003,
+   "pinned": 91,
+   "inner_correct": 4,
+   "inner_total": 4,
+   "equations": 600,
+   "unknowns": 1320,
+   "solve_s": 1.8,
+   "N": 150,
+   "data_log2": 15.23
+  },
+  {
+   "rank": 317,
+   "free": 1003,
+   "pinned": 91,
+   "inner_correct": 4,
+   "inner_total": 4,
+   "equations": 800,
+   "unknowns": 1320,
+   "solve_s": 2.2,
+   "N": 200,
+   "data_log2": 15.65
+  }
+ ],
+ "N_min": 80,
+ "rank_max": 317,
+ "rank_saturation_N": 150,
+ "N_min_rule_rank_over_neq": 80
+}

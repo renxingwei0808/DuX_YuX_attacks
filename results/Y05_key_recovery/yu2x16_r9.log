@@ -1,0 +1,5 @@
+  auto weights: a in [0, 1, 2, 3, 13369, 13494, 13523, 13647, 13772, 13801] (the layer-9 balance of some word breaks at each of them; the layer-8 zero-sum holds for a < 39452; a scan up from 0 is the fallback)
+yu2x-16, 9 rounds, active [0], 1 structures x 2^16 chosen ciphertexts
+  success 2/2 = 100.0%   structures used: min 1, max 1, mean 1.00
+  retries triggered by: none   (490.2s, 245.08s per key)
+saved results/Y05_key_recovery/success_rate_yu2x-16_r9.json

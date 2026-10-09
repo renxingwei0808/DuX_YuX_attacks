@@ -1,0 +1,179 @@
+{
+ "instance": "dux-65537",
+ "direction": "enc",
+ "active": [
+  0
+ ],
+ "points_per_structure": 65537,
+ "data_log2": 16.0,
+ "keys": 3,
+ "seed": 2026,
+ "threshold": 65536,
+ "predicted_patterns": [
+  "1111",
+  "1111",
+  "1111",
+  "1111",
+  "1111",
+  "1110",
+  "0000",
+  "0000"
+ ],
+ "predicted_l_full": 5,
+ "predicted_next": "1110",
+ "measured_l_full": 5,
+ "measured": [
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 3,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 4,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 5,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 6,
+    "words": "1110111011101110",
+    "block_pattern": "1110",
+    "balanced": 12
+   },
+   {
+    "layer": 7,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   },
+   {
+    "layer": 8,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   }
+  ],
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 3,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 4,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 5,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 6,
+    "words": "1110111011101110",
+    "block_pattern": "1110",
+    "balanced": 12
+   },
+   {
+    "layer": 7,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   },
+   {
+    "layer": 8,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   }
+  ],
+  [
+   {
+    "layer": 1,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 2,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 3,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 4,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 5,
+    "words": "1111111111111111",
+    "block_pattern": "1111",
+    "balanced": 16
+   },
+   {
+    "layer": 6,
+    "words": "1110111011101110",
+    "block_pattern": "1110",
+    "balanced": 12
+   },
+   {
+    "layer": 7,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   },
+   {
+    "layer": 8,
+    "words": "0000000000000000",
+    "block_pattern": "0000",
+    "balanced": 0
+   }
+  ]
+ ],
+ "prediction_matches": true,
+ "elapsed_s": 3.5
+}

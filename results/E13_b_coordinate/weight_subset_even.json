@@ -1,0 +1,46 @@
+{
+ "runs": [
+  {
+   "seed": 2026,
+   "instance": "toy-2^4",
+   "layers": 3,
+   "active": [
+    3
+   ],
+   "combine": "1101",
+   "cheap_set": [
+    1,
+    2
+   ],
+   "dim_K": 4,
+   "weights": 2,
+   "weight_subset": "even",
+   "weight_list": [
+    [
+     0
+    ],
+    [
+     2
+    ]
+   ],
+   "weight_rule": "full-domain words: |a| < T - D = 4; T1 cheap set {1,2} (characteristic 2 only): the combined row reads positions 1 and 3, dim K = 4",
+   "margin": 4,
+   "structures": 120,
+   "points_per_structure": 16,
+   "rows": 960,
+   "monomials": 47749,
+   "unknowns": 47738,
+   "rank": 960,
+   "free": 46778,
+   "pinned_monomials": 0,
+   "inner_correct": 0,
+   "inner_total": 16,
+   "reencryption_ok": null,
+   "log2_data": 10.91,
+   "assemble_s": 36.4,
+   "solve_s": 12.7
+  }
+ ],
+ "all_keys_16_of_16": false,
+ "all_reencryption_ok": false
+}
