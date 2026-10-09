@@ -10,15 +10,15 @@ active sets canonicalised modulo block rotation; characteristic 2 allows mixed s
 | Cell | Hand-made | v3 | dim K | Usability | Agrees |
 |---|---|---|---|---|---|
 | Yu2X-8 / layer 6 / 1100 | 2^40.0 | 2^31 | 0 | distinguisher only | **no** |
-| Yu2X-8 / layer 6 / 1111 | 2^56.0 | 2^56 | 4 | dim K = 4 + plain rows | ✅ |
-| Yu2X-8 / layer 6 / 1110 | 2^32.0 | 2^32 | 3 | dim K = 3 | ✅ |
-| Yu2X-8 / layer 7 / any class | unreachable (<= 6 extra words) | unreachable | — | — | ✅ |
+| Yu2X-8 / layer 6 / 1111 | 2^56.0 | 2^56 | 4 | dim K = 4 + plain rows | yes |
+| Yu2X-8 / layer 6 / 1110 | 2^32.0 | 2^32 | 3 | dim K = 3 | yes |
+| Yu2X-8 / layer 7 / any class | unreachable (<= 6 extra words) | unreachable | — | — | yes |
 | Yu2X-16 / layer 10 / 1100 | 2^80.0 | 2^63 | 0 | distinguisher only | **no** |
-| Yu2X-16 / layer 10 / 1110 | 2^64.0 | 2^64 | 3 | dim K = 3 | ✅ |
-| Yu2X-16 / layer 10 / 1111 | 2^112.0 | 2^112 | 4 | dim K = 4 + plain rows | ✅ |
-| Yu2X-16 / layer 11 / any class | unreachable (<= 6 extra words) | unreachable | — | — | ✅ |
-| YupX-65537 / layer 11 / any class | unreachable (<= 6 extra words) | unreachable | — | — | ✅ |
-| DuX(65537) / layer 12 / any class | unreachable (<= 6 extra words) | unreachable | — | — | ✅ |
+| Yu2X-16 / layer 10 / 1110 | 2^64.0 | 2^64 | 3 | dim K = 3 | yes |
+| Yu2X-16 / layer 10 / 1111 | 2^112.0 | 2^112 | 4 | dim K = 4 + plain rows | yes |
+| Yu2X-16 / layer 11 / any class | unreachable (<= 6 extra words) | unreachable | — | — | yes |
+| YupX-65537 / layer 11 / any class | unreachable (<= 6 extra words) | unreachable | — | — | yes |
+| DuX(65537) / layer 12 / any class | unreachable (<= 6 extra words) | unreachable | — | — | yes |
 
 ## 2. Minimal data per instance, layer and class
 

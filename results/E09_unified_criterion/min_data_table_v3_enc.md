@@ -15,12 +15,12 @@ Table 12 has two encryption rows, the two DuX instances at layer 7 with a full b
 
 | Instance | Table 12 | v3: deepest usable layer | Cheapest class / data reaching it | Witness structure | Deepest layer of any key-recovery class | Deepest layer of any class | Next layer | Agrees |
 |---|---|---|---|---|---|---|---|---|
-| DuX(65537) | layer 7 `1110` full block 2^64 | 7 | `1110` @2^64.0 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | ✅ |
-| DuX(2^16) | layer 7 `1110` full block 2^64 | 7 | `1110` @2^64 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | ✅ |
-| YupX-65537 | layer 7 `0111` full block 2^64 | 7 | `0111` @2^64.0 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | ✅ |
-| Yu2X-16 | layer 7 `0111` full block 2^64 | 7 | `0111` @2^64 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | ✅ |
-| DuX(2^8) | stops at layer 4 | 4 | `1110` @2^24 | no free block, words [1, 5, 9], dims [8, 8, 8] (3 words, degree 640) | 4 | 5 | layer 5 has only `0010` @2^100 (dim K = 1, char-2 unusable (dim K = 1 combined row collapses in characteristic 2)) | ✅ |
-| Yu2X-8 | stops at layer 4 | 4 | `0111` / `1110` / `1111` @2^32 | no free block, words [1, 2, 3, 5], dims [8, 8, 8, 8] (4 words, degree 960) | 4 | 5 | layer 5 has only `0001` @2^100 (dim K = 0, distinguisher only) | ✅ |
+| DuX(65537) | layer 7 `1110` full block 2^64 | 7 | `1110` @2^64.0 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | yes |
+| DuX(2^16) | layer 7 `1110` full block 2^64 | 7 | `1110` @2^64 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | yes |
+| YupX-65537 | layer 7 `0111` full block 2^64 | 7 | `0111` @2^64.0 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | yes |
+| Yu2X-16 | layer 7 `0111` full block 2^64 | 7 | `0111` @2^64 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | yes |
+| DuX(2^8) | stops at layer 4 | 4 | `1110` @2^24 | no free block, words [1, 5, 9], dims [8, 8, 8] (3 words, degree 640) | 4 | 5 | layer 5 has only `0010` @2^100 (dim K = 1, char-2 unusable (dim K = 1 combined row collapses in characteristic 2)) | yes |
+| Yu2X-8 | stops at layer 4 | 4 | `0111` / `1110` / `1111` @2^32 | no free block, words [1, 2, 3, 5], dims [8, 8, 8, 8] (4 words, degree 960) | 4 | 5 | layer 5 has only `0001` @2^100 (dim K = 0, distinguisher only) | yes |
 
 "Usable" follows Table 12 (the classes listed in Appendix F); "any key-recovery class" means the classes among the 15 with dim K >= 2 or with plain rows;
 "any class" includes the distinguisher-only classes and the unusable dim K = 1 classes in characteristic 2. The two footnote sentences of Table 12 are read over the usable classes:

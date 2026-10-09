@@ -254,7 +254,7 @@ def markdown(rows):
            "**Reading the table**: in the `Structure` column, `B0` = block 0 ranges over all of F_q^4 (O11, the first layer is free); the other entries are active word indices;",
            "`Dims` are the affine subspace dimensions of the active words in characteristic 2 (over F_p only the full field).",
            "`dim K` is the dimension of the left kernel of O10 on the pattern; **rows with dim K = 1 are unusable in characteristic 2**,",
-           "marked ⛔. `†` = the layer has a Frobenius boundary word with D = q (O9 may rescue it; the criterion alone does not).",
+           "marked (unusable). `†` = the layer has a Frobenius boundary word with D = q (O9 may rescue it; the criterion alone does not).",
            ""]
     # --- conclusions: the deepest reachable layer per (instance, direction,
     #     class) and its cheapest structure ---------------------------------
@@ -272,7 +272,7 @@ def markdown(rows):
         st = ", ".join([f"B{b}" for b in r["free_blocks"]]
                        + [str(w) for w in r["active"]]) or "—"
         dims = "—" if r["dims"] is None else ",".join(str(d) for d in r["dims"])
-        flag = " ⛔" if r["char2_dimK1_unusable"] else ""
+        flag = " (unusable)" if r["char2_dimK1_unusable"] else ""
         out.append(f"| {inst} | {'CCA' if direction == 'dec' else 'CPA'} | "
                    f"`{cls}`{flag} | {r['dim_K']} | **{r['layer']}** | "
                    f"2^{r['log2_data']:g} | {st} | {dims} |")
@@ -295,7 +295,7 @@ def markdown(rows):
             st = ", ".join([f"B{b}" for b in r["free_blocks"]]
                            + [str(w) for w in r["active"]])
             dims = "—" if r["dims"] is None else ",".join(str(d) for d in r["dims"])
-            flag = " ⛔" if r["char2_dimK1_unusable"] else ""
+            flag = " (unusable)" if r["char2_dimK1_unusable"] else ""
             out.append(f"| {r['layer']} | `{r['class']}`{flag} | {r['dim_K']} | "
                        f"2^{r['log2_data']:g} | {st} | {dims} | "
                        f"{r['degree_needed']} |")

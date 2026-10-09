@@ -12,19 +12,19 @@ python experiments/E09_unified_criterion/min_data_v2.py \
 **Reading the table**: in the `Structure` column, `B0` = block 0 ranges over all of F_q^4 (O11, the first layer is free); the other entries are active word indices;
 `Dims` are the affine subspace dimensions of the active words in characteristic 2 (over F_p only the full field).
 `dim K` is the dimension of the left kernel of O10 on the pattern; **rows with dim K = 1 are unusable in characteristic 2**,
-marked ⛔. `†` = the layer has a Frobenius boundary word with D = q (O9 may rescue it; the criterion alone does not).
+marked (unusable). `†` = the layer has a Frobenius boundary word with D = q (O9 may rescue it; the criterion alone does not).
 
 ## Summary: deepest reachable layer and cheapest structure per (instance, direction, class)
 
 | Instance | Direction | Class | dim K | Deepest layer | Min. data | Structure | Dims |
 |---|---|---|---|---|---|---|---|
 | DuX(2^16) | CCA | `1111` | 4 | **10** | 2^47 | 2, 6, 10 | 16,16,15 |
-| DuX(2^16) | CCA | `xxx1` ⛔ | 1 | **11** | 2^64 | 2, 6, 10, 14 | 16,16,16,16 |
+| DuX(2^16) | CCA | `xxx1` (unusable) | 1 | **11** | 2^64 | 2, 6, 10, 14 | 16,16,16,16 |
 | DuX(2^16) | CPA | `1110` | 4 | **7** | 2^64 | B0 |  |
 | DuX(2^16) | CPA | `1111` | 8 | **7** | 2^196 | B0, 4, 5, 6, 8, 9, 10, 12, 13, 14 | 16,16,16,16,16,16,16,16,4 |
 | DuX(2^16) | CPA | `xxx1` | 4 | **7** | 2^196 | B0, 4, 5, 6, 8, 9, 10, 12, 13, 14 | 16,16,16,16,16,16,16,16,4 |
 | DuX(2^8) | CCA | `1111` | 4 | **6** | 2^29 | 2, 6, 10, 14 | 8,8,8,5 |
-| DuX(2^8) | CCA | `xxx1` ⛔ | 1 | **7** | 2^47 | B0, 6, 10 | 8,7 |
+| DuX(2^8) | CCA | `xxx1` (unusable) | 1 | **7** | 2^47 | B0, 6, 10 | 8,7 |
 | DuX(2^8) | CPA | `1110` | 4 | **4** | 2^24 | 1, 5, 9 | 8,8,8 |
 | DuX(2^8) | CPA | `1111` | 8 | **4** | 2^32 | B0 |  |
 | DuX(2^8) | CPA | `xxx1` | 4 | **4** | 2^32 | B0 |  |
@@ -124,27 +124,27 @@ marked ⛔. `†` = the layer has a Frobenius boundary word with D = q (O9 may r
 | Layer | Class | dim K | Min. data | Structure | Dims | D needed |
 |---|---|---|---|---|---|---|
 | 1 | `1111` | 4 | 2^2 | 0 | 2 | 2 |
-| 1 | `xxx1` ⛔ | 1 | 2^1 | 2 | 1 | 0 |
+| 1 | `xxx1` (unusable) | 1 | 2^1 | 2 | 1 | 0 |
 | 2 | `1111` | 4 | 2^3 | 2 | 3 | 4 |
-| 2 | `xxx1` ⛔ | 1 | 2^2 | 2 | 2 | 2 |
+| 2 | `xxx1` (unusable) | 1 | 2^2 | 2 | 2 | 2 |
 | 3 | `1111` | 4 | 2^5 | 0 | 5 | 26 |
-| 3 | `xxx1` ⛔ | 1 | 2^4 | 0 | 4 | 12 |
+| 3 | `xxx1` (unusable) | 1 | 2^4 | 0 | 4 | 12 |
 | 4 | `1111` | 4 | 2^6 | 2 | 6 | 56 |
-| 4 | `xxx1` ⛔ | 1 | 2^5 | 2 | 5 | 26 |
+| 4 | `xxx1` (unusable) | 1 | 2^5 | 2 | 5 | 26 |
 | 5 | `1111` | 4 | 2^8 | 2 | 8 | 209 |
-| 5 | `xxx1` ⛔ | 1 | 2^7 | 2 | 7 | 97 |
+| 5 | `xxx1` (unusable) | 1 | 2^7 | 2 | 7 | 97 |
 | 6 | `1111` | 4 | 2^10 | 2 | 10 | 780 |
-| 6 | `xxx1` ⛔ | 1 | 2^9 | 2 | 9 | 362 |
+| 6 | `xxx1` (unusable) | 1 | 2^9 | 2 | 9 | 362 |
 | 7 | `1111` | 4 | 2^12 | 2 | 12 | 2911 |
-| 7 | `xxx1` ⛔ | 1 | 2^11 | 2 | 11 | 1351 |
+| 7 | `xxx1` (unusable) | 1 | 2^11 | 2 | 11 | 1351 |
 | 8 | `1111` | 4 | 2^14 | 2 | 14 | 10864 |
-| 8 | `xxx1` ⛔ | 1 | 2^13 | 2 | 13 | 5042 |
+| 8 | `xxx1` (unusable) | 1 | 2^13 | 2 | 13 | 5042 |
 | 9 | `1111` | 4 | 2^16 | 2 | 16 | 40545 |
-| 9 | `xxx1` ⛔ | 1 | 2^15 | 0 | 15 | 32592 |
+| 9 | `xxx1` (unusable) | 1 | 2^15 | 0 | 15 | 32592 |
 | 10 | `1111` | 4 | 2^47 | 2, 6, 10 | 16,16,15 | 151316 |
-| 10 | `xxx1` ⛔ | 1 | 2^29 | 2, 6 | 16,13 | 70226 |
+| 10 | `xxx1` (unusable) | 1 | 2^29 | 2, 6 | 16,13 | 70226 |
 | 11 | `1111` | 4 | **unreachable** | — | — | — |
-| 11 | `xxx1` ⛔ | 1 | 2^64 | 2, 6, 10, 14 | 16,16,16,16 | 262087 |
+| 11 | `xxx1` (unusable) | 1 | 2^64 | 2, 6, 10, 14 | 16,16,16,16 | 262087 |
 | 12 | `1111` | 4 | **unreachable** | — | — | — |
 | 12 | `xxx1` | 1 | **unreachable** | — | — | — |
 
@@ -194,19 +194,19 @@ marked ⛔. `†` = the layer has a Frobenius boundary word with D = q (O9 may r
 | Layer | Class | dim K | Min. data | Structure | Dims | D needed |
 |---|---|---|---|---|---|---|
 | 1 | `1111` | 4 | 2^2 | 0 | 2 | 2 |
-| 1 | `xxx1` ⛔ | 1 | 2^1 | 2 | 1 | 0 |
+| 1 | `xxx1` (unusable) | 1 | 2^1 | 2 | 1 | 0 |
 | 2 | `1111` | 4 | 2^3 | 2 | 3 | 4 |
-| 2 | `xxx1` ⛔ | 1 | 2^2 | 2 | 2 | 2 |
+| 2 | `xxx1` (unusable) | 1 | 2^2 | 2 | 2 | 2 |
 | 3 | `1111` | 4 | 2^5 | 0 | 5 | 26 |
-| 3 | `xxx1` ⛔ | 1 | 2^4 | 0 | 4 | 12 |
+| 3 | `xxx1` (unusable) | 1 | 2^4 | 0 | 4 | 12 |
 | 4 | `1111` | 4 | 2^6 | 2 | 6 | 56 |
-| 4 | `xxx1` ⛔ | 1 | 2^5 | 2 | 5 | 26 |
+| 4 | `xxx1` (unusable) | 1 | 2^5 | 2 | 5 | 26 |
 | 5 | `1111` | 4 | 2^8 | 2 | 8 | 209 |
-| 5 | `xxx1` ⛔ | 1 | 2^7 | 2 | 7 | 97 |
+| 5 | `xxx1` (unusable) | 1 | 2^7 | 2 | 7 | 97 |
 | 6 | `1111` | 4 | 2^29 | 2, 6, 10, 14 | 8,8,8,5 | 780 |
-| 6 | `xxx1` ⛔ | 1 | 2^15 | 2, 6 | 8,7 | 362 |
+| 6 | `xxx1` (unusable) | 1 | 2^15 | 2, 6 | 8,7 | 362 |
 | 7 | `1111` | 4 | **unreachable** | — | — | — |
-| 7 | `xxx1` ⛔ | 1 | 2^47 | B0, 6, 10 | 8,7 | 1351 |
+| 7 | `xxx1` (unusable) | 1 | 2^47 | B0, 6, 10 | 8,7 | 1351 |
 | 8 | `1111` | 4 | **unreachable** | — | — | — |
 | 8 | `xxx1` | 1 | **unreachable** | — | — | — |
 | 9 | `1111` | 4 | **unreachable** | — | — | — |

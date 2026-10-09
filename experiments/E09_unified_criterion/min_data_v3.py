@@ -330,7 +330,7 @@ def markdown_enc(rows, t12, v2cmp):
                  f"| {' / '.join('`' + k + '`' for k in ch['classes'])} @2^{ch['log2_data']} "
                  f"| {ch['structure']} | {c['v3_deepest_key_recovery_layer']} "
                  f"| {c['v3_deepest_any_class_layer']} | {nxt} "
-                 f"| {'✅' if c['agrees'] else '**no**'} |")
+                 f"| {'yes' if c['agrees'] else '**no**'} |")
     L += ["",
           "\"Usable\" follows Table 12 (the classes listed in Appendix F); \"any key-recovery class\" means the classes among the 15 with dim K >= 2 or with plain rows;",
           "\"any class\" includes the distinguisher-only classes and the unusable dim K = 1 classes in characteristic 2. The two footnote sentences of Table 12 are read over the usable classes:",
@@ -396,7 +396,7 @@ def markdown(rows, cmp_rows):
          "|---|---|---|---|---|---|"]
     for c in cmp_rows:
         L.append(f"| {c['cell']} | {c['memo']} | {c['v3']} | {c.get('dim_K', '—')} "
-                 f"| {c.get('usable', '—')} | {'✅' if c['agrees'] else '**no**'} |")
+                 f"| {c.get('usable', '—')} | {'yes' if c['agrees'] else '**no**'} |")
     L += ["", "## 2. Minimal data per instance, layer and class", "",
           "Only reachable cells are listed; a layer marked `—` is unreachable inside the O7 framework.", ""]
     by_inst = {}
