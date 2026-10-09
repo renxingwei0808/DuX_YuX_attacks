@@ -5,4 +5,4 @@ toy-193 (F_193): r = 7 (5-layer distinguisher + 2), unknown inner blocks [0], ou
   rank 300 / 1081 unknowns (781 free), 68 monomials pinned down  (1.0s)
   inner key words recovered correctly: 4/4
   data 2^21.83; assemble 23.2s, solve 1.0s
-saved /home/user/dux-cryptanalysis/results/E07_key_recovery_2round/w12/fast_toy193_u0_s7.json
+saved results/E07_key_recovery_2round/w12/fast_toy193_u0_s7.json

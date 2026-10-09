@@ -3,9 +3,9 @@
  "clauses": [
   {
    "id": "S1",
-   "clause": "状态是 F_q 上的 16 个字，分成 4 个 4 字块，每块过一个 S 盒",
-   "paper": "§IV-A、Algorithm 3 第 4 行",
-   "implementation": "`yux/params.py::WORDS/BLOCKS/BLOCK_WORDS`、`YuX.SL`",
+   "clause": "The state is 16 words over F_q in four blocks of four words; each block goes through one S-box",
+   "paper": "Sect. IV-A, Algorithm 3 line 4",
+   "implementation": "`yux/params.py::WORDS/BLOCKS/BLOCK_WORDS`, `YuX.SL`",
    "test": "`test_encrypt_decrypt_roundtrip_scalar_and_vector`",
    "test_names": [
     "test_encrypt_decrypt_roundtrip_scalar_and_vector"
@@ -13,8 +13,8 @@
   },
   {
    "id": "S2",
-   "clause": "Pf(x₀,x₁,x₂,x₃) = (x₁, x₂, x₃, x₀ + x₁x₂ + x₃ + α)",
-   "paper": "§III-A Construction 1",
+   "clause": "Pf(x0,x1,x2,x3) = (x1, x2, x3, x0 + x1 x2 + x3 + alpha)",
+   "paper": "Sect. III-A, Construction 1",
    "implementation": "`yux/sbox.py::Pf`",
    "test": "`test_Pf_inv_is_the_inverse_of_Pf`",
    "test_names": [
@@ -23,16 +23,16 @@
   },
   {
    "id": "S3",
-   "clause": "Pf⁻¹(x₀,x₁,x₂,x₃) = (x₃ − x₀x₁ − x₂ − α, x₀, x₁, x₂)",
-   "paper": "§III-A（\"As for the compositional inverse\"）",
+   "clause": "Pf^-1(x0,x1,x2,x3) = (x3 - x0 x1 - x2 - alpha, x0, x1, x2)",
+   "paper": "Sect. III-A (\"As for the compositional inverse\")",
    "implementation": "`yux/sbox.py::Pf_inv`",
-   "test": "同上",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "S4",
-   "clause": "S⁻¹ = Pf⁴（解密方向）",
-   "paper": "§IV-A.2",
+   "clause": "S^-1 = Pf^4 (decryption direction)",
+   "paper": "Sect. IV-A.2",
    "implementation": "`yux/sbox.py::S_inv`",
    "test": "`test_S_and_S_inv_are_mutually_inverse`",
    "test_names": [
@@ -41,16 +41,16 @@
   },
   {
    "id": "S5",
-   "clause": "S = Pf⁻⁴（加密方向）",
-   "paper": "§IV-A.2",
+   "clause": "S = Pf^-4 (encryption direction)",
+   "paper": "Sect. IV-A.2",
    "implementation": "`yux/sbox.py::S`",
-   "test": "同上",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "S6",
-   "clause": "S⁻¹ 的闭式 y₀ = x₀+x₁x₂+x₃+α；y₁ = x₁+x₂x₃+y₀+α；y₂ = x₂+x₃y₀+y₁+α；y₃ = x₃+y₀y₁+y₂+α，次数 (2,2,3,4)",
-   "paper": "由 S4 推出（迭代 Pf）",
+   "clause": "Closed form of S^-1: y0 = x0+x1x2+x3+alpha; y1 = x1+x2x3+y0+alpha; y2 = x2+x3y0+y1+alpha; y3 = x3+y0y1+y2+alpha; degrees (2,2,3,4)",
+   "paper": "derived from S4 (iterating Pf)",
    "implementation": "`yux/sbox.py::S_inv_closed`",
    "test": "`test_S_inv_closed_form_equals_Pf4`",
    "test_names": [
@@ -59,8 +59,8 @@
   },
   {
    "id": "S7",
-   "clause": "S 的闭式 z₀ = x₃−x₀x₁−x₂−α；z₁ = x₂−z₀x₀−x₁−α；z₂ = x₁−z₁z₀−x₀−α；z₃ = x₀−z₂z₁−z₀−α；S = (z₃,z₂,z₁,z₀)，次数 (8,5,3,2)",
-   "paper": "由 S5 推出",
+   "clause": "Closed form of S: z0 = x3-x0x1-x2-alpha; z1 = x2-z0x0-x1-alpha; z2 = x1-z1z0-x0-alpha; z3 = x0-z2z1-z0-alpha; S = (z3,z2,z1,z0); degrees (8,5,3,2)",
+   "paper": "derived from S5",
    "implementation": "`yux/sbox.py::S_closed`",
    "test": "`test_S_closed_form_equals_Pf_minus_4`",
    "test_names": [
@@ -69,8 +69,8 @@
   },
   {
    "id": "S8",
-   "clause": "向量化 S/S⁻¹ 与标量逐点一致",
-   "paper": "—（实现要求）",
+   "clause": "The vectorised S/S^-1 agree with the scalar ones point by point",
+   "paper": "implementation requirement",
    "implementation": "`yux/sbox.py::vS/vS_inv`",
    "test": "`test_vectorised_sbox_matches_scalar`",
    "test_names": [
@@ -79,9 +79,9 @@
   },
   {
    "id": "L1",
-   "clause": "轮转约定 (x₀,…,x₁₅) ≪ 1 = (x₁,…,x₁₅,x₀)，即 (X ≪ j)_i = X_{(i+j) mod 16}",
-   "paper": "脚注 2",
-   "implementation": "`dux/linear.py::rotl`（复用）",
+   "clause": "Rotation convention (x0,...,x15) <<< 1 = (x1,...,x15,x0), i.e. (X <<< j)_i = X_{(i+j) mod 16}",
+   "paper": "footnote 2",
+   "implementation": "`dux/linear.py::rotl` (shared)",
    "test": "`test_paper_rotation_sets_and_v_p_are_locked`",
    "test_names": [
     "test_paper_rotation_sets_and_v_p_are_locked"
@@ -89,17 +89,17 @@
   },
   {
    "id": "L2",
-   "clause": "M = Σ_{i∈{0,3,4,8,9,12,14}} Rot_i，LP_inv = M（解密方向，两个域相同）",
-   "paper": "§IV-A.3",
-   "implementation": "`yux/params.py::ROT_INV`、`LinearLayer.L_inv`",
-   "test": "同上",
+   "clause": "M = sum_{i in {0,3,4,8,9,12,14}} Rot_i, LP_inv = M (decryption direction, both fields)",
+   "paper": "Sect. IV-A.3",
+   "implementation": "`yux/params.py::ROT_INV`, `LinearLayer.L_inv`",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "L3",
-   "clause": "LP = M⁻¹（加密方向）",
-   "paper": "§IV-A.3",
-   "implementation": "`LinearLayer.L`，由 `forward_row` 求逆得到",
+   "clause": "LP = M^-1 (encryption direction)",
+   "paper": "Sect. IV-A.3",
+   "implementation": "`LinearLayer.L`, obtained by inverting `forward_row`",
    "test": "`test_linear_layers_are_mutually_inverse`",
    "test_names": [
     "test_linear_layers_are_mutually_inverse"
@@ -107,9 +107,9 @@
   },
   {
    "id": "L4",
-   "clause": "Yu2X 的 LP = ⊕_{i∈{1,2,3,5,6,7,8,12,13,14,15}} Rot_i",
-   "paper": "§IV-B.1",
-   "implementation": "计算所得，测试锁定",
+   "clause": "For Yu2X, LP = XOR_{i in {1,2,3,5,6,7,8,12,13,14,15}} Rot_i",
+   "paper": "Sect. IV-B.1",
+   "implementation": "computed, locked by the test",
    "test": "`test_paper_rotation_sets_and_v_p_are_locked`",
    "test_names": [
     "test_paper_rotation_sets_and_v_p_are_locked"
@@ -117,25 +117,25 @@
   },
   {
    "id": "L5",
-   "clause": "YupX 的 LP 是循环阵，首行 v_p = (4/7, 5/21, 5/21, 5/21, 4/7, 5/21, 5/21, 5/21, −3/7, −16/21, −16/21, −16/21, −3/7, 5/21, 5/21, 5/21)",
-   "paper": "§IV-B.2",
-   "implementation": "`yux/params.py::V_P_FRACTIONS`、`yux/linear.py::paper_v_p`",
-   "test": "同上",
+   "clause": "For YupX, LP is circulant with first row v_p = (4/7, 5/21, 5/21, 5/21, 4/7, 5/21, 5/21, 5/21, -3/7, -16/21, -16/21, -16/21, -3/7, 5/21, 5/21, 5/21)",
+   "paper": "Sect. IV-B.2",
+   "implementation": "`yux/params.py::V_P_FRACTIONS`, `yux/linear.py::paper_v_p`",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "L6",
-   "clause": "p = 65537 时 v_p = (9363, 53054, 53054, 53054, 9363, 53054, 53054, 53054, 9362, 53053, 53053, 53053, 9362, 53054, 53054, 53054)",
-   "paper": "§IV-B.2",
+   "clause": "For p = 65537, v_p = (9363, 53054, 53054, 53054, 9363, 53054, 53054, 53054, 9362, 53053, 53053, 53053, 9362, 53054, 53054, 53054)",
+   "paper": "Sect. IV-B.2",
    "implementation": "`yux/params.py::V_P_65537`",
-   "test": "同上（并核对 M·Circ(v_p) = I）",
+   "test": "same as above (and M Circ(v_p) = I is checked)",
    "test_names": []
   },
   {
    "id": "L7",
-   "clause": "LP(x)_i = Σ_j v_p[j]·x_{(i+j) mod 16}",
-   "paper": "§IV-B.2",
-   "implementation": "`LinearLayer.L` 的 F_p 分支",
+   "clause": "LP(x)_i = sum_j v_p[j] x_{(i+j) mod 16}",
+   "paper": "Sect. IV-B.2",
+   "implementation": "the F_p branch of `LinearLayer.L`",
    "test": "`test_linear_layers_are_mutually_inverse`",
    "test_names": [
     "test_linear_layers_are_mutually_inverse"
@@ -143,9 +143,9 @@
   },
   {
    "id": "L8",
-   "clause": "YuX **没有**密钥相关的线性层选择",
-   "paper": "§IV-A.3（LP 与 LP_inv 各只有一个）",
-   "implementation": "`LinearLayer.L(x, t, vec)` 接受并忽略 t",
+   "clause": "YuX has NO key-dependent choice of linear layer",
+   "paper": "Sect. IV-A.3 (one LP and one LP_inv)",
+   "implementation": "`LinearLayer.L(x, t, vec)` accepts and ignores t",
    "test": "`test_linear_layer_ignores_the_t_argument`",
    "test_names": [
     "test_linear_layer_ignores_the_t_argument"
@@ -153,9 +153,9 @@
   },
   {
    "id": "L9",
-   "clause": "向量化线性层与标量一致",
-   "paper": "—（实现要求）",
-   "implementation": "`LinearLayer.L/L_inv` 的 `vec=True` 路径",
+   "clause": "The vectorised linear layer agrees with the scalar one",
+   "paper": "implementation requirement",
+   "implementation": "the `vec=True` path of `LinearLayer.L/L_inv`",
    "test": "`test_vectorised_linear_matches_scalar`",
    "test_names": [
     "test_vectorised_linear_matches_scalar"
@@ -163,8 +163,8 @@
   },
   {
    "id": "A1",
-   "clause": "加密：x = P + rk⁰",
-   "paper": "Algorithm 3 第 1 行",
+   "clause": "Encryption: x = P + rk^0",
+   "paper": "Algorithm 3 line 1",
    "implementation": "`YuX.encrypt`",
    "test": "`test_encrypt_decrypt_roundtrip_scalar_and_vector`",
    "test_names": [
@@ -173,32 +173,32 @@
   },
   {
    "id": "A2",
-   "clause": "加密第 i 轮（i = 1..r−1）：SL → LP → + rk^i",
-   "paper": "Algorithm 3 第 4–8 行",
-   "implementation": "同上",
-   "test": "同上",
+   "clause": "Encryption round i (i = 1..r-1): SL, then LP, then + rk^i",
+   "paper": "Algorithm 3 lines 4-8",
+   "implementation": "same as above",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "A3",
-   "clause": "最后一轮：SL → + rk^r（**没有** LP）",
-   "paper": "Algorithm 3 第 10–11 行",
-   "implementation": "同上",
-   "test": "同上",
+   "clause": "Last round: SL, then + rk^r (no LP)",
+   "paper": "Algorithm 3 lines 10-11",
+   "implementation": "same as above",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "A4",
-   "clause": "解密是加密的逐步逆（减轮密钥、LP_inv、S⁻¹）",
-   "paper": "Algorithm 3 的逆",
+   "clause": "Decryption is the step-by-step inverse (subtract round key, LP_inv, S^-1)",
+   "paper": "inverse of Algorithm 3",
    "implementation": "`YuX.decrypt`",
-   "test": "同上",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "A5",
-   "clause": "`decrypt_layers(C, rks, ℓ)` = 解密方向前 ℓ 个 S⁻¹ 层之后的状态",
-   "paper": "—（分析用对象，与 `dux` 同定义）",
+   "clause": "`decrypt_layers(C, rks, l)` is the state after the first l S^-1 layers of decryption",
+   "paper": "analysis object, same definition as in `dux`",
    "implementation": "`YuX.decrypt_layers`",
    "test": "`test_decrypt_layers_last_layer_matches_decrypt`",
    "test_names": [
@@ -207,16 +207,16 @@
   },
   {
    "id": "A6",
-   "clause": "`encrypt_layers` 是它的选择明文镜像",
-   "paper": "同上",
+   "clause": "`encrypt_layers` is its chosen-plaintext mirror",
+   "paper": "same as above",
    "implementation": "`YuX.encrypt_layers`",
-   "test": "同上",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "K1",
-   "clause": "rk⁰ = Key",
-   "paper": "Algorithm 1 第 1 行",
+   "clause": "rk^0 = Key",
+   "paper": "Algorithm 1 line 1",
    "implementation": "`yux/keyschedule.py::key_expand`",
    "test": "`test_key_schedule_is_invertible`",
    "test_names": [
@@ -225,32 +225,32 @@
   },
   {
    "id": "K2",
-   "clause": "X₄ = X₀ + S((X₁+X₂+X₃) ≪ 3) + (rc^{i−1}_{4j},…,rc^{i−1}_{4j+3})",
-   "paper": "Algorithm 1 第 6 行",
+   "clause": "X4 = X0 + S((X1+X2+X3) <<< 3) + (rc^{i-1}_{4j},...,rc^{i-1}_{4j+3})",
+   "paper": "Algorithm 1 line 6",
    "implementation": "`ks_round`",
-   "test": "同上",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "K3",
-   "clause": "每轮 j = 0..3 产出一个块并移位 X₀←X₁, X₁←X₂, X₂←X₃, X₃←X₄",
-   "paper": "Algorithm 1 第 7–8 行",
+   "clause": "Each step j = 0..3 outputs one block and shifts X0 <- X1, X1 <- X2, X2 <- X3, X3 <- X4",
+   "paper": "Algorithm 1 lines 7-8",
    "implementation": "`ks_round`",
-   "test": "同上",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "K4",
-   "clause": "rk^i = X₄‖X₅‖X₆‖X₇（该轮产出的四个块）",
-   "paper": "Algorithm 1 第 7 行",
-   "implementation": "`ks_round` 的返回值",
-   "test": "同上",
+   "clause": "rk^i = X4 X5 X6 X7 (the four blocks output in that round)",
+   "paper": "Algorithm 1 line 7",
+   "implementation": "return value of `ks_round`",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "K5",
-   "clause": "\"≪ 3\" 是块内 4 字的轮转 (X ≪ 3)_i = X_{(i+3) mod 4}",
-   "paper": "脚注 2 的约定用于 F_q⁴",
+   "clause": "\"<<< 3\" is the rotation of the four words of a block, (X <<< 3)_i = X_{(i+3) mod 4}",
+   "paper": "convention of footnote 2 applied to F_q^4",
    "implementation": "`keyschedule.rot3`",
    "test": "`test_key_schedule_block_rotation_and_constants`",
    "test_names": [
@@ -259,9 +259,9 @@
   },
   {
    "id": "K6",
-   "clause": "密钥扩展可逆（不需要求 S 的逆）",
-   "paper": "由 K2–K4 推出",
-   "implementation": "`ks_round_inverse`、`YuX.key_schedule_inverse`",
+   "clause": "The key schedule is invertible (without inverting S)",
+   "paper": "follows from K2-K4",
+   "implementation": "`ks_round_inverse`, `YuX.key_schedule_inverse`",
    "test": "`test_key_schedule_is_invertible`",
    "test_names": [
     "test_key_schedule_is_invertible"
@@ -269,8 +269,8 @@
   },
   {
    "id": "C1",
-   "clause": "轮常数：i = 0..r−1，j = 0..3，id = 16i + 4j",
-   "paper": "Algorithm 2 第 1–4 行",
+   "clause": "Round constants: i = 0..r-1, j = 0..3, id = 16 i + 4 j",
+   "paper": "Algorithm 2 lines 1-4",
    "implementation": "`keyschedule.round_constants`",
    "test": "`test_key_schedule_block_rotation_and_constants`",
    "test_names": [
@@ -279,16 +279,16 @@
   },
   {
    "id": "C2",
-   "clause": "(c₀,c₁,c₂,c₃) = S(id+1, id+2, id+3, id+4)，S 是**加密** S 盒",
-   "paper": "Algorithm 2 第 5 行",
-   "implementation": "同上",
-   "test": "同上",
+   "clause": "(c0,c1,c2,c3) = S(id+1, id+2, id+3, id+4), with S the ENCRYPTION S-box",
+   "paper": "Algorithm 2 line 5",
+   "implementation": "same as above",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "C3",
-   "clause": "rc^i 用于产生 rk^{i+1}",
-   "paper": "Algorithm 1 第 6 行的下标",
+   "clause": "rc^i is used to produce rk^{i+1}",
+   "paper": "index in Algorithm 1 line 6",
    "implementation": "`key_expand`",
    "test": "`test_key_schedule_is_invertible`",
    "test_names": [
@@ -297,7 +297,7 @@
   },
   {
    "id": "T1",
-   "clause": "Yu2X-8：F_{2^8}，x⁸+x⁴+x³+x+1，α = 205，12 轮，128 位",
+   "clause": "Yu2X-8: F_{2^8}, x^8+x^4+x^3+x+1, alpha = 205, 12 rounds, 128 bits",
    "paper": "Table II",
    "implementation": "`INSTANCES[\"yu2x-8\"]`",
    "test": "`test_table_II_parameters`",
@@ -307,40 +307,40 @@
   },
   {
    "id": "T2",
-   "clause": "Yu2X-16：F_{2^16}，x¹⁶+x¹²+x³+x+1，α = 205，**12\\* / 14** 轮",
+   "clause": "Yu2X-16: F_{2^16}, x^16+x^12+x^3+x+1, alpha = 205, 12* / 14 rounds",
    "paper": "Table II",
-   "implementation": "`INSTANCES[\"yu2x-16\"]`（`rounds` = 12，`rounds_128` = 14）",
-   "test": "同上",
+   "implementation": "`INSTANCES[\"yu2x-16\"]` (`rounds` = 12, `rounds_128` = 14)",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "T3",
-   "clause": "YupX-65537：F_65537，α = 205，**9\\*（118 位）/ 14（128 位）** 轮",
+   "clause": "YupX-65537: F_65537, alpha = 205, 9* (118 bits) / 14 (128 bits) rounds",
    "paper": "Table II",
-   "implementation": "`INSTANCES[\"yupx-65537\"]`（`rounds` = 14，`rounds_fhe` = 9）",
-   "test": "同上",
+   "implementation": "`INSTANCES[\"yupx-65537\"]` (`rounds` = 14, `rounds_fhe` = 9)",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "T4",
-   "clause": "星号 = \"the recommended number of rounds in fully homomorphic application scenarios\"",
-   "paper": "Table II 脚注",
-   "implementation": "`rounds_note` 字段",
-   "test": "同上",
+   "clause": "The asterisk means \"the recommended number of rounds in fully homomorphic application scenarios\"",
+   "paper": "Table II footnote",
+   "implementation": "field `rounds_note`",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "T5",
-   "clause": "Yu2X 的轮数 \"not less than 12\"（128 位）；YupX \"not less than 9\"（118 位）",
-   "paper": "§IV-B.1 / §IV-B.2",
-   "implementation": "同上",
-   "test": "同上",
+   "clause": "Yu2X uses \"not less than 12\" rounds (128 bits); YupX \"not less than 9\" (118 bits)",
+   "paper": "Sect. IV-B.1 / IV-B.2",
+   "implementation": "same as above",
+   "test": "same as above",
    "test_names": []
   },
   {
    "id": "R1",
-   "clause": "三个玩具实例 `yuxtoy-2^4/193/257`（**不在论文里**，只用于便宜地验证流水线）",
-   "paper": "—",
+   "clause": "Three toy instances `yuxtoy-2^4/193/257` (NOT in the paper, only used to validate pipelines cheaply)",
+   "paper": "--",
    "implementation": "`INSTANCES`",
    "test": "`test_encrypt_decrypt_roundtrip_scalar_and_vector`",
    "test_names": [
@@ -349,9 +349,9 @@
   },
   {
    "id": "R2",
-   "clause": "回归向量（本仓库自产，冻结语义）",
-   "paper": "—",
-   "implementation": "`tests/vectors/yux_*.json`，由 `scripts/gen_vectors.py --cipher yux` 生成",
+   "clause": "Regression vectors (generated by us, freezing the semantics)",
+   "paper": "--",
+   "implementation": "`tests/vectors/yux_*.json`, from `scripts/gen_vectors.py --cipher yux`",
    "test": "`test_yux_regression_vectors`",
    "test_names": [
     "test_yux_regression_vectors"
@@ -359,8 +359,8 @@
   },
   {
    "id": "R3",
-   "clause": "实例名前缀选密码：`yu2x-`/`yupx-`/`yuxtoy-` → YuX，`dux-`/`toy-` → DuX",
-   "paper": "—",
+   "clause": "The instance-name prefix selects the cipher: `yu2x-`/`yupx-`/`yuxtoy-` -> YuX, `dux-`/`toy-` -> DuX",
+   "paper": "--",
    "implementation": "`dux/registry.py`",
    "test": "`test_registry_dispatches_by_prefix`",
    "test_names": [
@@ -525,6 +525,24 @@
   "yuxtoy-2^4": {
    "field": "2^4",
    "alpha": 5,
+   "rounds": 12,
+   "official": false,
+   "roundtrip": true,
+   "key_schedule_invertible": true,
+   "equivalent_fixedL0_is_trivial": true
+  },
+  "yuxtoy-5": {
+   "field": "5",
+   "alpha": 0,
+   "rounds": 12,
+   "official": false,
+   "roundtrip": true,
+   "key_schedule_invertible": true,
+   "equivalent_fixedL0_is_trivial": true
+  },
+  "yuxtoy-17": {
+   "field": "17",
+   "alpha": 1,
    "rounds": 12,
    "official": false,
    "roundtrip": true,

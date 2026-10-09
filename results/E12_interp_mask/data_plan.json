@@ -389,24 +389,24 @@
  ],
  "no_gain": [
   {
-   "row": "DuX(65537) 13 \u8f6e\uff08\u7406\u8bba\uff09",
-   "reason": "\u5168\u5757 2^64\uff08O11\uff09\uff1a\u81ea\u7531\u5757\u5fc5\u987b\u8dd1\u904d F_q^4\uff0c\u70b9\u96c6\u4e0d\u9002\u7528\uff1b\u4f55\u51b5\u7b2c 11 \u5c42\u7684\u4f59\u91cf\u53ea\u6709 57"
+   "row": "DuX(65537) 13 rounds (theoretical)",
+   "reason": "full block 2^64 (O11): the free block must range over all of F_q^4, so point sets do not apply; the layer-11 margin is only 57 anyway"
   },
   {
-   "row": "DuX(2^16) 12/12\uff08\u7406\u8bba\uff09",
-   "reason": "\u5df2\u7ecf\u662f\u7ef4\u6570 (16,16,15) \u7684\u5b50\u7a7a\u95f4\u7ed3\u6784 = 2^47\uff1b\u70b9\u96c6\u4e0e\u5b50\u7a7a\u95f4\u662f\u540c\u4e00\u7c7b\u8282\u7701\uff0c\u800c\u90a3\u91cc\u7684\u7ef4\u6570\u6b63\u662f\u7531\u4f59\u91cf\u5b9a\u6b7b\u7684"
+   "row": "DuX(2^16) 12/12 (theoretical)",
+   "reason": "already a subspace structure of dimensions (16,16,15) = 2^47; point sets and subspaces are the same kind of saving, and there the dimensions are fixed by the margin"
   },
   {
-   "row": "YupX-65537 12/14 \u4e0e Yu2X-16 12/12\uff08\u7406\u8bba\uff09",
-   "reason": "\u5168\u5757 2^64\uff0c\u6743\u91cd\u4f4d\u7f6e\u7684\u4f59\u91cf\u662f 0 / -4"
+   "row": "YupX-65537 12/14 and Yu2X-16 12/12 (theoretical)",
+   "reason": "full block 2^64; the margin at the weight position is 0 / -4"
   },
   {
    "row": "Yu2X-8 8/12",
-   "reason": "\u5168\u5757 2^32\uff08O11\uff09"
+   "reason": "full block 2^32 (O11)"
   },
   {
-   "row": "\u6240\u6709 r_KR = 1 \u7684\u884c\uff089 \u8f6e YupX\u300110 \u8f6e\u7684\u8def\u7ebf (i)\u30015/6 \u8f6e\u5404\u884c\uff09",
-   "reason": "\u5b83\u4eec\u7528\u7684\u662f\u666e\u901a\u96f6\u548c\u800c\u4e0d\u662f\u6743\u91cd\uff1b\u540c\u4e00\u6362\u5143\u4ecd\u7136\u6210\u7acb\uff0c\u4f46\u7701\u4e0b\u7684\u4e0d\u5230 1 \u4f4d"
+   "row": "all rows with r_KR = 1 (9-round YupX, route (i) of 10 rounds, the 5- and 6-round rows)",
+   "reason": "they use plain zero sums rather than weights; the same substitution still holds, but the saving is below 1 bit"
   }
  ]
 }

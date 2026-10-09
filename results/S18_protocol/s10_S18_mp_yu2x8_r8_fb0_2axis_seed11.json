@@ -108,7 +108,7 @@
  "solve_s": 12.5,
  "weight_curve": [],
  "structure_curve": [],
- "rows_dir": "/home/luck/dux-data/S18_mp_yu2x8_r8_fb0_2axis_seed11",
+ "rows_dir": "$DATA/S18_mp_yu2x8_r8_fb0_2axis_seed11",
  "per_structure": [
   {
    "structure": 0,

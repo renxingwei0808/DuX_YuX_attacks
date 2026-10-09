@@ -312,127 +312,127 @@
  "solve_s": 277.0,
  "weight_curve": [],
  "structure_curve": [],
- "rows_dir": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026",
+ "rows_dir": "$DATA/S19_dux2p8_t1t3_seed2026",
  "per_structure": [
   {
    "structure": 0,
    "a1": 0,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a10.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a10.npy"
   },
   {
    "structure": 0,
    "a1": 1,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a11.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a11.npy"
   },
   {
    "structure": 0,
    "a1": 2,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a12.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a12.npy"
   },
   {
    "structure": 0,
    "a1": 3,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a13.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a13.npy"
   },
   {
    "structure": 0,
    "a1": 4,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a14.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a14.npy"
   },
   {
    "structure": 0,
    "a1": 5,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a15.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a15.npy"
   },
   {
    "structure": 0,
    "a1": 6,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a16.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a16.npy"
   },
   {
    "structure": 0,
    "a1": 7,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a17.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a17.npy"
   },
   {
    "structure": 0,
    "a1": 8,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a18.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a18.npy"
   },
   {
    "structure": 0,
    "a1": 9,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a19.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a19.npy"
   },
   {
    "structure": 0,
    "a1": 10,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a110.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a110.npy"
   },
   {
    "structure": 0,
    "a1": 11,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a111.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a111.npy"
   },
   {
    "structure": 0,
    "a1": 12,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a112.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a112.npy"
   },
   {
    "structure": 0,
    "a1": 13,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a113.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a113.npy"
   },
   {
    "structure": 0,
    "a1": 14,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a114.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a114.npy"
   },
   {
    "structure": 0,
    "a1": 15,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a115.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a115.npy"
   },
   {
    "structure": 0,
    "a1": 16,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a116.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a116.npy"
   },
   {
    "structure": 0,
    "a1": 17,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a117.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a117.npy"
   },
   {
    "structure": 0,
    "a1": 18,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a118.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a118.npy"
   },
   {
    "structure": 0,
    "a1": 19,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a119.npy"
+   "loaded_from": "$DATA/S19_dux2p8_t1t3_seed2026/rows_S19_dux2p8_r8_3w_cheap12_2axis_seed2026_st0_a119.npy"
   }
  ],
  "procs": 16,

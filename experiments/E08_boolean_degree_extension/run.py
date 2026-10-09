@@ -6,7 +6,7 @@ as log2 of the univariate F_{2^n}-degree 64.  Is that right?
 
 We answer it exactly, with two independent methods:
 
-  A. Moebius transform (`moebius.py`) of the真 truth table -- only reachable on
+  A. Moebius transform (`moebius.py`) of the truth table -- only reachable on
      toy-2^4, where one S-box block is 16 key bits (and 24 bits for the
      two-layer restriction).
   B. Exact multivariate key polynomial (`keypoly.py`): the S-box is a short

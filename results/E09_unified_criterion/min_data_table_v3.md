@@ -1,32 +1,32 @@
-# E09 · O7 框架内的最小数据表 v3
+# E09 · minimal-data table v3 inside the O7 framework
 
-v2（`min_data_table_v2.md`）**原样保留**；v3 把搜索扩到**全部 15 个平衡位置类**，
-并为每个类打印 `tools/cheap_rows.py` 的 dim K 与它对密钥恢复的可用性。
-搜索空间与 v2 相同：0 或 1 个自由块（O11）× 其余字的每个子集 × 每层，
-活跃集按块轮转规范化；特征 2 允许混合子空间维数（凸性 ⇒ 极端分配最优）。
+v2 (`min_data_table_v2.md`) is kept **unchanged**; v3 extends the search to **all 15 balanced-position classes**
+and prints for each class the dim K of `tools/cheap_rows.py` and its usability for key recovery.
+The search space is that of v2: 0 or 1 free block (O11) x every subset of the remaining words x every layer,
+active sets canonicalised modulo block rotation; characteristic 2 allows mixed subspace dimensions (convexity => the extreme allocation is optimal).
 
-## 1. 与早先手工搜索表的逐格对照
+## 1. Cell-by-cell comparison with the earlier hand-made table
 
-| 格 | 备忘 | v3 | dim K | 可用性 | 一致 |
+| Cell | Hand-made | v3 | dim K | Usability | Agrees |
 |---|---|---|---|---|---|
-| Yu2X-8 / layer 6 / 1100 | 2^40.0 | 2^31 | 0 | distinguisher only | **不一致** |
+| Yu2X-8 / layer 6 / 1100 | 2^40.0 | 2^31 | 0 | distinguisher only | **no** |
 | Yu2X-8 / layer 6 / 1111 | 2^56.0 | 2^56 | 4 | dim K = 4 + plain rows | ✅ |
 | Yu2X-8 / layer 6 / 1110 | 2^32.0 | 2^32 | 3 | dim K = 3 | ✅ |
 | Yu2X-8 / layer 7 / any class | unreachable (<= 6 extra words) | unreachable | — | — | ✅ |
-| Yu2X-16 / layer 10 / 1100 | 2^80.0 | 2^63 | 0 | distinguisher only | **不一致** |
+| Yu2X-16 / layer 10 / 1100 | 2^80.0 | 2^63 | 0 | distinguisher only | **no** |
 | Yu2X-16 / layer 10 / 1110 | 2^64.0 | 2^64 | 3 | dim K = 3 | ✅ |
 | Yu2X-16 / layer 10 / 1111 | 2^112.0 | 2^112 | 4 | dim K = 4 + plain rows | ✅ |
 | Yu2X-16 / layer 11 / any class | unreachable (<= 6 extra words) | unreachable | — | — | ✅ |
 | YupX-65537 / layer 11 / any class | unreachable (<= 6 extra words) | unreachable | — | — | ✅ |
 | DuX(65537) / layer 12 / any class | unreachable (<= 6 extra words) | unreachable | — | — | ✅ |
 
-## 2. 每个实例、每层、每类的最小数据
+## 2. Minimal data per instance, layer and class
 
-只列出可达的格；`—` 的层在 O7 框架内不可达。
+Only reachable cells are listed; a layer marked `—` is unreachable inside the O7 framework.
 
-### DuX(65537) · 解密（CCA）
+### DuX(65537) · decryption (CCA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^16.0 | — | 1 | None | 1 |
 | 1 | `0100` | 0 | distinguisher only | 2^16.0 | — | 1 | None | 1 |
@@ -186,9 +186,9 @@ v2（`min_data_table_v2.md`）**原样保留**；v3 把搜索扩到**全部 15 �
 | 11 | `0101` | 1 | dim K = 1 | 2^112.0 | [0] | 3 | None | 413403 |
 | 11 | `1101` | 1 | dim K = 1 | 2^112.0 | [0] | 3 | None | 413403 |
 
-### DuX(2^16) · 解密（CCA）
+### DuX(2^16) · decryption (CCA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^1 | — | 1 | [1] | 0 |
 | 1 | `0100` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 1 |
@@ -348,9 +348,9 @@ v2（`min_data_table_v2.md`）**原样保留**；v3 把搜索扩到**全部 15 �
 | 11 | `0101` | 1 | char-2 unusable (dim K = 1 combined row collapses in characteristic 2) | 2^111 | [0] | 3 | [16, 16, 15] | 413403 |
 | 11 | `1101` | 1 | char-2 unusable (dim K = 1 combined row collapses in characteristic 2) | 2^111 | [0] | 3 | [16, 16, 15] | 413403 |
 
-### DuX(2^8) · 解密（CCA）
+### DuX(2^8) · decryption (CCA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^1 | — | 1 | [1] | 0 |
 | 1 | `0100` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 1 |
@@ -446,9 +446,9 @@ v2（`min_data_table_v2.md`）**原样保留**；v3 把搜索扩到**全部 15 �
 | 7 | `0001` | 1 | char-2 unusable (dim K = 1 combined row collapses in characteristic 2) | 2^47 | [0] | 2 | [8, 7] | 1351 |
 | 7 | `1001` | 1 | char-2 unusable (dim K = 1 combined row collapses in characteristic 2) | 2^53 | [0] | 3 | [8, 8, 5] | 1560 |
 
-### YupX-65537 · 解密（CCA）
+### YupX-65537 · decryption (CCA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^16.0 | — | 1 | None | 1 |
 | 1 | `0100` | 0 | distinguisher only | 2^16.0 | — | 1 | None | 1 |
@@ -601,9 +601,9 @@ v2（`min_data_table_v2.md`）**原样保留**；v3 把搜索扩到**全部 15 �
 | 10 | `0111` | 0 | distinguisher only | 2^112.0 | [0] | 3 | None | 436907 |
 | 10 | `1111` | 4 | dim K = 4 + plain rows | 2^112.0 | [0] | 3 | None | 436907 |
 
-### Yu2X-16 · 解密（CCA）
+### Yu2X-16 · decryption (CCA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 1 |
 | 1 | `0100` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 1 |
@@ -756,9 +756,9 @@ v2（`min_data_table_v2.md`）**原样保留**；v3 把搜索扩到**全部 15 �
 | 10 | `0111` | 0 | distinguisher only | 2^112 | [0] | 3 | [16, 16, 16] | 436907 |
 | 10 | `1111` | 4 | dim K = 4 + plain rows | 2^112 | [0] | 3 | [16, 16, 16] | 436907 |
 
-### Yu2X-8 · 解密（CCA）
+### Yu2X-8 · decryption (CCA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 1 |
 | 1 | `0100` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 1 |

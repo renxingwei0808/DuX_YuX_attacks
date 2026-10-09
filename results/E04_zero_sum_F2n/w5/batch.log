@@ -1,4 +1,4 @@
-+ cd /home/user/dux-cryptanalysis
++ cd .
 + S=experiments/E04_zero_sum_F2n/sweep.py
 + O=results/E04_zero_sum_F2n/w5
 + python experiments/E04_zero_sum_F2n/sweep.py --instance 'dux-2^8' --spec '3,7,11;2,6,10;2,3,7;0,3,7;3,7,15' --dims 8 --layers 7 --keys 3 --chunk 18 --out results/E04_zero_sum_F2n/w5/three_word_2-8.json

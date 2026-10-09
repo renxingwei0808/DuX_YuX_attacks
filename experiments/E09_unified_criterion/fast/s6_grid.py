@@ -148,15 +148,15 @@ def table(outdir):
                      "yes" if r["prediction_matches"] else "**NO**",
                      last_ok, tp if tp is not None else "-",
                      tn if tn is not None else "-", r["elapsed_s"]))
-    hdr = ("| 实例 | 方向 | 激活字 | 结构 | 数据 log2 | 密钥 | 预测 l_full | 预测 next | "
-           "实测 l_full | 实测 next | 一致 | 第 l_full 层最薄余量 | "
-           "第 l_full+1 层最薄正余量 | 第 l_full+1 层最薄负余量 | 秒 |")
+    hdr = ("| Instance | Direction | Active words | Structure | Data log2 | Keys | Predicted l_full | Predicted next | "
+           "Measured l_full | Measured next | Agrees | Thinnest margin at layer l_full | "
+           "Thinnest positive margin at layer l_full+1 | Thinnest negative margin at layer l_full+1 | Seconds |")
     out = [hdr, "|" + "---|" * 15]
     for r in rows:
         out.append("| " + " | ".join(str(v) for v in r) + " |")
     ok = sum(1 for r in rows if r[10] == "yes")
     out.append("")
-    out.append(f"**{ok}/{len(rows)} 格吻合**")
+    out.append(f"**{ok}/{len(rows)} cells agree**")
     return "\n".join(out)
 
 

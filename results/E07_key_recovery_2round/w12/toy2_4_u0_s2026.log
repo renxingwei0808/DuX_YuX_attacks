@@ -7,4 +7,4 @@ toy-2^4 (F_2^4): r = 5 (3-layer distinguisher + 2), unknown inner blocks [0], ou
   rank 180 / 762 unknowns (582 free), 61 monomials pinned down  (0.5s)
   inner key words recovered correctly: 4/4
   data 2^15.97; assemble 2.4s, solve 0.5s
-saved /home/user/dux-cryptanalysis/results/E07_key_recovery_2round/w12/fast_toy2_4_u0_s2026.json
+saved results/E07_key_recovery_2round/w12/fast_toy2_4_u0_s2026.json

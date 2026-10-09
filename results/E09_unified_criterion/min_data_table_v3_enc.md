@@ -1,45 +1,45 @@
-# E09 · O7 框架内的最小数据表 v3——**加密（CPA）方向**
+# E09 · minimal-data table v3 inside the O7 framework, **encryption (CPA) direction**
 
-解密方向的 v3（`min_data_table_v3.md`）**原样保留**；本文件是同一脚本
-`min_data_v3.py --direction enc` 的输出：全部 15 个平衡位置类、每类的 dim K
-（`tools/cheap_rows.py --direction enc`）与可用性。搜索空间与 v2 相同：
-0 或 1 个自由块（O11）× 其余字的每个子集 × 每层，活跃集按块轮转规范化；
-特征 2 允许混合子空间维数。
+The decryption-direction v3 (`min_data_table_v3.md`) is kept **unchanged**; this file is the output of the same script,
+`min_data_v3.py --direction enc`: all 15 balanced-position classes, the dim K of each class
+(`tools/cheap_rows.py --direction enc`) and its usability. The search space is that of v2:
+0 or 1 free block (O11) x every subset of the remaining words x every layer, active sets canonicalised modulo block rotation;
+characteristic 2 allows mixed subspace dimensions.
 
-## 1. 与表 12（eprint v1 附录 F，`tab:opt`）加密方向各行的逐格对照
+## 1. Cell-by-cell comparison with the encryption rows of Table 12 (eprint v1, Appendix F, `tab:opt`)
 
-表 12 的加密方向有两行——DuX 两实例第 7 层全块 `1110` @2^64、YuX 两实例第 7 层全块
-`0111` @2^64——与脚注的两句："DuX(2^8) 与 Yu2X-8 在加密方向止于第 4 层"、
-"其余下一层对搜索空间内任何结构不可达"。"可用类"按附录 F 的口径：`1111`、DuX 的
-`xxx1`（= `0001`）、两族的 `1110`、YuX 的 `0111`。
+Table 12 has two encryption rows, the two DuX instances at layer 7 with a full block `1110` @2^64 and the two YuX instances at layer 7 with a full block
+`0111` @2^64, and two footnote sentences: "DuX(2^8) and Yu2X-8 stop at layer 4 in the encryption direction" and
+"every other next layer is unreachable for any structure in the search space". "Usable classes" are those of Appendix F: `1111`, `xxx1` (= `0001`) for DuX,
+`1110` for both families and `0111` for YuX.
 
-| 实例 | 表 12 | v3：最深可用层 | 达到它的最便宜类 / 数据 | 见证结构 | 可做密钥恢复的任何类的最深层 | 任何类的最深层 | 下一层 | 一致 |
+| Instance | Table 12 | v3: deepest usable layer | Cheapest class / data reaching it | Witness structure | Deepest layer of any key-recovery class | Deepest layer of any class | Next layer | Agrees |
 |---|---|---|---|---|---|---|---|---|
-| DuX(65537) | 第 7 层 `1110` full block 2^64 | 7 | `1110` @2^64.0 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | 第 8 层对任何结构**不可达** | ✅ |
-| DuX(2^16) | 第 7 层 `1110` full block 2^64 | 7 | `1110` @2^64 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | 第 8 层对任何结构**不可达** | ✅ |
-| YupX-65537 | 第 7 层 `0111` full block 2^64 | 7 | `0111` @2^64.0 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | 第 8 层对任何结构**不可达** | ✅ |
-| Yu2X-16 | 第 7 层 `0111` full block 2^64 | 7 | `0111` @2^64 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | 第 8 层对任何结构**不可达** | ✅ |
-| DuX(2^8) | 止于第 4 层 | 4 | `1110` @2^24 | no free block, words [1, 5, 9], dims [8, 8, 8] (3 words, degree 640) | 4 | 5 | 第 5 层只有 `0010` @2^100（dim K = 1，char-2 unusable (dim K = 1 combined row collapses in characteristic 2)） | ✅ |
-| Yu2X-8 | 止于第 4 层 | 4 | `0111` / `1110` / `1111` @2^32 | no free block, words [1, 2, 3, 5], dims [8, 8, 8, 8] (4 words, degree 960) | 4 | 5 | 第 5 层只有 `0001` @2^100（dim K = 0，distinguisher only） | ✅ |
+| DuX(65537) | layer 7 `1110` full block 2^64 | 7 | `1110` @2^64.0 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | ✅ |
+| DuX(2^16) | layer 7 `1110` full block 2^64 | 7 | `1110` @2^64 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | ✅ |
+| YupX-65537 | layer 7 `0111` full block 2^64 | 7 | `0111` @2^64.0 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | ✅ |
+| Yu2X-16 | layer 7 `0111` full block 2^64 | 7 | `0111` @2^64 | free block [0], words [] (4 words, degree 163840) | 7 | 7 | layer 8 is **unreachable** for any structure | ✅ |
+| DuX(2^8) | stops at layer 4 | 4 | `1110` @2^24 | no free block, words [1, 5, 9], dims [8, 8, 8] (3 words, degree 640) | 4 | 5 | layer 5 has only `0010` @2^100 (dim K = 1, char-2 unusable (dim K = 1 combined row collapses in characteristic 2)) | ✅ |
+| Yu2X-8 | stops at layer 4 | 4 | `0111` / `1110` / `1111` @2^32 | no free block, words [1, 2, 3, 5], dims [8, 8, 8, 8] (4 words, degree 960) | 4 | 5 | layer 5 has only `0001` @2^100 (dim K = 0, distinguisher only) | ✅ |
 
-"可用"按表 12 的口径（附录 F 列出的类）；"可做密钥恢复的任何类"指 15 个类里 dim K ≥ 2 或含普通行的类；
-"任何类"包括只能当区分器的类与特征 2 上 dim K = 1 的不可用类。表 12 的两句脚注按可用类读：
-下一层若只有不可用类可达，"止于第 ℓ 层"仍成立，可达的那几格列在"下一层"列里。
+"Usable" follows Table 12 (the classes listed in Appendix F); "any key-recovery class" means the classes among the 15 with dim K >= 2 or with plain rows;
+"any class" includes the distinguisher-only classes and the unusable dim K = 1 classes in characteristic 2. The two footnote sentences of Table 12 are read over the usable classes:
+if the next layer is reachable only by unusable classes, "stops at layer l" still holds, and the reachable cells are listed in the "next layer" column.
 
-**YuX 第 7 层全块格的说明**：判据给的是 `0111`（位置 0 的余量恰为 0：D = 8^6 = 262 144 = T = 4 × 65 536）。
-按 `experiments/Y09_topform_constants/run.py --part rank` 的秩 3 论证（YuX 加密方向的顶次形式只落在
-F_p[y₀, y₁, σ] 里，纤维大小 p），**该边界位置的和恒为 0**，所以论文 v2 把这一格写成 `1111`
-（O14-CPA）；本表保留判据自己的 `0111`，不手改。DuX 的对应八行秩 4，没有这条捷径，
-DuX(65537) 第 7 层位置 3 的常数 c_b(65537) 未算，`1110` 照旧。
+**The YuX layer-7 full-block cell**: the criterion gives `0111` (the margin at position 0 is exactly 0: D = 8^6 = 262 144 = T = 4 x 65 536).
+By the rank-3 argument of `experiments/Y09_topform_constants/run.py --part rank` (the top forms of YuX in the encryption direction lie in
+F_p[y0, y1, sigma], with fibres of size p), **the sum at that boundary position is always 0**, so the paper writes this cell as `1111`
+(O14-CPA); this table keeps the criterion's own `0111` and is not edited by hand. The corresponding eight rows of DuX have rank 4, so there is no such shortcut;
+the constant c_b(65537) at position 3 of layer 7 of DuX(65537) was not computed, and `1110` stands.
 
-## 2. 与 `min_data_table_v2.md` 加密方向的逐格对照
+## 2. Cell-by-cell comparison with the encryption rows of `min_data_table_v2.md`
 
-v2 的加密方向有 216 格（6 实例 × 12 层 × 3 类；v2 的 `xxx1` 对应 v3 的 `0001`）：
-**相同 216、更便宜 0、更贵 0**。
+v2 has 216 encryption cells (6 instances x 12 layers x 3 classes; v2's `xxx1` corresponds to v3's `0001`):
+**216 identical, 0 cheaper, 0 more expensive**.
 
-### 相同的格
+### Identical cells
 
-| 实例 | 类（v2 / v3） | 层 1–12 的最小数据（log2；`—` = 不可达） | dim K（v2 / v3） |
+| Instance | Class (v2 / v3) | Min. data at layers 1-12 (log2; `—` = unreachable) | dim K (v2 / v3) |
 |---|---|---|---|
 | DuX(65537) | `1111` / `1111` | 16, 16, 16, 16, 16, 32, 208, —, —, —, —, — | 8 / 8 |
 | DuX(65537) | `xxx1` / `0001` | 16, 16, 16, 16, 16, 32, 208, —, —, —, —, — | 4 / 4 |
@@ -60,13 +60,13 @@ v2 的加密方向有 216 格（6 实例 × 12 层 × 3 类；v2 的 `xxx1` 对�
 | Yu2X-8 | `0111` / `0111` | 2, 5, 7, 32, —, —, —, —, —, —, —, — | 4 / 4 |
 | Yu2X-8 | `1110` / `1110` | 3, 5, 8, 32, —, —, —, —, —, —, —, — | 4 / 4 |
 
-## 3. 每个实例、每层、每类的最小数据
+## 3. Minimal data per instance, layer and class
 
-只列出可达的格；`—` 的层在 O7 框架内不可达。
+Only reachable cells are listed; a layer marked `—` is unreachable inside the O7 framework.
 
-### DuX(65537) · 加密（CPA）
+### DuX(65537) · encryption (CPA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^16.0 | — | 1 | None | 2 |
 | 1 | `0100` | 0 | distinguisher only | 2^16.0 | — | 1 | None | 1 |
@@ -174,9 +174,9 @@ v2 的加密方向有 216 格（6 实例 × 12 层 × 3 类；v2 的 `xxx1` 对�
 | 7 | `0111` | 5 | dim K = 5 | 2^208.0 | [0] | 9 | None | 786432 |
 | 7 | `1111` | 8 | dim K = 8 + plain rows | 2^208.0 | [0] | 9 | None | 786432 |
 
-### DuX(2^16) · 加密（CPA）
+### DuX(2^16) · encryption (CPA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 2 |
 | 1 | `0100` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 1 |
@@ -284,9 +284,9 @@ v2 的加密方向有 216 格（6 实例 × 12 层 × 3 类；v2 的 `xxx1` 对�
 | 7 | `0111` | 6 | dim K = 6 | 2^196 | [0] | 9 | [16, 16, 16, 16, 16, 16, 16, 16, 4] | 786432 |
 | 7 | `1111` | 8 | dim K = 8 + plain rows | 2^196 | [0] | 9 | [16, 16, 16, 16, 16, 16, 16, 16, 4] | 786432 |
 
-### DuX(2^8) · 加密（CPA）
+### DuX(2^8) · encryption (CPA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 2 |
 | 1 | `0100` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 1 |
@@ -350,9 +350,9 @@ v2 的加密方向有 216 格（6 实例 × 12 层 × 3 类；v2 的 `xxx1` 对�
 | 4 | `1111` | 8 | dim K = 8 + plain rows | 2^32 | [0] | 0 | [] | 512 |
 | 5 | `0010` | 1 | char-2 unusable (dim K = 1 combined row collapses in characteristic 2) | 2^100 | [0] | 9 | [8, 8, 8, 8, 8, 8, 8, 8, 4] | 3072 |
 
-### YupX-65537 · 加密（CPA）
+### YupX-65537 · encryption (CPA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^16.0 | — | 1 | None | 5 |
 | 1 | `0100` | 0 | distinguisher only | 2^16.0 | — | 1 | None | 3 |
@@ -460,9 +460,9 @@ v2 的加密方向有 216 格（6 实例 × 12 层 × 3 类；v2 的 `xxx1` 对�
 | 7 | `0111` | 4 | dim K = 4 | 2^64.0 | [0] | 0 | None | 163840 |
 | 7 | `1111` | 8 | dim K = 8 + plain rows | 2^208.0 | [0] | 9 | None | 786432 |
 
-### Yu2X-16 · 加密（CPA）
+### Yu2X-16 · encryption (CPA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^3 | — | 1 | [3] | 5 |
 | 1 | `0100` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 2 |
@@ -570,9 +570,9 @@ v2 的加密方向有 216 格（6 实例 × 12 层 × 3 类；v2 的 `xxx1` 对�
 | 7 | `0111` | 4 | dim K = 4 | 2^64 | [0] | 0 | [] | 163840 |
 | 7 | `1111` | 8 | dim K = 8 + plain rows | 2^196 | [0] | 9 | [16, 16, 16, 16, 16, 16, 16, 16, 4] | 786432 |
 
-### Yu2X-8 · 加密（CPA）
+### Yu2X-8 · encryption (CPA)
 
-| 层 | 类 | dim K | 可用性 | 最小数据 | 自由块 | 额外字 | 维数 | 需要的次数 |
+| Layer | Class | dim K | Usability | Min. data | Free block | Extra words | Dims | Degree needed |
 |---|---|---|---|---|---|---|---|---|
 | 1 | `1000` | 0 | distinguisher only | 2^3 | — | 1 | [3] | 5 |
 | 1 | `0100` | 0 | distinguisher only | 2^2 | — | 1 | [2] | 2 |

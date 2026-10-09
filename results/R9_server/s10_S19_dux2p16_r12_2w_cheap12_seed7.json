@@ -383,7 +383,7 @@
   }
  ],
  "structure_curve": [],
- "rows_dir": "/home/free/dux-data/S19_dux2p16_seed7",
+ "rows_dir": "$DATA/S19_dux2p16_seed7",
  "per_structure": [
   {
    "structure": 0,

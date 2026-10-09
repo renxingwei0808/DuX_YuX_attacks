@@ -6,4 +6,4 @@ dux-2^8 (F_2^8): r = 7 (5-layer distinguisher + 2), unknown inner blocks [0], ou
   rank 184 / 762 unknowns (578 free), 70 monomials pinned down  (0.3s)
   inner key words recovered correctly: 4/4
   data 2^15.23; assemble 1.5s, solve 0.3s
-saved /home/user/dux-cryptanalysis/results/E07_key_recovery_2round/w12/fast_dux2_8_u0_s2026.json
+saved results/E07_key_recovery_2round/w12/fast_dux2_8_u0_s2026.json

@@ -115,52 +115,52 @@
    "solve_s": 39.7
   }
  ],
- "rows_dir": "/home/luck/dux-data/Y08C_seed7",
+ "rows_dir": "$DATA/Y08C_seed7",
  "per_structure": [
   {
    "structure": 0,
    "seed": 5007,
-   "loaded_from": "/home/luck/dux-data/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st0.npy"
+   "loaded_from": "$DATA/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st0.npy"
   },
   {
    "structure": 1,
    "seed": 5008,
-   "loaded_from": "/home/luck/dux-data/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st1.npy"
+   "loaded_from": "$DATA/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st1.npy"
   },
   {
    "structure": 2,
    "seed": 5009,
-   "loaded_from": "/home/luck/dux-data/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st2.npy"
+   "loaded_from": "$DATA/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st2.npy"
   },
   {
    "structure": 3,
    "seed": 5010,
-   "loaded_from": "/home/luck/dux-data/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st3.npy"
+   "loaded_from": "$DATA/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st3.npy"
   },
   {
    "structure": 4,
    "seed": 5011,
-   "loaded_from": "/home/luck/dux-data/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st4.npy"
+   "loaded_from": "$DATA/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st4.npy"
   },
   {
    "structure": 5,
    "seed": 5012,
-   "loaded_from": "/home/luck/dux-data/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st5.npy"
+   "loaded_from": "$DATA/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st5.npy"
   },
   {
    "structure": 6,
    "seed": 5013,
-   "loaded_from": "/home/luck/dux-data/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st6.npy"
+   "loaded_from": "$DATA/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st6.npy"
   },
   {
    "structure": 7,
    "seed": 5014,
-   "loaded_from": "/home/luck/dux-data/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st7.npy"
+   "loaded_from": "$DATA/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st7.npy"
   },
   {
    "structure": 8,
    "seed": 5015,
-   "loaded_from": "/home/luck/dux-data/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st8.npy"
+   "loaded_from": "$DATA/Y08C_seed7/rows_Y08-C_yu2x8_r8_seed7_st8.npy"
   },
   {
    "structure": 9,

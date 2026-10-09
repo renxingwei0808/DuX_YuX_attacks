@@ -329,7 +329,7 @@
   }
  ],
  "structure_curve": [],
- "rows_dir": "/home/luck/dux-data/S18_mp_dux2p16_r12_2w_cheap12_seed11",
+ "rows_dir": "$DATA/S18_mp_dux2p16_r12_2w_cheap12_seed11",
  "per_structure": [
   {
    "structure": 0,

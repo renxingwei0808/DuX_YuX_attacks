@@ -2,7 +2,7 @@
 
 Two real-instance targets:
 
-  * **DuX(2^8) 8/12** -- the cheap试验场: the six-layer distinguisher reaches
+  * **DuX(2^8) 8/12** -- the cheap testing ground: the six-layer distinguisher reaches
     `1101` already at three words, so the extended row is testable at 2^23/2^24.
   * **DuX(2^16) 12/12** -- the headline: two words (3, 7) over all of F_{2^16},
     2^32 chosen ciphertexts, layer 10, class `1101`; the extended combined row

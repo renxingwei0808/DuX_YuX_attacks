@@ -383,13 +383,13 @@
   }
  ],
  "structure_curve": [],
- "rows_dir": "/home/free/dux-data/S19_dux2p16_seed2026",
+ "rows_dir": "$DATA/S19_dux2p16_seed2026",
  "per_structure": [
   {
    "structure": 0,
    "a1": 0,
    "seed": 7026,
-   "loaded_from": "/home/free/dux-data/S19_dux2p16_seed2026/rows_S19_dux2p16_r12_2w_cheap12_seed2026_st0.npy"
+   "loaded_from": "$DATA/S19_dux2p16_seed2026/rows_S19_dux2p16_r12_2w_cheap12_seed2026_st0.npy"
   }
  ],
  "procs": 48,

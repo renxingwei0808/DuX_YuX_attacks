@@ -1,4 +1,4 @@
-	Command being timed: "python3 experiments/E07_key_recovery_2round/attack_12round.py --instance dux-2^8 --layers 6 --active 3,7,11 --cheap-set 1,2 --combine 1101 --normalise --structures 1 --weight-dims 2 --weights-a1-n 20 --slice-chunk 256 --block-slices 1 --slice-parts 4 --point-chunk 16384 --procs 1 --checkpoint-dir /home/luck/dux-data/S18_1t_dux2p8_r8_3w_cheap12_2axis_seed11 --rows-dir /home/luck/dux-data/S18_1t_dux2p8_r8_3w_cheap12_2axis_seed11 --progress 1 --seed 11 --out results/S18_protocol --tag S18_1t_dux2p8_r8_3w_cheap12_2axis_seed11"
+	Command being timed: "python3 experiments/E07_key_recovery_2round/attack_12round.py --instance dux-2^8 --layers 6 --active 3,7,11 --cheap-set 1,2 --combine 1101 --normalise --structures 1 --weight-dims 2 --weights-a1-n 20 --slice-chunk 256 --block-slices 1 --slice-parts 4 --point-chunk 16384 --procs 1 --checkpoint-dir $DATA/S18_1t_dux2p8_r8_3w_cheap12_2axis_seed11 --rows-dir $DATA/S18_1t_dux2p8_r8_3w_cheap12_2axis_seed11 --progress 1 --seed 11 --out results/S18_protocol --tag S18_1t_dux2p8_r8_3w_cheap12_2axis_seed11"
 	User time (seconds): 29636.01
 	System time (seconds): 905.46
 	Percent of CPU this job got: 93%

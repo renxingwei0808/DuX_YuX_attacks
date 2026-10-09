@@ -92,7 +92,7 @@
  "solve_s": 1133.7,
  "weight_curve": [],
  "structure_curve": [],
- "rows_dir": "/home/luck/dux-data/S20k13_seed7",
+ "rows_dir": "$DATA/S20k13_seed7",
  "per_structure": [
   {
    "structure": 0,

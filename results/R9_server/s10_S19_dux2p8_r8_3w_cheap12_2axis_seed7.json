@@ -312,7 +312,7 @@
  "solve_s": 518.8,
  "weight_curve": [],
  "structure_curve": [],
- "rows_dir": "/home/luck/dux-data/S19_dux2p8_t1t3_seed7",
+ "rows_dir": "$DATA/S19_dux2p8_t1t3_seed7",
  "per_structure": [
   {
    "structure": 0,

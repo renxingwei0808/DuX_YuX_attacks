@@ -108,7 +108,7 @@
  "solve_s": 21.3,
  "weight_curve": [],
  "structure_curve": [],
- "rows_dir": "/home/luck/dux-data/S21_yu2x8_fb_seed7",
+ "rows_dir": "$DATA/S21_yu2x8_fb_seed7",
  "per_structure": [
   {
    "structure": 0,

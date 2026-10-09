@@ -92,7 +92,7 @@
  "solve_s": 1127.0,
  "weight_curve": [],
  "structure_curve": [],
- "rows_dir": "/home/luck/dux-data/S18_1t_dux65537_r12_k13_2axis_seed11",
+ "rows_dir": "$DATA/S18_1t_dux65537_r12_k13_2axis_seed11",
  "per_structure": [
   {
    "structure": 0,

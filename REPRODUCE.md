@@ -68,7 +68,7 @@ scratch directory for checkpoints and row files (a few GB).  Seeds 2026, 7 and
 11 draw the random master keys; the key is used only to play the oracle and,
 after solving, to check the result.
 
-## 4. Chosen-ciphertext attacks on DuX (Tables I, II and V of the paper)
+## 4. Chosen-ciphertext attacks on DuX (Tables I, III and IV of the paper; section 4 of the supplement)
 
 ### DuX(65537), 12/12 rounds, 2^29 chosen ciphertexts, single thread
 
@@ -200,7 +200,7 @@ Expected: 4784 rows, rank 4756, 2188, 16/16.  Ours: 824 s, 2.06 GB.
 Record: `results/S18_protocol/s10_S18_1t_dux2p8_r7_seed2026.json`;
 second key: `results/E07_key_recovery_2round/s9/s10_S9_step4_dux2p8_r7_seed7.json`.
 
-## 5. Chosen-ciphertext attacks on YuX (Tables I, II and VI of the paper)
+## 5. Chosen-ciphertext attacks on YuX (Tables I and IV of the paper; section 4 of the supplement)
 
 ### YupX-65537, 11/14 rounds, 2^32, 24 processes
 
@@ -317,7 +317,8 @@ python3 experiments/E10_cpa/kr2_cpa.py --instance dux-65537 --layers 6 --active 
     --weights 400 --structures 1 --seed 2026 --out results/S18_protocol --tag S18_1t_cpa8_dux65537_seed2026
 python3 experiments/E10_cpa/kr2_cpa.py --instance dux-2^16 --layers 6 --active 1 --combine 1110 \
     --weights 400 --structures 1 --seed 2026 --out results/S18_protocol --tag S18_1t_cpa8_dux2p16_seed2026
-# 8 rounds without weights, 172 structures (2^23.43)
+# 8 rounds without weights: 172 structures with checkpoints; the key is determined
+# from 167 structures (2^23.38), the value the paper reports
 python3 experiments/E10_cpa/kr2_cpa.py --instance dux-2^16 --layers 6 --active 1 --structures 172 \
     --checkpoints 166,167,168,170 --seed 2026 --out results/S18_protocol/S18_1t_cpa8_dux2p16_nw_seed2026
 ```
@@ -331,7 +332,7 @@ corresponding files in `results/S18_protocol/`; second keys in
 ## 7. Distinguishers, criterion checks and theoretical rows
 
 See `results/README.md`, sections B, B', D and E, for the commands and
-records behind Table "zero-sum distinguishers", the tightness grid of the
+records behind Table II of the paper, the tightness grid of the
 criterion, the template bounds, the characteristic-2 collapse, the exact
 degrees, the minimal-data search and the multiplication counts of the
 theoretical rows.
