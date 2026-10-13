@@ -120,9 +120,11 @@ counts of Rule 4, not wall clock.
 
 ## 6. Memory
 
-`Maximum resident set size` of `/usr/bin/time -v`, in GB
-(`protocol.maxrss_gb`), the peak of the whole process tree.  A single-thread
-run can show a higher peak than a multi-process run of the same row, because
+Memory is the Maximum resident set size that /usr/bin/time -v reports, in
+units of 2^30 bytes, which is the peak of the largest single process of the
+run; for a multi-process run the memory of the processes alive at the same
+time adds up to more and was not measured.  The JSON field is
+`protocol.maxrss_gb`.  A single-thread run can show a higher peak than a multi-process run of the same row, because
 the shared slice tables are then counted in one process (example: DuX(2^16)
 11/12 at 2^15.35, 3.8 GB multi-process, 6.21 GB single-thread).  The paper
 reports the single-thread figure.
