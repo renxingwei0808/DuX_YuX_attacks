@@ -1,7 +1,7 @@
 # Measurement protocol
 
 This is the protocol behind every time, memory and multiplication count in the
-paper (Section VII of the paper and section 5 of the supplement).
+paper (Section VII of the paper and section 4 of the supplement).
 It fixes how a run is reported; it never changes what an attack computes.  A
 rerun under the protocol must reproduce the rank, the number of determined
 monomials and the 16/16 key words of the original record exactly;
@@ -15,7 +15,7 @@ monomials and the 16/16 key words of the original record exactly;
 | Clock | 2.10 GHz base, 4.00 GHz maximum turbo |
 | Cache | L2 52 MiB, L3 71.5 MiB (35.75 MiB per socket) |
 | NUMA | 2 nodes: node 0 = logical 0-25 / 52-77, node 1 = 26-51 / 78-103; logical i and i+52 are the two hyperthreads of one physical core |
-| Memory | 251 GB |
+| Memory | 256 GB, of which 251 GB are usable |
 | OS | Ubuntu 22.04.5 LTS |
 | Python | 3.10.12, NumPy 2.2.6 (scipy-openblas64) |
 | C kernels | gcc 11.4.0, `-O3 -march=native -funroll-loops -fopenmp` (`experiments/*/fast/Makefile`) |

@@ -20,7 +20,7 @@ page maps them to the statements of the paper and its supplement.
 | O10, char-2 collapse | In characteristic 2 a combined row with dim K = 1 collapses to orbit sums and cannot determine the key | Lemma "block equivariance", Theorem "characteristic-2 collapse" |
 | O11 | Full-block structures: the first `S^-1` layer is free when a whole block runs through F_q^4 | Lemma "full block" |
 | O12 | Weighted moments: `sum_x x^a Z(x) = 0` for `|a| < T - D` | Theorem "weighted moments" |
-| O13 | In characteristic 2 the exact degree of YuX is below the max-plus bound, independently of the key | Lemma "layer-2 collapse of YuX in characteristic 2" (supplement) |
+| O13 | In characteristic 2 the exact degree of YuX is below the max-plus bound, independently of the key | Supplement, "Tightness" (the layer-2 gap in characteristic 2) |
 | O14, O14-CPA | Prime-field full blocks at the boundary D = T sum to a key-independent constant (decryption), and to zero for YuX in the encryption direction | Propositions "key-independent constants at the boundary" and "boundary cells in the encryption direction" (supplement) |
 | O15 | Point sets with the divided-difference mask: the criterion holds with `T' = sum(|U_i| - 1)` | Proposition "point sets" |
 | O16 | In characteristic 2 the cubic coordinate b is a second cheap coordinate (cheap set {1, 2}) | Lemma "cubic coordinate" |

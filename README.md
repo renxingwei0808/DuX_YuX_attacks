@@ -11,7 +11,7 @@ block ciphers over large finite fields.  We exploit the slow degree growth of
 their decryption functions: a sufficient criterion for zero sums, a structured
 linearisation of two extension rounds, and three techniques (full block
 structures, cheap coordinate elimination and weighted moments) give practical
-key recovery attacks in the non-adaptive chosen-ciphertext model.  This
+key recovery attacks in the chosen-ciphertext model.  This
 repository contains everything we used to obtain the numbers of the paper and
 its supplementary material: the reference implementations of both ciphers,
 the analysis tools, the attack code, the record of every run, and the scripts
@@ -32,15 +32,16 @@ master key (chosen-ciphertext model, data per key).
 | DuX(65537), DuX(2^16) | 10/12 | 2^16 | 2^22.75 | seconds per key | 50 |
 | DuX(2^8) | 8/12 | 2^24 | 2^44.79 | 9.1 h on one core | 3 |
 | DuX(2^8) | 7/12 | 2^12.70 | 2^38.60 | 14 min on one core | 2 |
-| YupX-65537 | 11/14 | 2^32 | 2^48.38 | 4.6 h on 24 cores | 3 |
-| Yu2X-16 | 11/14 | 2^32 | 2^47.32 | 4.1 h on 36 cores | 3 |
+| YupX-65537 | 11/14 | 2^32 | 2^48.38 | 4.6 h on 24 processes | 3 |
+| Yu2X-16 | 11/14 | 2^32 | 2^47.32 | 4.1 h on 36 processes | 3 |
 | Yu2X-8 | 8/12 | 2^32 | 2^47.32 | 3.6 h on 19 cores | 3 |
 | Yu2X-8 | 7/12 | 2^17.58 | 2^42.45 | 2.8 h on one core | 3 |
 
 The complete list, including the ten-round YuX attacks, the chosen-plaintext
 attacks and the theoretical routes, is in `REPRODUCE.md` and
 `results/README.md`.  All runs used one server with two Xeon Gold 6230R
-processors (52 physical cores, 251 GB), measured as described in
+processors (52 physical cores, 256 GB of memory, of which 251 GB are usable),
+measured as described in
 `docs/measurement_protocol.md`.
 
 ## Repository layout
@@ -54,7 +55,7 @@ processors (52 physical cores, 251 GB), measured as described in
 | `experiments/E07_key_recovery_2round/attack_12round.py` | the streamed driver of every two-round key recovery in the paper, including the full-round attacks |
 | `results/` | the JSON record of every run, the logs of the reported runs, and generated tables; `results/README.md` maps the paper to them |
 | `tests/` | unit and regression tests: cipher models, test vectors, tools, and small end-to-end attacks |
-| `tests/vectors/` | five (K, P, C) test vectors per instance with all round keys and intermediate states |
+| `tests/vectors/` | five (K, P, C) test vectors per DuX instance and three per YuX instance, with all round keys and intermediate states |
 | `scripts/` | test-vector generation, the symbolic check of the formulas printed in the DuX paper, and `run_pinned.sh`, the wrapper of the measurement protocol |
 | `docs/` | how we read the two specifications, the measurement protocol, and a glossary of the labels used in code and records |
 
@@ -115,7 +116,8 @@ reproduce.
   result.
 * The implementation is Python with NumPy; the inner loops of the moment
   assembly and of the characteristic-2 elimination are in C.  The same code
-  computes the criterion, the kernels, the template bounds, the weight ranges
+  computes the criterion, the kernels, the saturation ranks on pseudo-structures,
+  the weight ranges
   and the multiplication counts.
 * Directory names, run tags and comments carry our internal labels (for
   example `O12` for the weighted-moments theorem, `T1` for the cubic

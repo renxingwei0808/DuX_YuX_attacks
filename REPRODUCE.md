@@ -5,7 +5,8 @@ the reported run, the record it produced, and what a rerun must reproduce.
 `results/README.md` maps the remaining tables and statements to their records.
 
 All times below were measured on our server (2 x Xeon Gold 6230R, 52 physical
-cores, 251 GB; see `docs/measurement_protocol.md`).  A rerun must reproduce
+cores, 256 GB of memory of which 251 GB are usable; see
+`docs/measurement_protocol.md`).  A rerun must reproduce
 the rank, the number of determined monomials (`pinned`) and the 16/16
 recovered key words exactly; time and memory depend on the machine.
 
