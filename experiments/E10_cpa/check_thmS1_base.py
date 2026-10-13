@@ -1,10 +1,10 @@
-"""S22 -- the base case of Theorem S1 (O9, vanishing next-to-leading coefficient)
+"""S22 -- the base case of Theorem 4 of the supplement (O9, vanishing next-to-leading coefficient)
 checked on many keys.
 
-Theorem S1 of the supplement: for DuX over F_{2^n} in the encryption direction
-with one active plaintext word, if the coefficient of X^{D-1} (D the max-plus
-degree) vanishes in all 16 inputs of an S-box layer, it vanishes in every word
-of all later layers.  The written proof derives the hypothesis at layer 4 for
+Theorem 4 of the supplement: for DuX over F_{2^n} in the encryption direction
+with one active plaintext word, if the coefficient of X^{D-1} (D the common
+max-plus bound of the layer) vanishes in all 16 inputs of an S-box layer, the
+coefficient below the bound vanishes in every word of all later layers.  The written proof derives the hypothesis at layer 4 for
 active position 1 (S2-F).  This script checks it numerically, on random keys
 and on keys with lambda = rk0_2 + rk0_0 rk0_3 + alpha = 0, for every active
 position, using the exact top-window arithmetic of tools/top_coefficients.py

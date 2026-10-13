@@ -1,4 +1,4 @@
-"""S22: the base case of Theorem S1 (O9) holds on the tested keys for every
+"""S22: the base case of Theorem 4 of the supplement (O9) holds on the tested keys for every
 active position, including forced lambda = 0 keys; see
 experiments/E10_cpa/check_thmS1_base.py and its records in results/E10_cpa/."""
 import os

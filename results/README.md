@@ -81,7 +81,7 @@ pipelines of `Y05_key_recovery/`.
 | YupX-65537, single cosets with weights | `Y03_zero_sum/Y03-6_yupx_coset*.json` |
 | YuX full blocks at 2^64 (margins of the table) | `Y02_degree_bounds/o7_yux_tables.{md,json}` |
 
-## C, C'. Chosen plaintexts (Appendix A of the paper; section 7 of the supplement)
+## C, C'. Chosen plaintexts (Appendix A of the paper; section 6 of the supplement)
 
 | Result | Records |
 |---|---|
@@ -114,7 +114,7 @@ pipelines of `Y05_key_recovery/`.
 | Eight-round toy analog over F_257 of the 12-round attack (rank 8188, 2592 monomials) | `E07_key_recovery_2round/w16/fast_T2norm_toy257_r8_1d.json` |
 | A weight beyond the margin gives 16 "determined" but wrong key words | `Y05_key_recovery/Y05-A4_yuxtoy2p4_r4_overshoot.json` |
 | Boundary cells: key-independent constants (O14) | `Y09_topform_constants/y09_all.json`, `R8_server/R8_O14_yuxtoy257_fb0_l6_3keys.json`, `R8_server/direct_p257_l6_server.txt` |
-| Minimal data inside the framework (section 8 of the supplement) | `E09_unified_criterion/min_data_table_v2.{md,json}`, `min_data_table_v3.{md,json}`, `min_data_table_v3_enc.{md,json}`, `E13_b_coordinate/min_data_x1x1.md` |
+| Minimal data inside the framework (section 7 of the supplement) | `E09_unified_criterion/min_data_table_v2.{md,json}`, `min_data_table_v3.{md,json}`, `min_data_table_v3_enc.{md,json}`, `E13_b_coordinate/min_data_x1x1.md` |
 | Known-key zero-sum partitions (eprint version only, not in the TC paper) | `E09_unified_criterion/partitions/` |
 | Weighted moments on the reduced configuration of Liu and Sun (C1) | `E14_multi_weights/C1_ls_reduced.{md,json}` |
 | Boolean degree of the two-round extension: 7 | `E08_boolean_degree_extension/boolean_degrees.json` |
