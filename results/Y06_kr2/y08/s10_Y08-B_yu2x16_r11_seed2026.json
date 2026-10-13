@@ -91,5 +91,40 @@
  ],
  "procs": 72,
  "seed": 2026,
- "solver": "c-omp"
+ "solver": "c-omp",
+ "protocol": {
+  "cores": "none (this run predates the protocol: no taskset, the 72 processes floated over the machine)",
+  "solve_threads": null,
+  "wall_s": 13328.0,
+  "user_s": 873778.92,
+  "sys_s": 10040.98,
+  "cpu_s": 883819.9,
+  "core_hours": 245.506,
+  "maxrss_kb": 5465432,
+  "maxrss_gb": 5.21,
+  "cpu_pct": 6630,
+  "wall_over_cpu": 0.015,
+  "threads": {
+   "samples": 0,
+   "max_nlwp": 0,
+   "max_procs": 0,
+   "first_ts": null,
+   "last_ts": null,
+   "sampler": "none (the thread sampler of rule 1 did not exist when this run was made)"
+  },
+  "loadavg_start": null,
+  "loadavg_end": null,
+  "start": null,
+  "end": null,
+  "exit": "0",
+  "machine": "2 x Intel Xeon Gold 6230R (26 cores / 52 threads each, 2.10 GHz base, 4.00 GHz max turbo), 251 GB RAM",
+  "backfilled": {
+   "note": "2026-10-13, from the run's own log; this run predates the protocol script",
+   "source_log": "results/Y06_kr2/y08/logs/y08b_seed2026.log (measurement machine)",
+   "source_sha256": "46c939d44ec1efc2edca7635e775c30dbf0425ead55e9a804f74d1da00d48fbe"
+  },
+  "single_threaded": false,
+  "not_preempted": true,
+  "procs": 72
+ }
 }

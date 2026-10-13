@@ -1,0 +1,23 @@
+	Command being timed: "python3 experiments/E07_key_recovery_2round/attack_12round.py --instance yu2x-16 --layers 9 --active 0,4 --weights 1300 --combine none --normalise --structures 1 --procs 72 --slice-chunk 1024 --block-slices 1 --checkpoint-every 8192 --checkpoint-dir $DATA/Y08 --progress 1 --seed 7 --weight-grid 1238,1300 --out results/Y06_kr2/y08 --tag Y08-B_yu2x16_r11_seed7"
+	User time (seconds): 738188.45
+	System time (seconds): 7047.54
+	Percent of CPU this job got: 6684%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:05:48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4989920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 175
+	Minor (reclaiming a frame) page faults: 410490078
+	Voluntary context switches: 700038
+	Involuntary context switches: 16581539
+	Swaps: 0
+	File system inputs: 15744
+	File system outputs: 8165760
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

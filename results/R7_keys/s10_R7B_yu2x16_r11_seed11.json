@@ -93,5 +93,40 @@
  ],
  "procs": 36,
  "seed": 11,
- "solver": "c-omp"
+ "solver": "c-omp",
+ "protocol": {
+  "cores": "none (this run predates the protocol: no taskset, the 36 processes floated over the machine)",
+  "solve_threads": null,
+  "wall_s": 14636.0,
+  "user_s": 499756.89,
+  "sys_s": 6621.38,
+  "cpu_s": 506378.27,
+  "core_hours": 140.661,
+  "maxrss_kb": 5481080,
+  "maxrss_gb": 5.23,
+  "cpu_pct": 3459,
+  "wall_over_cpu": 0.029,
+  "threads": {
+   "samples": 0,
+   "max_nlwp": 0,
+   "max_procs": 0,
+   "first_ts": null,
+   "last_ts": null,
+   "sampler": "none (the thread sampler of rule 1 did not exist when this run was made)"
+  },
+  "loadavg_start": null,
+  "loadavg_end": null,
+  "start": null,
+  "end": null,
+  "exit": "0",
+  "machine": "2 x Intel Xeon Gold 6230R (26 cores / 52 threads each, 2.10 GHz base, 4.00 GHz max turbo), 251 GB RAM",
+  "backfilled": {
+   "note": "2026-10-13, from the run's own log; this run predates the protocol script",
+   "source_log": "results/R7_keys/logs/r7b_seed11.log (measurement machine; copy kept under ~/dux-data/R7_logs/)",
+   "source_sha256": "35902560cb4a73203a13d74248000f21b3c952fa16a19d0f592bb1ee74da4d00"
+  },
+  "single_threaded": false,
+  "not_preempted": true,
+  "procs": 36
+ }
 }

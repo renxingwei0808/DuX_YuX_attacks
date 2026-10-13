@@ -1,0 +1,217 @@
+yu2x-16 (F_2^16): r = 11 (9-layer distinguisher + 2), active words [0, 4]
+  monomials M = 27895 = 2^14.8; 1 structure(s) x 4294967296 chosen ciphertexts = 2^32.00 data
+  O12: margin 10223 (layer 9 pattern 1111), N_w = 1300 weights a = 0..1299 on word 0; 65536 slices of 65536 points -> 5200 equations/structure
+  accumulator 1300 x 39942 x 8 B = 0.42 GB; slice table 1024 x 39942 x 8 B = 0.33 GB
+    slices 1024/65536  moments 190s  wacc 3s  (195s)
+    slices 2048/65536  moments 449s  wacc 6s  (457s)
+    slices 3072/65536  moments 719s  wacc 9s  (729s)
+    slices 4096/65536  moments 942s  wacc 11s  (955s)
+    slices 5120/65536  moments 1098s  wacc 14s  (1114s)
+    slices 6144/65536  moments 1304s  wacc 17s  (1323s)
+    slices 7168/65536  moments 1509s  wacc 20s  (1530s)
+    slices 8192/65536  moments 1707s  wacc 23s  (1732s)
+    checkpoint $DATA/Y08/acc2n_st0_8192.npy sha256 35d4c2ca591b224af46a46c4bbad9fc0c79496cee877dc70294c3af5587f0ea4
+    slices 9216/65536  moments 1840s  wacc 25s  (1868s)
+    slices 10240/65536  moments 2046s  wacc 28s  (2077s)
+    slices 11264/65536  moments 2262s  wacc 31s  (2296s)
+    slices 12288/65536  moments 2476s  wacc 34s  (2513s)
+    slices 13312/65536  moments 2645s  wacc 36s  (2684s)
+    slices 14336/65536  moments 2814s  wacc 39s  (2856s)
+    slices 15360/65536  moments 3031s  wacc 42s  (3075s)
+    slices 16384/65536  moments 3222s  wacc 44s  (3269s)
+    checkpoint $DATA/Y08/acc2n_st0_16384.npy sha256 6664f28a0656172f28ec50d789c223e68e442c5401a756f435b381e814535108
+    slices 17408/65536  moments 3411s  wacc 47s  (3463s)
+    slices 18432/65536  moments 3545s  wacc 49s  (3599s)
+    slices 19456/65536  moments 3725s  wacc 52s  (3782s)
+    slices 20480/65536  moments 3915s  wacc 55s  (3974s)
+    slices 21504/65536  moments 4111s  wacc 58s  (4174s)
+    slices 22528/65536  moments 4300s  wacc 60s  (4364s)
+    slices 23552/65536  moments 4423s  wacc 62s  (4490s)
+    slices 24576/65536  moments 4630s  wacc 65s  (4700s)
+    checkpoint $DATA/Y08/acc2n_st0_24576.npy sha256 a2e75aa678770514b9a9569813f2032ec47031fdc67a5ffce1e14d4f39ede1b2
+    slices 25600/65536  moments 4830s  wacc 68s  (4904s)
+    slices 26624/65536  moments 5028s  wacc 71s  (5105s)
+    slices 27648/65536  moments 5202s  wacc 73s  (5281s)
+    slices 28672/65536  moments 5363s  wacc 76s  (5445s)
+    slices 29696/65536  moments 5553s  wacc 79s  (5638s)
+    slices 30720/65536  moments 5739s  wacc 82s  (5827s)
+    slices 31744/65536  moments 5920s  wacc 85s  (6011s)
+    slices 32768/65536  moments 6050s  wacc 87s  (6143s)
+    checkpoint $DATA/Y08/acc2n_st0_32768.npy sha256 0474bfb4203b026eb82550a4c3df632d16d29a929a9e47899da35863f5dd702a
+    slices 33792/65536  moments 6231s  wacc 90s  (6329s)
+    slices 34816/65536  moments 6423s  wacc 93s  (6523s)
+    slices 35840/65536  moments 6615s  wacc 96s  (6718s)
+    slices 36864/65536  moments 6811s  wacc 97s  (6916s)
+    slices 37888/65536  moments 6935s  wacc 101s  (7043s)
+    slices 38912/65536  moments 7125s  wacc 104s  (7236s)
+    slices 39936/65536  moments 7313s  wacc 107s  (7427s)
+    slices 40960/65536  moments 7508s  wacc 110s  (7625s)
+    checkpoint $DATA/Y08/acc2n_st0_40960.npy sha256 3ffe28282a8e85ae2b0f91dc7fbc7836f5ecf87ba3c154440b995e3e54a449ca
+    slices 41984/65536  moments 7671s  wacc 112s  (7792s)
+    slices 43008/65536  moments 7900s  wacc 120s  (8028s)
+    slices 44032/65536  moments 8227s  wacc 127s  (8363s)
+    slices 45056/65536  moments 8606s  wacc 133s  (8748s)
+    slices 46080/65536  moments 8838s  wacc 136s  (8983s)
+    slices 47104/65536  moments 9046s  wacc 140s  (9195s)
+    slices 48128/65536  moments 9236s  wacc 143s  (9389s)
+    slices 49152/65536  moments 9411s  wacc 147s  (9567s)
+    checkpoint $DATA/Y08/acc2n_st0_49152.npy sha256 48deaf22883f95f336ebe535a091b8ec28d28d65cc88f88d4326d84d99d10cee
+    slices 50176/65536  moments 9574s  wacc 148s  (9734s)
+    slices 51200/65536  moments 9701s  wacc 152s  (9863s)
+    slices 52224/65536  moments 9883s  wacc 154s  (10048s)
+    slices 53248/65536  moments 10067s  wacc 157s  (10235s)
+    slices 54272/65536  moments 10251s  wacc 161s  (10422s)
+    slices 55296/65536  moments 10408s  wacc 165s  (10584s)
+    slices 56320/65536  moments 10659s  wacc 171s  (10840s)
+    slices 57344/65536  moments 10933s  wacc 177s  (11121s)
+    checkpoint $DATA/Y08/acc2n_st0_57344.npy sha256 fa6f5b70cdbae7fef192b27bc333ffafb2036344f40c0f162b34b04cd4b3cd85
+    slices 58368/65536  moments 11277s  wacc 183s  (11474s)
+    slices 59392/65536  moments 11552s  wacc 186s  (11752s)
+    slices 60416/65536  moments 11739s  wacc 189s  (11942s)
+    slices 61440/65536  moments 11930s  wacc 192s  (12136s)
+    slices 62464/65536  moments 12113s  wacc 195s  (12321s)
+    slices 63488/65536  moments 12253s  wacc 197s  (12464s)
+    slices 64512/65536  moments 12396s  wacc 200s  (12609s)
+    slices 65536/65536  moments 12577s  wacc 203s  (12793s)
+    checkpoint $DATA/Y08/acc2n_st0_65536.npy sha256 47ba545bf417b8f7332002028ecc24fa81c5174146e09fedfaedb0be6f43c959
+  structure 0: slice moments 12576.7s + weighted accumulation 203.0s (char-2 streaming)
+  structure 0: 5200 rows assembled (373.6s)
+  system 5200 x 27884 over F_2^16 (11 columns pinned, 1.08 GiB)
+  weights=  1238  rows   4952  rank   4940  pinned   1606  words 16/16  (50.8s)
+  weights=  1300  rows   5200  rank   4940  pinned   1606  words 16/16  (53.0s)
+  rref(2^n): 123 pivots after column 256/27884
+  rref(2^n): 245 pivots after column 512/27884
+  rref(2^n): 363 pivots after column 768/27884
+  rref(2^n): 480 pivots after column 1024/27884
+  rref(2^n): 527 pivots after column 1280/27884
+  rref(2^n): 616 pivots after column 1536/27884
+  rref(2^n): 675 pivots after column 1792/27884
+  rref(2^n): 743 pivots after column 2048/27884
+  rref(2^n): 855 pivots after column 2304/27884
+  rref(2^n): 959 pivots after column 2560/27884
+  rref(2^n): 997 pivots after column 2816/27884
+  rref(2^n): 1085 pivots after column 3072/27884
+  rref(2^n): 1169 pivots after column 3328/27884
+  rref(2^n): 1228 pivots after column 3584/27884
+  rref(2^n): 1347 pivots after column 3840/27884
+  rref(2^n): 1441 pivots after column 4096/27884
+  rref(2^n): 1545 pivots after column 4352/27884
+  rref(2^n): 1631 pivots after column 4608/27884
+  rref(2^n): 1707 pivots after column 4864/27884
+  rref(2^n): 1708 pivots after column 5120/27884
+  rref(2^n): 1708 pivots after column 5376/27884
+  rref(2^n): 1730 pivots after column 5632/27884
+  rref(2^n): 1795 pivots after column 5888/27884
+  rref(2^n): 1861 pivots after column 6144/27884
+  rref(2^n): 1973 pivots after column 6400/27884
+  rref(2^n): 1973 pivots after column 6656/27884
+  rref(2^n): 1975 pivots after column 6912/27884
+  rref(2^n): 1976 pivots after column 7168/27884
+  rref(2^n): 1976 pivots after column 7424/27884
+  rref(2^n): 1977 pivots after column 7680/27884
+  rref(2^n): 2064 pivots after column 7936/27884
+  rref(2^n): 2064 pivots after column 8192/27884
+  rref(2^n): 2065 pivots after column 8448/27884
+  rref(2^n): 2145 pivots after column 8704/27884
+  rref(2^n): 2155 pivots after column 8960/27884
+  rref(2^n): 2156 pivots after column 9216/27884
+  rref(2^n): 2156 pivots after column 9472/27884
+  rref(2^n): 2157 pivots after column 9728/27884
+  rref(2^n): 2183 pivots after column 9984/27884
+  rref(2^n): 2294 pivots after column 10240/27884
+  rref(2^n): 2328 pivots after column 10496/27884
+  rref(2^n): 2412 pivots after column 10752/27884
+  rref(2^n): 2412 pivots after column 11008/27884
+  rref(2^n): 2412 pivots after column 11264/27884
+  rref(2^n): 2412 pivots after column 11520/27884
+  rref(2^n): 2498 pivots after column 11776/27884
+  rref(2^n): 2498 pivots after column 12032/27884
+  rref(2^n): 2498 pivots after column 12288/27884
+  rref(2^n): 2525 pivots after column 12544/27884
+  rref(2^n): 2643 pivots after column 12800/27884
+  rref(2^n): 2756 pivots after column 13056/27884
+  rref(2^n): 2813 pivots after column 13312/27884
+  rref(2^n): 2878 pivots after column 13568/27884
+  rref(2^n): 2907 pivots after column 13824/27884
+  rref(2^n): 3020 pivots after column 14080/27884
+  rref(2^n): 3105 pivots after column 14336/27884
+  rref(2^n): 3167 pivots after column 14592/27884
+  rref(2^n): 3219 pivots after column 14848/27884
+  rref(2^n): 3336 pivots after column 15104/27884
+  rref(2^n): 3435 pivots after column 15360/27884
+  rref(2^n): 3500 pivots after column 15616/27884
+  rref(2^n): 3550 pivots after column 15872/27884
+  rref(2^n): 3551 pivots after column 16128/27884
+  rref(2^n): 3596 pivots after column 16384/27884
+  rref(2^n): 3638 pivots after column 16640/27884
+  rref(2^n): 3723 pivots after column 16896/27884
+  rref(2^n): 3725 pivots after column 17152/27884
+  rref(2^n): 3726 pivots after column 17408/27884
+  rref(2^n): 3726 pivots after column 17664/27884
+  rref(2^n): 3783 pivots after column 17920/27884
+  rref(2^n): 3784 pivots after column 18176/27884
+  rref(2^n): 3841 pivots after column 18432/27884
+  rref(2^n): 3842 pivots after column 18688/27884
+  rref(2^n): 3843 pivots after column 18944/27884
+  rref(2^n): 3844 pivots after column 19200/27884
+  rref(2^n): 3938 pivots after column 19456/27884
+  rref(2^n): 3984 pivots after column 19712/27884
+  rref(2^n): 4014 pivots after column 19968/27884
+  rref(2^n): 4014 pivots after column 20224/27884
+  rref(2^n): 4070 pivots after column 20480/27884
+  rref(2^n): 4071 pivots after column 20736/27884
+  rref(2^n): 4075 pivots after column 20992/27884
+  rref(2^n): 4161 pivots after column 21248/27884
+  rref(2^n): 4228 pivots after column 21504/27884
+  rref(2^n): 4285 pivots after column 21760/27884
+  rref(2^n): 4372 pivots after column 22016/27884
+  rref(2^n): 4433 pivots after column 22272/27884
+  rref(2^n): 4541 pivots after column 22528/27884
+  rref(2^n): 4594 pivots after column 22784/27884
+  rref(2^n): 4606 pivots after column 23040/27884
+  rref(2^n): 4677 pivots after column 23296/27884
+  rref(2^n): 4684 pivots after column 23552/27884
+  rref(2^n): 4704 pivots after column 23808/27884
+  rref(2^n): 4714 pivots after column 24064/27884
+  rref(2^n): 4745 pivots after column 24320/27884
+  rref(2^n): 4746 pivots after column 24576/27884
+  rref(2^n): 4821 pivots after column 24832/27884
+  rref(2^n): 4834 pivots after column 25088/27884
+  rref(2^n): 4863 pivots after column 25344/27884
+  rref(2^n): 4867 pivots after column 25600/27884
+  rref(2^n): 4917 pivots after column 25856/27884
+  rref(2^n): 4932 pivots after column 26112/27884
+  rref(2^n): 4940 pivots after column 26368/27884
+  rref(2^n): 4940 pivots after column 26624/27884
+  rref(2^n): 4940 pivots after column 26880/27884
+  rref(2^n): 4940 pivots after column 27136/27884
+  rref(2^n): 4940 pivots after column 27392/27884
+  rref(2^n): 4940 pivots after column 27648/27884
+  rref(2^n): 4940 pivots after column 27884/27884
+  rank 4940 / 27884 unknowns (22944 free), 1606 monomials pinned down  (53.2s)
+  inner key words recovered correctly: 16/16
+  data 2^32.0; assemble 13168.9s, solve 53.2s
+saved results/Y06_kr2/y08/s10_Y08-B_yu2x16_r11_seed2026.json
+	Command being timed: "python3 experiments/E07_key_recovery_2round/attack_12round.py --instance yu2x-16 --layers 9 --active 0,4 --weights 1300 --combine none --normalise --structures 1 --procs 72 --slice-chunk 1024 --block-slices 1 --checkpoint-every 8192 --checkpoint-dir $DATA/Y08 --progress 1 --seed 2026 --weight-grid 1238,1300 --out results/Y06_kr2/y08 --tag Y08-B_yu2x16_r11_seed2026"
+	User time (seconds): 873778.92
+	System time (seconds): 10040.98
+	Percent of CPU this job got: 6630%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:42:08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5465432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 94
+	Minor (reclaiming a frame) page faults: 399825651
+	Voluntary context switches: 702582
+	Involuntary context switches: 26264973
+	Swaps: 0
+	File system inputs: 3464
+	File system outputs: 8165752
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

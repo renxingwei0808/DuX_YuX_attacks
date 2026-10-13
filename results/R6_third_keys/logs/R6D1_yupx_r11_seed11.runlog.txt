@@ -1,0 +1,478 @@
+yupx-65537 (F_65537): r = 11 (9-layer distinguisher + 2), active words [0, 4]
+  monomials M = 53857 = 2^15.7; 1 structure(s) x 4295098369 chosen ciphertexts = 2^32.00 data
+  O12: margin 10225 (layer 9 pattern 1111), N_w = 2400 weights a = 0..2399 on word 0; 65537 slices of 65537 points -> 9600 equations/structure
+  O12 weight rule: full-domain words: |a| < T - D = 10225 (usable_weights = 10225)
+  accumulator 2400 x 81360 x 8 B = 1.56 GB; slice table 4096 x 81360 x 8 B = 2.67 GB
+    slices 4096/65537  moments 916s  dgemm 42s  (958s)
+    slices 8192/65537  moments 1788s  dgemm 84s  (1873s)
+    slices 12288/65537  moments 2653s  dgemm 124s  (2777s)
+    slices 16384/65537  moments 3525s  dgemm 170s  (3696s)
+    checkpoint $DATA/R6/acc_st0_16384.npy sha256 0a2f741935ac7e47cf6b23ea9bcf2e92b9f11684deaa47998dc54c8735ceb49b
+    slices 20480/65537  moments 4402s  dgemm 211s  (4629s)
+    slices 24576/65537  moments 5275s  dgemm 255s  (5545s)
+    slices 28672/65537  moments 6160s  dgemm 299s  (6474s)
+    slices 32768/65537  moments 7110s  dgemm 344s  (7470s)
+    checkpoint $DATA/R6/acc_st0_32768.npy sha256 2f91bc5d5ec581f9758173574f66fea2fdb741bffd7abb06de048feea58edbb2
+    slices 36864/65537  moments 7544s  dgemm 369s  (7942s)
+    slices 40960/65537  moments 8498s  dgemm 424s  (8951s)
+    slices 45056/65537  moments 9333s  dgemm 462s  (9824s)
+    slices 49152/65537  moments 10190s  dgemm 507s  (10726s)
+    checkpoint $DATA/R6/acc_st0_49152.npy sha256 3212d032ea858764f953d15ca510ab49b4893d4f6b5c65d0abc13accf57ac386
+    slices 53248/65537  moments 11049s  dgemm 553s  (11643s)
+    slices 57344/65537  moments 11837s  dgemm 599s  (12477s)
+    slices 61440/65537  moments 12681s  dgemm 644s  (13366s)
+    slices 65536/65537  moments 13521s  dgemm 690s  (14253s)
+    checkpoint $DATA/R6/acc_st0_65536.npy sha256 546036ad191bf1b2507a9aac8688e9a9a9279f5d7afab2c41b83f7e9f8d63b41
+    slices 65537/65537  moments 13526s  dgemm 710s  (14290s)
+    checkpoint $DATA/R6/acc_st0_65537.npy sha256 44caf226f30a99cbd828fba5953116ee924af1ca59254809c35827ea5f4df13d
+  structure 0: moments 13525.7s + dgemm 710.2s
+  structure 0: 9600 rows assembled (359.6s)
+  system 9600 x 53846 over F_65537 (11 columns pinned, 3.85 GiB)
+    rref: 60 pivots after column 128/53846
+    rref: 104 pivots after column 256/53846
+    rref: 163 pivots after column 384/53846
+    rref: 211 pivots after column 512/53846
+    rref: 261 pivots after column 640/53846
+    rref: 316 pivots after column 768/53846
+    rref: 359 pivots after column 896/53846
+    rref: 421 pivots after column 1024/53846
+    rref: 470 pivots after column 1152/53846
+    rref: 521 pivots after column 1280/53846
+    rref: 575 pivots after column 1408/53846
+    rref: 618 pivots after column 1536/53846
+    rref: 680 pivots after column 1664/53846
+    rref: 724 pivots after column 1792/53846
+    rref: 782 pivots after column 1920/53846
+    rref: 832 pivots after column 2048/53846
+    rref: 880 pivots after column 2176/53846
+    rref: 937 pivots after column 2304/53846
+    rref: 979 pivots after column 2432/53846
+    rref: 984 pivots after column 2560/53846
+    rref: 984 pivots after column 2688/53846
+    rref: 1027 pivots after column 2816/53846
+    rref: 1088 pivots after column 2944/53846
+    rref: 1133 pivots after column 3072/53846
+    rref: 1190 pivots after column 3200/53846
+    rref: 1239 pivots after column 3328/53846
+    rref: 1289 pivots after column 3456/53846
+    rref: 1348 pivots after column 3584/53846
+    rref: 1391 pivots after column 3712/53846
+    rref: 1429 pivots after column 3840/53846
+    rref: 1429 pivots after column 3968/53846
+    rref: 1432 pivots after column 4096/53846
+    rref: 1432 pivots after column 4224/53846
+    rref: 1432 pivots after column 4352/53846
+    rref: 1493 pivots after column 4480/53846
+    rref: 1542 pivots after column 4608/53846
+    rref: 1592 pivots after column 4736/53846
+    rref: 1648 pivots after column 4864/53846
+    rref: 1659 pivots after column 4992/53846
+    rref: 1659 pivots after column 5120/53846
+    rref: 1693 pivots after column 5248/53846
+    rref: 1740 pivots after column 5376/53846
+    rref: 1803 pivots after column 5504/53846
+    rref: 1851 pivots after column 5632/53846
+    rref: 1901 pivots after column 5760/53846
+    rref: 1958 pivots after column 5888/53846
+    rref: 2000 pivots after column 6016/53846
+    rref: 2061 pivots after column 6144/53846
+    rref: 2108 pivots after column 6272/53846
+    rref: 2111 pivots after column 6400/53846
+    rref: 2111 pivots after column 6528/53846
+    rref: 2150 pivots after column 6656/53846
+    rref: 2211 pivots after column 6784/53846
+    rref: 2257 pivots after column 6912/53846
+    rref: 2312 pivots after column 7040/53846
+    rref: 2332 pivots after column 7168/53846
+    rref: 2332 pivots after column 7296/53846
+    rref: 2361 pivots after column 7424/53846
+    rref: 2406 pivots after column 7552/53846
+    rref: 2444 pivots after column 7680/53846
+    rref: 2444 pivots after column 7808/53846
+    rref: 2447 pivots after column 7936/53846
+    rref: 2447 pivots after column 8064/53846
+    rref: 2447 pivots after column 8192/53846
+    rref: 2505 pivots after column 8320/53846
+    rref: 2554 pivots after column 8448/53846
+    rref: 2603 pivots after column 8576/53846
+    rref: 2661 pivots after column 8704/53846
+    rref: 2670 pivots after column 8832/53846
+    rref: 2670 pivots after column 8960/53846
+    rref: 2705 pivots after column 9088/53846
+    rref: 2755 pivots after column 9216/53846
+    rref: 2782 pivots after column 9344/53846
+    rref: 2782 pivots after column 9472/53846
+    rref: 2784 pivots after column 9600/53846
+    rref: 2784 pivots after column 9728/53846
+    rref: 2793 pivots after column 9856/53846
+    rref: 2851 pivots after column 9984/53846
+    rref: 2894 pivots after column 10112/53846
+    rref: 2896 pivots after column 10240/53846
+    rref: 2896 pivots after column 10368/53846
+    rref: 2899 pivots after column 10496/53846
+    rref: 2899 pivots after column 10624/53846
+    rref: 2902 pivots after column 10752/53846
+    rref: 2902 pivots after column 10880/53846
+    rref: 2937 pivots after column 11008/53846
+    rref: 2980 pivots after column 11136/53846
+    rref: 3040 pivots after column 11264/53846
+    rref: 3087 pivots after column 11392/53846
+    rref: 3127 pivots after column 11520/53846
+    rref: 3127 pivots after column 11648/53846
+    rref: 3127 pivots after column 11776/53846
+    rref: 3128 pivots after column 11904/53846
+    rref: 3128 pivots after column 12032/53846
+    rref: 3181 pivots after column 12160/53846
+    rref: 3232 pivots after column 12288/53846
+    rref: 3239 pivots after column 12416/53846
+    rref: 3239 pivots after column 12544/53846
+    rref: 3240 pivots after column 12672/53846
+    rref: 3240 pivots after column 12800/53846
+    rref: 3242 pivots after column 12928/53846
+    rref: 3242 pivots after column 13056/53846
+    rref: 3243 pivots after column 13184/53846
+    rref: 3243 pivots after column 13312/53846
+    rref: 3245 pivots after column 13440/53846
+    rref: 3245 pivots after column 13568/53846
+    rref: 3251 pivots after column 13696/53846
+    rref: 3311 pivots after column 13824/53846
+    rref: 3355 pivots after column 13952/53846
+    rref: 3357 pivots after column 14080/53846
+    rref: 3357 pivots after column 14208/53846
+    rref: 3358 pivots after column 14336/53846
+    rref: 3358 pivots after column 14464/53846
+    rref: 3360 pivots after column 14592/53846
+    rref: 3360 pivots after column 14720/53846
+    rref: 3361 pivots after column 14848/53846
+    rref: 3361 pivots after column 14976/53846
+    rref: 3363 pivots after column 15104/53846
+    rref: 3363 pivots after column 15232/53846
+    rref: 3366 pivots after column 15360/53846
+    rref: 3366 pivots after column 15488/53846
+    rref: 3367 pivots after column 15616/53846
+    rref: 3367 pivots after column 15744/53846
+    rref: 3367 pivots after column 15872/53846
+    rref: 3369 pivots after column 16000/53846
+    rref: 3369 pivots after column 16128/53846
+    rref: 3370 pivots after column 16256/53846
+    rref: 3370 pivots after column 16384/53846
+    rref: 3405 pivots after column 16512/53846
+    rref: 3455 pivots after column 16640/53846
+    rref: 3511 pivots after column 16768/53846
+    rref: 3553 pivots after column 16896/53846
+    rref: 3591 pivots after column 17024/53846
+    rref: 3591 pivots after column 17152/53846
+    rref: 3606 pivots after column 17280/53846
+    rref: 3659 pivots after column 17408/53846
+    rref: 3701 pivots after column 17536/53846
+    rref: 3702 pivots after column 17664/53846
+    rref: 3702 pivots after column 17792/53846
+    rref: 3704 pivots after column 17920/53846
+    rref: 3704 pivots after column 18048/53846
+    rref: 3742 pivots after column 18176/53846
+    rref: 3800 pivots after column 18304/53846
+    rref: 3816 pivots after column 18432/53846
+    rref: 3816 pivots after column 18560/53846
+    rref: 3817 pivots after column 18688/53846
+    rref: 3817 pivots after column 18816/53846
+    rref: 3818 pivots after column 18944/53846
+    rref: 3818 pivots after column 19072/53846
+    rref: 3819 pivots after column 19200/53846
+    rref: 3819 pivots after column 19328/53846
+    rref: 3819 pivots after column 19456/53846
+    rref: 3820 pivots after column 19584/53846
+    rref: 3820 pivots after column 19712/53846
+    rref: 3821 pivots after column 19840/53846
+    rref: 3821 pivots after column 19968/53846
+    rref: 3822 pivots after column 20096/53846
+    rref: 3822 pivots after column 20224/53846
+    rref: 3823 pivots after column 20352/53846
+    rref: 3823 pivots after column 20480/53846
+    rref: 3824 pivots after column 20608/53846
+    rref: 3824 pivots after column 20736/53846
+    rref: 3836 pivots after column 20864/53846
+    rref: 3891 pivots after column 20992/53846
+    rref: 3934 pivots after column 21120/53846
+    rref: 3935 pivots after column 21248/53846
+    rref: 3935 pivots after column 21376/53846
+    rref: 3938 pivots after column 21504/53846
+    rref: 3938 pivots after column 21632/53846
+    rref: 3944 pivots after column 21760/53846
+    rref: 3944 pivots after column 21888/53846
+    rref: 3945 pivots after column 22016/53846
+    rref: 3945 pivots after column 22144/53846
+    rref: 3947 pivots after column 22272/53846
+    rref: 3947 pivots after column 22400/53846
+    rref: 3950 pivots after column 22528/53846
+    rref: 3950 pivots after column 22656/53846
+    rref: 3950 pivots after column 22784/53846
+    rref: 3951 pivots after column 22912/53846
+    rref: 3951 pivots after column 23040/53846
+    rref: 3952 pivots after column 23168/53846
+    rref: 3952 pivots after column 23296/53846
+    rref: 3953 pivots after column 23424/53846
+    rref: 3953 pivots after column 23552/53846
+    rref: 3982 pivots after column 23680/53846
+    rref: 4025 pivots after column 23808/53846
+    rref: 4068 pivots after column 23936/53846
+    rref: 4068 pivots after column 24064/53846
+    rref: 4068 pivots after column 24192/53846
+    rref: 4071 pivots after column 24320/53846
+    rref: 4071 pivots after column 24448/53846
+    rref: 4072 pivots after column 24576/53846
+    rref: 4072 pivots after column 24704/53846
+    rref: 4082 pivots after column 24832/53846
+    rref: 4092 pivots after column 24960/53846
+    rref: 4151 pivots after column 25088/53846
+    rref: 4198 pivots after column 25216/53846
+    rref: 4250 pivots after column 25344/53846
+    rref: 4303 pivots after column 25472/53846
+    rref: 4347 pivots after column 25600/53846
+    rref: 4411 pivots after column 25728/53846
+    rref: 4456 pivots after column 25856/53846
+    rref: 4511 pivots after column 25984/53846
+    rref: 4562 pivots after column 26112/53846
+    rref: 4609 pivots after column 26240/53846
+    rref: 4670 pivots after column 26368/53846
+    rref: 4714 pivots after column 26496/53846
+    rref: 4755 pivots after column 26624/53846
+    rref: 4755 pivots after column 26752/53846
+    rref: 4796 pivots after column 26880/53846
+    rref: 4858 pivots after column 27008/53846
+    rref: 4904 pivots after column 27136/53846
+    rref: 4958 pivots after column 27264/53846
+    rref: 5013 pivots after column 27392/53846
+    rref: 5055 pivots after column 27520/53846
+    rref: 5056 pivots after column 27648/53846
+    rref: 5059 pivots after column 27776/53846
+    rref: 5074 pivots after column 27904/53846
+    rref: 5130 pivots after column 28032/53846
+    rref: 5173 pivots after column 28160/53846
+    rref: 5214 pivots after column 28288/53846
+    rref: 5214 pivots after column 28416/53846
+    rref: 5258 pivots after column 28544/53846
+    rref: 5321 pivots after column 28672/53846
+    rref: 5369 pivots after column 28800/53846
+    rref: 5419 pivots after column 28928/53846
+    rref: 5477 pivots after column 29056/53846
+    rref: 5520 pivots after column 29184/53846
+    rref: 5522 pivots after column 29312/53846
+    rref: 5557 pivots after column 29440/53846
+    rref: 5607 pivots after column 29568/53846
+    rref: 5663 pivots after column 29696/53846
+    rref: 5671 pivots after column 29824/53846
+    rref: 5696 pivots after column 29952/53846
+    rref: 5744 pivots after column 30080/53846
+    rref: 5747 pivots after column 30208/53846
+    rref: 5750 pivots after column 30336/53846
+    rref: 5750 pivots after column 30464/53846
+    rref: 5810 pivots after column 30592/53846
+    rref: 5859 pivots after column 30720/53846
+    rref: 5901 pivots after column 30848/53846
+    rref: 5901 pivots after column 30976/53846
+    rref: 5939 pivots after column 31104/53846
+    rref: 5977 pivots after column 31232/53846
+    rref: 5977 pivots after column 31360/53846
+    rref: 5979 pivots after column 31488/53846
+    rref: 6008 pivots after column 31616/53846
+    rref: 6052 pivots after column 31744/53846
+    rref: 6055 pivots after column 31872/53846
+    rref: 6058 pivots after column 32000/53846
+    rref: 6060 pivots after column 32128/53846
+    rref: 6061 pivots after column 32256/53846
+    rref: 6097 pivots after column 32384/53846
+    rref: 6140 pivots after column 32512/53846
+    rref: 6202 pivots after column 32640/53846
+    rref: 6214 pivots after column 32768/53846
+    rref: 6215 pivots after column 32896/53846
+    rref: 6215 pivots after column 33024/53846
+    rref: 6254 pivots after column 33152/53846
+    rref: 6290 pivots after column 33280/53846
+    rref: 6290 pivots after column 33408/53846
+    rref: 6291 pivots after column 33536/53846
+    rref: 6293 pivots after column 33664/53846
+    rref: 6294 pivots after column 33792/53846
+    rref: 6294 pivots after column 33920/53846
+    rref: 6296 pivots after column 34048/53846
+    rref: 6312 pivots after column 34176/53846
+    rref: 6365 pivots after column 34304/53846
+    rref: 6372 pivots after column 34432/53846
+    rref: 6373 pivots after column 34560/53846
+    rref: 6373 pivots after column 34688/53846
+    rref: 6375 pivots after column 34816/53846
+    rref: 6376 pivots after column 34944/53846
+    rref: 6377 pivots after column 35072/53846
+    rref: 6378 pivots after column 35200/53846
+    rref: 6381 pivots after column 35328/53846
+    rref: 6382 pivots after column 35456/53846
+    rref: 6382 pivots after column 35584/53846
+    rref: 6384 pivots after column 35712/53846
+    rref: 6385 pivots after column 35840/53846
+    rref: 6385 pivots after column 35968/53846
+    rref: 6423 pivots after column 36096/53846
+    rref: 6481 pivots after column 36224/53846
+    rref: 6529 pivots after column 36352/53846
+    rref: 6534 pivots after column 36480/53846
+    rref: 6564 pivots after column 36608/53846
+    rref: 6607 pivots after column 36736/53846
+    rref: 6609 pivots after column 36864/53846
+    rref: 6611 pivots after column 36992/53846
+    rref: 6613 pivots after column 37120/53846
+    rref: 6674 pivots after column 37248/53846
+    rref: 6687 pivots after column 37376/53846
+    rref: 6688 pivots after column 37504/53846
+    rref: 6688 pivots after column 37632/53846
+    rref: 6689 pivots after column 37760/53846
+    rref: 6690 pivots after column 37888/53846
+    rref: 6690 pivots after column 38016/53846
+    rref: 6691 pivots after column 38144/53846
+    rref: 6692 pivots after column 38272/53846
+    rref: 6692 pivots after column 38400/53846
+    rref: 6693 pivots after column 38528/53846
+    rref: 6694 pivots after column 38656/53846
+    rref: 6695 pivots after column 38784/53846
+    rref: 6695 pivots after column 38912/53846
+    rref: 6727 pivots after column 39040/53846
+    rref: 6770 pivots after column 39168/53846
+    rref: 6770 pivots after column 39296/53846
+    rref: 6773 pivots after column 39424/53846
+    rref: 6779 pivots after column 39552/53846
+    rref: 6779 pivots after column 39680/53846
+    rref: 6780 pivots after column 39808/53846
+    rref: 6782 pivots after column 39936/53846
+    rref: 6782 pivots after column 40064/53846
+    rref: 6785 pivots after column 40192/53846
+    rref: 6786 pivots after column 40320/53846
+    rref: 6786 pivots after column 40448/53846
+    rref: 6787 pivots after column 40576/53846
+    rref: 6788 pivots after column 40704/53846
+    rref: 6788 pivots after column 40832/53846
+    rref: 6829 pivots after column 40960/53846
+    rref: 6867 pivots after column 41088/53846
+    rref: 6867 pivots after column 41216/53846
+    rref: 6870 pivots after column 41344/53846
+    rref: 6871 pivots after column 41472/53846
+    rref: 6871 pivots after column 41600/53846
+    rref: 6882 pivots after column 41728/53846
+    rref: 6907 pivots after column 41856/53846
+    rref: 6958 pivots after column 41984/53846
+    rref: 7005 pivots after column 42112/53846
+    rref: 7068 pivots after column 42240/53846
+    rref: 7113 pivots after column 42368/53846
+    rref: 7170 pivots after column 42496/53846
+    rref: 7222 pivots after column 42624/53846
+    rref: 7232 pivots after column 42752/53846
+    rref: 7295 pivots after column 42880/53846
+    rref: 7344 pivots after column 43008/53846
+    rref: 7389 pivots after column 43136/53846
+    rref: 7392 pivots after column 43264/53846
+    rref: 7432 pivots after column 43392/53846
+    rref: 7475 pivots after column 43520/53846
+    rref: 7505 pivots after column 43648/53846
+    rref: 7558 pivots after column 43776/53846
+    rref: 7604 pivots after column 43904/53846
+    rref: 7639 pivots after column 44032/53846
+    rref: 7676 pivots after column 44160/53846
+    rref: 7716 pivots after column 44288/53846
+    rref: 7749 pivots after column 44416/53846
+    rref: 7756 pivots after column 44544/53846
+    rref: 7783 pivots after column 44672/53846
+    rref: 7832 pivots after column 44800/53846
+    rref: 7845 pivots after column 44928/53846
+    rref: 7878 pivots after column 45056/53846
+    rref: 7880 pivots after column 45184/53846
+    rref: 7920 pivots after column 45312/53846
+    rref: 7923 pivots after column 45440/53846
+    rref: 7926 pivots after column 45568/53846
+    rref: 7971 pivots after column 45696/53846
+    rref: 8007 pivots after column 45824/53846
+    rref: 8008 pivots after column 45952/53846
+    rref: 8047 pivots after column 46080/53846
+    rref: 8048 pivots after column 46208/53846
+    rref: 8050 pivots after column 46336/53846
+    rref: 8053 pivots after column 46464/53846
+    rref: 8086 pivots after column 46592/53846
+    rref: 8094 pivots after column 46720/53846
+    rref: 8096 pivots after column 46848/53846
+    rref: 8097 pivots after column 46976/53846
+    rref: 8102 pivots after column 47104/53846
+    rref: 8103 pivots after column 47232/53846
+    rref: 8105 pivots after column 47360/53846
+    rref: 8109 pivots after column 47488/53846
+    rref: 8172 pivots after column 47616/53846
+    rref: 8183 pivots after column 47744/53846
+    rref: 8222 pivots after column 47872/53846
+    rref: 8224 pivots after column 48000/53846
+    rref: 8261 pivots after column 48128/53846
+    rref: 8265 pivots after column 48256/53846
+    rref: 8266 pivots after column 48384/53846
+    rref: 8267 pivots after column 48512/53846
+    rref: 8269 pivots after column 48640/53846
+    rref: 8270 pivots after column 48768/53846
+    rref: 8271 pivots after column 48896/53846
+    rref: 8285 pivots after column 49024/53846
+    rref: 8311 pivots after column 49152/53846
+    rref: 8314 pivots after column 49280/53846
+    rref: 8321 pivots after column 49408/53846
+    rref: 8323 pivots after column 49536/53846
+    rref: 8326 pivots after column 49664/53846
+    rref: 8328 pivots after column 49792/53846
+    rref: 8329 pivots after column 49920/53846
+    rref: 8360 pivots after column 50048/53846
+    rref: 8372 pivots after column 50176/53846
+    rref: 8375 pivots after column 50304/53846
+    rref: 8376 pivots after column 50432/53846
+    rref: 8395 pivots after column 50560/53846
+    rref: 8457 pivots after column 50688/53846
+    rref: 8527 pivots after column 50816/53846
+    rref: 8558 pivots after column 50944/53846
+    rref: 8586 pivots after column 51072/53846
+    rref: 8602 pivots after column 51200/53846
+    rref: 8608 pivots after column 51328/53846
+    rref: 8608 pivots after column 51456/53846
+    rref: 8608 pivots after column 51584/53846
+    rref: 8608 pivots after column 51712/53846
+    rref: 8608 pivots after column 51840/53846
+    rref: 8608 pivots after column 51968/53846
+    rref: 8608 pivots after column 52096/53846
+    rref: 8608 pivots after column 52224/53846
+    rref: 8608 pivots after column 52352/53846
+    rref: 8608 pivots after column 52480/53846
+    rref: 8608 pivots after column 52608/53846
+    rref: 8608 pivots after column 52736/53846
+    rref: 8608 pivots after column 52864/53846
+    rref: 8608 pivots after column 52992/53846
+    rref: 8608 pivots after column 53120/53846
+    rref: 8608 pivots after column 53248/53846
+    rref: 8608 pivots after column 53376/53846
+    rref: 8608 pivots after column 53504/53846
+    rref: 8608 pivots after column 53632/53846
+    rref: 8608 pivots after column 53760/53846
+    rref: 8608 pivots after column 53846/53846
+  rank 8608 / 53846 unknowns (45238 free), 2088 monomials pinned down  (1749.1s)
+  inner key words recovered correctly: 16/16
+  data 2^32.0; assemble 14662.2s, solve 1749.1s
+saved results/R6_third_keys/s10_R6D1_yupx_r11_seed11.json
+	Command being timed: "python3 experiments/E07_key_recovery_2round/attack_12round.py --instance yupx-65537 --layers 9 --active 0,4 --weights 2400 --combine none --normalise --structures 1 --procs 24 --slice-chunk 4096 --block-slices 1 --checkpoint-every 16384 --checkpoint-dir $DATA/R6 --progress 1 --seed 11 --out results/R6_third_keys --tag R6D1_yupx_r11_seed11"
+	User time (seconds): 303282.10
+	System time (seconds): 31311.01
+	Percent of CPU this job got: 2036%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:33:47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 19386160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2050512324
+	Voluntary context switches: 419674
+	Involuntary context switches: 8841142
+	Swaps: 0
+	File system inputs: 448
+	File system outputs: 15256848
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

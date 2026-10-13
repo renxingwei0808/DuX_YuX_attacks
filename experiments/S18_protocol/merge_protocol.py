@@ -20,6 +20,13 @@ used as an acceptance test.
 
     python merge_protocol.py --tag S18_1t_dux65537_r11_seed2026 \
         --out results/S18_protocol
+
+A run made BEFORE S18 can be folded in the same way, from the `time -v` block
+its own log kept: the log is committed next to the evidence files and named by
+`backfilled` / `source_log` in the env.txt.  Such a run has no thread sample
+(rule 1's sampler did not exist yet) and no `taskset` core list, so
+`threads.samples` is 0, `threads.sampler` says "none" and `single_threaded`
+stays false.  Nothing is invented: every field still comes from the log.
 """
 from __future__ import annotations
 
@@ -114,7 +121,9 @@ def parse_env(text):
     for line in text.splitlines():
         k, _, v = line.strip().partition(" ")
         if k in ("cores", "solve_threads", "start", "end", "exit",
-                 "loadavg_start", "loadavg_end"):
+                 "loadavg_start", "loadavg_end",
+                 # a run folded in from its own log (see the module docstring)
+                 "sampler", "backfilled", "source_log", "source_sha256"):
             out[k] = v
     return out
 
@@ -124,8 +133,12 @@ def build(timev_text, threads_text, env_text):
     th = parse_threads(threads_text)
     env = parse_env(env_text)
     cpu = tv.get("user_s", 0.0) + tv.get("sys_s", 0.0)
+    try:                        # "unrecorded" for a run that never set it
+        sth = int(env.get("solve_threads", 0) or 0)
+    except ValueError:
+        sth = None
     prot = {"cores": env.get("cores"),
-            "solve_threads": int(env.get("solve_threads", 0) or 0),
+            "solve_threads": sth,
             "wall_s": tv.get("wall_s"), "user_s": tv.get("user_s"),
             "sys_s": tv.get("sys_s"), "cpu_s": round(cpu, 2),
             "core_hours": round(cpu / 3600.0, 3) if cpu else None,
@@ -142,6 +155,12 @@ def build(timev_text, threads_text, env_text):
             "exit": env.get("exit"),
             "machine": "2 x Intel Xeon Gold 6230R (26 cores / 52 threads each, "
                        "2.10 GHz base, 4.00 GHz max turbo), 251 GB RAM"}
+    if env.get("sampler"):
+        prot["threads"]["sampler"] = env["sampler"]
+    if env.get("backfilled"):
+        prot["backfilled"] = {"note": env["backfilled"],
+                              "source_log": env.get("source_log"),
+                              "source_sha256": env.get("source_sha256")}
     prot["single_threaded"] = bool(th["samples"] and th["max_nlwp"] == 1)
     prot["not_preempted"] = bool(prot["wall_over_cpu"] is not None
                                  and prot["wall_over_cpu"] <= 1.1)

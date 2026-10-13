@@ -118,13 +118,53 @@ reported single-thread rows were all measured while we used 3-8 cores and the
 machine load was 80-105; comparisons across machines use the multiplication
 counts of Rule 4, not wall clock.
 
+**5.2 Runs made before the protocol script.** Two of the reported runs were
+not made by it: YupX-65537 11/14 and Yu2X-16 11/12 at 2^32, both Rule 3 rows
+(more than 36 hours on one thread, and one 2^32 structure that cannot be split
+by structure).  Their `protocol` block was folded in afterwards from the
+`/usr/bin/time -v` block of the run's own log, and the log is committed with
+the record (the same was done for the two further keys of the Yu2X-16 row):
+
+| File | Content |
+|---|---|
+| `logs/<tag>.runlog.txt` | the run's whole standard output; `*.log` is git-ignored here, hence the name |
+| `logs/<tag>.timev.txt` | the `/usr/bin/time -v` block of that log |
+| `logs/<tag>.env.txt` | what the figures mean and where they come from: `cores`, `solve_threads`, `sampler`, `backfilled`, `source_log`, `source_sha256` (the log on the measurement machine), `committed_runlog` / `committed_sha256` (the copy here), `redaction` (what was changed before committing: the data directory of the machine is written `$DATA`) |
+
+`merge_protocol.py --out <the row's results directory> --tag <tag>` reads them.
+Nothing is invented: such a run has no thread sample (Rule 1's sampler did not
+exist yet) and no `taskset` core list, so the block has `threads.samples` 0,
+`threads.sampler` "none", `single_threaded` false, and `cores` / `solve_threads`
+as the env.txt states them ("none" / "unrecorded"), with `loadavg_*` and
+`start` / `end` null.  `tests/test_s18_protocol.py` pins the chain log ->
+evidence file -> JSON block: the committed log hashes to `committed_sha256`,
+the evidence file is that log's own `time -v` block, and `build()` reproduces
+the stored block field by field.
+
+Each of the four logs holds one `time -v` block and `Exit status: 0`, with no
+`Command terminated by signal`, no `--resume-checkpoints` on the command line,
+and slice progress whose cumulative timers rise monotonically from
+`slices 1024/65536` to `65536/65536` -- which is the evidence Rule 3 asks for
+that the run was not interrupted.
+
+Folding the blocks in corrected two figures that had been reported from the
+assembly times instead of the operating system's: the Yu2X-16 11/12 run on 36
+processes cost **140.661** core-hours, not the 144.4 of `assemble_s` x 36
+processes, and its peak was **5.23** GB in the units of Section 6, not the 5.48
+of 10^6 bytes (the YupX-65537 11/14 figures 92.943 core-hours and 16 427 s
+agree with its log; its peak is 18.49 GB, not 19.4).
+
 ## 6. Memory
 
 Memory is the Maximum resident set size that /usr/bin/time -v reports, in
 units of 2^30 bytes, which is the peak of the largest single process of the
 run; for a multi-process run the memory of the processes alive at the same
 time adds up to more and was not measured.  The JSON field is
-`protocol.maxrss_gb`.  A single-thread run can show a higher peak than a multi-process run of the same row, because
+`protocol.maxrss_gb`, and the exact figure stays in `protocol.maxrss_kb`
+(GNU time's kbytes are 1024 bytes).  The records made before the protocol
+script wrote this as `maxrss_kb / 10^6`, which is 7 % larger; the four figures
+of the two runs of Section 5.2 are given here in units of 2^30.
+A single-thread run can show a higher peak than a multi-process run of the same row, because
 the shared slice tables are then counted in one process (example: DuX(2^16)
 11/12 at 2^15.35, 3.8 GB multi-process, 6.21 GB single-thread).  The paper
 reports the single-thread figure.

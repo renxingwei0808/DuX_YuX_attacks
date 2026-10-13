@@ -1,0 +1,23 @@
+	Command being timed: "python3 experiments/E07_key_recovery_2round/attack_12round.py --instance yupx-65537 --layers 9 --active 0,4 --weights 2400 --combine none --normalise --structures 1 --procs 24 --slice-chunk 4096 --block-slices 1 --checkpoint-every 16384 --checkpoint-dir $DATA/R6 --progress 1 --seed 11 --out results/R6_third_keys --tag R6D1_yupx_r11_seed11"
+	User time (seconds): 303282.10
+	System time (seconds): 31311.01
+	Percent of CPU this job got: 2036%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:33:47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 19386160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2050512324
+	Voluntary context switches: 419674
+	Involuntary context switches: 8841142
+	Swaps: 0
+	File system inputs: 448
+	File system outputs: 15256848
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

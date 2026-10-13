@@ -10,6 +10,7 @@ comparable.  The sharpest test of that formula is that it reproduces the five
 exponents the paper already quotes for its theoretical rows -- they were
 computed as `points * W`, which is this formula's dominant term.
 """
+import hashlib
 import json
 import os
 import sys
@@ -258,3 +259,58 @@ def test_the_run_table_reads_every_driver_shape():
     assert RT.system({"equations": 480,
                       "results": [{"rank": 136}]}).startswith("480 / 136")
     assert RT.hms(26840) == "7:27:20" and RT.hms(2915) == "48:35"
+
+# --------------------------------------------------------------------------
+# The four runs whose `protocol` block was folded in afterwards, from the
+# `time -v` block their own log kept (docs/measurement_protocol.md Section 5.2).  Two of them are
+# rows the paper reports -- YupX-65537 11/14 and Yu2X-16 11/12 at 2^32 -- and
+# they are the only reported rows that were not made under the protocol
+# script, so the chain log -> evidence file -> JSON block is pinned here.
+
+BACKFILLED = [
+    ("results/R6_third_keys", "R6D1_yupx_r11_seed11", 24, 16427.0, 92.943,
+     19386160, 18.49),
+    ("results/R7_keys", "R7B_yu2x16_r11_seed11", 36, 14636.0, 140.661,
+     5481080, 5.23),
+    ("results/Y06_kr2/y08", "Y08-B_yu2x16_r11_seed2026", 72, 13328.0, 245.506,
+     5465432, 5.21),
+    ("results/Y06_kr2/y08", "Y08-B_yu2x16_r11_seed7", 72, 11148.0, 207.01,
+     4989920, 4.76),
+]
+
+
+@pytest.mark.parametrize("out,tag,procs,wall,core_hours,maxrss_kb,maxrss_gb",
+                         BACKFILLED)
+def test_a_backfilled_block_is_exactly_what_its_committed_log_says(
+        out, tag, procs, wall, core_hours, maxrss_kb, maxrss_gb):
+    log = os.path.join(ROOT, out, "logs")
+    runlog = open(os.path.join(log, tag + ".runlog.txt")).read()
+    timev = open(os.path.join(log, tag + ".timev.txt")).read()
+    env = open(os.path.join(log, tag + ".env.txt")).read()
+
+    # (1) the committed log is the file the env.txt names, byte for byte.
+    #     `source_sha256` is the log on the measurement machine and
+    #     `committed_sha256` the copy in this repository: they differ only
+    #     where a copy had the data paths redacted, which the env.txt states.
+    sha = hashlib.sha256(runlog.encode()).hexdigest()
+    assert ("committed_sha256 " + sha) in env
+    assert ("committed_runlog " + tag + ".runlog.txt") in env
+    assert "source_sha256 " in env and "redaction " in env
+    # (2) the evidence file is that log's own `time -v` block, verbatim
+    assert timev and timev in runlog
+    # (3) the stored block is what the parser makes of the evidence
+    prot = MP.build(timev, "", env)
+    prot["procs"] = procs
+    stored = json.load(open(os.path.join(ROOT, out, f"s10_{tag}.json")))
+    assert stored["protocol"] == prot
+    # (4) and those are the measured numbers, not an estimate: the CPU time of
+    #     the process tree, never processes x assembly time
+    assert prot["wall_s"] == wall
+    assert prot["core_hours"] == core_hours == round(prot["cpu_s"] / 3600, 3)
+    assert prot["maxrss_kb"] == maxrss_kb
+    assert prot["maxrss_gb"] == maxrss_gb == round(maxrss_kb / 1048576.0, 2)
+    # (5) a run from before the protocol script has no thread sample, and says so
+    assert prot["threads"]["samples"] == 0
+    assert prot["threads"]["sampler"].startswith("none")
+    assert prot["single_threaded"] is False
+    assert len(prot["backfilled"]["source_sha256"]) == 64

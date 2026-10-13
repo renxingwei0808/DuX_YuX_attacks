@@ -212,9 +212,13 @@ python3 experiments/E07_key_recovery_2round/attack_12round.py --instance yupx-65
     --seed 11 --out results/R6_third_keys --tag R6D1_yupx_r11_seed11
 ```
 
-Expected: 9600 rows, rank 8608, 2088, 16/16.  Ours: 16 427 s, 92.9 CPU hours,
-19.4 GB.  Record: `results/R6_third_keys/s10_R6D1_yupx_r11_seed11.json`;
-other keys: `results/Y06_kr2/y06/s10_Y06-2_yupx_r11_seed{2026,7}.json`.
+Expected: 9600 rows, rank 8608, 2088, 16/16.  Ours: 16 427 s, 92.943 CPU
+hours, 18.49 GB.  Record: `results/R6_third_keys/s10_R6D1_yupx_r11_seed11.json`;
+this run predates the protocol script, so its `protocol` block was folded in
+afterwards from its own `/usr/bin/time -v` log, which is committed as
+`results/R6_third_keys/logs/R6D1_yupx_r11_seed11.{runlog,timev,env}.txt`
+(section 5.2 of `docs/measurement_protocol.md`); other keys:
+`results/Y06_kr2/y06/s10_Y06-2_yupx_r11_seed{2026,7}.json`.
 
 ### Yu2X-16, 11/14 rounds, 2^32, 36 processes
 
@@ -227,9 +231,18 @@ python3 experiments/E07_key_recovery_2round/attack_12round.py --instance yu2x-16
 ```
 
 Expected: 5200 rows, rank 4940, 1606, 16/16 (also at the minimal 1238
-weights).  Ours: 14 636 s, 144.4 CPU hours, 5.48 GB.
-Record: `results/R7_keys/s10_R7B_yu2x16_r11_seed11.json`;
-other keys: `results/Y06_kr2/y08/s10_Y08-B_yu2x16_r11_seed{2026,7}.json`.
+weights).  Ours: 14 636 s, 140.661 CPU hours, 5.23 GB.
+Record: `results/R7_keys/s10_R7B_yu2x16_r11_seed11.json`; this run predates
+the protocol script, so its `protocol` block was folded in afterwards from its
+own `/usr/bin/time -v` log, which is committed as
+`results/R7_keys/logs/R7B_yu2x16_r11_seed11.{runlog,timev,env}.txt`
+(section 5.2 of `docs/measurement_protocol.md`; earlier versions of this file
+gave 144.4 CPU hours and 5.48 GB for this run -- the first was processes times
+assembly time instead of the measured user plus system time, the second was in
+units of 10^6 bytes instead of 2^30).  Other keys:
+`results/Y06_kr2/y08/s10_Y08-B_yu2x16_r11_seed{2026,7}.json`, with their own
+logs under `results/Y06_kr2/y08/logs/` (245.506 and 207.010 CPU hours on 72
+processes, against 140.661 on 36).
 
 ### Yu2X-8, 8/12 rounds, 2^32, 19 processes
 

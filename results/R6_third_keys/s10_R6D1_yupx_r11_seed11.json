@@ -73,5 +73,40 @@
  ],
  "procs": 24,
  "seed": 11,
- "solver": "numpy-blocked"
+ "solver": "numpy-blocked",
+ "protocol": {
+  "cores": "none (this run predates the protocol: no taskset, the 24 processes floated over the machine)",
+  "solve_threads": null,
+  "wall_s": 16427.0,
+  "user_s": 303282.1,
+  "sys_s": 31311.01,
+  "cpu_s": 334593.11,
+  "core_hours": 92.943,
+  "maxrss_kb": 19386160,
+  "maxrss_gb": 18.49,
+  "cpu_pct": 2036,
+  "wall_over_cpu": 0.049,
+  "threads": {
+   "samples": 0,
+   "max_nlwp": 0,
+   "max_procs": 0,
+   "first_ts": null,
+   "last_ts": null,
+   "sampler": "none (the thread sampler of rule 1 did not exist when this run was made)"
+  },
+  "loadavg_start": null,
+  "loadavg_end": null,
+  "start": null,
+  "end": null,
+  "exit": "0",
+  "machine": "2 x Intel Xeon Gold 6230R (26 cores / 52 threads each, 2.10 GHz base, 4.00 GHz max turbo), 251 GB RAM",
+  "backfilled": {
+   "note": "2026-10-13, from the run's own log; this run predates the protocol script",
+   "source_log": "results/R6_third_keys/logs/yupx_r11_seed11.log (measurement machine)",
+   "source_sha256": "03e731eb2c102fcf5a770ee73cc287f11e3970377cd589012014bc98a3d45610"
+  },
+  "single_threaded": false,
+  "not_preempted": true,
+  "procs": 24
+ }
 }
