@@ -49,10 +49,10 @@ and `<tag>.timev.txt` the output of `/usr/bin/time -v`.
 | YupX-65537 10/14 (i) | 2^16 | `S18_protocol/S18_1t_yupx_r10_lcomb_seed2026.json` (3 keys) | `Y05_key_recovery/Y05-A4_yupx_r10.json` | -- |
 | YupX-65537 10/14 (ii) | 2^14.79 | `S18_protocol/s10_S18_1t_yupx_r10_pset28239_seed2026.json` | `R8_server/s10_R8_yupx_r10_pset28239_seed{2026,7,11}.json` | 2^16: `Y06_kr2/y06/s10_Y06-1_yupx_r10_seed*.json`, `R6_third_keys/s10_R6D1_yupx_r10_seed11.json` |
 | YupX-65537 10/14 (iii) | 2^15 | `S18_protocol/s10_S18_1t_yupx_r10_coset15_seed2026.json` | `R6_third_keys/s10_R6D3_yupx_r10_coset15_seed{2026,7}.json` | -- |
-| YupX-65537 11/14 | 2^32 | `R6_third_keys/s10_R6D1_yupx_r11_seed11.json` (24 processes) | `Y06_kr2/y06/s10_Y06-2_yupx_r11_seed{2026,7}.json` | -- |
+| YupX-65537 11/14 | 2^32 | `R6_third_keys/s10_R6D1_yupx_r11_seed11.json` (24 processes; time and memory taken from the record made at run time, not from the protocol script) | `Y06_kr2/y06/s10_Y06-2_yupx_r11_seed{2026,7}.json` | -- |
 | YupX-65537 12/14, theoretical | 2^64 | -- | -- | template bound of the `1110` rows over F_65537: `Y06_kr2/collapse_yupx-65537_comb1110{,_seed7}.json` (ceiling 8468, 16/16 key words); `Y06_kr2/rank_phi_yupx-65537_*.json` |
 | Yu2X-16 10/14 | 2^16 | `S18_protocol/S18_1t_yu2x16_r10_lcomb_seed2026.json` (3 keys) | `Y05_key_recovery/Y05-A4_yu2x16_r10.json` | two extension rounds: `Y06_kr2/y06/s10_Y06-1_yu2x16_r10_seed*.json`, `R6_third_keys/s10_R6D1_yu2x16_r10_seed11.json` |
-| Yu2X-16 11/14 | 2^32 | `R7_keys/s10_R7B_yu2x16_r11_seed11.json` (36 processes) | `Y06_kr2/y08/s10_Y08-B_yu2x16_r11_seed{2026,7}.json` | -- |
+| Yu2X-16 11/14 | 2^32 | `R7_keys/s10_R7B_yu2x16_r11_seed11.json` (36 processes; time and memory taken from the record made at run time, not from the protocol script) | `Y06_kr2/y08/s10_Y08-B_yu2x16_r11_seed{2026,7}.json` | -- |
 | Yu2X-16 12/14, theoretical | 2^64 | -- | -- | `Y06_kr2/rank_phi_yu2x-16_*.json` |
 | Yu2X-8 7/12 | 2^17.58 | `S18_protocol/s10_S18_1t_yu2x8_r7_2w_2axis_seed11.json` | `R9_server/s10_S21_yu2x8_r7_2w_2axis_seed{2026,7}.json` | 2^21.32 (40 structures): `Y06_kr2/y06/s10_Y06-4_yu2x8_r7_seed*.json` |
 | Yu2X-8 8/12 | 2^32 | `S18_protocol/s10_S18_mp_yu2x8_r8_fb0_2axis_seed11.json` | `R9_server/s10_S21_yu2x8_r8_fb0_2axis_seed{2026,7}.json` | 2^35.46 (11 structures): `Y06_kr2/y08/s10_Y08-C_yu2x8_r8_seed*.json`; template bound `Y06_kr2/rank_phi_yu2x-8_comb1110.json` |
