@@ -263,7 +263,7 @@ def test_the_run_table_reads_every_driver_shape():
 # --------------------------------------------------------------------------
 # The four runs whose `protocol` block was folded in afterwards, from the
 # `time -v` block their own log kept (docs/measurement_protocol.md Section 5.2).  Two of them are
-# rows the paper reports -- YupX-65537 11/14 and Yu2X-16 11/12 at 2^32 -- and
+# rows the paper reports -- YupX-65537 11/14 and Yu2X-16 11/14 at 2^32 -- and
 # they are the only reported rows that were not made under the protocol
 # script, so the chain log -> evidence file -> JSON block is pinned here.
 

@@ -268,7 +268,7 @@
    "gain_bits_dims_s": 0.233
   },
   {
-   "row": "Yu2X-16 10/12 (ii)",
+   "row": "Yu2X-16 10/14 (ii)",
    "ledger": "A'",
    "q": "2^16",
    "active": [
@@ -307,7 +307,7 @@
    "gain_bits_dims_s": 1.262
   },
   {
-   "row": "Yu2X-16 11/12",
+   "row": "Yu2X-16 11/14",
    "ledger": "A'",
    "q": "2^16",
    "active": [
@@ -397,7 +397,7 @@
    "reason": "already a subspace structure of dimensions (16,16,15) = 2^47; point sets and subspaces are the same kind of saving, and there the dimensions are fixed by the margin"
   },
   {
-   "row": "YupX-65537 12/14 and Yu2X-16 12/12 (theoretical)",
+   "row": "YupX-65537 12/14 and Yu2X-16 12/14 (theoretical)",
    "reason": "full block 2^64; the margin at the weight position is 0 / -4"
   },
   {

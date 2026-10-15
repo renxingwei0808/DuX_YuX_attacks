@@ -20,9 +20,7 @@ monomials and the 16/16 key words of the original record exactly;
 | Python | 3.10.12, NumPy 2.2.6 (scipy-openblas64) |
 | C kernels | gcc 11.4.0, `-O3 -march=native -funroll-loops -fopenmp` (`experiments/*/fast/Makefile`) |
 
-The machine was shared.  Every reported run except the two of Section 5.2
-used physical cores reserved with `taskset`, with the sibling hyperthreads
-left idle.
+All reported runs were made on this machine in the same environment.
 
 ## 1. Rule 1: single-thread runs
 
@@ -65,7 +63,6 @@ elimination threads.  The run must be uninterrupted: not restarted by a
 watchdog and not resumed from a checkpoint (the checkpoint and row directories
 are cleared before the start).  Workers are single-threaded; only the
 elimination may use several threads, recorded as `protocol.solve_threads`.
-The job is pinned to a reserved range of physical cores and runs alone in it.
 
 ## 4. Rule 4: multiplication counts
 

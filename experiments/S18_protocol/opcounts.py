@@ -190,7 +190,7 @@ ROWS = [
       data_log2=17.58, width="kr2", n_w=595, slices=65536,
       json="results/S18_protocol/s10_S18_1t_yu2x8_r7_2w_2axis_seed11.json,"
            "results/R9_server/s10_S21_yu2x8_r7_2w_2axis_seed2026.json"),
-    R(id="yu2x16_r11", label="Yu2X-16 11/12 @2^32", instance="yu2x-16", rounds=11,
+    R(id="yu2x16_r11", label="Yu2X-16 11/14 @2^32", instance="yu2x-16", rounds=11,
       route="two words, full domain", data_log2=32.0, width="kr2",
       n_w=1300, slices=65536,
       json="results/Y06_kr2/y08/s10_Y08-B_yu2x16_r11_seed2026.json"),
@@ -199,7 +199,7 @@ ROWS = [
     # the 32 766 usable weights (margin 65 532, 2a < 65 532).  The total is
     # dominated by passes * N * W = 2^64 * 39 942 = 2^79.29; even at 32 766
     # the N_w * W * slices term is only ~2^62.3, so both decimals stay.
-    R(id="yu2x16_r12_theory", label="Yu2X-16 12/12 @2^64 (theory)",
+    R(id="yu2x16_r12_theory", label="Yu2X-16 12/14 @2^64 (theory)",
       instance="yu2x-16", rounds=12, status="theoretical",
       route="one full block 2^64, `1110` combined rows",
       data_log2=64.0, width="kr2", n_w=1650, slices=2 ** 32, dim_k=3,
@@ -287,7 +287,7 @@ ROWS = [
       data_log2=16.0, width=320, n_w=60, slices=65536,
       note="W = 4 blocks x 80 monomials, from the run's own record",
       json="results/S18_protocol/S18_1t_yupx_r10_lcomb_seed2026.json"),
-    R(id="yu2x16_r10_lcomb", label="Yu2X-16 10/12 (i) @2^16 (L-combination)",
+    R(id="yu2x16_r10_lcomb", label="Yu2X-16 10/14 (i) @2^16 (L-combination)",
       instance="yu2x-16", rounds=10,
       route="layer 9 `1100` partial sum + forward L-combination + 60 weights",
       data_log2=16.0, width=200, n_w=60, slices=65536,

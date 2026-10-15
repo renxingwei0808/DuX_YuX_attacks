@@ -57,8 +57,8 @@ ROWS = [
     ("DuX(2^8) 8/12", "A", "2^8", [3, 7, 11, 15], 6, "dux", None, 240, 5, 34.32),
     ("YupX-65537 10/14 (ii)", "A'", "65537", [0], 8, "yux", None, 2155, 1, 16.00),
     ("YupX-65537 11/14", "A'", "65537", [0, 4], 9, "yux", None, 2400, 1, 32.00),
-    ("Yu2X-16 10/12 (ii)", "A'", "2^16", [0], 8, "yux", None, 1238, 1, 16.00),
-    ("Yu2X-16 11/12", "A'", "2^16", [0, 4], 9, "yux", None, 1300, 1, 32.00),
+    ("Yu2X-16 10/14 (ii)", "A'", "2^16", [0], 8, "yux", None, 1238, 1, 16.00),
+    ("Yu2X-16 11/14", "A'", "2^16", [0, 4], 9, "yux", None, 1300, 1, 32.00),
     ("Yu2X-8 7/12", "A'", "2^8", [0, 4], 5, "yux", None, 34, 40, 21.32),
 ]
 
@@ -68,7 +68,7 @@ NO_GAIN = [
     ("DuX(2^16) 12/12 (theoretical)",
      "already a subspace structure of dimensions (16,16,15) = 2^47; point sets and subspaces are the same kind of saving, "
      "and there the dimensions are fixed by the margin"),
-    ("YupX-65537 12/14 and Yu2X-16 12/12 (theoretical)",
+    ("YupX-65537 12/14 and Yu2X-16 12/14 (theoretical)",
      "full block 2^64; the margin at the weight position is 0 / -4"),
     ("Yu2X-8 8/12", "full block 2^32 (O11)"),
     ("all rows with r_KR = 1 (9-round YupX, route (i) of 10 rounds, the 5- and 6-round rows)",

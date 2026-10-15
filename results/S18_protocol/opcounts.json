@@ -699,7 +699,7 @@
   },
   {
    "id": "yu2x16_r11",
-   "label": "Yu2X-16 11/12 @2^32",
+   "label": "Yu2X-16 11/14 @2^32",
    "instance": "yu2x-16",
    "rounds": 11,
    "route": "two words, full domain",
@@ -731,7 +731,7 @@
   },
   {
    "id": "yu2x16_r12_theory",
-   "label": "Yu2X-16 12/12 @2^64 (theory)",
+   "label": "Yu2X-16 12/14 @2^64 (theory)",
    "instance": "yu2x-16",
    "rounds": 12,
    "route": "one full block 2^64, `1110` combined rows",
@@ -1211,7 +1211,7 @@
   },
   {
    "id": "yu2x16_r10_lcomb",
-   "label": "Yu2X-16 10/12 (i) @2^16 (L-combination)",
+   "label": "Yu2X-16 10/14 (i) @2^16 (L-combination)",
    "instance": "yu2x-16",
    "rounds": 10,
    "route": "layer 9 `1100` partial sum + forward L-combination + 60 weights",
