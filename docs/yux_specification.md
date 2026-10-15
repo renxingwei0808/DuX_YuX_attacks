@@ -52,7 +52,7 @@ All tests are in `tests/test_yux.py` unless stated otherwise.
 | C2 | (c0,c1,c2,c3) = S(id+1, id+2, id+3, id+4), with S the ENCRYPTION S-box | Algorithm 2 line 5 | same as above | same as above |
 | C3 | rc^i is used to produce rk^{i+1} | index in Algorithm 1 line 6 | `key_expand` | `test_key_schedule_is_invertible` |
 | T1 | Yu2X-8: F_{2^8}, x^8+x^4+x^3+x+1, alpha = 205, 12 rounds, 128 bits | Table II | `INSTANCES["yu2x-8"]` | `test_table_II_parameters` |
-| T2 | Yu2X-16: F_{2^16}, x^16+x^12+x^3+x+1, alpha = 205, 12* / 14 rounds | Table II | `INSTANCES["yu2x-16"]` (`rounds` = 12, `rounds_128` = 14) | same as above |
+| T2 | Yu2X-16: F_{2^16}, x^16+x^12+x^3+x+1, alpha = 205, 12* / 14 rounds | Table II | `INSTANCES["yu2x-16"]` (`rounds` = 14, `rounds_fhe` = 12) | same as above |
 | T3 | YupX-65537: F_65537, alpha = 205, 9* (118 bits) / 14 (128 bits) rounds | Table II | `INSTANCES["yupx-65537"]` (`rounds` = 14, `rounds_fhe` = 9) | same as above |
 | T4 | The asterisk means "the recommended number of rounds in fully homomorphic application scenarios" | Table II footnote | field `rounds_note` | same as above |
 | T5 | Yu2X uses "not less than 12" rounds (128 bits); YupX "not less than 9" (118 bits) | Sect. IV-B.1 / IV-B.2 | same as above | same as above |
@@ -72,7 +72,7 @@ For each: what the paper says, what we implement, and the effect on our results.
 | A2 | Integer -> field element (round constants) | Algorithm 2 feeds the integers id+1..id+4 to S without fixing the encoding | `F.from_int` (identity on [0,q) for F_p; coefficient vector for F_{2^n}, consistent with the encoding of alpha = 205) | none (round constants only change affine constants of the key schedule) |
 | A3 | Is alpha shared by the instances? | the Constant column of Table II reads 205 for all three | 205 for all three; the toys use 205 mod p (`yuxtoy-2^4` uses 5) | none (alpha is a known constant everywhere) |
 | A4 | Meaning of "<<< 3" in the key schedule | line 6 of Algorithm 1 only writes <<< 3; footnote 2 is stated for the 16-word state | rotation of the four words of a block with the same convention, supported by `LK(x0,x1,x2) = [x0+x1+x2] <<< 3, x_i in F_q^4` in Sect. VI-D | none (as A2) |
-| A5 | Two round numbers for Yu2X-16 and YupX | Table II has two rows per instance, the starred one is the FHE recommendation | both are recorded: `rounds` = 12 for Yu2X-16 (FHE, also the target of Ni et al.) and 14 for YupX (128 bits); the other one in `rounds_128` / `rounds_fhe` | results always state which one is meant; "YupX 9 rounds" is the recommended FHE instance `rounds_fhe = 9` |
+| A5 | Two round numbers for Yu2X-16 and YupX | Table II has two rows per instance, the starred one is the FHE recommendation | both are recorded: `rounds` = 14 for Yu2X-16 and YupX (128 bits); the FHE recommendation in `rounds_fhe` (12 for Yu2X-16, also the target of Ni et al.; 9 for YupX) | results always state which one is meant; "YupX 9 rounds" is the recommended FHE instance `rounds_fhe = 9` |
 | A6 | Range of n for Yu2X-n | Sect. IV-B.1 says n >= 8 | only the Table II instances n = 8, 16; the toy n = 4 is marked as not a paper instance | none |
 | A7 | Is LP MDS? | Sect. V-D claims LP is an MDS map over (F_q^4)^4 | not a clause (design rationale, not definition); the implementation follows L2/L3 | none (no attack uses the MDS property) |
 

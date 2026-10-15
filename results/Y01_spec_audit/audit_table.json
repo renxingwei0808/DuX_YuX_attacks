@@ -309,7 +309,7 @@
    "id": "T2",
    "clause": "Yu2X-16: F_{2^16}, x^16+x^12+x^3+x+1, alpha = 205, 12* / 14 rounds",
    "paper": "Table II",
-   "implementation": "`INSTANCES[\"yu2x-16\"]` (`rounds` = 12, `rounds_128` = 14)",
+   "implementation": "`INSTANCES[\"yu2x-16\"]` (`rounds` = 14, `rounds_fhe` = 12)",
    "test": "same as above",
    "test_names": []
   },
@@ -507,7 +507,7 @@
   "yu2x-16": {
    "field": "2^16",
    "alpha": 205,
-   "rounds": 12,
+   "rounds": 14,
    "official": true,
    "roundtrip": true,
    "key_schedule_invertible": true,

@@ -315,7 +315,7 @@ def test_table_II_parameters():
     for inst in OFFICIAL:
         assert INSTANCES[inst]["alpha"] == 205
     assert INSTANCES["yu2x-8"]["rounds"] == 12
-    assert (INSTANCES["yu2x-16"]["rounds"], INSTANCES["yu2x-16"]["rounds_128"]) == (12, 14)
+    assert (INSTANCES["yu2x-16"]["rounds"], INSTANCES["yu2x-16"]["rounds_fhe"]) == (14, 12)
     assert (INSTANCES["yupx-65537"]["rounds"], INSTANCES["yupx-65537"]["rounds_fhe"]) == (14, 9)
 
 

@@ -2,8 +2,8 @@
 
 Official instances (block = 16 words of F_q, 4 blocks of 4, alpha = 205):
   Yu2X-8      : F_{2^8},  x^8 + x^4 + x^3 + x + 1     (0x11B),  12 rounds
-  Yu2X-16     : F_{2^16}, x^16 + x^12 + x^3 + x + 1   (0x1100B), 12 rounds
-                (recommended for FHE) / 14 rounds (128-bit claim)
+  Yu2X-16     : F_{2^16}, x^16 + x^12 + x^3 + x + 1   (0x1100B), 14 rounds
+                (128-bit claim) / 12 rounds (recommended for FHE)
   YupX-65537  : F_65537,                                9 rounds
                 (recommended for FHE, 118-bit claim) / 14 rounds (128-bit)
 
@@ -11,9 +11,9 @@ Table II lists two round numbers for Yu2X-16 and for YupX-65537; the starred
 one is "the recommended number of rounds in fully homomorphic application
 scenarios".  We keep BOTH: `rounds` is the default the reference model uses and
 the other one is recorded next to it (see docs/yux_specification.md, clause
-S6.*).  `rounds` = 12 for Yu2X-16 (the FHE instance, which is also the number
-Ni et al. attack) and 14 for YupX-65537 (the 128-bit instance), with
-`rounds_128` / `rounds_fhe` naming the other one.
+S6.*).  `rounds` = 14 for Yu2X-16 and YupX-65537 (the 128-bit instances), with
+`rounds_fhe` naming the FHE recommendation: 12 for Yu2X-16 (also the number of
+rounds Ni et al. attack) and 9 for YupX-65537.
 
 Toy instances (NOT in the paper; same round function, smaller field) exist only
 to validate attack pipelines cheaply, exactly as dux/params.py's toys do:
@@ -60,8 +60,8 @@ BLOCK_WORDS = 4     # words per S-box
 INSTANCES = {
     "yu2x-8":      {"field": "2^8",   "alpha": 205, "rounds": 12,
                     "official": True,  "security": "128 bit"},
-    "yu2x-16":     {"field": "2^16",  "alpha": 205, "rounds": 12,
-                    "rounds_128": 14, "official": True,
+    "yu2x-16":     {"field": "2^16",  "alpha": 205, "rounds": 14,
+                    "rounds_fhe": 12, "official": True,
                     "security": "128 bit", "rounds_note": "12* (FHE) / 14"},
     "yupx-65537":  {"field": "65537", "alpha": 205, "rounds": 14,
                     "rounds_fhe": 9, "official": True,
