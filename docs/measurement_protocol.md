@@ -20,8 +20,9 @@ monomials and the 16/16 key words of the original record exactly;
 | Python | 3.10.12, NumPy 2.2.6 (scipy-openblas64) |
 | C kernels | gcc 11.4.0, `-O3 -march=native -funroll-loops -fopenmp` (`experiments/*/fast/Makefile`) |
 
-The machine was shared.  Every reported run used physical cores reserved with
-`taskset`, with the sibling hyperthreads left idle.
+The machine was shared.  Every reported run except the two of Section 5.2
+used physical cores reserved with `taskset`, with the sibling hyperthreads
+left idle.
 
 ## 1. Rule 1: single-thread runs
 
@@ -84,6 +85,9 @@ total     = assemble + solve
 one-dimensional weights, one pass per exponent of every extra weight axis
 otherwise, and one pass for m axes joined by `--vandermonde-axes m`.  The
 chosen texts are not multiplied by the passes: the oracle is queried once.
+The counts leave out the decryptions that play the oracle, which the elapsed
+times include (one decryption of the structure per pass); one decryption of
+12 rounds of DuX costs about 2^7.6 field multiplications.
 `W` is the width of the moment layout, built by
 `experiments/S18_protocol/opcounts.py` with the same classes the attack uses.
 `n_rows`, `n_cols` and `rank` come from the run's own JSON for executed rows.
@@ -97,7 +101,11 @@ points: 43.2 us per point for the prime-field decryption direction
 (DuX(65537) 12/12 at 2^29, W = 56 550, 3 passes) and 87.0 us per point in
 characteristic 2 (DuX(2^8) 8/12 at 2^24, W = 65 400, 20 passes).  The
 elimination costs 0.23-0.35 ns per multiplication over F_p and 0.40-0.48 ns
-in characteristic 2.
+in characteristic 2, and the moment assembly 0.14-0.73 ns over F_p and
+1.3-1.7 ns in characteristic 2.  The assembly figures spread because a
+counted multiplication of a row dominated by the points also carries the
+oracle decryption and the monomial construction, whereas one of a row
+dominated by the weights is a plain matrix product.
 
 ## 5. Checks of every run
 
@@ -119,7 +127,7 @@ machine load was 80-105; comparisons across machines use the multiplication
 counts of Rule 4, not wall clock.
 
 **5.2 Runs made before the protocol script.** Two of the reported runs were
-not made by it: YupX-65537 11/14 and Yu2X-16 11/12 at 2^32, both Rule 3 rows
+not made by it: YupX-65537 11/14 and Yu2X-16 11/14 at 2^32, both Rule 3 rows
 (more than 36 hours on one thread, and one 2^32 structure that cannot be split
 by structure).  Their `protocol` block was folded in afterwards from the
 `/usr/bin/time -v` block of the run's own log, and the log is committed with
@@ -148,7 +156,7 @@ and slice progress whose cumulative timers rise monotonically from
 that the run was not interrupted.
 
 Folding the blocks in corrected two figures that had been reported from the
-assembly times instead of the operating system's: the Yu2X-16 11/12 run on 36
+assembly times instead of the operating system's: the Yu2X-16 11/14 run on 36
 processes cost **140.661** core-hours, not the 144.4 of `assemble_s` x 36
 processes, and its peak was **5.23** GB in the units of Section 6, not the 5.48
 of 10^6 bytes (the YupX-65537 11/14 figures 92.943 core-hours and 16 427 s

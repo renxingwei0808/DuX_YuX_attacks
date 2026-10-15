@@ -52,17 +52,18 @@ python experiments/S18_protocol/verify_rerun.py --out /tmp/verify.json
 
 ## 3. How the reported runs were made
 
-Every reported run went through `scripts/run_pinned.sh`, which pins the run to
-reserved cores, fixes every thread pool at one thread, measures it with
-`/usr/bin/time -v`, samples the thread count every 10 s, and merges the
-measurements into the JSON record (`protocol` block):
+Every reported run except the two eleven-round YuX runs at 2^32 (section 5.2
+of `docs/measurement_protocol.md`) went through `scripts/run_pinned.sh`, which
+pins the run to reserved cores, fixes every thread pool at one thread,
+measures it with `/usr/bin/time -v`, samples the thread count every 10 s, and
+merges the measurements into the JSON record (`protocol` block):
 
 ```bash
 bash scripts/run_pinned.sh <cores> <solve_threads> <tag> <command ...>
 ```
 
-Single-thread runs used one core and `--procs 1`; multi-process runs used 19
-reserved physical cores (`32-43,45-51` on our machine) and `--procs 19`.
+Single-thread runs used one core and `--procs 1`; the other multi-process runs
+used 19 reserved physical cores (`32-43,45-51` on our machine) and `--procs 19`.
 The original command line of each run is the `cmd` line of
 `results/S18_protocol/logs/<tag>.env.txt`.  In the commands below, `$DATA` is a
 scratch directory for checkpoints and row files (a few GB).  Seeds 2026, 7 and

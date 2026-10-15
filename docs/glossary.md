@@ -58,3 +58,10 @@ Comments that cite "the memo", "the ledger" or a section number of an internal
 report refer to our internal working notes, which are not part of this
 repository.  `results/README.md` takes the place of the results ledger; its
 sections A, A', B, B', C, C' and D are named as in those comments.
+
+Record labels count the rounds of Yu2X-16 against the 12 rounds that the
+design paper recommends for FHE (`rounds` = 12 in `yux/params.py`), whereas
+the paper counts them against the 14 rounds of the 128-bit instance:
+`Yu2X-16 10/12`, `11/12` and `12/12` in a record (for example in
+`results/S18_protocol/opcounts.md`) are the paper's 10/14, 11/14 and 12/14.
+The rounds attacked are the same.
